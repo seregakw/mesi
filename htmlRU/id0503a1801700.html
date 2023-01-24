@@ -1,0 +1,257 @@
+<html lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../css/mazda-css-en.css" type="text/css">
+<title>NO.12 TORQUE CONVERTER CLUTCH (TCC) NON-OPERATION[FN4A-EL]</title>
+</head>
+<body><a name="id0503a1801700"></a><p class="servinfo-title"><span class="servinfo-head"></span>NO.12 TORQUE CONVERTER CLUTCH (TCC) NON-OPERATION[FN4A-EL]</p>
+<hr>
+<p class="servinfo-title-id" align="right">id0503a1801700</p>
+<p clear="all">
+<table class="table-flame" border="1">
+<tbody>
+<tr>
+<td align="center">
+<div class="tbody"><span class="bold">12</span></div>
+</td>
+<td align="left">
+<div class="tbody"><span class="bold">Torque converter clutch (TCC) non‐operation</span></div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody"><span class="bold">DESCRIPTION</span></div>
+</td>
+<td align="left">
+<div class="list">•  TCC does not operate when vehicle reaches TCC operation range.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody"><span class="bold">POSSIBLE CAUSE</span></div>
+</td>
+<td align="left">
+<div class="list">•  Basically, the TCC does not operate when the fail-safe is operating. Verify the DTC first.<dl>
+<dd>
+<div class="attention2-label">Caution</div>
+</dd>
+<dd>
+<div class="attention2">
+<div class="list">•  If the TCC is stuck, inspect it. In addition, inspect the oil cooler for foreign particles which may have mixed in with the ATF.</div>
+</div>
+</dd>
+</dl>
+</div>
+<div class="list">1.  TCC burnt</div>
+<dl>
+<dd class="list">
+<div class="list">(1) Input sensor system malfunction</div>
+<dl>
+<dd class="list">
+<div class="list">•  Transaxle fluid temperature sensor</div>
+<div class="list">•  Vehicle speed sensor</div>
+<div class="list">•  Input/turbine speed sensor</div>
+<div class="list">•  Sensor GND</div>
+</dd>
+</dl>
+<div class="list">(2) Output solenoid valve system malfunction (Sticking)</div>
+<dl>
+<dd class="list">
+<div class="list">•  Shift solenoid E malfunction</div>
+<div class="list">•  Shift solenoid A malfunction</div>
+</dd>
+</dl>
+<div class="list">(3) Control valve body malfunction system (Poor operation, stuck)</div>
+<dl>
+<dd class="list">
+<div class="list">•  TCC hydraulic pressure system</div>
+</dd>
+</dl>
+</dd>
+</dl>
+<div class="list">2.  TP sensor malfunction (Not operating linear)</div>
+<div class="list">3.  Input/turbine speed sensor or vehicle speed sensor malfunction</div>
+<div class="list">4.  Brake switch malfunction (Always ON)</div>
+<div class="list">5.  ECT sensor malfunction</div>
+<dl>
+<dd>
+<div class="attention3-label">Note</div>
+</dd>
+<dd>
+<div class="attention3">
+<div class="list">•  Before following the troubleshooting steps, make sure that the Automatic Transaxle On-Board Diagnostic and Automatic Transaxle Basic Inspection are conducted.</div>
+</div>
+</dd>
+</dl>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+<p clear="all">
+<p class="table-title">Diagnostic procedure</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th align="center">
+<p class="thead">STEP</p>
+</th>
+<th align="center" colspan="2">
+<p class="thead">INSPECTION</p>
+</th>
+<th align="center">
+<p class="thead">ACTION</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">1</div>
+</td>
+<td align="left" rowspan="2">
+<div class="tbody">With the ignition switch at the ON position, does the gear position indicator light indication correspond to the selector lever position?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Go to No.27 “GEAR POSITION INDICATOR LIGHT DOES NOT ILLUMINATE IN D OR M RANGE” or No.28 “GEAR POSITION INDICATOR LIGHT ILLUMINATE IN P, R AND N POSITION”</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">2</div>
+</td>
+<td align="left" rowspan="2">
+<div class="tbody">Inspect the value at the following PCM PIDs using the M-MDS.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0140b1802500.html">PCM INSPECTION[ZJ, ZY, Z6]</a></font>.)</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0140a9802500.html">PCM INSPECTION[LF, L3]</a></font>.)</div>
+<div class="list">•  TP</div>
+<div class="list">•  OSS</div>
+<div class="list">•  TSS</div>
+<div class="list">•  APP1</div>
+<div class="list">•  APP2</div>
+<div class="list">•  TP1</div>
+<div class="list">•  VSS</div>
+<div class="tbody">Are the PID values normal?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Repair or replace any malfunctioning parts.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">3</div>
+</td>
+<td align="left" rowspan="2">
+<div class="tbody">Disconnect the PCM connector.</div>
+<div class="tbody">Is the resistance between the ground terminal at the PCM connector and the body ground <span class="bold">less than 5.0 ohms</span>?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Repair the open ground circuit.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">4</div>
+</td>
+<td align="left" rowspan="2">
+<div class="tbody">Inspect the resistance between shift solenoid A and E control circuit at the PCM connector and control valve body connector. </div>
+<div class="tbody">Inspect resistance between shift solenoid A and E circuit at the PCM connector and control valve body connector. </div>
+<div class="tbody">Are the resistances <span class="bold">less than 5.0 ohms</span>?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Repair the shift solenoid A or E control. </div>
+<div class="tbody">Reconnect the PCM.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">5</div>
+</td>
+<td align="left" rowspan="2">
+<div class="tbody">Inspect the shift solenoid A and E. (See <font class="extxref-label"><a href="id0517a1801900.html">SOLENOID VALVE INSPECTION[FN4A-EL]</a></font>.) Are the shift solenoids operating properly?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Replace the PCM.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Overhaul the control valve body and repair or replace any malfunctioning parts. (See ATX workshop manual (FN4A-EL).) </div>
+<div class="tbody">If any problem remains, overhaul the transaxle and repair or replace any malfunctioning parts.<span class="bold"></span>(See ATX workshop manual (FN4A-EL).)</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">6</div>
+</td>
+<td align="left" colspan="3">
+<div class="list">•  Verify the test results.</div>
+<dl>
+<dd class="list">
+<div class="list">―  If normal, return to the diagnostic index to service any additional symptoms.</div>
+<div class="list">―  If the malfunction remains, inspect the related Service information and perform repair or diagnosis.</div>
+<dl>
+<dd class="list">
+<div class="list">•  If the vehicle is repaired, troubleshooting is completed.</div>
+<div class="list">•  If the vehicle is not repaired or additional diagnostic information is not available, replace the PCM.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</body>
+</html>

@@ -1,0 +1,426 @@
+<html lang="ru">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../css/mazda-css-ru.css" type="text/css">
+<title>DTC P0500 
+[МКП, LF АКП (FS5A-EL)]</title>
+</head>
+<body><a name="id0102b4808400"></a><p class="servinfo-title"><span class="servinfo-head"></span>DTC P0500 
+[МКП, LF АКП (FS5A-EL)]</p>
+<hr>
+<p class="servinfo-title-id" align="right">id0102b4808400</p>
+<p clear="all">
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">DTC P0500</p>
+</th>
+<th id="" align="left">
+<p class="thead">Неисправность в цепи датчика скорости движения автомобиля (датчик VSS)</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center">
+<div class="tbody"><span>УСЛОВИЕ ОПРЕДЕЛЕНИЯ</span></div>
+</td>
+<td id="" align="left">
+<div class="list">•  При перечисленных ниже условиях сигнал датчика скорости автомобиля <span>ниже 3,7 км/ч {2,3 миль/ч}</span>:</div>
+<dl>
+<dd class="list">
+<div class="list">―  Датчик нейтрального положения МКП и датчик положения педали сцепления в положении OFF (разомкнуты)</div>
+<div class="list">―  Нагрузка превышает<span> 40 %</span></div>
+<div class="list">―  Частота вращения коленчатого вала <span>не ниже 2000 об/мин</span></div>
+<div class="list">―  Датчик положения педали тормоза в положении OFF (разомкнут)</div>
+</dd>
+</dl>
+<div class="list-title">Примечание к проведению диагностирования</div>
+<div class="list">•  Это постоянно контролируемый параметр (комплексный контроль компонентов)</div>
+<div class="list">•  Сигнализатор MIL включается, если блок РСМ регистрирует описанное выше состояние в двух последовательных ездовых циклах, или в одном цикле при том условии, что данный код неисправности уже сохранён в памяти блока РСМ.</div>
+<div class="list">•  НЕПОДТВЕРЖДЁННЫЙ КОД (PENDING CODE) записывается, если блок РСМ обнаруживает описанное выше состояние неисправности во время первого ездового цикла. </div>
+<div class="list">•  Имеются данные стоп-кадра (FREEZE FRAME DATA).</div>
+<div class="list">•  Код неисправности сохраняется в памяти блока РСМ.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody"><span>ВОЗМОЖНЫЕ ПРИЧИНЫ НЕИСПРАВНОСТИ</span></div>
+</td>
+<td id="" align="left">
+<div class="list">•  Неисправность датчика VSS</div>
+<div class="list">•  Неисправность разъёма или плохой контакт</div>
+<div class="list">•  Обрыв в цепи между контактом 2N блока РСМ и контактом А датчика VSS</div>
+<div class="list">•  Обрыв в цепи между контактом 2M блока РСМ и контактом В датчика VSS</div>
+<div class="list">•  Короткое замыкание на "массу" в цепи между контактом 2N блока РСМ и контактом А датчика VSS</div>
+<div class="list">•  Короткое замыкание на "массу" в цепи между контактом 2M блока РСМ и контактом В датчика VSS</div>
+<div class="list">•  Короткое замыкание на цепь питания в цепи между контактом 2N блока РСМ и контактом А датчика VSS</div>
+<div class="list">•  Короткое замыкание на цепь питания в цепи между контактом 2M блока РСМ и контактом В датчика VSS</div>
+<div class="list">•  Неисправность блока РСМ</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" colspan="2"><img src="images/am3zzw00000884.png"></td>
+</tr>
+</tbody>
+</table>
+</p>
+<p clear="all">
+<p class="table-title">Процедура диагностики</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">ЭТАП</p>
+</th>
+<th id="" align="center" colspan="2">
+<p class="thead">ПРОВЕРКА</p>
+</th>
+<th id="" align="center">
+<p class="thead">ВЫПОЛНЯЕМЫЕ ДЕЙСТВИЯ</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">1</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ЗАПИСИ ДАННЫХ СТОП-КАДРА (FREEZE FRAME DATA)</div>
+<div class="list">•  Были ли записаны данные стоп-кадра?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Запишите данные стоп-кадра в заказ-наряд на выполнение ремонта и переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">2</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА НАЛИЧИЯ ДОПОЛНИТЕЛЬНОЙ СЕРВИСНОЙ ИНФОРМАЦИИ</div>
+<div class="list">•  Проверьте наличие дополнительной сервисной информации по данной проблеме.</div>
+<div class="list">•  Имеется ли в наличии дополнительная сервисная информация по данной проблеме?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Пользуясь дополнительной сервисной информацией, выполните ремонт или диагностирование.</div>
+<div class="list">•  Если неисправность не устранена, то переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">3</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ТЕКУЩЕГО СТАТУСА ВХОДНОГО СИГНАЛА НА ПРЕДМЕТ ЕГО ПРИЧАСТНОСТИ К ЭПИЗОДИЧЕСКИМ ИЛИ ПОСТОЯННЫМ ОШИБКАМ </div>
+<div class="list">•  Подключите диагностическую систему M-MDS к диагностическому разъему DLC-2.</div>
+<div class="list">•  Запустите двигатель.</div>
+<div class="list">•  При помощи системы M-MDS выберите параметр VSS.</div>
+<dl>
+<dd class="list">
+<div class="list">―  Скорость автомобиля <span>20 км/ч {12,4 миль/ч}: 20 км/ч {12,4 миль/ч}</span></div>
+<div class="list">―  Скорость автомобиля <span>40 км/ч {24,8 миль/ч}: 40 км/ч {24,8 миль/ч}</span></div>
+</dd>
+</dl>
+<div class="list">•  Соответствуют ли значения параметров техническим условиям?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к процедуре ПОИСК ЭПИЗОДИЧЕСКИХ НЕИСПРАВНОСТЕЙ.</div>
+<div class="tbody">(См. <font class="extxref-label"><a href="id0103b2800400.html">ПОИСК И УСТРАНЕНИЕ ЭПИЗОДИЧЕСКИХ НЕИСПРАВНОСТЕЙ 
+[LF, L3]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">4</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА КАЧЕСТВА СОЕДИНЕНИЯ В РАЗЪЁМЕ ДАТЧИКА VSS</div>
+<div class="list">•  Проверьте надёжность присоединения разъёма датчика VSS.</div>
+<div class="list">•  Исправен ли разъём?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Правильно присоедините разъём и перейдите к этапу 11.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">5</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ДАТЧИКА VSS</div>
+<div class="list">•  Проверьте датчик VSS.</div>
+<div class="list">•  Исправен ли датчик VSS?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Замените датчик VSS и перейдите к этапу 11.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">6</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ЦЕПИ ДАТЧИКА VSS НА ПРЕДМЕТ КОРОТКОГО ЗАМЫКАНИЯ НА ЦЕПЬ ПИТАНИЯ</div>
+<div class="list">•  Выключите зажигание.</div>
+<div class="list">•  Отсоедините разъем датчика VSS.</div>
+<div class="list">•  Поверните выключатель зажигания в положение ON (двигатель не работает).</div>
+<div class="list">•  Измерьте напряжение между перечисленными ниже контактами:</div>
+<dl>
+<dd class="list">
+<div class="list">―  Контакт А датчика VSS</div>
+<div class="list">―  Контакт В датчика VSS</div>
+</dd>
+</dl>
+<div class="list">•  Есть ли какое-то напряжение?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Отремонтируйте или замените вызывающий сомнения проводной жгут и переходите к этапу 11.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">7</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ЦЕПИ ДАТЧИКА VSS НА ПРЕДМЕТ КОРОТКОГО ЗАМЫКАНИЯ НА "МАССУ"</div>
+<div class="list">•  Проверьте неразрывность цепи между названными ниже контактами и "массой" кузова:</div>
+<dl>
+<dd class="list">
+<div class="list">―  Контакт А датчика VSS</div>
+<div class="list">―  Контакт В датчика VSS</div>
+</dd>
+</dl>
+<div class="list">•  Существует ли неразрывность цепи?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Отремонтируйте или замените вызывающий сомнения проводной жгут и переходите к этапу 11.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">8</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ЦЕПЕЙ ДАТЧИКА VSS НА ПРЕДМЕТ КОРОТКОГО ЗАМЫКАНИЯ</div>
+<div class="list">•  Проверьте неразрывность цепи между контактами А и В датчика VSS.</div>
+<div class="list">•  Существует ли неразрывность цепи?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Отремонтируйте или замените вызывающий сомнения проводной жгут и переходите к этапу 11.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">9</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА КАЧЕСТВА СОЕДИНЕНИЯ В РАЗЪЁМЕ БЛОКА РСМ</div>
+<div class="list">•  Отсоедините разъем от блока РСМ.</div>
+<div class="list">•  Проверьте наличие дефектов в разъёме (повреждённые или смещённые контакты, наличие коррозии).</div>
+<div class="list">•  Найдена ли какая-либо неисправность?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Отремонтируйте контакт, затем переходите к этапу 11.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">10</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ЦЕПИ ДАТЧИКА VSS НА ОБРЫВ</div>
+<div class="list">•  Проверьте неразрывность цепи между перечисленными ниже контактами:</div>
+<dl>
+<dd class="list">
+<div class="list">―  Контакт А датчика VSS и контакт 2N блока PCM</div>
+<div class="list">―  Контакт В датчика VSS и контакт 2M блока PCM</div>
+</dd>
+</dl>
+<div class="list">•  Существует ли неразрывность цепи?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Проверьте, не имеет ли повреждений задающий диск датчика VSS Замените задающий диск датчика VSS и переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Отремонтируйте или замените вызывающий сомнения проводной жгут и перейдите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">11</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ЗАВЕРШЕНИЯ ДИАГНОСТИРОВАНИЯ ПО DTC P0500</div>
+<div class="list">•  Проверьте, чтобы все ранее отсоединённые разъёмы были вновь присоединены.</div>
+<div class="list">•  Поверните выключатель зажигания в положение ON (двигатель не работает).</div>
+<div class="list">•  При помощи диагностической системы M-MDS удалите коды неисправностей из памяти блока РСМ.</div>
+<div class="list">•  Прогрейте двигатель.</div>
+<div class="list">•  При помощи системы M-MDS выберите параметр LOAD (нагрузка).</div>
+<div class="list">•  Выполните поездку на автомобиле, удерживая перечисленные ниже условия на протяжении <span>18 с</span>.</div>
+<dl>
+<dd class="list">
+<div class="list">―  Частота вращения коленчатого вала двигателя: <span>Не ниже 2000 об/мин</span></div>
+<div class="list">―  Передача: Кроме нейтрального положения</div>
+<div class="list">―  Нагрузка: <span>не ниже 40%</span></div>
+</dd>
+</dl>
+<div class="list">•  Существует ли данный код неисправности в неподтверждённом состоянии (PENDING CODE)? </div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Замените блок РСМ, затем переходите к следующему этапу.</div>
+<div class="tbody">(См. <font class="extxref-label"><a href="id0140a9802400.html">СНЯТИЕ И УСТАНОВКА БЛОКА РСМ [LF, L3]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">12</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ПОСЛЕ ЗАВЕРШЕНИЯ РЕМОНТА</div>
+<div class="list">•  Выполните мероприятия в соответствии с требованиями раздела “ПОСЛЕРЕМОНТНЫЕ МЕРОПРИЯТИЯ”.<div>(См. <font class="extxref-label"><a href="id0102b4801100.html">ПОСЛЕРЕМОНТНЫЕ МЕРОПРИЯТИЯ 
+[МКП, LF АКП (FS5A-EL)]</a></font>.)</div>
+</div>
+<div class="list">•  Существуют ли какие-либо коды неисправностей?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к поиску и устранению неисправностей по соответствующим кодам неисправностей.</div>
+<div class="tbody">(См. <font class="extxref-label"><a href="id0102b4801500.html">ТАБЛИЦА КОДОВ НЕИСПРАВНОСТЕЙ [МКП, LF АКП (FS5A-EL)]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Процедура поиска и устранения неисправностей завершена.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</body>
+</html>

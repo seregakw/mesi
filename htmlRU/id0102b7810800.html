@@ -1,0 +1,673 @@
+<html lang="ru">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../css/mazda-css-ru.css" type="text/css">
+<title>DTC P2096 
+[L3 Turbo]</title>
+</head>
+<body><a name="id0102b7810800"></a><p class="servinfo-title"><span class="servinfo-head"></span>DTC P2096 
+[L3 Turbo]</p>
+<hr>
+<p class="servinfo-title-id" align="right">id0102b7810800</p>
+<p clear="all">
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">DTC P2096</p>
+</th>
+<th id="" align="left">
+<p class="thead">Слишком бедная рабочая смесь, задаваемая при управлении с обратной связью</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center">
+<div class="tbody"><span>УСЛОВИЕ ОПРЕДЕЛЕНИЯ</span></div>
+</td>
+<td id="" align="left">
+<div class="list">•  Во время регулирования подачи топлива в режиме обратной связи с кислородными датчиками блок РСМ следит за задаваемой коррекцией подачи топлива. Если значение коррекции подачи топлива больше чем предусмотрено техническими условиями, блок РСМ решает, что сигнал обратной связи задаёт чрезмерное обеднение состава смеси.</div>
+<div class="list-title">Примечание к проведению диагностирования</div>
+<div class="list">•  Это постоянно контролируемый параметр (топливная система).</div>
+<div class="list">•  Сигнализатор MIL включается, если блок РСМ регистрирует описанное выше состояние неисправности в двух последовательных ездовых циклах, или в одном цикле при том условии, что данный код неисправности уже записан в памяти блока РСМ.</div>
+<div class="list">•  НЕПОДТВЕРЖДЁННЫЙ КОД (PENDING CODE) записывается, если блок РСМ обнаруживает описанное выше состояние неисправности во время первого ездового цикла. </div>
+<div class="list">•  Имеются данные стоп-кадра (FREEZE FRAME DATA).</div>
+<div class="list">•  Коды неисправности сохраняются в памяти блока РСМ.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody"><span>ВОЗМОЖНЫЕ ПРИЧИНЫ НЕИСПРАВНОСТИ</span></div>
+</td>
+<td id="" align="left">
+<div class="list">•  Прорыв ОГ в выпускной системе </div>
+<div class="list">•  Неисправность датчика HO2S на выходе из нейтрализатора</div>
+<div class="list">•  Неисправность датчика температуры воздуха на впуске (IAT)</div>
+<div class="list">•  Неисправность датчика температуры охлаждающей жидкости (ЕСТ)</div>
+<div class="list">•  Подсос воздуха во впускной системе</div>
+<div class="list">•  Неисправность датчика состава смеси</div>
+<div class="list">•  Неисправность датчика массового расхода воздуха (MAF)</div>
+<div class="list">•  Недостаточное давление в топливной магистрали</div>
+<div class="list">•  Неисправность датчика давления топлива</div>
+<div class="list">•  Неисправность редукционного клапана (встроен в топливную рампу)</div>
+<div class="list">•  Неисправность электромагнитного перепускного клапана ТНВД</div>
+<div class="list">•  Неисправность топливного насоса высокого давления (ТНВД)</div>
+<div class="list">•  Неисправность электробензонасоса</div>
+<div class="list">•  Течь топлива</div>
+<div class="list">•  Неправильная работа системы зажигания</div>
+<div class="list">•  Недостаточная компрессия в цилиндрах</div>
+<div class="list">•  Неисправность форсунки</div>
+<div class="list">•  Неисправность блока РСМ</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+<p clear="all">
+<p class="table-title">Процедура диагностики</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">ЭТАП</p>
+</th>
+<th id="" align="center" colspan="2">
+<p class="thead">ПРОВЕРКА</p>
+</th>
+<th id="" align="center">
+<p class="thead">ВЫПОЛНЯЕМЫЕ ДЕЙСТВИЯ</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">1</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ЗАПИСИ ДАННЫХ СТОП-КАДРА И РЕЗУЛЬТАТОВ ПРОВЕРКИ </div>
+<div class="list">•  Был ли записан стоп-кадр?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Запишите данные стоп-кадра в заказ-наряд на выполнение ремонта и переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">2</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА НАЛИЧИЯ ДОПОЛНИТЕЛЬНОЙ СЕРВИСНОЙ ИНФОРМАЦИИ</div>
+<div class="list">•  Проверьте наличие дополнительной сервисной информации по данной проблеме.</div>
+<div class="list">•  Имеется ли в наличии дополнительная сервисная информация по данной проблеме?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Пользуясь дополнительной сервисной информацией, выполните ремонт или диагностирование.</div>
+<div class="list">•  Если неисправность не устранена, то переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">3</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА СОПУТСТВУЮЩИХ НЕПОДТВЕРЖДЁННЫХ КОДОВ НЕИСПРАВНОСТЕЙ ИЛИ СОХРАНЁННЫХ КОДОВ НЕИСПРАВНОСТЕЙ</div>
+<div class="list">•  Выключите зажигание, затем поверните выключатель зажигания в положение ON (двигатель не работает).</div>
+<div class="list">•  Проверьте наличие сопутствующих неподтверждённых или сохранённых кодов неисправностей.</div>
+<div class="list">•  Записаны ли коды неисправностей P2177 или P2187?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к проверке по соответствующим кодам неисправностей.</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="id0102b7801500.html">ТАБЛИЦА КОДОВ НЕИСПРАВНОСТЕЙ 
+[L3 Turbo]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">4</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ОПРЕДЕЛЕНИЕ КОДА НЕИСПРАВНОСТИ, ЗАПУСКАЮЩЕГО ЗАПИСЬ СТОП-КАДРА (FREEZE FRAME DATA)</div>
+<div class="list">•  Имеется ли код P2096 в данных стоп-кадра (FREEZE FRAME DATA)?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к проверке по кодам неисправностей в стоп-кадре (FREEZE FRAME DATA DTC).</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="id0102b7801500.html">ТАБЛИЦА КОДОВ НЕИСПРАВНОСТЕЙ 
+[L3 Turbo]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">5</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ТЕКУЩЕГО СТАТУСА ВХОДНОГО СИГНАЛА ДАТЧИКА HO2S НА ВЫХОДЕ ИЗ НЕЙТРАЛИЗАТОРА</div>
+<div class="list">•  Подключите диагностическую систему M-MDS к диагностическому разъему DLC-2.</div>
+<div class="list">•  Запустите двигатель и прогрейте его до нормальной рабочей температуры.</div>
+<div class="list">•  Выберите параметр O2S12.</div>
+<div class="list">•  Проверьте значения параметра при перечисленных ниже положениях педали акселератора, установив МКП в нейтральное положение.</div>
+<dl>
+<dd class="list">
+<div class="list">―  <span>Более 0,45 В</span> при резком нажатии педали акселератора (богатая смесь).</div>
+<div class="list">―  <span>Менее 0,45 В</span> сразу после того, как педаль акселератора была отпущена (обеднение смеси).</div>
+</dd>
+</dl>
+<div class="list">•  Является ли значение параметра нормальным?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Внешним осмотром проверьте стык между нейтрализатором TWC и датчиком HO2S на выходе из нейтрализатора на прорыв ОГ.</div>
+<div class="list">•  Если прорыв ОГ не обнаружен, замените датчик HO2S на выходе из нейтрализатора.<div> (См. <font class="extxref-label"><a href="id0115b4800200.html">СНЯТИЕ И УСТАНОВКА ВЫПУСКНОЙ СИСТЕМЫ 
+[L3 Turbo]</a></font>.)</div>
+</div>
+<div class="tbody">Затем переходите к этапу 20.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">6</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ТЕКУЩЕГО СТАТУСА ВХОДНОГО СИГНАЛА</div>
+<div class="list">•  Подключите диагностическую систему M-MDS к диагностическому разъему DLC-2.</div>
+<div class="list">•  Проверьте значения перечисленных ниже параметров.<div> (См. <font class="extxref-label"><a href="id0140b6802500.html">ПРОВЕРКА БЛОКА РСМ [L3 Turbo]</a></font>.)</div>
+</div>
+<dl>
+<dd class="list">
+<div class="list">―  ECT (температура охлаждающей жидкости)</div>
+<div class="list">―  MAF (массовый расход воздуха)</div>
+<div class="list">―  TP (положение дроссельной заслонки)</div>
+<div class="list">―  VSS (датчик скорости движения автомобиля)</div>
+</dd>
+</dl>
+<div class="list">•  Соответствуют ли значения параметров техническим условиям?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">В соответствии с результатами проверки проверьте неисправные компоненты.</div>
+<div class="tbody">Затем переходите к этапу 20.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">7</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ТЕКУЩЕГО СТАТУСА ВХОДНЫХ СИГНАЛОВ ПРИ УСЛОВИЯХ ВОЗНИКНОВЕНИЯ НЕИСПРАВНОСТИ (FREEZE FRAME DATA)</div>
+<div class="list">•  Подключите диагностическую систему M-MDS к диагностическому разъему DLC-2.</div>
+<div class="list">•  Проверьте значения перечисленных ниже параметров при условиях, записанных в стоп-кадре (FREEZE FRAME DATA).<div> (См. <font class="extxref-label"><a href="id0140b6802500.html">ПРОВЕРКА БЛОКА РСМ [L3 Turbo]</a></font>.)</div>
+</div>
+<dl>
+<dd class="list">
+<div class="list">―  ECT (температура охлаждающей жидкости)</div>
+<div class="list">―  MAF (массовый расход воздуха)</div>
+<div class="list">―  TP (положение дроссельной заслонки)</div>
+<div class="list">―  VSS (датчик скорости движения автомобиля)</div>
+</dd>
+</dl>
+<div class="list">•  Соответствуют ли значения параметров техническим условиям?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">В соответствии с результатами проверки проверьте неисправные компоненты.</div>
+<div class="tbody">Затем переходите к этапу 20.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">8</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ТЕКУЩЕГО СТАТУСА ВХОДНОГО СИГНАЛА ДАТЧИКА СОСТАВА СМЕСИ</div>
+<div class="list">•  Подключите диагностическую систему M-MDS к диагностическому разъему DLC-2.</div>
+<div class="list">•  Запустите двигатель и прогрейте его до нормальной рабочей температуры.</div>
+<div class="list">•  Выберите параметр O2S11.</div>
+<div class="list">•  Проверьте значения параметра O2S11 при перечисленных ниже положениях педали акселератора, установив КП в нейтральное положение.</div>
+<dl>
+<dd class="list">
+<div class="list">―  <span>–0,1—0,1 А </span> в режиме холостого хода.</div>
+<div class="list">―  Частота вращения коленчатого вала двигателя <span>выше 3 000 об/мин</span>.</div>
+<div class="list">―  <span>Более 0,25 мА</span> сразу после того, как педаль акселератора была отпущена (обеднение смеси).</div>
+</dd>
+</dl>
+<div class="list">•  Является ли значение параметра нормальным?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Внешним осмотром проверьте стык между выпускным коллектором и датчиком состава смеси на прорыв ОГ.</div>
+<div class="list">•  Если неисправность не обнаружена, замените датчик состава смеси.<div> (См. <font class="extxref-label"><a href="id0115b4800200.html">СНЯТИЕ И УСТАНОВКА ВЫПУСКНОЙ СИСТЕМЫ 
+[L3 Turbo]</a></font>.)</div>
+</div>
+<div class="tbody">Затем переходите к этапу 20.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">9</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ТЕКУЩЕГО СТАТУСА ВХОДНОГО СИГНАЛА ДАТЧИКА MAF</div>
+<div class="list">•  Подключите диагностическую систему M-MDS к диагностическому разъему DLC-2.</div>
+<div class="list">•  Запустите двигатель.</div>
+<div class="list">•  Выберите параметр MAF</div>
+<div class="list">•  Убедитесь в том, что параметр MAF меняется в соответствии с частотой вращения коленчатого вала.</div>
+<div class="list">•  Является ли значение параметра нормальным?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Замените датчик MAF/IAT и переходите к этапу 20.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">10</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ВЫПУСКНОЙ СИСТЕМЫ НА ПРЕДМЕТ ПОДСОСА ВОЗДУХА</div>
+<div class="list">•  Визуально проверьте надёжность закрепления шлангов впускной системы, наличие в них трещин и повреждений.</div>
+<div class="list">•  Найдена ли какая-либо неисправность?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Устраните неисправность или замените неисправный компонент и перейдите к этапу 20.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">11</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ПРОВОДНОГО ЖГУТА КАТУШКИ ЗАЖИГАНИЯ</div>
+<div class="list">•  Проверьте сопутствующие катушке зажигания проводные жгуты на всех цилиндрах (на эпизодические состояния обрыва или короткого замыкания).</div>
+<div class="list">•  Исправны ли проводные жгуты?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Отремонтируйте и переходите к этапу 20.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">12</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА РАБОТЫ СИСТЕМЫ ЗАЖИГАНИЯ</div>
+<div class="list">•  Выполните проверку искрообразования.<div> (См. <font class="extxref-label"><a href="id0103b4803700.html">ПРОВЕРКА СИСТЕМЫ УПРАВЛЕНИЯ ДВИГАТЕЛЕМ 
+[L3 Turbo]</a></font>.)</div>
+</div>
+<div class="list">•  На каждом цилиндре должна наблюдаться сильная голубоватая искра, так ли это?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">По результатам проверки искрообразования выполните ремонт или замену неисправного компонента.</div>
+<div class="tbody">Затем переходите к этапу 20.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">13</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА КОМПРЕССИИ В ЦИЛИНДРАХ</div>
+<div class="list">•  Проверьте компрессию в цилиндрах двигателя.<div> (См. <font class="extxref-label"><a href="id0110b3800300.html">ПРОВЕРКА КОМПРЕССИИ 
+[L3 Turbo]</a></font>.)</div>
+</div>
+<div class="list">•  Найдена ли какая-либо неисправность?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу. </div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Выполните переборку двигателя и перейдите к этапу 20. </div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">14</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ДАВЛЕНИЯ ТОПЛИВА (КОНТУР ВЫСОКОГО ДАВЛЕНИЯ)</div>
+<div class="list">•  Выберите параметр FUEL_PRES (давление топлива)</div>
+<div class="list">•  Соответствует ли значение параметра FUEL_PRES техническим условиям?<div> (См. <font class="extxref-label"><a href="id0140b6802500.html">ПРОВЕРКА БЛОКА РСМ [L3 Turbo]</a></font>.)</div>
+</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к этапу 18.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">15</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ЛОКАЛИЗАЦИЯ НЕИСПРАВНОСТИ: ДАТЧИК ДАВЛЕНИЯ ТОПЛИВА ИЛИ ТНВД</div>
+<div class="list">•  Нормально ли разгоняется автомобиль?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к этапу 17.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">16</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ДАТЧИКА ДАВЛЕНИЯ ТОПЛИВА</div>
+<div class="list">•  Проверьте датчик давления топлива.<div> (См. <font class="extxref-label"><a href="id0140b6801300.html">ПРОВЕРКА ДАТЧИКА ДАВЛЕНИЯ ТОПЛИВА [L3 Turbo]</a></font>.)</div>
+</div>
+<div class="list">•  Исправен ли датчик давления топлива?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к этапу 18.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Замените топливную рампу и перейдите к этапу 20.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">17</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ТНВД</div>
+<div class="list">•  Замените топливный насос высокого давления.</div>
+<div class="list">•  Отследите параметр FUEL_PRES.</div>
+<div class="list">•  Соответствует ли значение параметра FUEL_PRES техническим условиям?</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="id0140b6802500.html">ПРОВЕРКА БЛОКА РСМ [L3 Turbo]</a></font>.)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к этапу 20.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">18</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ДАВЛЕНИЯ ТОПЛИВА (КОНТУР НИЗКОГО ДАВЛЕНИЯ)</div>
+<div class="list">•  Подключите манометр между топливоподкачивающим насосом и ТНВД. </div>
+<div class="list">•  Измерьте давление топлива в контуре низкого давления.<div> (См. <font class="extxref-label"><a href="id0114b4800500.html">ПРОВЕРКА ДАВЛЕНИЯ В ТОПЛИВНОЙ МАГИСТРАЛИ 
+[L3 Turbo]</a></font>.)</div>
+</div>
+<div class="list">•  Соответствует ли давление топлива в контуре низкого давления техническим условиям?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Проверьте следующее: </div>
+<div class="list">•  Наличие высокого сопротивления в топливной магистрали</div>
+<div class="list">•  Блокирование топливного фильтра (засорение)</div>
+<div class="tbody">Если проверенные компоненты исправны, замените топливоподкачивающий насос. Затем переходите к этапу 20.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">19</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ТОПЛИВНОЙ ФОРСУНКИ</div>
+<div class="list">•  Проверьте форсунку.<div> (См. <font class="extxref-label"><a href="id0114b4800700.html">ПРОВЕРКА ТОПЛИВНЫХ ФОРСУНОК 
+[L3 Turbo]</a></font>.)</div>
+</div>
+<div class="list">•  Найдена ли какая-либо неисправность?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Замените топливную форсунку и перейдите к следующему этапу.</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="id0114b4800600.html">СНЯТИЕ И УСТАНОВКА ТОПЛИВНОЙ ФОРСУНКИ 
+[L3 Turbo]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">20</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ЗАВЕРШЕНИЯ ДИАГНОСТИРОВАНИЯ ПО DTC P2096</div>
+<div class="list">•  Проверьте, чтобы все ранее отсоединённые разъёмы были вновь присоединены.</div>
+<div class="list">•  При помощи диагностической системы M-MDS удалите коды неисправностей из памяти блока РСМ.</div>
+<div class="list">•  При помощи диагностической системы M-MDS выполните самодиагностику в режиме KOEO (зажигание включено, двигатель выключен) или KOER (зажигание включено, двигатель работает).</div>
+<div class="list">•  Существует ли данный код неисправности в неподтверждённом состоянии (PENDING CODE)? </div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Замените блок РСМ и перейдите к следующему этапу.</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="id0140b6802400.html">СНЯТИЕ И УСТАНОВКА БЛОКА РСМ [L3 Turbo]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">21</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ПОСЛЕ ЗАВЕРШЕНИЯ РЕМОНТА</div>
+<div class="list">•  Выполните мероприятия в соответствии с требованиями раздела “ПОСЛЕРЕМОНТНЫЕ МЕРОПРИЯТИЯ”.<div> (См. <font class="extxref-label"><a href="id0102b7801100.html">ПОСЛЕРЕМОНТНЫЕ МЕРОПРИЯТИЯ 
+[L3 Turbo]</a></font>.)</div>
+</div>
+<div class="list">•  Имеются ли коды неисправностей?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к проверке по соответствующим кодам неисправностей.</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="id0102b7801500.html">ТАБЛИЦА КОДОВ НЕИСПРАВНОСТЕЙ 
+[L3 Turbo]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Процедура поиска и устранения неисправностей завершена.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</body>
+</html>

@@ -1,0 +1,200 @@
+<html lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../css/mazda-css-en.css" type="text/css">
+<title>VEHICLE SPEED SENSOR (VSS) INSPECTION [FN4A-EL]</title>
+</head>
+<body><a name="id0517a1801400"></a><p class="servinfo-title"><span class="servinfo-head"></span>VEHICLE SPEED SENSOR (VSS) INSPECTION [FN4A-EL]</p>
+<hr>
+<p class="servinfo-title-id" align="right">id0517a1801400</p>
+<p class="list">1.  Connect the M-MDS, drive the vehicle, and verify the input value of the OSS PID. (See <font class="extxref-label"><a href="id0502a1805600.html">PID/DATA MONITOR INSPECTION[FN4A-EL]</a></font>.)</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the input value is 0 rpm, perform the “Power Supply Voltage Inspection”, “Open Circuit Inspection”, or “Short Circuit Inspection”.</div>
+<div class="list">•  If the input value is other than 0 rpm, perform the “Visual Inspection” or “Wave Profile Inspection”.</div>
+</dd>
+</dl>
+</p><br clear="all"><a name="id0517a180140001"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Visual Inspection</p>
+<p class="list">1.  Remove the VSS. (See <font class="extxref-label"><a href="id0517a1806100.html">VEHICLE SPEED SENSOR (VSS) REMOVAL/INSTALLATION[FN4A-EL]</a></font>.)</p>
+<p class="list"></p>
+<p class="list">2.  Verify that the sensor is free of any metallic shavings or particles. </p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If there is any malfunction, clean them off.</div>
+</dd>
+</dl>
+</p>
+<p class="list">3.  Install the VSS. (See <font class="extxref-label"><a href="id0517a1806100.html">VEHICLE SPEED SENSOR (VSS) REMOVAL/INSTALLATION[FN4A-EL]</a></font>.)</p>
+<p class="list"></p><br clear="all"><a name="id0517a180140002"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Wave Profile Inspection</p>
+<p class="list">1.  Remove the PCM. (See <font class="extxref-label"><a href="id0113b1801900.html">INTAKE-AIR SYSTEM REMOVAL/INSTALLATION[ZJ, ZY, Z6]</a></font>.) (See <font class="extxref-label"><a href="id0113b3800400.html">INTAKE AIR SYSTEM REMOVAL/INSTALLATION[LF, L3]</a></font>.)</p>
+<p class="list"></p>
+<p class="list">2.  Connect the M-MDS to DLC-2. (See <font class="extxref-label"><a href="id0502a1805600.html">PID/DATA MONITOR INSPECTION[FN4A-EL]</a></font>.)</p>
+<p class="list"></p>
+<p class="list">3.  Connect oscilloscope test leads to the following PCM connector terminals.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list-title">ZY</div>
+</dd>
+</dl>
+<dl>
+<dd>
+<div class="list">•   (+) lead: PCM terminal 1AX</div>
+<div class="list">•   (–) lead: PCM terminal 2BB</div>
+</dd>
+</dl>
+<dl>
+<dd>
+<div class="list-title">Z6</div>
+</dd>
+</dl>
+<dl>
+<dd>
+<div class="list">•   (+) lead: PCM terminal 1AY</div>
+<div class="list">•   (–) lead: PCM terminal 2BD</div>
+</dd>
+</dl>
+<dl>
+<dd>
+<div class="list-title">LF</div>
+</dd>
+</dl>
+<dl>
+<dd>
+<div class="list">•   (+) lead: PCM terminal 1J</div>
+<div class="list">•   (–) lead: PCM terminal 1BD</div>
+</dd>
+</dl>
+</p>
+<p class="list">4.  Start the engine.</p>
+<p class="list"></p>
+<p class="list">5.  Monitor VSS PID.</p>
+<p class="list"></p>
+<p class="list">6.  Inspect wave profile.</p>
+<p class="list">
+<table class="figure-flame">
+<tr>
+<td width="10mm"></td>
+<td>
+<table class="figure-float" cellspacing="0" bordercolor="black">
+<tr>
+<td align="center"><img src="images/am3zzw00001230.png"></td>
+</tr>
+</table>
+<div class="figure-caption">am3zzw00001230</div>
+</td>
+</tr>
+</table>
+<dl>
+<dd>
+<div class="list">•  PCM terminal [ZY]: 1AX (+)—2BB (–)</div>
+<div class="list">•  PCM terminal [Z6]: 1AY (+)—2BD (–)</div>
+<div class="list">•  PCM terminal [LF]: 1J (+)—1BD (–)</div>
+<div class="list">•  Oscilloscope setting: 1 V/DIV (Y), 2.5 ms/DIV (X), DC range</div>
+<div class="list">•  Vehicle condition: drive the vehicle with 32 km/h {20 mph}</div>
+<dl>
+<dd class="list">
+<div class="list">―  If there is any malfunction, perform the “Open Circuit Inspection” or “Short Circuit Inspection”</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p><br clear="all"><a name="id0517a180140003"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Power Supply Voltage Inspection</p>
+<p class="list">1.  Disconnect the VSS connector.</p>
+<p class="list"></p>
+<p class="list">2.  Turn the ignition switch to the ON position.</p>
+<p class="list"></p>
+<p class="list">3.  Measure voltage at VSS terminal A.</p>
+<p class="list">
+<table class="figure-flame">
+<tr>
+<td width="10mm"></td>
+<td>
+<table class="figure-float" cellspacing="0" bordercolor="black">
+<tr>
+<td align="center"><img src="images/am3zzw00001232.png"></td>
+</tr>
+</table>
+<div class="figure-caption">am3zzw00001232</div>
+</td>
+</tr>
+</table>
+<div class="spec">
+<dl>
+<dd>
+<div class="list-title">Vehicle speed sensor (VSS) voltage</div>
+</dd>
+</dl>
+<dl>
+<dd>
+<div class="list">B+</div>
+</dd>
+</dl>
+</div>
+<dl>
+<dd>
+<div class="list">•  If voltage is normal, go to Open Circuit Inspection and Short Circuit Inspection.</div>
+<div class="list">•  If there is any malfunction, repair wiring harness between VSS and PCM.</div>
+</dd>
+</dl>
+</p><br clear="all"><a name="id0517a180140004"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Open Circuit Inspection</p>
+<p class="list">1.  Inspect the following circuit for open.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  Power circuit (VSS terminal A to main relay terminal D)</div>
+<div class="list">•  Ground circuit (VSS terminal C to GND)</div>
+<div class="list">•  If an open circuit or short circuit is found, repair the malfunctioning wiring harness.</div>
+<div class="list">•  If there are no open or short circuits, perform the sensor rotor inspection. </div>
+</dd>
+</dl>
+</p><br clear="all"><a name="id0517a180140005"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Short Circuit Inspection</p>
+<p class="list">1.  Inspect the following circuit for short circuit.</p>
+<p class="list">
+<table class="figure-flame">
+<tr>
+<td width="10mm"></td>
+<td>
+<table class="figure-float" cellspacing="0" bordercolor="black">
+<tr>
+<td align="center"><img src="images/am3zzw00001232.png"></td>
+</tr>
+</table>
+<div class="figure-caption">am3zzw00001232</div>
+</td>
+</tr>
+</table>
+<dl>
+<dd>
+<div class="list">•  Power circuit (VSS terminal A to main relay terminal D)</div>
+<div class="list">•  If an open circuit or short circuit is found, repair the malfunctioning wiring harness.</div>
+<div class="list">•  If there are no open or short circuits, perform the sensor rotor inspection. </div>
+</dd>
+</dl>
+</p><br clear="all"><a name="id0517a180140006"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Sensor Rotor Inspection</p>
+<p class="list">1.  Remove the VSS. (See <font class="extxref-label"><a href="id0517a1806100.html">VEHICLE SPEED SENSOR (VSS) REMOVAL/INSTALLATION[FN4A-EL]</a></font>.)</p>
+<p class="list"></p>
+<p class="list">2.  Shift the selector lever to N position.</p>
+<p class="list"></p>
+<p class="list">3.  Inspect sensor rotor surface via VSS installation hole while rotating the front tire manually.</p>
+<p class="list">
+<dl class="list">
+<dd>(1)  Is sensor rotor free of damage and cracks?</dd>
+<dd></dd>
+</dl>
+<dl class="list">
+<dd>(2)  Is sensor rotor free of any metallic shavings or particles?</dd>
+<dd>
+<dl>
+<dd>
+<div class="list">•  If sensor rotor is normal, replace the VSS.</div>
+<div class="list">•  If there is any malfunction, clean or replace the sensor rotor.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+</body>
+</html>

@@ -1,0 +1,1351 @@
+<html lang="ru"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<link rel="stylesheet" href="css/mazda-css-ru.css" type="text/css">
+<title>ПРОЦЕДУРЫ ОПРЕДЕЛЕНИЯ МЕСТОПОЛОЖЕНИЯ НЕИСПРАВНОСТИ [МУЛЬТИПЛЕКСНАЯ СИСТЕМА ПЕРЕДАЧИ ДАННЫХ]</title>
+</head>
+<body><a name="id0902e6830500"></a><p class="servinfo-title"><span class="servinfo-head"></span>ПРОЦЕДУРЫ ОПРЕДЕЛЕНИЯ МЕСТОПОЛОЖЕНИЯ НЕИСПРАВНОСТИ [МУЛЬТИПЛЕКСНАЯ СИСТЕМА ПЕРЕДАЧИ ДАННЫХ]</p>
+<hr>
+<p class="servinfo-title-id" align="right">id0902e6830500</p><br clear="all"><a name="id0902e683050001"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Электрическая схема системы</p>
+<table class="figure-flame-non">
+<tbody><tr>
+<td>
+<table class="figure-non-float" cellspacing="0" bordercolor="black">
+<tbody><tr>
+<td align="center"><img src="imageRU/am3zzw00004429.png"></td>
+</tr>
+</tbody></table>
+<div class="figure-caption">am3zzw00004429</div>
+</td>
+</tr>
+</tbody></table><br clear="all"><a name="id0902e683050002"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Блок PCM (кроме автомобилей с двигателем MZ-CD 1.6 (Y6))</p>
+<p class="list">1.&nbsp;&nbsp;С помощью диагностической системы M-MDS проверьте отображение диагностических кодов неисправности U0101, U0121 и/или U0155. (См. <font class="extxref-label"><a href="htmlRU/id0902e6837000.html">ТАБЛИЦА ДИАГНОСТИЧЕСКИХ КОДОВ НЕИСПРАВНОСТЕЙ [МУЛЬТИПЛЕКСНАЯ СИСТЕМА ПЕРЕДАЧИ ДАННЫХ]</a></font>.)</p>
+<p class="list"></p>
+<p class="list">2.&nbsp;&nbsp;С помощью таблицы, приведенной ниже, определите неисправный компонент локальной сети передачи данных (CAN).</p>
+<p class="list"></p>
+<p clear="all">
+</p><p>
+</p><div>×: Норма</div>
+<div>—: Ошибка связи</div>
+<p></p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center" rowspan="2">
+<p class="thead">Блок управления</p>
+</th>
+<th id="" align="center" colspan="3">
+<p class="thead">Состояние связи</p>
+</th>
+<th id="" align="center" rowspan="2">
+<p class="thead">Местоположение неисправности</p>
+</th>
+</tr>
+<tr>
+<th id="" align="center">
+<p class="thead">Блок TCM</p>
+</th>
+<th id="" align="center">
+<p class="thead">Блок DSC HU/CM или ABS HU/CM</p>
+</th>
+<th id="" align="center">
+<p class="thead">Комбинация приборов</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="left" rowspan="5">
+<div class="tbody">Блок PCM</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Проводной жгут A</div>
+<div class="list">•&nbsp;&nbsp;Блок PCM</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Проводной жгут B</div>
+<div class="list">•&nbsp;&nbsp;Блок TCM</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Проводной жгут E</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Проводной жгут F</div>
+<div class="list">•&nbsp;&nbsp;Блок DSC HU/CM или ABS HU/CM</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Проводной жгут G</div>
+<div class="list">•&nbsp;&nbsp;Проводной жгут H</div>
+<div class="list">•&nbsp;&nbsp;Проводной жгут K</div>
+<div class="list">•&nbsp;&nbsp;Комбинация приборов</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p></p><br clear="all"><a name="id0902e683050003"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Блок PCM (автомобили с двигателем MZ-CD 1.6 (Y6))</p>
+<p class="list">1.&nbsp;&nbsp;С помощью диагностической системы M-MDS проверьте отображение диагностических кодов неисправности U0118, U0121 и/или U0155. (См. <font class="extxref-label"><a href="htmlRU/id0902e6837000.html">ТАБЛИЦА ДИАГНОСТИЧЕСКИХ КОДОВ НЕИСПРАВНОСТЕЙ [МУЛЬТИПЛЕКСНАЯ СИСТЕМА ПЕРЕДАЧИ ДАННЫХ]</a></font>.)</p>
+<p class="list"></p>
+<p class="list">2.&nbsp;&nbsp;С помощью таблицы, приведенной ниже, определите неисправный компонент локальной сети передачи данных (CAN).</p>
+<p class="list"></p>
+<p clear="all">
+</p><p>
+</p><div>×: Норма</div>
+<div>—: Ошибка связи</div>
+<p></p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center" rowspan="2">
+<p class="thead">Блок управления</p>
+</th>
+<th id="" align="center" colspan="3">
+<p class="thead">Состояние связи</p>
+</th>
+<th id="" align="center" rowspan="2">
+<p class="thead">Местоположение неисправности</p>
+</th>
+</tr>
+<tr>
+<th id="" align="center">
+<p class="thead">Блок DSC HU/CM или ABS HU/CM</p>
+</th>
+<th id="" align="center">
+<p class="thead">Блок управления подкачкой топливной присадки</p>
+</th>
+<th id="" align="center">
+<p class="thead">Комбинация приборов</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="left" rowspan="5">
+<div class="tbody">Блок PCM</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Проводной жгут A</div>
+<div class="list">•&nbsp;&nbsp;Проводной жгут C</div>
+<div class="list">•&nbsp;&nbsp;Проводной жгут E</div>
+<div class="list">•&nbsp;&nbsp;Блок PCM</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Проводной жгут G</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Проводной жгут I</div>
+<div class="list">•&nbsp;&nbsp;Проводной жгут K</div>
+<div class="list">•&nbsp;&nbsp;Комбинация приборов</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Проводной жгут F</div>
+<div class="list">•&nbsp;&nbsp;Блок DSC HU/CM или ABS HU/CM</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Проводной жгут H</div>
+<div class="list">•&nbsp;&nbsp;Блок управления подкачкой топливной присадки</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p></p><br clear="all"><a name="id0902e683050004"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Блок TCM</p>
+<p class="list">1.&nbsp;&nbsp;С помощью диагностической системы M-MDS проверьте отображение диагностического кода неисправности U0100. (См. <font class="extxref-label"><a href="htmlRU/id0902e6837000.html">ТАБЛИЦА ДИАГНОСТИЧЕСКИХ КОДОВ НЕИСПРАВНОСТЕЙ [МУЛЬТИПЛЕКСНАЯ СИСТЕМА ПЕРЕДАЧИ ДАННЫХ]</a></font>.)</p>
+<p class="list"></p>
+<p class="list">2.&nbsp;&nbsp;С помощью таблицы, приведенной ниже, определите неисправный компонент локальной сети передачи данных (CAN).</p>
+<p class="list"></p>
+<p clear="all">
+</p><p>
+</p><div>×: Норма</div>
+<div>—: Ошибка связи</div>
+<p></p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center" rowspan="2">
+<p class="thead">Блок управления</p>
+</th>
+<th id="" align="center">
+<p class="thead">Состояние связи</p>
+</th>
+<th id="" align="center" rowspan="2">
+<p class="thead">Местоположение неисправности</p>
+</th>
+</tr>
+<tr>
+<th id="" align="center">
+<p class="thead">Блок PCM</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="left">
+<div class="tbody">Блок TCM</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Проводной жгут A</div>
+<div class="list">•&nbsp;&nbsp;Проводной жгут B</div>
+<div class="list">•&nbsp;&nbsp;Блок TCM</div>
+<div class="list">•&nbsp;&nbsp;Блок PCM</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p></p><br clear="all"><a name="id0902e683050005"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Блок управления электрогидравлическим усилителем рулевого управления (EHPAS)</p>
+<p class="list">1.&nbsp;&nbsp;С помощью диагностической системы M-MDS проверьте отображение диагностических кодов неисправности U0100 и/или U2023. (См. <font class="extxref-label"><a href="htmlRU/id0902e6837000.html">ТАБЛИЦА ДИАГНОСТИЧЕСКИХ КОДОВ НЕИСПРАВНОСТЕЙ [МУЛЬТИПЛЕКСНАЯ СИСТЕМА ПЕРЕДАЧИ ДАННЫХ]</a></font>.)</p>
+<p class="list"></p>
+<dl>
+<dd>
+<div class="attention2-label">Осторожно</div>
+</dd>
+<dd>
+<div class="attention2">
+<div class="list">•&nbsp;&nbsp;Диагностический код неисправности U2023 может не удалиться во время пуска двигателя, даже если процедура удаления диагностического кода неисправности выполняется с помощью диагностической системы M-MDS. Выполните процедуру удаления диагностического кода неисправности U2023, когда выключатель зажигания находится в положении ON (при неработающем двигателе).</div>
+</div>
+</dd>
+</dl>
+<dl>
+<dd>
+<div class="attention3-label">Примечание</div>
+</dd>
+<dd>
+<div class="attention3">
+<div class="list">•&nbsp;&nbsp;Вы можете определить, какой из блоков управления является неисправным, с помощью функции отбражения параметров "Freeze Frame Data". "Electrical" &gt; "IC Service Function" &gt; "Freeze Frame Data". Эта функция поддерживается интегрированным диагностическим программным обеспечением, но не поддерживается диагностическим программным обеспечением для портативных ПК.</div>
+</div>
+</dd>
+</dl>
+<p class="list">2.&nbsp;&nbsp;С помощью таблицы, приведенной ниже, определите неисправный компонент локальной сети передачи данных (CAN).</p>
+<p class="list"></p>
+<p clear="all">
+</p><p>
+</p><div>×: Норма</div>
+<div>—: Ошибка связи</div>
+<p></p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center" rowspan="2">
+<p class="thead">Блок управления</p>
+</th>
+<th id="" align="center">
+<p class="thead">Состояние связи</p>
+</th>
+<th id="" align="center" rowspan="2">
+<p class="thead">Местоположение неисправности</p>
+</th>
+</tr>
+<tr>
+<th id="" align="center">
+<p class="thead">Блок PCM</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="left">
+<div class="tbody">Блок управления электрогидравлическим усилителем рулевого управления (EHPAS)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Проводной жгут A</div>
+<div class="list">•&nbsp;&nbsp;Проводной жгут C</div>
+<div class="list">•&nbsp;&nbsp;Проводной жгут D</div>
+<div class="list">•&nbsp;&nbsp;Блок управления электрогидравлическим усилителем рулевого управления (EHPAS)</div>
+<div class="list">•&nbsp;&nbsp;Блок PCM</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p></p><br clear="all"><a name="id0902e683050006"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Блок DSC HU/CM или ABS HU/CM</p>
+<p class="list">1.&nbsp;&nbsp;С помощью диагностической системы M-MDS проверьте отображение диагностических кодов неисправности U1900, U2202 (с системой DSC) и/или U2523. (См. <font class="extxref-label"><a href="htmlRU/id0902e6837000.html">ТАБЛИЦА ДИАГНОСТИЧЕСКИХ КОДОВ НЕИСПРАВНОСТЕЙ [МУЛЬТИПЛЕКСНАЯ СИСТЕМА ПЕРЕДАЧИ ДАННЫХ]</a></font>.)</p>
+<p class="list"></p>
+<p class="list">2.&nbsp;&nbsp;С помощью таблицы, приведенной ниже, определите неисправный компонент локальной сети передачи данных (CAN).</p>
+<p class="list"></p>
+<p clear="all">
+</p><p>
+</p><div>×: Норма</div>
+<div>—: Ошибка связи</div>
+<p></p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center" rowspan="2">
+<p class="thead">Блок управления</p>
+</th>
+<th id="" align="center">
+<p class="thead">Состояние связи</p>
+</th>
+<th id="" align="center" rowspan="2">
+<p class="thead">Местоположение неисправности</p>
+</th>
+</tr>
+<tr>
+<th id="" align="center">
+<p class="thead">Блок PCM</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="left">
+<div class="tbody">Блок DSC HU/CM или ABS HU/CM</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Проводной жгут A</div>
+<div class="list">•&nbsp;&nbsp;Проводной жгут C</div>
+<div class="list">•&nbsp;&nbsp;Проводной жгут E</div>
+<div class="list">•&nbsp;&nbsp;Проводной жгут F</div>
+<div class="list">•&nbsp;&nbsp;Блок DSC HU/CM</div>
+<div class="list">•&nbsp;&nbsp;Блок ABS HU/CM</div>
+<div class="list">•&nbsp;&nbsp;Блок PCM</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p></p><br clear="all"><a name="id0902e683050007"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Контроллер системы введения топливной присадки (автомобили с двигателем MZ-CD 1.6 (Y6), Стандарт Euro-4 для форсированных двигателей)</p>
+<p class="list">1.&nbsp;&nbsp;С помощью диагностической системы M-MDS проверьте отображение диагностического кода неисправности U1900. (См. <font class="extxref-label"><a href="htmlRU/id0902e6837000.html">ТАБЛИЦА ДИАГНОСТИЧЕСКИХ КОДОВ НЕИСПРАВНОСТЕЙ [МУЛЬТИПЛЕКСНАЯ СИСТЕМА ПЕРЕДАЧИ ДАННЫХ]</a></font>.)</p>
+<p class="list"></p>
+<p class="list">2.&nbsp;&nbsp;С помощью таблицы, приведенной ниже, определите неисправный компонент локальной сети передачи данных (CAN).</p>
+<p class="list"></p>
+<p clear="all">
+</p><p>
+</p><div>×: Норма</div>
+<div>—: Ошибка связи</div>
+<p></p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center" rowspan="2">
+<p class="thead">Блок управления</p>
+</th>
+<th id="" align="center">
+<p class="thead">Состояние связи</p>
+</th>
+<th id="" align="center" rowspan="2">
+<p class="thead">Местоположение неисправности</p>
+</th>
+</tr>
+<tr>
+<th id="" align="center">
+<p class="thead">Блок PCM</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="left">
+<div class="tbody">Блок управления подкачкой топливной присадки</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Проводной жгут A</div>
+<div class="list">•&nbsp;&nbsp;Проводной жгут C</div>
+<div class="list">•&nbsp;&nbsp;Проводной жгут E</div>
+<div class="list">•&nbsp;&nbsp;Проводной жгут G</div>
+<div class="list">•&nbsp;&nbsp;Проводной жгут H</div>
+<div class="list">•&nbsp;&nbsp;Блок управления подкачкой топливной присадки</div>
+<div class="list">•&nbsp;&nbsp;Блок PCM</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p></p><br clear="all"><a name="id0902e683050008"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Блок управления системой доступа в автомобиль и пуска двигателя без ключа</p>
+<p class="list">1.&nbsp;&nbsp;С помощью диагностической системы M-MDS проверьте отображение диагностических кодов неисправности U0100, U0323 и/или U2023. (См. <font class="extxref-label"><a href="htmlRU/id0902e6837000.html">ТАБЛИЦА ДИАГНОСТИЧЕСКИХ КОДОВ НЕИСПРАВНОСТЕЙ [МУЛЬТИПЛЕКСНАЯ СИСТЕМА ПЕРЕДАЧИ ДАННЫХ]</a></font>.)</p>
+<p class="list"></p>
+<dl>
+<dd>
+<div class="attention2-label">Осторожно</div>
+</dd>
+<dd>
+<div class="attention2">
+<div class="list">•&nbsp;&nbsp;Диагностический код неисправности U2023 может не удалиться во время пуска двигателя, даже если процедура удаления диагностического кода неисправности выполняется с помощью диагностической системы M-MDS. Выполните процедуру удаления диагностического кода неисправности U2023, когда выключатель зажигания находится в положении ON (при неработающем двигателе).</div>
+</div>
+</dd>
+</dl>
+<dl>
+<dd>
+<div class="attention3-label">Примечание</div>
+</dd>
+<dd>
+<div class="attention3">
+<div class="list">•&nbsp;&nbsp;Вы можете определить, какой из блоков управления является неисправным, с помощью функции отбражения параметров "Freeze Frame Data". "Electrical" &gt; "IC Service Function" &gt; "Freeze Frame Data". Эта функция поддерживается интегрированным диагностическим программным обеспечением, но не поддерживается диагностическим программным обеспечением для портативных ПК.</div>
+</div>
+</dd>
+</dl>
+<p class="list">2.&nbsp;&nbsp;С помощью таблицы, приведенной ниже, определите неисправный компонент локальной сети передачи данных (CAN).</p>
+<p class="list"></p>
+<p clear="all">
+</p><p>
+</p><div>×: Норма</div>
+<div>—: Ошибка связи</div>
+<p></p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center" rowspan="2">
+<p class="thead">Блок управления</p>
+</th>
+<th id="" align="center" colspan="2">
+<p class="thead">Состояние связи</p>
+</th>
+<th id="" align="center" rowspan="2">
+<p class="thead">Местоположение неисправности</p>
+</th>
+</tr>
+<tr>
+<th id="" align="center">
+<p class="thead">Блок PCM</p>
+</th>
+<th id="" align="center">
+<p class="thead">Комбинация приборов</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="left" rowspan="3">
+<div class="tbody">Блок управления системой доступа в автомобиль и пуска двигателя без ключа</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Проводной жгут J</div>
+<div class="list">•&nbsp;&nbsp;Блок управления системой доступа в автомобиль и пуска двигателя без ключа</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Проводной жгут K</div>
+<div class="list">•&nbsp;&nbsp;Комбинация приборов</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Проводной жгут A</div>
+<div class="list">•&nbsp;&nbsp;Проводной жгут C</div>
+<div class="list">•&nbsp;&nbsp;Проводной жгут E</div>
+<div class="list">•&nbsp;&nbsp;Проводной жгут G</div>
+<div class="list">•&nbsp;&nbsp;Проводной жгут I</div>
+<div class="list">•&nbsp;&nbsp;Блок PCM</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p></p><br clear="all"><a name="id0902e683050009"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Комбинация приборов</p>
+<p class="list">1.&nbsp;&nbsp;С помощью диагностической системы M-MDS проверьте отображение диагностических кодов неисправности U0100, U0101, U0121 U0131 и/или U0214. (См. <font class="extxref-label"><a href="htmlRU/id0902e6837000.html">ТАБЛИЦА ДИАГНОСТИЧЕСКИХ КОДОВ НЕИСПРАВНОСТЕЙ [МУЛЬТИПЛЕКСНАЯ СИСТЕМА ПЕРЕДАЧИ ДАННЫХ]</a></font>.)</p>
+<p class="list"></p>
+<p class="list">2.&nbsp;&nbsp;С помощью таблицы, приведенной ниже, определите неисправный компонент локальной сети передачи данных (CAN).</p>
+<p class="list">
+</p><p clear="all">
+</p><p>
+</p><div>×: Норма</div>
+<div>—: Ошибка связи</div>
+<p></p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center" rowspan="2">
+<p class="thead">Блок управления</p>
+</th>
+<th id="" align="center" colspan="5">
+<p class="thead">Состояние связи</p>
+</th>
+<th id="" align="center" rowspan="2">
+<p class="thead">Местоположение неисправности</p>
+</th>
+</tr>
+<tr>
+<th id="" align="center">
+<p class="thead">Блок PCM</p>
+</th>
+<th id="" align="center">
+<p class="thead">Блок TCM</p>
+</th>
+<th id="" align="center">
+<p class="thead">Блок управления электрогидравлическим усилителем рулевого управления (EHPAS)</p>
+</th>
+<th id="" align="center">
+<p class="thead">Блок DSC HU/CM</p>
+<p class="thead"> или </p>
+<p class="thead">Блок ABS HU/CM</p>
+</th>
+<th id="" align="center">
+<p class="thead">Блок управления системой доступа в автомобиль и пуска двигателя без ключа</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="left" rowspan="9">
+<div class="tbody">Комбинация приборов</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Проводной жгут K</div>
+<div class="list">•&nbsp;&nbsp;Комбинация приборов</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Проводной жгут G</div>
+<div class="list">•&nbsp;&nbsp;Проводной жгут I</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Проводной жгут E</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Проводной жгут C</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Проводной жгут A</div>
+<div class="list">•&nbsp;&nbsp;Блок PCM</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Проводной жгут B</div>
+<div class="list">•&nbsp;&nbsp;Блок TCM</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Проводной жгут D</div>
+<div class="list">•&nbsp;&nbsp;Блок управления электрогидравлическим усилителем рулевого управления (EHPAS)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Проводной жгут F</div>
+<div class="list">•&nbsp;&nbsp;Блок DSC HU/CM или ABS HU/CM</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Проводной жгут J</div>
+<div class="list">•&nbsp;&nbsp;Блок управления системой доступа в автомобиль и пуска двигателя без ключа</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p></p>
+<p class="list">3.&nbsp;&nbsp;С помощью диагностической системы M-MDS проверьте отображение диагностических кодов неисправности U0140, U0151 и/или U0184. (См. <font class="extxref-label"><a href="htmlRU/id0902e6837000.html">ТАБЛИЦА ДИАГНОСТИЧЕСКИХ КОДОВ НЕИСПРАВНОСТЕЙ [МУЛЬТИПЛЕКСНАЯ СИСТЕМА ПЕРЕДАЧИ ДАННЫХ]</a></font>.)</p>
+<p class="list"></p>
+<p class="list">4.&nbsp;&nbsp;С помощью таблицы, приведенной ниже, определите неисправный компонент локальной сети передачи данных (CAN).</p>
+<p class="list">
+</p><p clear="all">
+</p><p>
+</p><div>×: Норма</div>
+<div>—: Ошибка связи</div>
+<p></p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center" rowspan="2">
+<p class="thead">Блок управления</p>
+</th>
+<th id="" align="center" colspan="3">
+<p class="thead">Состояние связи</p>
+</th>
+<th id="" align="center" rowspan="2">
+<p class="thead">Местоположение неисправности</p>
+</th>
+</tr>
+<tr>
+<th id="" align="center">
+<p class="thead">Пассажирский коммутационный блок (PJB)</p>
+</th>
+<th id="" align="center">
+<p class="thead">Блок SAS</p>
+</th>
+<th id="" align="center">
+<p class="thead">Блок аудиосистемы (основной модуль)</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="left" rowspan="4">
+<div class="tbody">Комбинация приборов</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Проводной жгут L</div>
+<div class="list">•&nbsp;&nbsp;Комбинация приборов</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Проводной жгут Q</div>
+<div class="list">•&nbsp;&nbsp;Пассажирский коммутационный блок (PJB)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Проводной жгут N</div>
+<div class="list">•&nbsp;&nbsp;Блок SAS</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Проводной жгут O</div>
+<div class="list">•&nbsp;&nbsp;Блок аудиосистемы (основной модуль)</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p></p><br clear="all"><a name="id0902e683050010"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Панель управления системой отопления, вентиляции и кондиционирования воздуха</p>
+<p class="list">1.&nbsp;&nbsp;С помощью диагностической системы M-MDS проверьте отображение диагностических кодов неисправности U0140, U0155 и/или U0184. (См. <font class="extxref-label"><a href="htmlRU/id0902e6837000.html">ТАБЛИЦА ДИАГНОСТИЧЕСКИХ КОДОВ НЕИСПРАВНОСТЕЙ [МУЛЬТИПЛЕКСНАЯ СИСТЕМА ПЕРЕДАЧИ ДАННЫХ]</a></font>.)</p>
+<p class="list"></p>
+<p class="list">2.&nbsp;&nbsp;С помощью таблицы, приведенной ниже, определите неисправный компонент локальной сети передачи данных (CAN).</p>
+<p class="list">
+</p><p clear="all">
+</p><p>
+</p><div>×: Норма</div>
+<div>—: Ошибка связи</div>
+<p></p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center" rowspan="2">
+<p class="thead">Блок управления</p>
+</th>
+<th id="" align="center" colspan="3">
+<p class="thead">Состояние связи</p>
+</th>
+<th id="" align="center" rowspan="2">
+<p class="thead">Местоположение неисправности</p>
+</th>
+</tr>
+<tr>
+<th id="" align="center">
+<p class="thead">Пассажирский коммутационный блок (PJB)</p>
+</th>
+<th id="" align="center">
+<p class="thead">Комбинация приборов</p>
+</th>
+<th id="" align="center">
+<p class="thead">Блок аудиосистемы (основной модуль)</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="left" rowspan="4">
+<div class="tbody">Панель управления системой отопления, вентиляции и кондиционирования воздуха</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Проводной жгут M</div>
+<div class="list">•&nbsp;&nbsp;Панель управления системой отопления, вентиляции и кондиционирования воздуха</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Проводной жгут Q</div>
+<div class="list">•&nbsp;&nbsp;Пассажирский коммутационный блок (PJB)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Проводной жгут L</div>
+<div class="list">•&nbsp;&nbsp;Комбинация приборов</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Проводной жгут O</div>
+<div class="list">•&nbsp;&nbsp;Блок аудиосистемы (основной модуль)</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p></p><br clear="all"><a name="id0902e683050011"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Блок управления SAS</p>
+<p class="list">1.&nbsp;&nbsp;С помощью диагностической системы M-MDS проверьте отображение диагностического кода неисправности U1900. (См. <font class="extxref-label"><a href="htmlRU/id0902e6837000.html">ТАБЛИЦА ДИАГНОСТИЧЕСКИХ КОДОВ НЕИСПРАВНОСТЕЙ [МУЛЬТИПЛЕКСНАЯ СИСТЕМА ПЕРЕДАЧИ ДАННЫХ]</a></font>.)</p>
+<p class="list"></p>
+<p class="list">2.&nbsp;&nbsp;С помощью таблицы, приведенной ниже, определите неисправный компонент локальной сети передачи данных (CAN).</p>
+<p class="list">
+</p><p clear="all">
+</p><p>
+</p><div>×: Норма</div>
+<div>—: Ошибка связи</div>
+<p></p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center" rowspan="2">
+<p class="thead">Блок управления</p>
+</th>
+<th id="" align="center">
+<p class="thead">Состояние связи</p>
+</th>
+<th id="" align="center" rowspan="2">
+<p class="thead">Местоположение неисправности</p>
+</th>
+</tr>
+<tr>
+<th id="" align="center">
+<p class="thead">Комбинация приборов</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="left">
+<div class="tbody">Блок SAS</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Проводной жгут L</div>
+<div class="list">•&nbsp;&nbsp;Проводной жгут N</div>
+<div class="list">•&nbsp;&nbsp;Блок SAS</div>
+<div class="list">•&nbsp;&nbsp;Комбинация приборов</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p></p><br clear="all"><a name="id0902e683050012"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Блок аудиосистемы (основной модуль)</p>
+<p class="list">1.&nbsp;&nbsp;Воспользовавшись функцией самодиагностики, проверьте отображение диагностического кода неисправности 16:Er12. (См. <font class="extxref-label"><a href="htmlRU/id0902e6837000.html">ТАБЛИЦА ДИАГНОСТИЧЕСКИХ КОДОВ НЕИСПРАВНОСТЕЙ [МУЛЬТИПЛЕКСНАЯ СИСТЕМА ПЕРЕДАЧИ ДАННЫХ]</a></font>.)</p>
+<p class="list"></p>
+<p class="list">2.&nbsp;&nbsp;С помощью таблицы, приведенной ниже, определите неисправный компонент локальной сети передачи данных (CAN).</p>
+<p class="list">
+</p><p clear="all">
+</p><p>
+</p><div>×: Норма</div>
+<div>—: Ошибка связи</div>
+<p></p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center" rowspan="2">
+<p class="thead">Блок управления</p>
+</th>
+<th id="" align="center">
+<p class="thead">Состояние связи</p>
+</th>
+<th id="" align="center" rowspan="2">
+<p class="thead">Местоположение неисправности</p>
+</th>
+</tr>
+<tr>
+<th id="" align="center">
+<p class="thead">Комбинация приборов</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="left">
+<div class="tbody">Блок аудиосистемы (основной модуль)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Проводной жгут L</div>
+<div class="list">•&nbsp;&nbsp;Проводной жгут O</div>
+<div class="list">•&nbsp;&nbsp;Блок аудиосистемы (основной модуль)</div>
+<div class="list">•&nbsp;&nbsp;Комбинация приборов</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p></p><br clear="all"><a name="id0902e683050013"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Информационный дисплей</p>
+<p class="list">1.&nbsp;&nbsp;С помощью режима проверки входа/выхода проверьте отображение диагностических кодов неисправности U0164, U0181 и/или U0184. (См. <font class="extxref-label"><a href="htmlRU/id0902e6837000.html">ТАБЛИЦА ДИАГНОСТИЧЕСКИХ КОДОВ НЕИСПРАВНОСТЕЙ [МУЛЬТИПЛЕКСНАЯ СИСТЕМА ПЕРЕДАЧИ ДАННЫХ]</a></font>.)</p>
+<p class="list"></p>
+<p class="list">2.&nbsp;&nbsp;С помощью таблицы, приведенной ниже, определите неисправный компонент локальной сети передачи данных (CAN).</p>
+<p class="list">
+</p><p clear="all">
+</p><p>
+</p><div>×: Норма</div>
+<div>—: Ошибка связи</div>
+<p></p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center" rowspan="2">
+<p class="thead">Блок управления</p>
+</th>
+<th id="" align="center" colspan="3">
+<p class="thead">Состояние связи</p>
+</th>
+<th id="" align="center" rowspan="2">
+<p class="thead">Местоположение неисправности</p>
+</th>
+</tr>
+<tr>
+<th id="" align="center">
+<p class="thead">Комбинация приборов</p>
+</th>
+<th id="" align="center">
+<p class="thead">Панель управления системой отопления, вентиляции и кондиционирования воздуха</p>
+</th>
+<th id="" align="center">
+<p class="thead">Блок аудиосистемы (основной модуль)</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="left" rowspan="4">
+<div class="tbody">Информационный дисплей</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Проводной жгут P</div>
+<div class="list">•&nbsp;&nbsp;Информационный дисплей</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Проводной жгут L</div>
+<div class="list">•&nbsp;&nbsp;Комбинация приборов</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Проводной жгут M</div>
+<div class="list">•&nbsp;&nbsp;Панель управления системой отопления, вентиляции и кондиционирования воздуха</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="center">
+<div class="tbody">×</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Проводной жгут O</div>
+<div class="list">•&nbsp;&nbsp;Блок аудиосистемы (основной модуль)</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p></p><br clear="all"><a name="id0902e683050014"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Блок отопителя</p>
+<p class="list">1.&nbsp;&nbsp;С помощью режима проверки входа/выхода проверьте отображение диагностического кода неисправности U1900. (См. <font class="extxref-label"><a href="htmlRU/id0902e6837000.html">ТАБЛИЦА ДИАГНОСТИЧЕСКИХ КОДОВ НЕИСПРАВНОСТЕЙ [МУЛЬТИПЛЕКСНАЯ СИСТЕМА ПЕРЕДАЧИ ДАННЫХ]</a></font>.)</p>
+<p class="list"></p>
+<p class="list">2.&nbsp;&nbsp;С помощью таблицы, приведенной ниже, определите неисправный компонент локальной сети передачи данных (CAN).</p>
+<p class="list">
+</p><p clear="all">
+</p><p>
+</p><div>×: Норма</div>
+<div>—: Ошибка связи</div>
+<p></p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center" rowspan="2">
+<p class="thead">Блок управления</p>
+</th>
+<th id="" align="center">
+<p class="thead">Состояние связи</p>
+</th>
+<th id="" align="center" rowspan="2">
+<p class="thead">Местоположение неисправности</p>
+</th>
+</tr>
+<tr>
+<th id="" align="center">
+<p class="thead">Пассажирский коммутационный блок (PJB)</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="left">
+<div class="tbody">Блок отопителя</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Проводной жгут R</div>
+<div class="list">•&nbsp;&nbsp;Проводной жгут S</div>
+<div class="list">•&nbsp;&nbsp;Блок отопителя</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p></p><br clear="all"><a name="id0902e683050015"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Пассажирский коммутационный блок (PJB)</p>
+<p class="list">1.&nbsp;&nbsp;С помощью диагностической системы M-MDS проверьте отображение диагностического кода неисправности U1900. (См. <font class="extxref-label"><a href="htmlRU/id0902e6837000.html">ТАБЛИЦА ДИАГНОСТИЧЕСКИХ КОДОВ НЕИСПРАВНОСТЕЙ [МУЛЬТИПЛЕКСНАЯ СИСТЕМА ПЕРЕДАЧИ ДАННЫХ]</a></font>.)</p>
+<p class="list"></p>
+<p class="list">2.&nbsp;&nbsp;С помощью таблицы, приведенной ниже, определите неисправный компонент локальной сети передачи данных (CAN).</p>
+<p class="list">
+</p><p clear="all">
+</p><p>
+</p><div>×: Норма</div>
+<div>—: Ошибка связи</div>
+<p></p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center" rowspan="2">
+<p class="thead">Блок управления</p>
+</th>
+<th id="" align="center">
+<p class="thead">Состояние связи</p>
+</th>
+<th id="" align="center" rowspan="2">
+<p class="thead">Местоположение неисправности</p>
+</th>
+</tr>
+<tr>
+<th id="" align="center">
+<p class="thead">Панель управления системой отопления, вентиляции и кондиционирования воздуха</p>
+<p class="thead">Блок аудиосистемы (основной модуль)</p>
+<p class="thead">Комбинация приборов</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="left">
+<div class="tbody">Пассажирский коммутационный блок (PJB)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Проводной жгут L</div>
+<div class="list">•&nbsp;&nbsp;Проводной жгут M</div>
+<div class="list">•&nbsp;&nbsp;Проводной жгут O</div>
+<div class="list">•&nbsp;&nbsp;Проводной жгут Q</div>
+<div class="list">•&nbsp;&nbsp;Пассажирский коммутационный блок (PJB)</div>
+<div class="list">•&nbsp;&nbsp;Панель управления системой отопления, вентиляции и кондиционирования воздуха</div>
+<div class="list">•&nbsp;&nbsp;Блок аудиосистемы (основной модуль)</div>
+<div class="list">•&nbsp;&nbsp;Комбинация приборов</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p></p><br clear="all"><a name="id0902e683050016"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Технологический процесс ремонта</p>
+<p class="list">1.&nbsp;&nbsp;Проверьте разъем неисправного блока управления.</p>
+<p class="list">
+</p><dl>
+<dd>
+<div class="list">•&nbsp;&nbsp;В случае обнаружения какой-либо неисправности отремонтрруйте или замените разъем.</div>
+</dd>
+</dl>
+<p></p>
+<p class="list">2.&nbsp;&nbsp;Проверьте неисправный проводной жгут, как описано ниже: </p>
+<p class="list">
+</p><dl>
+<dd>
+<div class="list">•&nbsp;&nbsp;В случае обнаружения какой-либо неисправности отремонтрруйте или замените проводной жгут.</div>
+<div class="list">•&nbsp;&nbsp;В случае отсутствия неисправности замените неисправный блок управления.</div>
+<dl>
+<dd class="list">
+<div class="list">―&nbsp;&nbsp;Короткое замыкание на "массу".</div>
+<div class="list">―&nbsp;&nbsp;Короткое замыкание на электропитание</div>
+<div class="list">―&nbsp;&nbsp;Межвитковое замыкание скрученной пары проводов.</div>
+<div class="list">―&nbsp;&nbsp;Обрыв</div>
+</dd>
+</dl>
+</dd>
+</dl>
+<p></p>
+<p class="list">3.&nbsp;&nbsp;Подсоедините все отсоединенные разъемы.</p>
+<p class="list"></p>
+<p class="list">4.&nbsp;&nbsp;С помощью диагностической системы M-MDS сотрите соответствующие диагностические коды неисправности локальной сети передачи данных (CAN).</p>
+<p class="list"></p>
+<p class="list">5.&nbsp;&nbsp;С помощью диагностической системы M-MDS проверьте отображение соответствующих диагностических кодов неисправности локальной сети передачи данных (CAN).</p>
+<p class="list">
+</p><dl>
+<dd>
+<div class="list">•&nbsp;&nbsp;Если присутствуют диагностические коды неисправности, которые приведены ниже, замените неисправный блок управления.</div>
+<dl>
+<dd class="list">
+<div class="list">―&nbsp;&nbsp;U0001 (блок PCM (автомобили с двигателем MZ-CD 1.6 (Y6)))</div>
+<div class="list">―&nbsp;&nbsp;U0073 (блок PCM (кроме автомобилей с двигателем MZ-CD 1.6 (Y6)), блок TCM, блок управления EHPAS, блок управления системой доступа в автомобиль и пуска двигателя без ключа, комбинация приборов, блок управления SAS)</div>
+<div class="list">―&nbsp;&nbsp;U0516 (Панель управления системой отопления, вентиляции и кондиционирования воздуха)</div>
+<div class="list">―&nbsp;&nbsp;U1900 (пассажирский коммутационный блок (PJB))</div>
+<div class="list">―&nbsp;&nbsp;U2012 (блок DSC HU/CM или блок ABS HU/CM)</div>
+<div class="list">―&nbsp;&nbsp;U2516 (блок управления подкачкой топливной присадки, приборная панель, информационный дисплей)</div>
+</dd>
+</dl>
+<div class="list">•&nbsp;&nbsp;Если присутствует другой диагностический код неисправности, выполните проверку, соответствующую этому коду. (См. <font class="extxref-label"><a href="htmlRU/id0902e6837000.html">ТАБЛИЦА ДИАГНОСТИЧЕСКИХ КОДОВ НЕИСПРАВНОСТЕЙ [МУЛЬТИПЛЕКСНАЯ СИСТЕМА ПЕРЕДАЧИ ДАННЫХ]</a></font>.)</div>
+</dd>
+</dl>
+<p></p>
+
+
+</body></html>

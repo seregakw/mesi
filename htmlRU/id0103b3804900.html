@@ -1,0 +1,219 @@
+<html lang="ru">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../css/mazda-css-ru.css" type="text/css">
+<title>NO.24 A/C ALWAYS ON OR A/C COMPRESSOR RUNS CONTINUOUSLY [MZ-CD 1.6 (Y6)]</title>
+</head>
+<body><a name="id0103b3804900"></a><p class="servinfo-title"><span class="servinfo-head"></span>NO.24 A/C ALWAYS ON OR A/C COMPRESSOR RUNS CONTINUOUSLY [MZ-CD 1.6 (Y6)]</p>
+<hr>
+<p class="servinfo-title-id" align="right">id0103b3804900</p>
+<p clear="all">
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead"><span>24</span></p>
+</th>
+<th id="" align="left">
+<p class="thead"><span>A/C ALWAYS ON OR A/C COMPRESSOR RUNS CONTINUOUSLY</span></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center">
+<div class="tbody"><span>DESCRIPTION</span></div>
+</td>
+<td id="" align="left">
+<div class="list">•  The A/C compressor magnetic clutch does not disengage.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody"><span>POSSIBLE CAUSE</span></div>
+</td>
+<td id="" align="left">
+<div class="list">•  A/C compressor magnetic clutch stuck engagement</div>
+<div class="list">•  A/C relay is stuck closed</div>
+<div class="list">•  Improper A/C compressor magnetic clutch clearance</div>
+<div class="list">•  Short to GND circuit between A/C switch and PCM</div>
+<div class="list">•  Short to GND circuit between A/C relay and PCM</div>
+<div class="list">•  A/C relay to magnetic clutch circuit shorts to battery power</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+<p clear="all">
+<p class="table-title">Diagnostic Procedure</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">STEP</p>
+</th>
+<th id="" align="center">
+<p class="thead">INSPECTION</p>
+</th>
+<th id="" align="center">
+<p class="thead">RESULTS</p>
+</th>
+<th id="" align="center">
+<p class="thead">ACTION</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">1</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="tbody">Perform the self-test function using the M-MDS.</div>
+<div class="tbody">Turn the engine switch to the ON position.</div>
+<div class="tbody">Retrieve any DTC.</div>
+<div class="tbody">Are DTCs displayed?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody"><span>DTC is displayed:</span></div>
+<div class="tbody">Go to the appropriate DTC test.</div>
+<div class="tbody"><span>Communication error message is displayed:</span></div>
+<div class="tbody">Inspect for the following:</div>
+<div class="list">•  Open circuit between PCM control relay and PCM terminal 236 or 231</div>
+<div class="list">•  Open circuit between PCM control relay and PCM terminal 241</div>
+<div class="list">•  PCM control relay stuck open</div>
+<div class="list">•  Open or poor ground circuit (PCM terminal 307, 308 or 332)</div>
+<div class="list">•  Poorly connected vehicle body ground</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody"><span>No DTC is displayed:</span></div>
+<div class="tbody">Go to the appropriate DTC test.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">2</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="tbody">Start the engine and run it at idle.</div>
+<div class="tbody">Turn the A/C switch on.</div>
+<div class="tbody">Remove the A/C relay.</div>
+<div class="tbody">Does the A/C magnetic clutch disengage?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Inspect for the following:</div>
+<div class="list">•  A/C relay is stuck closed</div>
+<div class="list">•  Short to ground between A/C relay and PCM terminal 112</div>
+<div class="tbody">If both items are normal, go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Inspect if circuit between A/C relay and magnetic clutch shorts to battery power circuit.</div>
+<div class="tbody">If circuit is normal, inspect magnetic clutch stuck engagement or clearance.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">3</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="tbody">Start the engine and turn the A/C switch on.</div>
+<div class="tbody">Measure the PCM terminal 303 voltage while disconnecting the refrigerant pressure switch connector.</div>
+<dl>
+<dd>
+<div class="attention3-label">Примечание</div>
+</dd>
+<dd>
+<div class="attention3">
+<div class="list">•  The PCM terminal 303 voltage should read<span> B+</span> when disconnecting the connector. If the PCM terminal 303 voltage reading remains <span>below 1.0 V</span>, short to ground circuit may be present.</div>
+</div>
+</dd>
+</dl>
+<div class="tbody">Is the voltage <span>B+</span>?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Inspect for short to ground circuit between refrigerant pressure switch and PCM terminal 303.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">4</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="tbody">Reconnect the refrigerant pressure switch connector. Measure the PCM terminal 303 voltage while turning off the A/C switch.</div>
+<dl>
+<dd>
+<div class="attention3-label">Примечание</div>
+</dd>
+<dd>
+<div class="attention3">
+<div class="list">•  The PCM terminal 303 voltage should read <span>B+</span> when turning the A/C switch off. If the PCM terminal 84 voltage reading remains <span>below 1.0 V</span>, short to ground circuit maybe present.</div>
+</div>
+</dd>
+</dl>
+<div class="tbody">Does the voltage remain <span>B+</span>?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Inspect for the following:</div>
+<div class="list">•  Short to ground between A/C switch and A/C amplifier.</div>
+<div class="list">•  Short to ground between A/C amplifier and refrigerant pressure switch.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Inspect for stuck closed A/C switch.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">5</div>
+</td>
+<td id="" align="left" colspan="3">
+<div class="tbody">Verify test results.</div>
+<div class="list">•  If normal, return to diagnostic index to service any additional symptoms. (See <font class="extxref-label"><a href="id0103b3805100.html">SYMPTOM DIAGNOSTIC INDEX [MZ-CD 1.6 (Y6)]</a></font>.)</div>
+<div class="list">•  If the malfunction remains, inspect related Service Information and perform repair or diagnosis.</div>
+<dl>
+<dd class="list">
+<div class="list">―  If the vehicle is repaired, troubleshooting is completed.</div>
+<div class="list">―  If the vehicle is not repaired or additional diagnostic information is not available, replace the PCM. (See <font class="extxref-label"><a href="id0140b2802400.html">PCM REMOVAL/INSTALLATION [MZ-CD 1.6 (Y6)]</a></font>.)</div>
+</dd>
+</dl>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</body>
+</html>

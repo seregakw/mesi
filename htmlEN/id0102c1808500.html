@@ -1,0 +1,648 @@
+<html lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../css/mazda-css-en.css" type="text/css">
+<title>DTC P0505[ZJ, ZY, Z6]</title>
+</head>
+<body><a name="id0102c1808500"></a><p class="servinfo-title"><span class="servinfo-head"></span>DTC P0505[ZJ, ZY, Z6]</p>
+<hr>
+<p class="servinfo-title-id" align="right">id0102c1808500</p><br clear="all"><a name="id0102c180850001"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Without Throttle Valve Actuator</p>
+<p clear="all">
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th align="center">
+<p class="thead">DTC P0505</p>
+</th>
+<th align="left">
+<p class="thead">IAC system problem</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">
+<div class="tbody"><span class="bold">DETECTION CONDITION</span></div>
+</td>
+<td align="left">
+<div class="list">•  The PCM cannot control idle speed toward target idle speed while KOER self test.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody"><span class="bold">POSSIBLE CAUSE</span></div>
+</td>
+<td align="left">
+<div class="list">•  IAC valve circuit malfunction</div>
+<div class="list">•  Air cleaner element clogged</div>
+<div class="list">•  Air intake passage clogged</div>
+<div class="list">•  A/C relay control circuit malfunction</div>
+<div class="list">•  Generator control circuit malfunction</div>
+<div class="list">•  Low engine compression (Over capacity of blow-by gas)</div>
+<div class="list">•  PCM malfunction</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+<p clear="all">
+<p class="table-title">Diagnostic procedure</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th align="center">
+<p class="thead">STEP</p>
+</th>
+<th align="center" colspan="2">
+<p class="thead">INSPECTION</p>
+</th>
+<th align="center">
+<p class="thead">ACTION</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">1</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">VERIFY RELATED SERVICE INFORMATION AVAILABILITY</div>
+<div class="list">•  Verify related Service Information availability.</div>
+<div class="list">•  Is any related Service Information available?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Perform repair or diagnosis according to the available Service Information.</div>
+<div class="list">•  If the vehicle is not repaired, go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">2</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">VERIFY RELATED PENDING OR STORED DTC</div>
+<div class="list">•  Turn the ignition switch off, then to the ON position. (Engine OFF)</div>
+<div class="list">•  Verify pending code or stored DTCs using the M-MDS.</div>
+<div class="list">•  Does DTC P0511,P2502, P2503 or P2504 present?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Perform the applicable DTC troubleshooting.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0102c1801500.html">DTC TABLE[ZJ, ZY, Z6]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">3</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">INSPECT IAC VALVE MALFUNCTION</div>
+<div class="list">•  Start the engine.</div>
+<div class="list">•  Disconnect IAC valve connector.</div>
+<div class="list">•  Is engine speed decreased?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Repair the IAC valve, then go to Step 9.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0113b1819900.html">IDLE AIR CONTROL (IAC) VALVE REMOVAL/INSTALLATION[ZJ, ZY, Z6]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">4</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">INSPECT A/C MAGNETIC CLUTCH OPERATION</div>
+<dl>
+<dd>
+<div class="attention3-label">Note</div>
+</dd>
+<dd>
+<div class="attention3">
+<div class="list">•  The following test should be performed for A/C. Go to the next step for vehicles without A/C.</div>
+</div>
+</dd>
+</dl>
+<div class="list">•  Turn the A/C switch off.</div>
+<div class="list">•  Is magnetic clutch still on?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to “A/C ALWAYS ON / A/C COMPRESSOR RUNS CONTINUOUSLY.” of ENGINE SYMPTOM TROUBLESHOOTING, then go to step 9.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0103b1800500.html">ENGINE SYMPTOM TROUBLESHOOTING[ZJ, ZY, Z6]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">5</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">INSPECT GENERATOR CONTROL CIRCUIT MALFUNCTION</div>
+<div class="list">•  Apply electrical load.</div>
+<div class="list">•  Is engine speed increased?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Repair short to power supply in generator control circuit, then go to Step 9.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">6</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">INSPECT AIR CLEANER ELEMENT</div>
+<div class="list">•  Remove the air cleaner element with the engine running.</div>
+<div class="list">•  Is the engine speed increased?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Clean or replace the air cleaner element, then go to Step 9.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">7</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">INSPECT THROTTLE BODY PASSAGE</div>
+<div class="list">•  Is throttle body clogged?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Clean the throttle body passage or replace the throttle body, then go to Step 9.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">8</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">INSPECT ENGINE COMPRESSION</div>
+<div class="list">•  Inspect engine compression.<div>(See <font class="extxref-label"><a href="id0110b1800300.html">COMPRESSION INSPECTION[ZJ, ZY, Z6]</a></font>.)</div>
+</div>
+<div class="list">•  Is engine compression normal?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Overhaul engine, then go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">9</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">VERIFY TROUBLESHOOTING OF DTC P0505 COMPLETED</div>
+<div class="list">•  Make sure to reconnect all disconnected connectors.</div>
+<div class="list">•  Clear the DTC using the M-MDS.</div>
+<div class="list">•  Perform KOER self‐test.</div>
+<div class="list">•  Is the same DTC present?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Replace the PCM, then go to the next step.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0140b1802400.html">PCM REMOVAL/INSTALLATION[ZJ, ZY, Z6]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">10</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">VERIFY AFTER REPAIR PROCEDURE</div>
+<div class="list">•  Perform the “AFTER REPAIR PROCEDURE”.<div>(See <font class="extxref-label"><a href="id0102c1801100.html">AFTER REPAIR PROCEDURE[ZJ, ZY, Z6]</a></font>.)</div>
+</div>
+<div class="list">•  Are any DTCs present?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the applicable DTC inspection.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0102c1801500.html">DTC TABLE[ZJ, ZY, Z6]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">DTC troubleshooting completed.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p><br clear="all"><a name="id0102c180850002"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>With Throttle Valve Actuator</p>
+<p clear="all">
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th align="center">
+<p class="thead">DTC P0505</p>
+</th>
+<th align="left">
+<p class="thead">Idle air control problem</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">
+<div class="tbody"><span class="bold">DETECTION CONDITION</span></div>
+</td>
+<td align="left">
+<div class="list">•  The PCM cannot control idle speed toward target idle speed while KOER self test.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody"><span class="bold">POSSIBLE CAUSE</span></div>
+</td>
+<td align="left">
+<div class="list">•  Improper operation of drive‐by‐wire control system</div>
+<div class="list">•  Air cleaner element clogged</div>
+<div class="list">•  Air intake passage clogged</div>
+<div class="list">•  A/C relay control circuit malfunction</div>
+<div class="list">•  Generator control circuit malfunction</div>
+<div class="list">•  Low engine compression (Over capacity of blow-by gas)</div>
+<div class="list">•  PCM malfunction</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+<p clear="all">
+<p class="table-title">Diagnostic procedure</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th align="center">
+<p class="thead">STEP</p>
+</th>
+<th align="center" colspan="2">
+<p class="thead">INSPECTION</p>
+</th>
+<th align="center">
+<p class="thead">ACTION</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">1</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">VERIFY RELATED SERVICE INFORMATION AVAILABILITY</div>
+<div class="list">•  Verify related Service Information availability.</div>
+<div class="list">•  Is any related Service Information available?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Perform repair or diagnosis according to the available Service Information.</div>
+<div class="list">•  If the vehicle is not repaired, go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">2</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">VERIFY RELATED PENDING OR STORED DTC</div>
+<div class="list">•  Turn the ignition switch off, then to the ON position. (Engine OFF)</div>
+<div class="list">•  Verify pending code or stored DTCs using the M-MDS.</div>
+<div class="list">•  Does P2502, P2503 or P2504 present?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Perform the applicable DTC troubleshooting.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0102c1801500.html">DTC TABLE[ZJ, ZY, Z6]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">3</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">VERIFY DRIVE-BY-WIRE CONTROL SYSTEM OPERATION</div>
+<div class="list">•  Perform the Drive‐by‐wire Control System Inspection.<div>(See <font class="extxref-label"><a href="id0103b1803700.html">ENGINE CONTROL SYSTEM OPERATION INSPECTION[ZJ, ZY, Z6]</a></font>.)</div>
+</div>
+<div class="list">•  Does the electronic throttle control system operate properly?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Repair or replace malfunctioning part according to inspection result, then go to Step 9.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">4</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">INSPECT A/C MAGNETIC CLUTCH OPERATION</div>
+<dl>
+<dd>
+<div class="attention3-label">Note</div>
+</dd>
+<dd>
+<div class="attention3">
+<div class="list">•  The following test should be performed for A/C. Go to the next step for vehicles without A/C.</div>
+</div>
+</dd>
+</dl>
+<div class="list">•  Turn the A/C switch off.</div>
+<div class="list">•  Is magnetic clutch still on?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to “A/C ALWAYS ON / A/C COMPRESSOR RUNS CONTINUOUSLY.” of ENGINE SYMPTOM TROUBLESHOOTING, then go to step 9.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0103b1800500.html">ENGINE SYMPTOM TROUBLESHOOTING[ZJ, ZY, Z6]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">5</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">INSPECT GENERATOR CONTROL CIRCUIT MALFUNCTION</div>
+<div class="list">•  Apply electrical load.</div>
+<div class="list">•  Is engine speed increased?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Repair short to power supply in generator control circuit, then go to Step 9.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">6</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">INSPECT AIR CLEANER ELEMENT</div>
+<div class="list">•  Remove the air cleaner element with the engine running.</div>
+<div class="list">•  Is the engine speed increased?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Clean or replace the air cleaner element, then go to Step 9.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">7</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">INSPECT THROTTLE BODY PASSAGE</div>
+<div class="list">•  Is throttle body clogged?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Clean the throttle body passage or replace the throttle body, then go to Step 9.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">8</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">INSPECT ENGINE COMPRESSION</div>
+<div class="list">•  Inspect engine compression.<div>(See <font class="extxref-label"><a href="id0110b1800300.html">COMPRESSION INSPECTION[ZJ, ZY, Z6]</a></font>.)</div>
+</div>
+<div class="list">•  Is engine compression normal?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Overhaul engine, then go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">9</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">VERIFY TROUBLESHOOTING OF DTC P0505 COMPLETED</div>
+<div class="list">•  Make sure to reconnect all disconnected connectors.</div>
+<div class="list">•  Clear the DTC using the M-MDS.</div>
+<div class="list">•  Perform KOER self-test.</div>
+<div class="list">•  Is the DTC P0505 present?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Replace the PCM, then go to the next step.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0140b1802400.html">PCM REMOVAL/INSTALLATION[ZJ, ZY, Z6]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">10</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">VERIFY AFTER REPAIR PROCEDURE</div>
+<div class="list">•  Perform the “AFTER REPAIR PROCEDURE”.<div>(See <font class="extxref-label"><a href="id0102c1801100.html">AFTER REPAIR PROCEDURE[ZJ, ZY, Z6]</a></font>.)</div>
+</div>
+<div class="list">•  Are any DTCs present?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the applicable DTC inspection.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0102c1801500.html">DTC TABLE[ZJ, ZY, Z6]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">DTC troubleshooting completed.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</body>
+</html>

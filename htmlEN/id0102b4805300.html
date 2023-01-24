@@ -1,0 +1,417 @@
+<html lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../css/mazda-css-en.css" type="text/css">
+<title>DTC P0140 [MTX, LF ATX (FS5A-EL)]</title>
+</head>
+<body><a name="id0102b4805300"></a><p class="servinfo-title"><span class="servinfo-head"></span>DTC P0140 [MTX, LF ATX (FS5A-EL)]</p>
+<hr>
+<p class="servinfo-title-id" align="right">id0102b4805300</p>
+<p clear="all">
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">DTC P0140</p>
+</th>
+<th id="" align="left">
+<p class="thead">HO2S no activity detected</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center">
+<div class="tbody"><span>DETECTION CONDITION</span></div>
+</td>
+<td id="" align="left">
+<div class="list">•  The PCM monitors the input voltage from the HO2S when the following conditions are met. if the input voltage never <span>exceed 0.55 V </span>  though the short term fuel trim is controlled up to <span>20.5 %</span> for <span>9.6 s</span>, the PCM determines that sensor circuit is not activated.</div>
+<dl>
+<div class="list-title">MONITORING CONDITIONS</div>
+<dd class="list">
+<div class="list">―  A/F sensor, HO2S, A/F sensor heater, HO2S heater and TWC repair verification drive mode</div>
+<div class="list">―  Following conditions are met for above 20.8 s</div>
+<dl>
+<dd class="list">
+<div class="list">•  Engine speed is <span>above 1,500 rpm</span>.</div>
+<div class="list">•  Engine coolant temperature is <span>above 70 °C {158 °F}</span>.</div>
+<div class="list">•  HO2S voltage is <span>above 0.1 V</span></div>
+</dd>
+</dl>
+</dd>
+</dl>
+<div class="list-title">Diagnostic support note</div>
+<div class="list">•  This is an intermittent monitor (A/F sensor, HO2S).</div>
+<div class="list">•  The MIL illuminates if the PCM detects the above malfunction condition in two consecutive drive cycles or in one drive cycle while the DTC for the same malfunction has been stored in the PCM.</div>
+<div class="list">•  PENDING CODE is available if the PCM detects the above malfunction condition during the first drive cycle.</div>
+<div class="list">•  FREEZE FRAME DATA is available.</div>
+<div class="list">•  The DTC is stored in the PCM memory.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody"><span>POSSIBLE CAUSE</span></div>
+</td>
+<td id="" align="left">
+<div class="list">•  HO2S deterioration</div>
+<div class="list">•  HO2S heater malfunction</div>
+<div class="list">•  Leakage exhaust system</div>
+<div class="list">•  Open circuit or short to ground in wiring harness between HO2S terminal A and PCM terminal 2Q</div>
+<div class="list">•  Insufficient compression</div>
+<div class="list">•  Engine malfunction</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" colspan="2"><img src="images/am3zzw00004643.png"></td>
+</tr>
+</tbody>
+</table>
+</p>
+<p clear="all">
+<p class="table-title">Diagnostic procedure</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">STEP</p>
+</th>
+<th id="" align="center" colspan="2">
+<p class="thead">INSPECTION</p>
+</th>
+<th id="" align="center">
+<p class="thead">ACTION</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">1</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">VERIFY FREEZE FRAME DATA HAVE BEEN RECORDED</div>
+<div class="list">•  Have FREEZE FRAME DATA been recorded?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Record the FREEZE FRAME DATA on the repair order, then go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">2</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">VERIFY RELATED SERVICE INFORMATION AVAILABILITY</div>
+<div class="list">•  Verify related Service Information availability.</div>
+<div class="list">•  Is any related Service Information available?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Perform repair or diagnosis according to the available Service Information.</div>
+<div class="list">•  If the vehicle is not repaired, go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">3</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">VERIFY RELATED PENDING AND STORED DTC</div>
+<dl>
+<dd>
+<div class="attention3-label">Note</div>
+</dd>
+<dd>
+<div class="attention3">
+<div class="list">•  If fuel monitor DTC, DTC P0132 is retrieved, ignore it until P0140 is fixed.</div>
+</div>
+</dd>
+</dl>
+<div class="list">•  Turn the ignition switch off, then to the ON position. (Engine off)</div>
+<div class="list">•  Verify pending and stored DTCs using M-MDS.</div>
+<div class="list">•  Is other DTC present?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the appropriate DTC troubleshooting procedures.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id0102b4801500.html">DTC TABLE [MTX, LF ATX (FS5A-EL)]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">4</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">IDENTIFY TRIGGER DTC FOR FREEZE FRAME DATA</div>
+<div class="list">•  Is DTC P0140 on FREEZE FRAME DATA?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to troubleshooting procedures for DTC on FREEZE FRAME DATA.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id0102b4801500.html">DTC TABLE [MTX, LF ATX (FS5A-EL)]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">5</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">VERIFY CURRENT INPUT SIGNAL STATUS</div>
+<div class="list">•  Warm up the engine.</div>
+<div class="list">•  Access O2S12 for P0140 PID using the M-MDS.</div>
+<div class="list">•  Verify PID while racing the engine at least <span>10 times</span> in NEUTRAL.</div>
+<div class="list">•  Is PID reading normal?</div>
+<dl>
+<dd class="list">
+<div class="list">―  <span>More than 0.55 V</span> at least once during engine racing</div>
+</dd>
+</dl>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to Step 8.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">6</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">INSPECT INSTALLATION OF HO2S</div>
+<div class="list">•  Check if HO2S is loosely installed.</div>
+<div class="list">•  Is sensor installed securely?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Install sensor securely, then go to Step 10.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">7</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">INSPECT GAS LEAKAGE FROM EXHAUST SYSTEM</div>
+<div class="list">•  Visually check if any gas leakage is found between exhaust pipe and HO2S.</div>
+<div class="list">•  Is there any gas leakage?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Repair or replace any malfunctioning exhaust part, then go to Step 10.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="list">•  Inspect the following wiring harnesses for open or short to ground circuit, repair or replace wiring harness if necessary.</div>
+<dl>
+<dd class="list">
+<div class="list">―  HO2S terminal A to PCM terminal 2Q</div>
+<dl>
+<dd class="list">
+<div class="list">•  Repair or replace wiring harness if necessary.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+<div class="list">•  If all items above are normal, replace malfunctioning sensor.</div>
+<div class="tbody">Then go to Step 10.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">8</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">INSPECT SEALING OF ENGINE COOLANT PASSAGE</div>
+<dl>
+<dd>
+<div class="attention1-label">Warning</div>
+</dd>
+<dd>
+<div class="attention1">
+<div class="list">•  Removing the radiator cap when the radiator is hot is dangerous. Scalding coolant and steam may shoot out and cause serious injury.</div>
+<div class="list">•  When removing the radiator cap, wrap a thick cloth around and turn it slowly.</div>
+</div>
+</dd>
+</dl>
+<div class="list">•  Remove radiator cap.</div>
+<div class="list">•  Perform procedure to bleed air from the engine coolant, then run the engine at idle.</div>
+<div class="list">•  Is there any small bubble, which makes the engine coolant white at filling opening?<dl>
+<dd>
+<div class="attention3-label">Note</div>
+</dd>
+<dd>
+<div class="attention3">
+<div class="list">•  Large bubbles are normal since they are remaining air coming out from the engine coolant passage.</div>
+</div>
+</dd>
+</dl>
+</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Air gets in from poor sealing on head gasket or other areas between combustion chamber and engine coolant passage.</div>
+<div class="tbody">Repair or replace the malfunctioning part, then go to Step 10.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">9</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">INSPECT ENGINE COMPRESSION</div>
+<div class="list">•  Inspect engine compression.<div> (See <font class="extxref-label"><a href="id0110a0800300.html">COMPRESSION INSPECTION [LF, L3]</a></font>.)</div>
+</div>
+<div class="list">•  Is it normal?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Perform engine overhaul for repairs, then go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">10</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">VERIFY TROUBLESHOOTING OF DTC P0140 COMPLETED</div>
+<div class="list">•  Make sure to reconnect all disconnected connectors.</div>
+<div class="list">•  Turn the ignition switch to the ON position. (Engine off)</div>
+<div class="list">•  Clear the DTC from the memory using the M-MDS.</div>
+<div class="list">•  Perform the KOER self-test or A/F sensor heater, HO2S heater, A/F sensor, HO2S and TWC Repair Verification Drive Mode.<div> (See <font class="extxref-label"><a href="id0102b4815800.html">OBD DRIVE MODE [MTX, LF ATX (FS5A-EL)]</a></font>.)</div>
+</div>
+<div class="list">•  Is the PENDING CODE for this DTC present?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Replace the PCM, then go to the next step.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id0140a9802400.html">PCM REMOVAL/INSTALLATION [LF, L3]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">11</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">VERIFY AFTER REPAIR PROCEDURE</div>
+<div class="list">•  Perform the “AFTER REPAIR PROCEDURE”.<div> (See <font class="extxref-label"><a href="id0102b4801100.html">AFTER REPAIR PROCEDURE [MTX, LF ATX (FS5A-EL)]</a></font>.)</div>
+</div>
+<div class="list">•  Are any DTCs present?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the applicable DTC troubleshooting.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id0102b4801500.html">DTC TABLE [MTX, LF ATX (FS5A-EL)]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Troubleshooting completed.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</body>
+</html>

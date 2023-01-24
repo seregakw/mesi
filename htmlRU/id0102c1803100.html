@@ -1,0 +1,313 @@
+<html lang="ru">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../css/mazda-css-ru.css" type="text/css">
+<title>DTC P0101 
+[ZJ, ZY, Z6]</title>
+</head>
+<body><a name="id0102c1803100"></a><p class="servinfo-title"><span class="servinfo-head"></span>DTC P0101 
+[ZJ, ZY, Z6]</p>
+<hr>
+<p class="servinfo-title-id" align="right">id0102c1803100</p><br clear="all"><a name="id0102c180310001"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Только для моделей без моторедуктора привода дроссельной заслонки</p>
+<p clear="all">
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="left">
+<p class="thead">DTC P0101</p>
+</th>
+<th id="" align="left">
+<p class="thead">Неисправность датчика массового расхода воздуха (MAF) (характеристика датчика/работа датчика)</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="left">
+<div class="tbody"><span>УСЛОВИЕ ОПРЕДЕЛЕНИЯ</span></div>
+</td>
+<td id="" align="left">
+<div class="list">•  Во время работы двигателя блок РСМ следит за фактической массой расходуемого воздуха.</div>
+<dl>
+<dd class="list">
+<div class="list">―  Если массовый расход воздуха превышает <span>66,38 г/с</span> на протяжении <span>5 с</span> при том, что частота вращения коленчатого вала<span> не превышает 2000 об/мин</span> при температуре <span>выше 70 °C {158 °F}</span>, то блок РСм считает, что массовый расход воздуха чрезмерно высок.</div>
+<div class="list">―  Если массовый расход воздуха <span>меньше 3,29 г/с</span> на протяжении <span>5 с</span> и частота вращения коленчатого вала <span>превышает 500 об/мин</span> при открытии дроссельной заслонки <span>более 50 %</span>, то блок РСМ решает, что массовый расход воздуха слишком низкий.</div>
+</dd>
+</dl>
+<div class="list-title">Примечание к проведению диагностирования</div>
+<div class="list">•  Это постоянно контролируемый параметр (комплексный контроль компонентов)</div>
+<div class="list">•  Сигнализатор MIL включается, если блок РСМ регистрирует описанное выше состояние в двух последовательных ездовых циклах, или в одном цикле при том условии, что данный код неисправности уже сохранён в памяти блока РСМ.</div>
+<div class="list">•  НЕПОДТВЕРЖДЁННЫЙ КОД (PENDING CODE) записывается, если блок РСМ обнаруживает описанное выше состояние неисправности во время первого ездового цикла. </div>
+<div class="list">•  Имеются данные стоп-кадра (FREEZE FRAME DATA).</div>
+<div class="list">•  Код неисправности сохраняется в памяти блока РСМ.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody"><span>ВОЗМОЖНЫЕ ПРИЧИНЫ НЕИСПРАВНОСТИ</span></div>
+</td>
+<td id="" align="left">
+<div class="list">•  Неисправность датчика массового расхода воздуха (MAF)</div>
+<div class="list">•  Электрохимическая коррозия в обратной цепи датчика (MAF RETURN) абсолютного давления во впускном коллекторе</div>
+<div class="list">•  Падение напряжения в цепи "массы"</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+<p clear="all">
+<p class="table-title">Процедура диагностики</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">ЭТАП</p>
+</th>
+<th id="" align="left" colspan="2">
+<p class="thead">ПРОВЕРКА</p>
+</th>
+<th id="" align="left">
+<p class="thead">ВЫПОЛНЯЕМЫЕ ДЕЙСТВИЯ</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">1</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ЗАПИСИ ДАННЫХ СТОП-КАДРА (FREEZE FRAME DATA)</div>
+<div class="list">•  Был ли записан стоп-кадр?</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Запишите данные стоп-кадра в заказ-наряд на выполнение ремонта и переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">2</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА НАЛИЧИЯ ДОПОЛНИТЕЛЬНОЙ СЕРВИСНОЙ ИНФОРМАЦИИ</div>
+<div class="list">•  Проверьте наличие дополнительной сервисной информации по данной проблеме.</div>
+<div class="list">•  Имеется ли в наличии дополнительная сервисная информация по данной проблеме?</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Пользуясь дополнительной сервисной информацией, выполните ремонт или диагностирование.</div>
+<div class="list">•  Если неисправность не устранена, то переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">3</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ТЕКУЩЕГО СТАТУСА ВХОДНОГО СИГНАЛА НА ПРЕДМЕТ ЕГО ПРИЧАСТНОСТИ К ЭПИЗОДИЧЕСКИМ ИЛИ ПОСТОЯННЫМ ОШИБКАМ </div>
+<div class="list">•  Подключите диагностическую систему M-MDS к диагностическому разъему DLC-2.</div>
+<div class="list">•  Запустите двигатель.</div>
+<div class="list">•  При помощи диагностической системы M-MDS выйдите на чтение параметров ECT, MAF, TP и RPM.</div>
+<div class="list">•  Прогревайте двигатель, пока параметр ECT не примет значение <span>более 70°C {158°F}</span>.</div>
+<div class="list">•  Оставьте двигатель работать в режиме холостого хода на протяжении <span>не менее 5 с</span>.<dl>
+<dd>
+<div class="attention2-label">Осторожно</div>
+</dd>
+<dd>
+<div class="attention2">
+<div class="list">•  При выполнении поездок на автомобиле будьте осторожны и соблюдайте требования закона.</div>
+</div>
+</dd>
+</dl>
+</div>
+<div class="list">•  Выполните поездку, придерживаясь двух описанных ниже режимов: </div>
+<dl>
+<div class="list-title">Условие 1</div>
+<dd class="list">
+<div class="list">―  Значение параметра RPM (частота вращения коленчатого вала): <span>Менее 2 000 об/мин</span></div>
+</dd>
+</dl>
+<dl>
+<div class="list-title">Условие 2</div>
+<dd class="list">
+<div class="list">―  Значение параметра TP (положение дроссельной заслонки): <span>более 50 %</span></div>
+</dd>
+</dl>
+<div class="list">•  Существует ли данный код неисправности в неподтверждённом состоянии (PENDING CODE)? </div>
+</td>
+<td id="" align="left">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Имеет место эпизодический фактор. Переходите к процедуре ПОИСК ЭПИЗОДИЧЕСКИХ НЕИСПРАВНОСТЕЙ</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="id0103b1800400.html">ПОИСК И УСТРАНЕНИЕ ЭПИЗОДИЧЕСКИХ НЕИСПРАВНОСТЕЙ 
+[ZJ, ZY, Z6]</a></font>)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">4</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА КОНТАКТОВ ДАТЧИКА МАССОВОГО РАСХОДА ВОЗДУХА НА НАЛИЧИЕ  ЭЛЕКТРОХИМИЧЕСКОЙ КОРРОЗИИ</div>
+<div class="list">•  Выключите зажигание.</div>
+<div class="list">•  Отсоедините разъем датчика массового расхода воздуха.</div>
+<div class="list">•  Проверьте состояние контактов (деформация, смещение, коррозия и т.п.).</div>
+<div class="list">•  Обнаружена ли коррозия, которая может представлять проблему?</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Отремонтируйте или замените вызывающий сомнения контакт датчика массового расхода воздуха и перейдите к этапу 6.</div>
+<div class="tbody">(См. <font class="extxref-label"><a href="id0140b1805500.html">СНЯТИЕ/УСТАНОВКА ДАТЧИКА МАССОВОГО РАСХОДА ВОЗДУХА (MAF) / ДАТЧИКА ТЕМПЕРАТУРЫ ВОЗДУХА НА ВПУСКЕ (IAT) [ZJ, ZY, Z6]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">5</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА КАЧЕСТВА СОЕДИНЕНИЯ В РАЗЪЁМЕ БЛОКА РСМ</div>
+<div class="list">•  Отсоедините разъем от блока РСМ.</div>
+<div class="list">•  Проверьте наличие дефектов в разъёме (повреждённые или смещённые контактные штыри, наличие коррозии). </div>
+<div class="list">•  Найдена ли какая-либо неисправность?</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Отремонтируйте контакт, затем переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">6</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ЗАВЕРШЕНИЯ ДИАГНОСТИРОВАНИЯ ПО DTC P0101</div>
+<div class="list">•  Проверьте, чтобы все ранее отсоединённые разъёмы были вновь присоединены.</div>
+<div class="list">•  Поверните выключатель зажигания в положение ON (двигатель не работает).</div>
+<div class="list">•  При помощи диагностической системы M-MDS удалите коды неисправностей из памяти блока РСМ.</div>
+<div class="list">•  Запустите двигатель.</div>
+<div class="list">•  Прогревайте двигатель, пока параметр ECT не примет значение более 70 °C {158 °F}.</div>
+<div class="list">•  Оставьте двигатель работать в режиме холостого хода на протяжении <span>не менее 5 с</span>.<dl>
+<dd>
+<div class="attention2-label">Осторожно</div>
+</dd>
+<dd>
+<div class="attention2">
+<div class="list">•  При выполнении проверочного ездового цикла соблюдайте осторожность и правила дорожного движения.</div>
+</div>
+</dd>
+</dl>
+</div>
+<div class="list">•  Выполните поездку, придерживаясь двух описанных ниже режимов: </div>
+<dl>
+<div class="list-title">Условие 1</div>
+<dd class="list">
+<div class="list">―  Значение параметра RPM (частота вращения коленчатого вала): <span>Менее 2 000 об/мин</span></div>
+</dd>
+</dl>
+<dl>
+<div class="list-title">Условие 2</div>
+<dd class="list">
+<div class="list">―  Значение параметра TP (положение дроссельной заслонки): <span>более 50 %</span></div>
+</dd>
+</dl>
+<div class="list">•  Существует ли данный код неисправности в неподтверждённом состоянии (PENDING CODE)? </div>
+</td>
+<td id="" align="left">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Замените блок РСМ и перейдите к следующему этапу.</div>
+<div class="tbody">(См. <font class="extxref-label"><a href="id0140b1802400.html">СНЯТИЕ И УСТАНОВКА БЛОКА РСМ [ZJ, ZY, Z6]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">7</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ПОСЛЕ ЗАВЕРШЕНИЯ РЕМОНТА</div>
+<div class="list">•  Выполните мероприятия в соответствии с требованиями раздела “ПОСЛЕРЕМОНТНЫЕ МЕРОПРИЯТИЯ”.<div> (См. <font class="extxref-label"><a href="id0102c1801100.html">ПОСЛЕРЕМОНТНЫЕ МЕРОПРИЯТИЯ 
+[ZJ, ZY, Z6]</a></font>.)</div>
+</div>
+<div class="list">•  Найден ли какой-либо код неисправности?</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к проверке по существующим кодам неисправностей.</div>
+<div class="tbody">(См. <font class="extxref-label"><a href="id0102c1801500.html">ТАБЛИЦА КОДОВ НЕИСПРАВНОСТЕЙ 
+[ZJ, ZY, Z6]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Процедура поиска и устранения неисправностей завершена.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</body>
+</html>

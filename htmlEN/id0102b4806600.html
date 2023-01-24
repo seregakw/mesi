@@ -1,0 +1,482 @@
+<html lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../css/mazda-css-en.css" type="text/css">
+<title>DTC P0301, P0302, P0303, P0304 [MTX, LF ATX (FS5A-EL)]</title>
+</head>
+<body><a name="id0102b4806600"></a><p class="servinfo-title"><span class="servinfo-head"></span>DTC P0301, P0302, P0303, P0304 [MTX, LF ATX (FS5A-EL)]</p>
+<hr>
+<p class="servinfo-title-id" align="right">id0102b4806600</p>
+<p clear="all">
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">DTC P0301</p>
+<p class="thead">DTC P0302</p>
+<p class="thead">DTC P0303</p>
+<p class="thead">DTC P0304</p>
+</th>
+<th id="" align="left">
+<p class="thead">Cylinder No.1 misfire detected</p>
+<p class="thead">Cylinder No.2 misfire detected</p>
+<p class="thead">Cylinder No.3 misfire detected</p>
+<p class="thead">Cylinder No.4 misfire detected</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center">
+<div class="tbody"><span>DETECTION CONDITION</span></div>
+</td>
+<td id="" align="left">
+<div class="list">•  The PCM monitors CKP sensor input signal interval time. The PCM calculates the change of interval time for each cylinder. If the change of interval time exceeds the preprogrammed criteria, the PCM detects a misfire in the corresponding cylinder. While the engine is running, the PCM counts number of misfires that occurred at <span>200 crankshaft revolutions</span> and <span>1,000 crankshaft revolutions</span> and calculates misfire ratio for each crankshaft revolution. If the ratio exceeds the preprogrammed criteria, the PCM determines that a misfire, which can damage catalytic converter or affect emission performance, has occurred.</div>
+<div class="list-title">Diagnostic support note</div>
+<div class="list">•  This is a continuous monitor (Misfire).</div>
+<div class="list">•  The MIL illuminates if the PCM detects the misfire which affects emission performance in two consecutive drive cycles or in one drive cycle while the DTC for the same malfunction has been stored in the PCM.</div>
+<div class="list">•  The MIL flashes if the PCM detects the misfire which can damage the catalytic converter during first drive cycle.</div>
+<div class="list">•  PENDING CODE is available if the PCM detects the misfire which affects emission performance during first drive cycle.</div>
+<div class="list">•  FREEZE FRAME DATA is available.</div>
+<div class="list">•  DTC is stored in the PCM memory.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody"><span>POSSIBLE CAUSE</span></div>
+</td>
+<td id="" align="left">
+<div class="list">•  Spark plug malfunction</div>
+<div class="list">•  Ignition system malfunction</div>
+<div class="list">•  Fuel injector malfunction</div>
+<div class="list">•  Air suction in intake air system (between dynamic chamber and cylinder head)</div>
+<div class="list">•  Inadequate engine compression due to engine internal malfunction</div>
+<div class="list">•  Related connector or terminal malfunction</div>
+<div class="list">•  Related wiring harness malfunction</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+<p clear="all">
+<p class="table-title">Diagnostic procedure</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">STEP</p>
+</th>
+<th id="" align="center" colspan="2">
+<p class="thead">INSPECTION</p>
+</th>
+<th id="" align="center">
+<p class="thead">ACTION</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">1</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">VERIFY FREEZE FRAME DATA HAVE BEEN RECORDED</div>
+<div class="list">•  Have FREEZE FRAME DATA been recorded?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Record the FREEZE FRAME DATA on repair order, then go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">2</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">VERIFY RELATED SERVICE INFORMATION AVAILABILITY</div>
+<div class="list">•  Verify related Service Information availability.</div>
+<div class="list">•  Is any related Service Information available?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Perform repair or diagnosis according to the available Service Information.</div>
+<div class="list">•  If the vehicle is not repaired, go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">3</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">VERIFY RELATED PENDING CODE OR STORED DTC</div>
+<div class="list">•  Turn the ignition switch off then to the ON position (Engine off).</div>
+<div class="list">•  Verify related pending code or stored DTCs.</div>
+<div class="list">•  Is other DTCs present?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the appropriate DTC troubleshooting. </div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id0102b4801500.html">DTC TABLE [MTX, LF ATX (FS5A-EL)]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">4</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">VERIFY CURRENT INPUT SIGNAL STATUS (KEY TO ON /IDLE)</div>
+<div class="list">•  Access APP1, APP2, ECT, IAT, MAF, RPM, TP and VSS PIDs using M-MDS.<div> (See <font class="extxref-label"><a href="id0140a9802500.html">PCM INSPECTION [LF, L3]</a></font>.)</div>
+</div>
+<div class="list">•  Is there any signal that is far out of specification when ignition switch is turned to the ON position and engine idles?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Inspect suspected circuit and/or part according to inspection results. Then go to Step 14.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id0140a9802500.html">PCM INSPECTION [LF, L3]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">5</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">VERIFY CURRENT INPUT SIGNAL STATUS UNDER TROUBLE CONDITION</div>
+<div class="list">•  Inspect same PIDs as in Step 4 while simulating FREEZE FRAME DATA condition.</div>
+<div class="list">•  Is there any signal which causes drastic changes?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Inspect suspected circuit and/or part according to inspection results. Then go to Step 14.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id0140a9802500.html">PCM INSPECTION [LF, L3]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">6</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">INSPECT SPARK PLUG CONDITION</div>
+<div class="list">•  Turn the ignition switch off.</div>
+<div class="list">•  Remove spark plug from suspected cylinder.</div>
+<div class="list">•  Inspect spark plug condition: </div>
+<dl>
+<dd class="list">
+<div class="list">―  Cracks</div>
+<div class="list">―  Excess wear</div>
+<div class="list">―  Gap</div>
+<div class="list">―  Wet</div>
+</dd>
+</dl>
+<div class="list">•  Is any problem found on spark plug?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="list">•  If spark plug is wet, fuel flooding is suspected. Then go to Step 14.</div>
+<div class="list">•  If spark plug has a cracks, excessive wear or improper gap, replace the malfunctioning spark plug. Then go to Step 14. </div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">7</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">INSPECT IGNITION COIL HARNESSES</div>
+<div class="list">•  Inspect the ignition coil related harness condition (intermittent open or short) for suspected cylinder.</div>
+<div class="list">•  Are harness conditions normal?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Repair suspected wiring harnesses, then go to Step 14.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">8</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">INSPECT IGNITION SYSTEM OPERATION</div>
+<div class="list">•  Carry out spark test.<div>(See <font class="extxref-label"><a href="id0103b2803700.html">ENGINE CONTROL SYSTEM OPERATION INSPECTION [LF, L3]</a></font>.)</div>
+</div>
+<div class="list">•  Is strong blue spark visible at suspected cylinder?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Repair or replace malfunctioning part according to spark test result.</div>
+<div class="tbody">Then go to Step 14.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">9</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">INSPECT FOR AIR SUCTION AT INTAKE-AIR SYSTEM</div>
+<div class="list">•  Inspect for air leakage at following: </div>
+<dl>
+<dd class="list">
+<div class="list">―  Around connection of dynamic chamber and intake manifold</div>
+<div class="list">―  Around connection of intake manifold and cylinder head</div>
+</dd>
+</dl>
+<div class="list">•  Is air leakage found?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Repair or replace suspected part, then go to Step 14.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">10</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">INSPECT FUEL INJECTOR WIRING HARNESS</div>
+<div class="list">•  Remove intake air system parts.</div>
+<div class="list">•  Disconnect the fuel injector connector on suspected cylinder.</div>
+<div class="list">•  Connect NOID LIGHT to fuel injector terminals.</div>
+<div class="list">•  Inspect dim of light during cranking.</div>
+<div class="list">•  Does noid light illuminate?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Inspect for fuel injector wiring harnesses.</div>
+<div class="tbody">Repair or replace it if necessary, then go to Step 14.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">11</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">INSPECT SEALING OF ENGINE COOLANT PASSAGE</div>
+<div class="list">•  Perform “ENGINE COOLANT LEAKAGE INSPECTION.”<div> (See <font class="extxref-label"><a href="id0112b5800500.html">ENGINE COOLANT LEAKAGE INSPECTION [LF, L3]</a></font>.)</div>
+</div>
+<div class="list">•  Is there any malfunction?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Repair or replace malfunctioning part according to inspection results.</div>
+<div class="tbody">Then go to Step 14.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">12</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">INSPECT ENGINE COMPRESSION</div>
+<div class="list">•  Inspect engine compression.<div> (See <font class="extxref-label"><a href="id0110a0800300.html">COMPRESSION INSPECTION [LF, L3]</a></font>.)</div>
+</div>
+<div class="list">•  Is engine compression normal?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Overhaul the engine, then go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">13</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">INSPECT FUEL INJECTOR OPERATION</div>
+<div class="list">•  Remove the fuel injector from suspected cylinder.</div>
+<div class="list">•  Switch the injector with the injector on other cylinder.</div>
+<div class="list">•  Start the engine and idle it.</div>
+<div class="list">•  Is misfire DTC for cylinder which has a suspected fuel injector?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Replace the injector, then go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">14</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">VERIFY TROUBLESHOOTING OF MISFIRE DTC COMPLETED</div>
+<div class="list">•  Make sure to reconnect all disconnected connectors.</div>
+<div class="list">•  Start the engine.</div>
+<div class="list">•  Clear the DTC from the PCM memory using the M-MDS.</div>
+<div class="list">•  Perform the KOER self-test or the A/F sensor heater, HO2S heater, A/F sensor, HO2S, and TWC Repair Verification Drive Mode.<div>(See <font class="extxref-label"><a href="id0102b4815800.html">OBD DRIVE MODE [MTX, LF ATX (FS5A-EL)]</a></font>.)</div>
+</div>
+<div class="list">•  Is the PENDING CODE for this DTC present?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Replace the PCM, then go to the next step.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id0140a9802400.html">PCM REMOVAL/INSTALLATION [LF, L3]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">15</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">VERIFY AFTER REPAIR PROCEDURE</div>
+<div class="list">•  Perform the “AFTER REPAIR PROCEDURE”.<div> (See <font class="extxref-label"><a href="id0102b4801100.html">AFTER REPAIR PROCEDURE [MTX, LF ATX (FS5A-EL)]</a></font>.)</div>
+</div>
+<div class="list">•  Are any DTCs present?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the applicable DTC troubleshooting.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id0102b4801500.html">DTC TABLE [MTX, LF ATX (FS5A-EL)]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Troubleshooting completed.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</body>
+</html>

@@ -1,0 +1,405 @@
+<html lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../css/mazda-css-en.css" type="text/css">
+<title>NO.9 FAST IDLE/RUNS ON [ZJ, ZY, Z6]</title>
+</head>
+<body><a name="id0103b1801500"></a><p class="servinfo-title"><span class="servinfo-head"></span>NO.9 FAST IDLE/RUNS ON [ZJ, ZY, Z6]</p>
+<hr>
+<p class="servinfo-title-id" align="right">id0103b1801500</p><br clear="all"><a name="id0103b180150001"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Without Throttle Valve Actuator</p>
+<p clear="all">
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">9</p>
+</th>
+<th id="" align="left">
+<p class="thead">FAST IDLE/RUNS ON</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center">
+<div class="tbody"><span>DESCRIPTION</span></div>
+</td>
+<td id="" align="left">
+<div class="list">•  The engine speed continues during at fast idle after warm-up.</div>
+<div class="list">•  The engine runs after the ignition switch is off.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody"><span>POSSIBLE CAUSE</span></div>
+</td>
+<td id="" align="left">
+<div class="list">•  ECT sensor malfunction</div>
+<div class="list">•  Air leakage from intake-air system</div>
+<div class="list">•  Throttle body malfunction</div>
+<div class="list">•  Accelerator cable free play misadjustment</div>
+<div class="list">•  Improper load signal input</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+<p clear="all">
+<p class="table-title">Diagnostic procedure</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">STEP</p>
+</th>
+<th id="" align="center">
+<p class="thead">INSPECTION</p>
+</th>
+<th id="" align="center">
+<p class="thead">RESULTS</p>
+</th>
+<th id="" align="center">
+<p class="thead">ACTION</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">1</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="tbody">Connect the M-MDS to the DLC-2.</div>
+<div class="tbody">Access ECT PID.</div>
+<div class="tbody">Start and warm-up the engine to normal operating temperature.</div>
+<div class="tbody">Is ECT PID between <span>82—112°C {180—234°F}</span>?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody"><span>ECT PID is more than 112°C {234°F}: </span></div>
+<div class="tbody">Go to symptom troubleshooting "No.17 Cooling system concerns - Overheating".</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0103b1802300.html">NO.17 COOLING SYSTEM CONCERNS-OVERHEATING[ZJ, ZY, Z6]</a></font>.)</div>
+<div class="tbody"><span>ECT PID is less than 82°C {180°F}: </span></div>
+<div class="tbody">Go to symptom troubleshooting "No.18 Cooling system concerns - Runs cold".</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0103b1802400.html">NO.18 COOLING SYSTEM CONCERNS-RUNS COLD[ZJ, ZY, Z6]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">2</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="tbody">Connect the M-MDS to the DLC-2.</div>
+<div class="tbody">Retrieve any continuous memory DTCs.</div>
+<div class="tbody">Are there any DTCs displayed?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody"><span>DTC is displayed: </span></div>
+<div class="tbody">Go to the appropriate DTC inspection.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0102c1801500.html">DTC TABLE[ZJ, ZY, Z6]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody"><span>No DTC is displayed: </span></div>
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">3</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="tbody">Connect the M-MDS to the DLC-2.</div>
+<div class="tbody">Access AC_REQ, CPP, CPP/PNP, TR and PSP PIDs.</div>
+<div class="tbody">Monitor each PID.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0140b1802500.html">PCM INSPECTION[ZJ, ZY, Z6]</a></font>.)</div>
+<div class="tbody">Are PIDs normal?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody"><span>AC_REQ PID</span>: </div>
+<div class="tbody">Inspect the A/C switch, refrigerant pressure switch and fan switch.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id074000802700.html">REFRIGERANT PRESSURE SWITCH INSPECTION</a></font>.)</div>
+<div class="tbody"><span>CPP PID</span>: </div>
+<div class="tbody">Inspect the clutch pedal position switch (MTX).</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0140b1803300.html">CLUTCH PEDAL POSITION (CPP) SWITCH INSPECTION (MTX)[ZJ, ZY, Z6]</a></font>.)</div>
+<div class="tbody"><span>CPP/PNP PID</span>: </div>
+<div class="tbody">Inspect the neutral switch (MTX).</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0140b1800000.html">NEUTRAL SWITCH INSPECTION (MTX)[ZJ, ZY, Z6]</a></font>.)</div>
+<div class="tbody"><span>TR PID</span>: </div>
+<div class="tbody">Inspect the TR switch (ATX).</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0517a1800900.html">TRANSAXLE RANGE (TR) SWITCH INSPECTION[FN4A-EL]</a></font>.)</div>
+<div class="tbody"><span>PSP PID</span>: </div>
+<div class="tbody">Inspect the PSP switch.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0140b1803100.html">POWER STEERING PRESSURE (PSP) SWITCH INSPECTION[ZJ, ZY, Z6]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">4</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="tbody">Is there air leakage felt or heard at the intake-air system components while racing the engine to higher speed?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Repair or replace part if necessary.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Verify accelerator cable free play.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0113b1805300.html">ACCELERATOR CABLE INSPECTION/ADJUSTMENT[ZJ, ZY, Z6]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">5</div>
+</td>
+<td id="" align="left" colspan="3">
+<div class="tbody">Verify test results.</div>
+<div class="list">•  If normal, return to diagnostic index to service any additional symptoms.<div>(See <font class="extxref-label"><a href="id0103b1800500.html">SYMPTOM DIAGNOSTIC INDEX [ZJ, ZY, Z6]</a></font>.)</div>
+</div>
+<div class="list">•  If malfunction remains, inspect related Service information perform repair or diagnosis.</div>
+<dl>
+<dd class="list">
+<div class="list">―  If vehicle repaired, troubleshooting completed.</div>
+<div class="list">―  If vehicle not repaired or additional diagnostic information not available, replace the PCM.<div>(See <font class="extxref-label"><a href="id0140b1802400.html">PCM REMOVAL/INSTALLATION [ZJ, ZY, Z6]</a></font>.)</div>
+</div>
+</dd>
+</dl>
+</td>
+</tr>
+</tbody>
+</table>
+</p><br clear="all"><a name="id0103b180150002"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>With Throttle Valve Actuator</p>
+<p clear="all">
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">9</p>
+</th>
+<th id="" align="left">
+<p class="thead">FAST IDLE/RUNS ON</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center">
+<div class="tbody"><span>DESCRIPTION</span></div>
+</td>
+<td id="" align="left">
+<div class="list">•  The engine speed continues during at fast idle after warm-up.</div>
+<div class="list">•  The engine runs after the ignition switch is off.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody"><span>POSSIBLE CAUSE</span></div>
+</td>
+<td id="" align="left">
+<div class="list">•  ECT sensor malfunction</div>
+<div class="list">•  Air leakage from intake-air system</div>
+<div class="list">•  Throttle body malfunction</div>
+<div class="list">•  Accelerator pedal position sensor misadjustment</div>
+<div class="list">•  Improper operation of electronic throttle control system</div>
+<div class="list">•  Improper load signal input</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+<p clear="all">
+<p class="table-title">Diagnostic procedure</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">STEP</p>
+</th>
+<th id="" align="center">
+<p class="thead">INSPECTION</p>
+</th>
+<th id="" align="center">
+<p class="thead">RESULTS</p>
+</th>
+<th id="" align="center">
+<p class="thead">ACTION</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">1</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="tbody">Connect the M-MDS to the DLC-2.</div>
+<div class="tbody">Access ECT PID.</div>
+<div class="tbody">Start and warm-up the engine to normal operating temperature.</div>
+<div class="tbody">Is ECT PID between <span>82—112°C {180—234°F}</span>?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody"><span>ECT PID is more than 112°C {234°F}: </span></div>
+<div class="tbody">Go to symptom troubleshooting "No.17 Cooling system concerns - Overheating".</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0103b1802300.html">NO.17 COOLING SYSTEM CONCERNS-OVERHEATING[ZJ, ZY, Z6]</a></font>.)</div>
+<div class="tbody"><span>ECT PID is less than 82°C {180°F}: </span></div>
+<div class="tbody">Go to symptom troubleshooting "No.18 Cooling system concerns - Runs cold".</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0103b1802400.html">NO.18 COOLING SYSTEM CONCERNS-RUNS COLD[ZJ, ZY, Z6]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">2</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="tbody">Connect the M-MDS to the DLC-2.</div>
+<div class="tbody">Retrieve any continuous memory DTCs.</div>
+<div class="tbody">Are there any DTCs displayed?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody"><span>DTC is displayed: </span></div>
+<div class="tbody">Go to the appropriate DTC inspection.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0102c1801500.html">DTC TABLE[ZJ, ZY, Z6]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody"><span>No DTC is displayed: </span></div>
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">3</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="tbody">Connect the M-MDS to the DLC-2.</div>
+<div class="tbody">Access AC_REQ, CPP, CPP/PNP, TR and PSP PIDs.</div>
+<div class="tbody">Monitor each PID.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0140b1802500.html">PCM INSPECTION[ZJ, ZY, Z6]</a></font>.)</div>
+<div class="tbody">Are PIDs normal?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody"><span>AC_REQ PID</span>: </div>
+<div class="tbody">Inspect the A/C switch, refrigerant pressure switch and fan switch.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id074000802700.html">REFRIGERANT PRESSURE SWITCH INSPECTION</a></font>.)</div>
+<div class="tbody"><span>CPP PID</span>: </div>
+<div class="tbody">Inspect the clutch pedal position switch (MTX).</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0140b1803300.html">CLUTCH PEDAL POSITION (CPP) SWITCH INSPECTION (MTX)[ZJ, ZY, Z6]</a></font>.)</div>
+<div class="tbody"><span>CPP/PNP PID</span>: </div>
+<div class="tbody">Inspect the neutral switch (MTX).</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0140b1800000.html">NEUTRAL SWITCH INSPECTION (MTX)[ZJ, ZY, Z6]</a></font>.)</div>
+<div class="tbody"><span>TR PID</span>: </div>
+<div class="tbody">Inspect the TR switch (ATX).</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0517a1800900.html">TRANSAXLE RANGE (TR) SWITCH INSPECTION[FN4A-EL]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">4</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="tbody">Is there air leakage felt or heard at the intake-air system components while racing the engine to higher speed?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Repair or replace part if necessary.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Verify accelerator cable free play.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0113b1805300.html">ACCELERATOR CABLE INSPECTION/ADJUSTMENT[ZJ, ZY, Z6]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">5</div>
+</td>
+<td id="" align="left" colspan="3">
+<div class="tbody">Verify test results.</div>
+<div class="list">•  If normal, return to diagnostic index to service any additional symptoms.<div>(See <font class="extxref-label"><a href="id0103b1800500.html">SYMPTOM DIAGNOSTIC INDEX [ZJ, ZY, Z6]</a></font>.)</div>
+</div>
+<div class="list">•  If malfunction remains, inspect related Service information perform repair or diagnosis.</div>
+<dl>
+<dd class="list">
+<div class="list">―  If vehicle repaired, troubleshooting completed.</div>
+<div class="list">―  If vehicle not repaired or additional diagnostic information not available, replace the PCM.<div>(See <font class="extxref-label"><a href="id0140b1802400.html">PCM REMOVAL/INSTALLATION [ZJ, ZY, Z6]</a></font>.)</div>
+</div>
+</dd>
+</dl>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</body>
+</html>

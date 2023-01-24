@@ -1,0 +1,2123 @@
+<html lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../css/mazda-css-en.css" type="text/css">
+<title>ENGINE CONTROL SYSTEM OPERATION INSPECTION[L3 Turbo]</title>
+</head>
+<body><a name="id0103b4803700"></a><p class="servinfo-title"><span class="servinfo-head"></span>ENGINE CONTROL SYSTEM OPERATION INSPECTION[L3 Turbo]</p>
+<hr>
+<p class="servinfo-title-id" align="right">id0103b4803700</p><br clear="all"><a name="id0103b480370001"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Input Signal System Investigation Procedure</p>
+<p class="list">1.  Find an unusual signal. (See <font class="intxref-label"><a href="#id0103b480370002">Finding unusual signals</a></font>.)</p>
+<p class="list">
+</p>
+<p class="list">2.  Locate the source. (See <font class="intxref-label"><a href="#id0103b480370003">Locating the source of unusual signals</a></font>.)</p>
+<p class="list">
+</p>
+<p class="list">3.  Repair or replace the defective part.</p>
+<p class="list">
+</p>
+<p class="list">4.  Confirm that the unusual signal has been erased.</p>
+<p class="list">
+</p><br clear="all"><p><a name="id0103b480370002"></a><p class="topic-title"><span class="topic-head"></span>Finding unusual signals</p>
+<div class="ptxt">While referring to <font class="extxref-label"><a href="id0102b7801000.html">ON-BOARD DIAGNOSTIC TEST[L3 Turbo]</a></font>, use the PID/DATA monitor and record function to inspect the input signal system relating to the problem.</div>
+<p class="list">1.  Start the engine and idle the vehicle. You can assume that any signals that are out of specification by a wide margin are unusual.</p>
+<p class="list">
+</p>
+<p class="list">2.  When recreating the problem, any sudden change in the monitor input signals that is not consciously created by the driver can be determined as unusual.</p>
+<p class="list">
+</p>
+</p><br clear="all"><p><a name="id0103b480370003"></a><p class="topic-title"><span class="topic-head"></span>Locating the source of unusual signals</p>
+<dl>
+<dd>
+<div class="attention2-label">Caution</div>
+</dd>
+<dd>
+<div class="attention2">
+<div class="list">•  Compare the M-MDS monitor voltage with the measurement voltage using the digital measurement system function. If you use another tester, a misreading may occur.</div>
+<div class="list">•  When measuring the voltage, attach the tester ground to the ground of the PCM that is being tested, or to the engine itself. If this is not done, the measured voltage and actual voltage may differ</div>
+<div class="list">•  After connecting the pin to a waterproof coupler, confirm continuity and measure the voltage, and inspect the waterproof connector for cracks. If there are any, use sealant to fix them. Failure to do this may result in deterioration of the wiring harness or terminal from water damage, leading to problems with the vehicle.</div>
+</div>
+</dd>
+</dl>
+</p><br clear="all"><p><a name="id0103b480370004"></a><p class="topic-title"><span class="topic-head"></span>Variable resistance type 1 (TP sensor and EGR boost sensor)</p>
+<table class="figure-flame">
+<tr>
+<td width="10mm"></td>
+<td>
+<table class="figure-float" cellspacing="0" bordercolor="black">
+<tr>
+<td align="center"><img src="images/am3zzw00003076.png"></td>
+</tr>
+</table>
+<div class="figure-caption">am3zzw00003076</div>
+</td>
+</tr>
+</table>
+</p><br clear="all"><p><a name="id0103b480370005"></a><p class="topic-title"><span class="topic-head"></span>Investigate the input signal system for variable resistance type 1</p>
+<p class="list">1.  When an unusual signal is received, measure the #1 PCM terminal voltage.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the #1 terminal voltage and the M-MDS monitor voltage are the same, proceed to the next step.</div>
+<div class="list">•  If there is a difference of <span class="bold">0.5 V or more</span>, inspect for the following points concerning the PCM connector: </div>
+<dl>
+<dd class="list">
+<div class="list">―  Female terminal opening is loose.</div>
+<div class="list">―  Coupler (pin holder) damage</div>
+<div class="list">―  Pin discoloration (blackness)</div>
+<div class="list">―  Wiring harness/pin crimp is loose or disconnected.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+<p class="list">2.  Measure the #2 sensor terminal voltage.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If there is a <span class="bold">0.5 V or more</span> difference between the sensor and M-MDS voltages, inspect the wiring harness for open or short circuits.</div>
+<div class="list">•  If the sensor and M-MDS voltages are the same, inspect for the following points concerning the sensor connector: </div>
+<dl>
+<dd class="list">
+<div class="list">―  Female terminal opening is loose.</div>
+<div class="list">―  Coupler (pin holder) damage</div>
+<div class="list">―  Pin discoloration (blackness)</div>
+</dd>
+</dl>
+<div class="list">•  If there are no problems, proceed to next investigation below.</div>
+</dd>
+</dl>
+</p>
+</p><br clear="all"><p><a name="id0103b480370006"></a><p class="topic-title"><span class="topic-head"></span>Investigate the standard power supply system for variable resistance type 1</p>
+<dl>
+<dd>
+<div class="list">•   Confirm that the #3 terminal is at <span class="bold">5 V</span>.</div>
+<dl>
+<dd class="list">
+<div class="list">―  If the measured voltage on the #3 terminal is <span class="bold">5 V</span>, inspect the following points on the sensor connector.</div>
+<div class="list">―  If there is no problem, inspect for the following: </div>
+<dl>
+<dd class="list">
+<div class="list">•  Female terminal opening loose</div>
+<div class="list">•  Coupler (pin holder) damage</div>
+<div class="list">•  Pin discoloration (blackness)</div>
+</dd>
+</dl>
+<div class="list">―  If the #3 terminal measures other than <span class="bold">5 V</span>, inspect for the following: </div>
+<dl>
+<dd class="list">
+<div class="list">•  Open or short circuit in wiring harness</div>
+<div class="list">•  Wiring harness/pin crimp is loose or disconnected.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+</p><br clear="all"><p><a name="id0103b480370007"></a><p class="topic-title"><span class="topic-head"></span>Investigate the ground system for variable resistance type 1</p>
+<dl>
+<dd>
+<div class="list">•  Confirm that terminal sensor #5 is at <span class="bold">0 V</span>.</div>
+<dl>
+<dd class="list">
+<div class="list">―  If it is at <span class="bold">0 V</span>, inspect the sensor. </div>
+<dl>
+<dd class="list">
+<div class="list">•  If necessary, replace the sensor.</div>
+</dd>
+</dl>
+<div class="list">―  If not, inspect for the following: </div>
+<dl>
+<dd class="list">
+<div class="list">•  Open or short circuit in wiring harness</div>
+<div class="list">•  Female terminal opening is loose causing an open or short circuit in wiring harness</div>
+<div class="list">•  Coupler (pin holder) damage</div>
+<div class="list">•  Pin discoloration (blackness)</div>
+<div class="list">•  Wiring harness/pin crimp is loose or disconnected.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+</p><br clear="all"><p><a name="id0103b480370008"></a><p class="topic-title"><span class="topic-head"></span>Variable resistance type 2 (fuel tank level sensor and mass air flow (MAF) sensor)</p>
+<table class="figure-flame">
+<tr>
+<td width="10mm"></td>
+<td>
+<table class="figure-float" cellspacing="0" bordercolor="black">
+<tr>
+<td align="center"><img src="images/am3zzw00003077.png"></td>
+</tr>
+</table>
+<div class="figure-caption">am3zzw00003077</div>
+</td>
+</tr>
+</table>
+</p><br clear="all"><p><a name="id0103b480370009"></a><p class="topic-title"><span class="topic-head"></span>Investigate the ground system for variable resistance type 2</p>
+<dl>
+<dd>
+<div class="list">•  Confirm that terminal sensor #4 is at <span class="bold">0 V</span>.</div>
+<dl>
+<dd class="list">
+<div class="list">―  If it is at <span class="bold">0 V</span>, inspect the sensor.</div>
+<dl>
+<dd class="list">
+<div class="list">•  If necessary, replace the sensor.</div>
+</dd>
+</dl>
+<div class="list">―  If not at <span class="bold">0 V</span>, inspect for the following: </div>
+<dl>
+<dd class="list">
+<div class="list">•  Open circuit in wiring harness</div>
+<div class="list">•  Female terminal opening is loose.</div>
+<div class="list">•  Coupler (pin holder) damage</div>
+<div class="list">•  Pin discoloration (blackness)</div>
+<div class="list">•  Wiring harness/pin crimp is loose or disconnected. </div>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+</p><br clear="all"><p><a name="id0103b480370010"></a><p class="topic-title"><span class="topic-head"></span>Investigate the input signal system for variable resistance type 2</p>
+<p class="list">1.  When an unusual signal is received, measure the #1 PCM terminal voltage.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the #1 terminal voltage and the M-MDS monitor voltage are the same, proceed to the next step.</div>
+<div class="list">•  If there is a difference of <span class="bold">0.5 V or more</span>, inspect for the following points concerning the PCM connector: </div>
+<dl>
+<dd class="list">
+<div class="list">―  Female terminal opening is loose.</div>
+<div class="list">―  Coupler (pin holder) damage</div>
+<div class="list">―  Pin discoloration (blackness)</div>
+<div class="list">―  Wiring harness/pin crimp is loose or disconnected.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+<p class="list">2.  Measure the #2 sensor terminal voltage.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If there is a <span class="bold">0.5 V or more</span> difference between the sensor and M-MDS voltages, inspect the wiring harness for open or short circuits.</div>
+<div class="list">•  If the sensor and M-MDS voltages are the same, inspect the following points concerning the sensor connector: </div>
+<dl>
+<dd class="list">
+<div class="list">―  Female terminal opening is loose.</div>
+<div class="list">―  Coupler (pin holder) damage</div>
+<div class="list">―  Pin discoloration (blackness)</div>
+<div class="list">―  Wiring harness/pin crimp is loose or disconnected.</div>
+</dd>
+</dl>
+<div class="list">•  If there are no problems, proceed to next investigation below.</div>
+</dd>
+</dl>
+</p>
+</p><br clear="all"><p><a name="id0103b480370011"></a><p class="topic-title"><span class="topic-head"></span>Investigate the electrical supply system for variable resistance type 2</p>
+<dl>
+<dd>
+<div class="list">•  Confirm that the sensor #3 terminal is <span class="bold">B+</span>.</div>
+<dl>
+<dd class="list">
+<div class="list">―  If the measured voltage on the #3 terminal is <span class="bold">B+</span>, inspect the following points on the sensor connector.</div>
+<div class="list">―  If there is no problem, inspect for the following: </div>
+<dl>
+<dd class="list">
+<div class="list">•  Female terminal opening is loose.</div>
+<div class="list">•  Coupler (pin holder) damage</div>
+<div class="list">•  Pin discoloration (blackness)</div>
+</dd>
+</dl>
+<div class="list">―  If the #3 terminal measures other than <span class="bold">B+</span>, inspect the following: </div>
+<dl>
+<dd class="list">
+<div class="list">•  Open or short circuit in wiring harness</div>
+<div class="list">•  Wiring harness/pin crimp is loose or disconnected.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+</p><br clear="all"><p><a name="id0103b480370012"></a><p class="topic-title"><span class="topic-head"></span>Thermistor type (IAT sensor and ECT sensor)</p>
+<table class="figure-flame">
+<tr>
+<td width="10mm"></td>
+<td>
+<table class="figure-float" cellspacing="0" bordercolor="black">
+<tr>
+<td align="center"><img src="images/am3zzw00003078.png"></td>
+</tr>
+</table>
+<div class="figure-caption">am3zzw00003078</div>
+</td>
+</tr>
+</table>
+</p><br clear="all"><p><a name="id0103b480370013"></a><p class="topic-title"><span class="topic-head"></span>Investigate the input signal system for thermistor type</p>
+<p class="list">1.  When an unusual signal is received, measure the #1 PCM terminal voltage.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the #1 terminal voltage and the M-MDS monitor voltage are the same, proceed to the next step.</div>
+<div class="list">•  If there is a difference of <span class="bold">0.5 V or more</span>, inspect the following points concerning the PCM connector: </div>
+<dl>
+<dd class="list">
+<div class="list">―  Female terminal opening loose</div>
+<div class="list">―  Coupler (pin holder) damage</div>
+<div class="list">―  Pin discoloration (blackness)</div>
+<div class="list">―  Wiring harness/pin crimp is loose or disconnected.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+<p class="list">2.  Measure the #2 sensor terminal voltage.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If there is a <span class="bold">0.5 V or more</span> difference between the sensor and M-MDS voltages, inspect the wiring harness for open or short circuits.</div>
+<div class="list">•  If the sensor and M-MDS voltages are the same, inspect the following points concerning the sensor connector: </div>
+<dl>
+<dd class="list">
+<div class="list">―  Female terminal opening is loose.</div>
+<div class="list">―  Coupler (pin holder) damage</div>
+<div class="list">―  Pin discoloration (blackness)</div>
+<div class="list">―  Wiring harness/pin crimp is loose or disconnected.</div>
+</dd>
+</dl>
+<div class="list">•  If there are no problems, proceed to next investigation below.</div>
+</dd>
+</dl>
+</p>
+</p><br clear="all"><p><a name="id0103b480370014"></a><p class="topic-title"><span class="topic-head"></span>Investigate the ground system for thermistor type</p>
+<dl>
+<dd>
+<div class="list">•  Confirm that terminal sensor #3 is at <span class="bold">0 V</span>.</div>
+<dl>
+<dd class="list">
+<div class="list">―  If it is at <span class="bold">0 V</span>, inspect the sensor. If necessary, replace the sensor.</div>
+<div class="list">―  If not, inspect for the following: </div>
+<dl>
+<dd class="list">
+<div class="list">•  Open circuit in wiring harness</div>
+<div class="list">•  Female terminal opening is loose.</div>
+<div class="list">•  Coupler (pin holder) damage</div>
+<div class="list">•  Pin discoloration (blackness)</div>
+<div class="list">•  Wiring harness/pin crimp is loose or disconnected.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+</p><br clear="all"><p><a name="id0103b480370015"></a><p class="topic-title"><span class="topic-head"></span>VSS</p>
+<table class="figure-flame">
+<tr>
+<td width="10mm"></td>
+<td>
+<table class="figure-float" cellspacing="0" bordercolor="black">
+<tr>
+<td align="center"><img src="images/am3zzw00003081.png"></td>
+</tr>
+</table>
+<div class="figure-caption">am3zzw00003081</div>
+</td>
+</tr>
+</table>
+<p class="list">1.  Measure the #1 PCM terminal voltage and confirm that it is at <span class="bold">0 V</span> or <span class="bold">5 V</span> when the ignition switch to the ON position and the engine is idling.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If it is at <span class="bold">0 V</span> or <span class="bold">5 V</span>, intermittent concern exists. (See <font class="extxref-label"><a href="id0103b4800400.html">INTERMITTENT CONCERN TROUBLESHOOTING[L3 Turbo]</a></font>.)</div>
+<div class="list">•  If not, inspect the following points concerning the PCM connector.</div>
+<div class="list">•  If there is no problem, inspect for the following: </div>
+<dl>
+<dd class="list">
+<div class="list">―  Female terminal opening is loose.</div>
+<div class="list">―  Coupler (pin holder) damage</div>
+<div class="list">―  Pin discoloration (blackness)</div>
+<div class="list">―  Wiring harness/pin crimp is loose or disconnected.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+<p class="list">2.  Measure the #2 sensor terminal voltage and confirm that it is at <span class="bold">0 V</span> or <span class="bold">5 V</span> when the ignition switch to the ON position and the engine is idling.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If it is at <span class="bold">0 V</span> or <span class="bold">5 V</span>, intermittent concern exists. (See <font class="extxref-label"><a href="id0103b4800400.html">INTERMITTENT CONCERN TROUBLESHOOTING[L3 Turbo]</a></font>.) </div>
+<div class="list">•  If not, inspect the following points concerning the sensor connector: </div>
+<div class="list">•  If there is no problem, inspect for the following.</div>
+<dl>
+<dd class="list">
+<div class="list">―  Female terminal opening is loose.</div>
+<div class="list">―  Coupler (pin holder) damage</div>
+<div class="list">―  Pin discoloration (blackness)</div>
+<div class="list">―  Wiring harness/pin crimp is loose or disconnected.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+<p class="list">3.  Confirm that the #3 terminal switch voltage is at <span class="bold">0 V</span>.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If it is at <span class="bold">0 V</span>, inspect the sensor. If necessary, replace the sensor.</div>
+<dl>
+<dd class="list">
+<div class="list">―  If necessary, replace the sensor.</div>
+</dd>
+</dl>
+<div class="list">•  If not, inspect for the following: </div>
+<dl>
+<dd class="list">
+<div class="list">―  Open circuit in wiring harness</div>
+<div class="list">―  Female terminal opening is loose.</div>
+<div class="list">―  Coupler (pin holder) damage</div>
+<div class="list">―  Pin discoloration (blackness)</div>
+<div class="list">―  Wiring harness/pin crimp is loose or disconnected.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+</p><br clear="all"><a name="id0103b480370016"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Main Relay Operation Inspection</p>
+<p class="list">1.  Verify that the main relay clicks when the ignition switch is turned to ON position and then off.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If there is no operation sound, inspect the following: </div>
+<dl>
+<dd class="list">
+<div class="list">―  Main relay (See <font class="extxref-label"><a href="id092100800300.html">RELAY INSPECTION</a></font>.)</div>
+<div class="list">―  Wiring harness and connector between ignition switch and main relay terminal A.</div>
+<div class="list">―  Wiring harness and connector between PCM terminal 1AT and main relay terminal B.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p><br clear="all"><a name="id0103b480370017"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Intake Manifold Vacuum Inspection</p>
+<p class="list">1.  Verify air intake hoses are installed properly.</p>
+<p class="list">
+</p>
+<p class="list">2.  Start the engine and run it is idling.</p>
+<p class="list">
+</p>
+<p class="list">3.  Disconnect the vacuum hose between the intake manifold and purge solenoid valve from the intake manifold side.</p>
+<p class="list">
+</p>
+<p class="list">4.  Connect a vacuum gauge to the intake manifold and measure the intake manifold vacuum.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If not as specified, inspect the following: </div>
+</dd>
+</dl>
+<div class="spec">
+<dl>
+<dd>
+<div class="list-title">Specification</div>
+</dd>
+</dl>
+<dl>
+<dd>
+<div class="list">More than 60 kPa {450 mmHg, 18 inHg}</div>
+</dd>
+</dl>
+</div>
+<dl>
+<dd>
+<div class="attention3-label">Note</div>
+</dd>
+<dd>
+<div class="attention3">
+<div class="list">•  Air suction can be located by the engine speed change when lubricant is sprayed on the area where suction is occurring.</div>
+<dl>
+<dd class="list">
+<div class="list">―  Air suction at throttle body, charge air cooler, intake manifold and PCV valve installation points</div>
+<div class="list">―  EGR valve (stuck open)</div>
+<div class="list">―  Engine compression<div> (See <font class="extxref-label"><a href="id0110b3800300.html">COMPRESSION INSPECTION[L3 Turbo]</a></font>.)</div>
+</div>
+</dd>
+</dl>
+</div>
+</dd>
+</dl>
+</p><br clear="all"><a name="id0103b480370018"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Electronic Throttle Control System Inspection</p><br clear="all"><p><a name="id0103b480370019"></a><p class="topic-title"><span class="topic-head"></span>Engine coolant temperature compensation inspection</p>
+<p class="list">1.  Connect the M-MDS to the DLC-2.</p>
+<p class="list">
+</p>
+<p class="list">2.  Select the following PIDs: </p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  ECT</div>
+<div class="list">•  IAT</div>
+<div class="list">•  RPM</div>
+</dd>
+</dl>
+</p>
+<p class="list">3.  Verify that the engine is cold, then start the engine.</p>
+<p class="list">
+</p>
+<p class="list">4.  Verify that the engine speed decreases as the engine warms up.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the engine speed does not decrease or decreases slowly, inspect the following: </div>
+<dl>
+<dd class="list">
+<div class="list">―  ECT sensor and related wiring harness<div> (See <font class="extxref-label"><a href="id0140b6802000.html">ENGINE COOLANT TEMPERATURE (ECT) SENSOR INSPECTION[L3 Turbo]</a></font>.)</div>
+</div>
+<div class="list">―  Electronic throttle body and related wiring harness<div> (See <font class="extxref-label"><a href="id0113b5801300.html">THROTTLE ACTUATOR INSPECTION[L3 Turbo]</a></font>.)</div>
+</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+</p><br clear="all"><p><a name="id0103b480370020"></a><p class="topic-title"><span class="topic-head"></span>Load compensation inspection</p>
+<p class="list">1.  Start the engine and run it is idling.</p>
+<p class="list">
+</p>
+<p class="list">2.  Connect the M-MDS to the DLC-2.</p>
+<p class="list">
+</p>
+<p class="list">3.  Verify that DTC P0506 or P0507 is not displayed.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If DTC P0506, or P0507 is displayed, perform the DTC inspection.<div> (See <font class="extxref-label"><a href="id0102b7801500.html">DTC TABLE[L3 Turbo]</a></font>.)</div>
+</div>
+</dd>
+</dl>
+</p>
+<p class="list">4.  Select the RPM PID.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="attention3-label">Note</div>
+</dd>
+<dd>
+<div class="attention3">
+<div class="list">•  Excludes temporary idle speed drop just after the loads are turned on.</div>
+</div>
+</dd>
+</dl>
+</p>
+<p class="list">5.  Verify that the engine speed is within the specification under each load condition.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the load condition is not as specified, inspect the following: </div>
+<dl>
+<dd class="list">
+<div class="list">―  A/C switch and related wiring harness</div>
+<div class="list">―  Fan switch and related wiring harness</div>
+<div class="list">―  PSP switch and related wiring harness<div> (See <font class="extxref-label"><a href="id0140b6803100.html">POWER STEERING PRESSURE (PSP) SWITCH INSPECTION[L3 Turbo]</a></font>.)</div>
+</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+<p clear="all">
+<p class="table-title">Engine speed</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th align="center" colspan="2">
+<p class="thead">Load condition</p>
+</th>
+<th align="center">
+<p class="thead">Engine speed (rpm)<sup>*1</sup></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" colspan="2">
+<div class="tbody">No load</div>
+</td>
+<td align="center">
+<div class="tbody">650―750</div>
+</td>
+</tr>
+<tr>
+<td align="left" colspan="2">
+<div class="tbody">E/L operating</div>
+</td>
+<td align="center">
+<div class="tbody">650―750</div>
+</td>
+</tr>
+<tr>
+<td align="left" colspan="2">
+<div class="tbody">P/S operating</div>
+</td>
+<td align="center">
+<div class="tbody">650―750</div>
+</td>
+</tr>
+<tr>
+<td align="left" rowspan="2">
+<div class="tbody">A/C operating<sup>*2</sup></div>
+</td>
+<td align="left">
+<div class="tbody">Refrigerant pressure low<sup>*3</sup></div>
+</td>
+<td align="center">
+<div class="tbody">700―800</div>
+</td>
+</tr>
+<tr>
+<td align="left">
+<div class="tbody">Refrigerant pressure high<sup>*4</sup></div>
+</td>
+<td align="center">
+<div class="tbody">700―800</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+<div class="deflist">*1  :Neutral</div>
+<div class="deflist">*2  :A/C switch and fan switch are on.</div>
+<div class="deflist">*3  :Refrigerant pressure switch (middle pressure) is off.</div>
+<div class="deflist">*4  :Refrigerant pressure switch (middle pressure) is on.</div>
+</p><br clear="all"><p><a name="id0103b480370021"></a><p class="topic-title"><span class="topic-head"></span>Throttle position (TP) sweep inspection</p>
+<p class="list">1.  Connect the M-MDS to the DLC-2.</p>
+<p class="list">
+</p>
+<p class="list">2.  Reform the KOER self-test function.</p>
+<p class="list">(See <font class="extxref-label"><a href="id0102b7801200.html">KOEO/KOER SELF TEST[L3 Turbo]</a></font>.)</p>
+<p class="list">3.  Verify that none of the following DTCs are displayed: </p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  P0122, P0123, P0222, P0223, P2100, P2101, P2102, P2103, P2107, P2108, P2119, P2122, P2123, P2127, P2128, P2135, P2138</div>
+<dl>
+<dd class="list">
+<div class="list">―  If any one DTC is displayed, perform the DTC inspection.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+<p class="list">4.  Access the TP_REL PID.</p>
+<p class="list">
+</p>
+<p class="list">5.  Verify that the PID reading is within the CTP value. (See <font class="extxref-label"><a href="id0140b6802500.html">PCM INSPECTION[L3 Turbo]</a></font>.)</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the PID reading is out of range, perform the following: </div>
+<dl>
+<dd class="list">
+<div class="list">―  Remove the air duct from the throttle valve body.</div>
+<div class="list">―  Verify that the throttle valve opens when the accelerator pedal is depressed.</div>
+<dl>
+<dd class="list">
+<div class="list">•  If the throttle valve opens, inspect the throttle position sensor and the related wiring harness.</div>
+<div class="list">•  If the throttle valve does not open, inspect the throttle actuator control motor and the related wiring harness.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+<p class="list">6.  Gradually depress the throttle pedal and verify that the PID reading increases lineally.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the PID reading drops momentarily, inspect the following: </div>
+<dl>
+<dd class="list">
+<div class="list">―  Throttle position sensor</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+<p class="list">7.  Fully depress the throttle pedal and verify that the PID reading is within the WOT value. (See <font class="extxref-label"><a href="id0140b6802500.html">PCM INSPECTION[L3 Turbo]</a></font>.)</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the PID reading is out of range, perform the following: </div>
+<dl>
+<dd class="list">
+<div class="list">―  Remove the air duct from throttle valve body with connector connected.</div>
+<div class="list">―  Verify that the throttle valve opens when throttle pedal is depressed.</div>
+<dl>
+<dd class="list">
+<div class="list">•  If the throttle valve opens, inspect the throttle position sensor and the related wiring harness.</div>
+<div class="list">•  If the throttle valve does not open, inspect the throttle actuator control motor and the related wiring harness.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+</p><br clear="all"><a name="id0103b480370022"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Variable Swirl System Operation Inspection</p>
+<p class="list">1.  Connect the M-MDS to the DLC-2.</p>
+<p class="list">
+</p>
+<p class="list">2.  Access the ECT PID.</p>
+<p class="list">
+</p>
+<p class="list">3.  Verify that the ECT PID is <span class="bold">below 60°C {140°F}</span>.</p>
+<p class="list">
+</p>
+<p class="list">4.  Start the engine.</p>
+<p class="list">
+</p>
+<p class="list">5.  Inspect the rod operation under the following conditions: </p>
+<p class="list">
+<p>
+<p class="table-title">Rod operation</p>
+<table class="table-flame" border="1">
+<tbody>
+<tr>
+<td align="left" rowspan="2">
+<div class="tbody"><span class="bold">Engine speed</span></div>
+</td>
+<td align="center" colspan="2">
+<div class="tbody">3,750 rpm</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">Below</div>
+</td>
+<td align="center">
+<div class="tbody">Above</div>
+</td>
+</tr>
+<tr>
+<td align="left">
+<div class="tbody"><span class="bold">Shutter valve actuator</span></div>
+</td>
+<td align="center">
+<div class="tbody">Operate</div>
+</td>
+<td align="center">
+<div class="tbody">Not operate</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+<dl>
+<dd>
+<div class="list-title">If the rod operation is not specified, inspect as follows: </div>
+</dd>
+</dl>
+<dl>
+<dd>
+<div class="list">1.  Perform the KOER self-test using the M-MDS and verify that DTCs No. P2004, P2006, P2009 or P2010 are not displayed.</div>
+<dl>
+<dd class="list">
+<div class="list">•  If DTC No. P2004, P2006, P2009 or P2010 are displayed, perform DTC inspection.<div> (See <font class="extxref-label"><a href="id0102b7801500.html">DTC TABLE[L3 Turbo]</a></font>.)</div>
+</div>
+</dd>
+</dl>
+</dd>
+</dl>
+<dl>
+<dd>
+<div class="list-title">If simulation function of M-MDS is used:</div>
+</dd>
+</dl>
+<dl>
+<dd>
+<div class="list">1.  Turn the ignition switch to the ON position. (Engine off)</div>
+<div class="list">2.  Turn the variable swirl solenoid valve from off to on using the IMRC PID and verify that the operation sound of the solenoid valve is heard.</div>
+<dl>
+<dd class="list">
+<div class="list">•  If the operation sound is not heard, replace the variable swirl solenoid valve.<div>(See <font class="extxref-label"><a href="id0113b5800400.html">INTAKE AIR SYSTEM REMOVAL/INSTALLATION[L3 Turbo]</a></font>.)</div>
+</div>
+<div class="list">•  If the operation sound is not heard, inspect the following:</div>
+<dl>
+<dd class="list">
+<div class="list">―  Vacuum hose and vacuum chamber for looseness or damage</div>
+<div class="list">―  Shutter valve actuator<div>(See <font class="extxref-label"><a href="id0113b5800400.html">INTAKE AIR SYSTEM REMOVAL/INSTALLATION[L3 Turbo]</a></font>.)</div>
+</div>
+<div class="list">―  Check valve is stuck open or closed</div>
+<div class="list">―  Shutter valve cannot move smoothly</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+<dl>
+<dd>
+<div class="list-title">If simulation function of M-MDS is not used:</div>
+</dd>
+</dl>
+<dl>
+<dd>
+<div class="list">1.  Inspect variable swirl solenoid valve.<div> (See <font class="extxref-label"><a href="id0113b5801100.html">VARIABLE SWIRL SOLENOID VALVE INSPECTION[L3 Turbo]</a></font>.)</div>
+</div>
+<dl>
+<dd class="list">
+<div class="list">•  If the variable swirl solenoid valve is not normal, replace the variable swirl solenoid valve.</div>
+<div class="list">•  If the variable swirl solenoid valve is normal, inspect the following: </div>
+<dl>
+<dd class="list">
+<div class="list">―  Vacuum hose and vacuum chamber for looseness or damage</div>
+<div class="list">―  Shutter valve actuator<div> (See <font class="extxref-label"><a href="id0113b5801200.html">VARIABLE SWIRL SHUTTER VALVE ACTUATOR INSPECTION[L3 Turbo]</a></font>.)</div>
+</div>
+<div class="list">―  Check valve is stuck open or closed</div>
+<div class="list">―  Shutter valve cannot move smoothly</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+</p><br clear="all"><a name="id0103b480370023"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Fuel Injector Operation Inspection</p>
+<p clear="all">
+<p class="table-title">If simulation function of M-MDS is used:</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th align="center">
+<p class="thead">STEP</p>
+</th>
+<th align="center" colspan="2">
+<p class="thead">INSPECTION</p>
+</th>
+<th align="center">
+<p class="thead">ACTION</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">1</div>
+</td>
+<td align="left" rowspan="2">
+<div class="tbody">Start the engine and warm it up until normal operating temperature.</div>
+<div class="tbody">Connect the M-MDS to DLC-2.</div>
+<div class="tbody">Select the INJ#1, INJ#2, INJ#3, and INJ#4 PIDs.</div>
+<div class="tbody">Turn the fuel injector from on to off using the PIDs for each cylinder.</div>
+<div class="tbody">Does the engine speed drop?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Fuel injector work properly</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody"><span class="bold">Engine speed does not drop an any cylinder:</span></div>
+<div class="tbody">Go to the next steps.</div>
+<div class="tbody"><span class="bold">Engine speed drops on some cylinders:</span></div>
+<div class="tbody">Go to step 3.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">2</div>
+</td>
+<td align="left" rowspan="2">
+<div class="tbody">Perform the Main Relay Operation Inspection.</div>
+<div class="tbody">(See <font class="intxref-label"><a href="#id0103b480370016">Main Relay Operation Inspection</a></font>.)</div>
+<div class="tbody">Does the main relay work properly?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Repair or replace the malfunctioning parts.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">3</div>
+</td>
+<td align="left" rowspan="2">
+<div class="tbody">Inspect the fuel injector of the suspected cylinder.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0114b4800700.html">FUEL INJECTOR INSPECTION[L3 Turbo]</a></font>.)</div>
+<div class="tbody">Is the fuel injector normal?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Inspect the following for the suspected cylinder.</div>
+<div class="list">•  Fuel injector power and/or ground systems related wiring harness and connectors.</div>
+<div class="tbody">If all items normal replace the PCM.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0140b6802400.html">PCM REMOVAL/INSTALLATION[L3 Turbo]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Replace the fuel injector.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0114b4800600.html">FUEL INJECTOR REMOVAL/INSTALLATION[L3 Turbo]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">4</div>
+</td>
+<td align="left" rowspan="2">
+<div class="tbody">Perform KOER self-test function using the M-MDS.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0102b7801200.html">KOEO/KOER SELF TEST[L3 Turbo]</a></font>.)</div>
+<div class="tbody">Are DTCs P0201, P0202, P0203 and/or P0204 present?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the appropriate DTC test.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0102b7801500.html">DTC TABLE[L3 Turbo]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">5</div>
+</td>
+<td align="left" rowspan="2">
+<div class="tbody">Inspect the fuel injector of the suspected cylinder.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0114b4800700.html">FUEL INJECTOR INSPECTION[L3 Turbo]</a></font>.)</div>
+<div class="tbody">Is the fuel injector normal?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Inspect the following for the suspected cylinder:</div>
+<div class="list">•  PCM terminals (pulled-out pins, corrosion)</div>
+<div class="list">•  PCM terminals (pulled-out pins, corrosion)</div>
+<div class="list">•  Fuel injector terminals (pulled-out pins, corrosion)</div>
+<div class="tbody">If all items are normal replace the PCM.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0140b6802400.html">PCM REMOVAL/INSTALLATION[L3 Turbo]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Replace the fuel injector.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0114b4800600.html">FUEL INJECTOR REMOVAL/INSTALLATION[L3 Turbo]</a></font>.)</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+<p clear="all">
+<p class="table-title">If simulation function of M-MDS is not used:</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th align="center">
+<p class="thead">STEP</p>
+</th>
+<th align="center" colspan="2">
+<p class="thead">INSPECTION</p>
+</th>
+<th align="center">
+<p class="thead">ACTION</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">1</div>
+</td>
+<td align="left" rowspan="2">
+<div class="tbody">Perform the KOER self-test function using the M-MDS.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0102b7801200.html">KOEO/KOER SELF TEST[L3 Turbo]</a></font>.)</div>
+<div class="tbody">Are DTCs P0201, P0202, P0203 and/or P0204 present?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to appropriate DTC test.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0102b7801500.html">DTC TABLE[L3 Turbo]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">2</div>
+</td>
+<td align="left" rowspan="2">
+<div class="tbody">Inspect the fuel injector for each cylinder.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0114b4800700.html">FUEL INJECTOR INSPECTION[L3 Turbo]</a></font>.)</div>
+<div class="tbody">Is the fuel injector normal?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Replace the fuel injector.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0114b4800600.html">FUEL INJECTOR REMOVAL/INSTALLATION[L3 Turbo]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">3</div>
+</td>
+<td align="left" rowspan="2">
+<div class="tbody">Inspect the following for the suspected cylinder:</div>
+<div class="list">•  Fuel injector power and/or ground system related wiring harnesses and connectors.</div>
+<div class="list">•  PCM terminals (pulled-out pins, corrosion)</div>
+<div class="list">•  Fuel injector terminals (pulled-out pins, corrosion)</div>
+<div class="tbody">Are all items normal?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Inspect PCM terminal voltage of fuel injector signal</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Repair or replace malfunctioning parts.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p><br clear="all"><a name="id0103b480370024"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Fuel Cut Control System Inspection</p>
+<dl>
+<dd>
+<div class="attention3-label">Note</div>
+</dd>
+<dd>
+<div class="attention3">
+<div class="list">•  This inspection has to be performed after the Fuel Injector Operation Inspection.</div>
+</div>
+</dd>
+</dl>
+<div class="list-title">If simulation function of M-MDS is used:</div>
+<div class="list">1.  Warm up the engine and idle it.</div>
+<div class="list">2.  Connect the M-MDS to the DLC-2.</div>
+<div class="list">3.  Select the RPM and the FUELPW1 PIDs.</div>
+<div class="list">4.  Monitor both PIDs while performing the following steps.</div>
+<dl>
+<dd class="list">
+<div class="list">1.  Depress the accelerator pedal and increase the RPM PID to <span class="bold">4,000 rpm</span>.</div>
+<div class="list">2.  Quickly release the accelerator pedal (brake pedal is not depressed) and verify that the FUELPW1 PID is <span class="bold">0 msec</span>., and <span class="bold">2—5 msec</span>. when the RPM PID drops <span class="bold">below 1,200 rpm</span>.</div>
+</dd>
+</dl>
+<dl>
+<dd class="list">
+<div class="list">•  If not as specified, inspect the following.</div>
+<dl>
+<dd class="list">
+<div class="list">―  ECT sensor and related wiring harness<div>(See <font class="extxref-label"><a href="id0140b6802000.html">ENGINE COOLANT TEMPERATURE (ECT) SENSOR INSPECTION[L3 Turbo]</a></font>.)</div>
+</div>
+<div class="list">―  Neutral switch and related wiring harness<div>(See <font class="extxref-label"><a href="id0140b6800800.html">NEUTRAL SWITCH INSPECTION[L3 Turbo]</a></font>.)</div>
+</div>
+<div class="list">―  Clutch switch and related wiring harness<div>(See <font class="extxref-label"><a href="id0140b6801600.html">CLUTCH PEDAL POSITION (CPP) SWITCH INSPECTION[L3 Turbo]</a></font>.)</div>
+</div>
+</dd>
+</dl>
+</dd>
+</dl>
+<div class="list-title">If simulation function of M-MDS is not used:</div>
+<div class="list">1.  Warm up the engine and idle it.</div>
+<div class="list">2.  Measure the fuel injector control signal wave profile using the oscilloscope while performing the following steps.</div>
+<dl>
+<dd class="list">
+<div class="list">1.  Depress the accelerator pedal and increase the engine speed to <span class="bold">4,000 rpm</span>.</div>
+<div class="list">2.  Quickly release the accelerator pedal (brake pedal is not depressed) and verify that the wave profile constant <span class="bold">B+</span>, and the wave appears when the engine speed drops <span class="bold">below 1,200 rpm</span>.<div>(See <font class="extxref-label"><a href="id0140b6802500.html">PCM INSPECTION[L3 Turbo]</a></font>.)</div>
+</div>
+</dd>
+</dl>
+<dl>
+<dd class="list">
+<div class="list">•  If not as specified, inspect the following.</div>
+<dl>
+<dd class="list">
+<div class="list">―  ECT sensor and related wiring harness<div>(See <font class="extxref-label"><a href="id0140b6802000.html">ENGINE COOLANT TEMPERATURE (ECT) SENSOR INSPECTION[L3 Turbo]</a></font>.)</div>
+</div>
+<div class="list">―  Neutral switch and related wiring harness<div>(See <font class="extxref-label"><a href="id0140b6800800.html">NEUTRAL SWITCH INSPECTION[L3 Turbo]</a></font>.)</div>
+</div>
+<div class="list">―  Clutch switch and related wiring harness<div>(See <font class="extxref-label"><a href="id0140b6801600.html">CLUTCH PEDAL POSITION (CPP) SWITCH INSPECTION[L3 Turbo]</a></font>.)</div>
+</div>
+</dd>
+</dl>
+</dd>
+</dl><br clear="all"><a name="id0103b480370025"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Fuel Pump Operation Inspection</p>
+<div class="list-title">If simulation function of M-MDS is not used:</div>
+<div class="list">1.  Connect the M-MDS to the DLC-2.</div>
+<div class="list">2.  Remove the fuel-filler cap.</div>
+<div class="list">3.  Turn the ignition switch to the ON position.</div>
+<div class="list">4.  Turn the fuel pump relay from off to on using the FP PID and inspect if the operation sound of the fuel pump is heard.</div>
+<dl>
+<dd class="list">
+<div class="list">•  If no operation sound is heard, proceed to the next step.</div>
+</dd>
+</dl>
+<div class="list">5.  Measure the voltage at the wiring harness side fuel pump connector terminal B with the FIP PID turned on.</div>
+<dl>
+<dd class="list">
+<div class="list">•  If the voltage is as specified, inspect the following:</div>
+<dl>
+<dd class="list">
+<div class="list">―  Fuel pump continuity</div>
+<div class="list">―  Fuel pump ground</div>
+<div class="list">―  Wiring harness between the fuel pump relay and PCM terminal 1H</div>
+</dd>
+</dl>
+<div class="list">•  If not as specified, inspect the following:</div>
+<dl>
+<dd class="list">
+<div class="list">―  Fuel pump relay</div>
+<div class="list">―  Fuel pump speed control relay</div>
+<div class="list">―  Wiring harness connector (Main relay-fuel pump relay-fuel pump resister-fuel pump.)</div>
+</dd>
+</dl>
+</dd>
+</dl>
+<div class="spec">
+<dl>
+<dd>
+<div class="list-title">Specification</div>
+</dd>
+</dl>
+<dl>
+<dd>
+<div class="list">8.0—11.5 V (Ignition switch at ON)</div>
+</dd>
+</dl>
+</div>
+<div class="ptxt"><span class="bold">If simulation function of M-MDS is not used:</span></div>
+<dl>
+<dd>
+<div class="attention2-label">Caution</div>
+</dd>
+<dd>
+<div class="attention2">
+<div class="list">•  Connecting the wrong check connector terminal may possibly cause a malfunction. Carefully connect the specified terminal only.</div>
+</div>
+</dd>
+</dl>
+<p class="list">1.  Short the check connector terminal F/P to body ground using a jumper wire.</p>
+<p class="list">
+</p>
+<p class="list">2.  Remove the fuel-filler cap.</p>
+<p class="list">
+</p>
+<p class="list">3.  Turn the ignition switch to the ON position.</p>
+<p class="list">
+</p>
+<p class="list">4.  Verify that the fuel pump operation sound is heard.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If no operation sound is heard, proceed to the next step.</div>
+</dd>
+</dl>
+</p>
+<p class="list">5.  Measure the voltage at wiring harness side fuel pump connector terminal B.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the voltage is as specified, inspect the following: </div>
+<dl>
+<dd class="list">
+<div class="list">―  Fuel pump continuity</div>
+<div class="list">―  Fuel pump ground</div>
+<div class="list">―  Wiring harness between the fuel pump relay and PCM terminal, 1H</div>
+</dd>
+</dl>
+<div class="list">•  If not as specified, inspect the following: </div>
+<dl>
+<dd class="list">
+<div class="list">―  Fuel pump relay</div>
+<div class="list">―  Fuel pump speed control relay</div>
+<div class="list">―  Wiring harness connector (Main relay – fuel pump relay – fuel pump resister – fuel pump.)</div>
+</dd>
+</dl>
+</dd>
+</dl>
+<div class="spec">
+<dl>
+<dd>
+<div class="list-title">Specification</div>
+</dd>
+</dl>
+<dl>
+<dd>
+<div class="list">8.0—11.5 V (Ignition switch at on)</div>
+</dd>
+</dl>
+</div>
+</p><br clear="all"><a name="id0103b480370026"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Fuel Pump Control System Inspection</p>
+<div class="list-title">If simulation function of M-MDS is used:</div>
+<div class="list">1.  Connect the M-MDS to the DLC-2.</div>
+<div class="list">2.  Turn the ignition switch to the ON position.</div>
+<div class="list">3.  Select the FP PID.</div>
+<div class="list">4.  Turn the fuel pump relay from off to on and inspect if the operation sound of the fuel pump relay is heard.</div>
+<dl>
+<dd class="list">
+<div class="list">•  If no operation sound is heard, inspect the fuel pump relay.</div>
+<div class="list">•  If the fuel pump relay is normal, inspect the following:</div>
+<dl>
+<dd class="list">
+<div class="list">―  Wiring harness and connectors (Main relay – fuel pump relay – PCM terminal 1H)</div>
+</dd>
+</dl>
+</dd>
+</dl>
+<div class="list-title">If simulation function of M-MDS is not used:</div>
+<div class="list">1.  Crank the engine and verify that the fuel pump relay operation sound is heard.</div>
+<div class="list">2.  If the operation sound is not heard, inspect the following:</div>
+<dl>
+<dd class="list">
+<div class="list">•  Fuel pump relay</div>
+<div class="list">•  Wiring harness and connectors (Main relay – fuel pump relay – PCM terminal 1H)</div>
+</dd>
+</dl><br clear="all"><a name="id0103b480370027"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Fuel Pump Speed Control Inspection</p>
+<div class="ptxt"><span class="bold">If simulation function of M-MDS is used:</span></div>
+<p class="list">1.  Perform the Fuel Pump Operation Inspection.</p>
+<p class="list">
+</p>
+<p class="list">2.  Connect the M-MDS to the DLC-2.</p>
+<p class="list">
+</p>
+<p class="list">3.  Turn the ignition switch to the ON position.</p>
+<p class="list">
+</p>
+<p class="list">4.  Turn the fuel pump speed control relay from off to on using the FPRR PID and verify that the fuel pump speed control relay operation sound is heard.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the operation sound is not heard, inspect the following:</div>
+<dl>
+<dd class="list">
+<div class="list">―  Fuel pump speed control relay</div>
+<div class="list">―  Wiring harness and connectors (Main relay - fuel pump speed control relay - PCM terminal 4P)</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+<p class="list">5.  Start the engine and run it is idling.</p>
+<p class="list">
+</p>
+<p class="list">6.  Remove the fuel-filler cap.</p>
+<p class="list">
+</p>
+<p class="list">7.  Turn the fuel pump speed control relay from off to on using the FPRR PID and inspect if the operation sound frequency of the fuel pump is higher than when the FPRR PID is off.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If it cannot be verified, inspect the following:</div>
+<dl>
+<dd class="list">
+<div class="list">―  Fuel pump resister</div>
+<div class="list">―  Wiring harness and connectors (open circuit at fuel pump speed control relay terminal C - fuel pump relay terminal D)</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p><br clear="all"><a name="id0103b480370028"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>If simulation function of M-MDS is not used:</p>
+<p class="list">1.  Perform the fuel pump operation inspection.</p>
+<p class="list">
+</p>
+<p class="list">2.  Verify that fuel pump relay operation sound is heard, while cranking the engine.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the operation sound is not heard, inspect the following: </div>
+<dl>
+<dd class="list">
+<div class="list">―  Fuel pump relay</div>
+<div class="list">―  Wiring harnesses and connectors (Main relay—fuel pump relay—PCM terminal 4Q)</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+<p class="list">3.  Remove the fuel-filler cap.</p>
+<p class="list">
+</p>
+<p class="list">4.  Verify that the fuel pump unit operation sound frequency at cranking is higher than during idle.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If it cannot verified, inspect for the following: </div>
+<dl>
+<dd class="list">
+<div class="list">―  Fuel pump resister</div>
+<div class="list">―  Fuel pump relay</div>
+<div class="list">―  Wiring harnesses and connectors (open circuit at fuel pump relay terminal C—fuel pump terminal B)</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p><br clear="all"><a name="id0103b480370029"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Spark Test</p>
+<p class="list">1.  Disconnect the fuel pump relay.</p>
+<p class="list">
+</p>
+<p class="list">2.  Disconnect the PCM connector.</p>
+<p class="list">
+</p>
+<p class="list">3.  Verify that each ignition coil and connector is connected properly.</p>
+<p class="list">
+</p>
+<p class="list">4.  Inspect the ignition system in the following procedure.</p>
+<p class="list">
+</p>
+<p class="list">5.  Clear the DTC from PCM memory using the M-MDS, after perform the spark test procedures and reconnect the PCM connector.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="attention1-label">Warning</div>
+</dd>
+<dd>
+<div class="attention1">
+<div class="list">•  High voltage in the ignition system can cause strong electrical shock which can result in serious injury. Avoid direct contact to the vehicle body during the following spark test.</div>
+</div>
+</dd>
+</dl>
+</p>
+<p clear="all">
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th align="center">
+<p class="thead">STEP</p>
+</th>
+<th align="center" colspan="2">
+<p class="thead">INSPECTION</p>
+</th>
+<th align="center">
+<p class="thead">ACTION</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">1</div>
+</td>
+<td align="left" rowspan="2">
+<div class="list">•  Disconnect the ignition coil from the spark plugs.</div>
+<div class="list">•  Remove the spark plugs.</div>
+<div class="list">•  Verify that the spark plugs do not have carbon deposits.</div>
+<div class="list">•  Are the spark plugs normal?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Perform no-load racing at 4,000 rpm for 2 min, 2 times to burn off the carbon deposits.</div>
+<div class="tbody">Repeat Step 1.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">2</div>
+</td>
+<td align="left" rowspan="2">
+<div class="list">•  Inspect the spark plugs for damage, wear, and proper plug gap.</div>
+<div class="list">•  Are the spark plugs normal?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Replace spark plugs, then go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">3</div>
+</td>
+<td align="left" rowspan="2">
+<div class="list">•  Reconnect the spark plugs to the ignition coil.</div>
+<div class="list">•  Ground the spark plugs to the engine.</div>
+<div class="list">•  Is a strong blue spark visible at each cylinder while cranking the engine?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Ignition system is normal.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="list-title">Some cylinders do not spark: </div>
+<div class="list">•  Go to the next step.</div>
+<div class="list-title">All cylinders do not spark: </div>
+<div class="list">•  Go to Step 5.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">4</div>
+</td>
+<td align="left" rowspan="2">
+<div class="list">•  Inspect the following wiring harnesses for an open or short circuit: </div>
+<dl>
+<dd class="list">
+<div class="list">―  Ignition coil No.1 terminal C—PCM terminal 2BA</div>
+<div class="list">―  Ignition coil No.2 terminal C—PCM terminal 2AW</div>
+<div class="list">―  Ignition coil No.3 terminal C—PCM terminal 2AX</div>
+<div class="list">―  Ignition coil No.4 terminal C—PCM terminal 2AT</div>
+</dd>
+</dl>
+<div class="list">•  Are the wiring harnesses normal?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Inspect and replace the ignition coil.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id0118b3800300.html">IGNITION COIL INSPECTION[L3 Turbo]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Repair or replace the malfunctioning part, then go to Step 1.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">5</div>
+</td>
+<td align="left" rowspan="2">
+<div class="list">•  Measure the voltage at terminal A in each ignition coils.</div>
+<div class="list">•  Is the voltage <span class="bold">B+</span>?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Inspect power supply circuit of ignition coils.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">6</div>
+</td>
+<td align="left" rowspan="2">
+<div class="list">•  Disconnect the ignition switch connectors.</div>
+<div class="list">•  Verify that the continuity between ignition coils terminal B and GND.</div>
+<div class="list">•  Is there any continuity?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Inspect GND circuit for of ignition coil.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">7</div>
+</td>
+<td align="left" rowspan="2">
+<div class="list">•  Does the PCM connector or ignition coil connectors have poor connection?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Repair or replace the connector, then go to Step 1.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">8</div>
+</td>
+<td align="left" rowspan="2">
+<div class="list">•  Are the following parts normal?</div>
+<dl>
+<dd class="list">
+<div class="list">―  CKP sensor and crankshaft pulley</div>
+</dd>
+</dl>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Inspect for open or short circuit in wiring harness and connector of CKP sensor.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Repair or replace the malfunctioning part, then go to Step 1.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p><br clear="all"><a name="id0103b480370030"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>EGR Control System Inspection</p>
+<div class="ptxt"><span class="bold">If simulation function of M-MDS is used:</span></div>
+<p class="list">1.  Crank the engine and verify that the EGR valve operation (initial operation) sound is heard.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the operation sound is not heard, connect the M-MDS to the DLC-2 and verify that the DTC P0403 is shown. Perform the DTC inspection. (See <font class="extxref-label"><a href="id0102b7801500.html">DTC TABLE[L3 Turbo]</a></font>.)</div>
+</dd>
+</dl>
+</p>
+<p class="list">2.  Start the engine run it is idling.</p>
+<p class="list">
+</p>
+<p class="list">3.  Increase the step value of the EGR valve from <span class="bold">0 to 40</span> using the SEGR PID of the simulation function.</p>
+<p class="list">
+</p>
+<p class="list">4.  Operate the EGR valve and inspect if the engine speed becomes unstable or the engine stalls.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the engine speed does not change, proceed to the following.</div>
+<dl>
+<dd class="list">
+<div class="list">1.  Stop the engine.</div>
+<div class="list">2.  Remove the EGR valve.</div>
+<div class="list">3.  Connect the EGR valve connector.</div>
+<div class="list">4.  Turn the ignition switch to the ON position.</div>
+<div class="list">5.  Increase the step value of EGR valve from <span class="bold">0 to 40</span> using SEGRP PID.</div>
+<div class="list">6.  Verify that the EGR valve operates according to the SEGRP PID.</div>
+<dl>
+<dd class="list">
+<div class="list">•  If the EGR valve is operated, clean the EGR valve and the EGR gas passage.</div>
+<div class="list">•  If the EGR valve does not operate, replace the EGR valve.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+<p class="list">5.  Start the engine and warm it up completely.</p>
+<p class="list">
+</p>
+<p class="list">6.  Access the following PIDs.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  ECT, RPM, SEGRP, APP1, APP2, TP_REL, VSS</div>
+</dd>
+</dl>
+</p>
+<p class="list">7.  Idle the vehicle and verify that the SEGRP value is <span class="bold">0</span>.</p>
+<p class="list">
+</p>
+<p class="list">8.  Put the vehicle in drive.</p>
+<p class="list">
+</p>
+<p class="list">9.  Depress the accelerator pedal and verify that the SEGRP value increases.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the SEGRP value does not increase, inspect the VSS, TP and ECT PIDs. (See <font class="extxref-label"><a href="id0140b6802500.html">PCM INSPECTION[L3 Turbo]</a></font>.)</div>
+</dd>
+</dl>
+</p>
+<p class="list">10.  Stop the vehicle and verify that the SEGRP value is returns to <span class="bold">0</span>.</p>
+<p class="list">
+</p><br clear="all"><a name="id0103b480370031"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>If simulation function of M-MDS is not used:</p>
+<p class="list">1.  Verify that EGR valve operation (initial operation) sound is heard when the ignition switch is turned to the ON position.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the operation sound is not heard, connect the M-MDS to the DLC-2 and verify that the DTC P0403 is shown. Perform the DTC inspection. (See <font class="extxref-label"><a href="id0102b7801500.html">DTC TABLE[L3 Turbo]</a></font>.)</div>
+</dd>
+</dl>
+</p>
+<p class="list">2.  Start the engine and idle it.</p>
+<p class="list">
+</p>
+<p class="list">3.  Warm up the engine to normal operating temperature.</p>
+<p class="list">
+</p>
+<p class="list">4.  Select the following PIDs: </p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  ECT, RPM, SEGRP, APP1, APP2, TP_REL, VSS</div>
+</dd>
+</dl>
+</p>
+<p class="list">5.  Let the vehicle idle and verify that the SEGRP value is <span class="bold">0</span>.</p>
+<p class="list">
+</p>
+<p class="list">6.  Put the vehicle in drive.</p>
+<p class="list">
+</p>
+<p class="list">7.  Depress the accelerator pedal and verify that the SEGRP value is increased.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the EGR valve increases, inspect the following: </div>
+<dl>
+<dd class="list">
+<div class="list">―  EGR valve (stuck open or closed)</div>
+<div class="list">―  Wiring harness and connectors (Main relay – EGR valve – PCM)</div>
+</dd>
+</dl>
+<div class="list">•  If the SEGRP value does not increase, inspect the VSS, APP1, APP2, TP_REL and ECT PIDs. (See <font class="extxref-label"><a href="id0140b6802500.html">PCM INSPECTION[L3 Turbo]</a></font>.)</div>
+</dd>
+</dl>
+</p>
+<p class="list">8.  Stop the vehicle and verify that the SEGRP value returns to <span class="bold">0</span>.</p>
+<p class="list">
+</p><br clear="all"><a name="id0103b480370032"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Purge Control System Inspection</p>
+<div class="ptxt"><span class="bold">If simulation function of M-MDS is used:</span></div>
+<p class="list">1.  Start the engine.</p>
+<p class="list">
+</p>
+<p class="list">2.  Disconnect the vacuum hose between the purge solenoid valve and the charcoal canister.</p>
+<p class="list">
+</p>
+<p class="list">3.  Put a finger to the purge solenoid valve and verify that there is no vacuum applied when the engine is cold.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If there is a vacuum, inspect the following:</div>
+<dl>
+<dd class="list">
+<div class="list">―  Wiring harness and connectors (Purge solenoid valve - PCM terminal 2AB)</div>
+<div class="list">―  Purge solenoid valve (stuck open)</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+<p class="list">4.  Connect the M-MDS to the DLC-2 and verify that the DTC P0403 is displayed. Perform the DTC inspection.</p>
+<p class="list">(See <font class="extxref-label"><a href="id0102b7807100.html">DTC P0403[L3 Turbo]</a></font>.)</p>
+<p class="list">5.  Select the EVAPCP PID.</p>
+<p class="list">
+</p>
+<p class="list">6.  Increase the duty value of the purge solenoid valve to <span class="bold">50%</span> and inspect if the operation sound of the valve is heard.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the operation sound is heard, inspect for loose or damaged vacuum hoses. (Intake manifold - purge solenoid valve - charcoal canister)</div>
+<div class="list">•  If the operation sound is not heard, perform the purge solenoid valve inspection. (See <font class="extxref-label"><a href="id0116b4800900.html">PURGE SOLENOID VALVE INSPECTION[L3 Turbo]</a></font>.)</div>
+</dd>
+</dl>
+</p>
+<p class="list">7.  Warm up the engine to normal operating temperature.</p>
+<p class="list">
+</p>
+<p class="list">8.  Monitor the EVAPCP PID using the M-MDS, and drive the vehicle <span class="bold">approx. 2000 rpm</span> for <span class="bold">30 s</span> or more.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the EVAPCP PID is <span class="bold">0%</span>, inspect the following.</div>
+<dl>
+<dd class="list">
+<div class="list">―  MAF, APP1, APP2, TP_REL and LOAD PIDs.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p><br clear="all"><a name="id0103b480370033"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>If simulation function of M-MDS is not used:</p>
+<p class="list">1.  Start the engine.</p>
+<p class="list">
+</p>
+<p class="list">2.  Disconnect the vacuum hose between the purge solenoid valve and the charcoal canister.</p>
+<p class="list">
+</p>
+<p class="list">3.  Put a finger to the purge solenoid valve and verify that there is no vacuum applied when the engine is cold.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If there is vacuum, inspect the following: </div>
+<dl>
+<dd class="list">
+<div class="list">―  Wiring harness and connectors (Purge solenoid valve-PCM terminal, 2AB)</div>
+<div class="list">―  Purge solenoid valve</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+<p class="list">4.  Warm up the engine to the normal operating temperature.</p>
+<p class="list">
+</p>
+<p class="list">5.  Stop the engine.</p>
+<p class="list">
+</p>
+<p class="list">6.  Connect the M-MDS to the DLC-2 and verify that the DTC P0443 is shown. Perform DTC inspection. (See <font class="extxref-label"><a href="id0102b7801500.html">DTC TABLE[L3 Turbo]</a></font>.)</p>
+<p class="list">
+</p>
+<p class="list">7.  Turn the ignition switch to the ON position.</p>
+<p class="list">
+</p>
+<p class="list">8.  Select the ECT PID.</p>
+<p class="list">
+</p>
+<p class="list">9.  Verify that the engine coolant temperature is above <span class="bold">60°C {140°F}</span>.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the M-MDS indicates that the temperature is below <span class="bold">60°C {140°F}</span>, perform the ECT sensor inspection.</div>
+</dd>
+</dl>
+</p>
+<p class="list">10.  Set the vehicle on the dynamometer or chassis roller.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="attention1-label">Warning</div>
+</dd>
+<dd>
+<div class="attention1">
+<div class="list">•  When the dynamometer or chassis roller is operating, there is a possibility that the operator may come into contact with or be caught up in the rotating parts, leading to serious injuries or death. When performing work while the dynamometer or chassis roller is operating, be careful not to contact or be caught up in any of the rotating parts.</div>
+</div>
+</dd>
+</dl>
+</p>
+<p class="list">11.  Drive vehicle at an engine speed to <span class="bold">approx. 2000 rpm</span> for <span class="bold">30 s or more.</span></p>
+<p class="list">
+</p>
+<p class="list">12.  Put a finger to the purge solenoid valve and verify that there is no vacuum applied during Step 2.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If there is no vacuum, inspect the following: </div>
+<dl>
+<dd class="list">
+<div class="list">―  Wiring harness and connector (Main relay – purge solenoid valve – PCM terminal 2AB)</div>
+<div class="list">―  Purge solenoid valve</div>
+<div class="list">―  MAF, APP1, APP2, TP_REL and LOAD PIDs</div>
+</dd>
+</dl>
+<div class="list">•  If there is vacuum, inspect the following: </div>
+<dl>
+<dd class="list">
+<div class="list">―  Vacuum hose (Purge solenoid valve – charcoal canister)</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p><br clear="all"><a name="id0103b480370034"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>A/C Cut-off Control System Inspection</p>
+<p class="list">1.  Start the engine.</p>
+<p class="list">
+</p>
+<p class="list">2.  Turn the A/C switch and fan switch on.</p>
+<p class="list">
+</p>
+<p class="list">3.  Verify that the A/C compressor magnetic clutch actuates.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If it does not actuate, go to symptom troubleshooting “No.23 A/C does not work sufficiently“.</div>
+</dd>
+</dl>
+</p>
+<p class="list">4.  Fully open the throttle valve and verify that the A/C compressor magnetic clutch does not actuate for <span class="bold">2—5 s</span>.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If it actuates, inspect as follows: </div>
+<dl>
+<dd class="list">
+<div class="list">―  A/C relay</div>
+<div class="list">―  Open or short to ground circuit in the wiring harness and connectors (Ignition switch-A/C relay-PCM terminal 1I)</div>
+<div class="list">―  A/C related parts</div>
+<div class="list">―  APP1, APP2 PIDs</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p><br clear="all"><a name="id0103b480370035"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Cooling Fan Control System Inspection</p>
+<p class="list">1.  Connect the M-MDS to the DLC-2.</p>
+<p class="list">
+</p>
+<p class="list">2.  Start the engine and warm it up to normal operating temperature.</p>
+<p class="list">
+</p>
+<p class="list">3.  Perform the KOER self-test.</p>
+<p class="list">(See <font class="extxref-label"><a href="id0102b7801200.html">KOEO/KOER SELF TEST[L3 Turbo]</a></font>.)</p>
+<p class="list">4.  Verify that the DTC P0480 is not shown and the cooling fan operates during the KOER self-test.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If DTC P0480 is shown, perform the DTC troubleshooting procedure.<div>(See <font class="extxref-label"><a href="id0102b7807400.html">DTC P0480[L3 Turbo]</a></font>.)</div>
+</div>
+<div class="list">•  If the cooling fans do not operate, proceed to the following:</div>
+</dd>
+</dl>
+<dl>
+<dd>
+<div class="list">1.  Verify the clicking sound of the cooling fan relay when the ignition switch is turned from the off to the ON position.</div>
+<div class="list">2.  If there is no the clicking sound, inspect the cooling fan relay for an open circuit between the ignition switch and the cooling fan relay.</div>
+<dl>
+<dd class="list">
+<div class="list">•  If there is a clicking sound, go to the next step.</div>
+<div class="list">•  Inspect the following parts in the indicated order in accordance with fan operation conditions.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+<div><span class="bold">Cooling fans do not operate</span></div>
+<dl>
+<dd>
+<div class="list">―  Open circuit between the fan control module and the cooling fan relay</div>
+<div class="list">―  Open circuit between fan control module and ground</div>
+<div class="list">―  Poor connection of the fan control module connector</div>
+<div class="list">―  Fan control module<div>(See <font class="extxref-label"><a href="id0112b3802000.html">COOLING FAN MOTOR COMPONENT INSPECTION[L3 Turbo]</a></font>.)</div>
+</div>
+</dd>
+</dl>
+<div><span class="bold">Cooling fan motor No.1 does not operate</span></div>
+<dl>
+<dd>
+<div class="list">―  Open or short to ground circuit between the fan control module and cooling fan motor No.1</div>
+<div class="list">―  Poor connection of the fan control module connector or cooling fan motor No.1 connector</div>
+<div class="list">―  Cooling fan motor No.1</div>
+<div class="list">―  Fan control module<div>(See <font class="extxref-label"><a href="id0112b3802000.html">COOLING FAN MOTOR COMPONENT INSPECTION[L3 Turbo]</a></font>.)</div>
+</div>
+</dd>
+</dl>
+<div><span class="bold">Cooling fan motor No.2 does not operate</span></div>
+<dl>
+<dd>
+<div class="list">―  Open or short to ground circuit between the fan control module and the cooling fan motor No.2</div>
+<div class="list">―  Poor connection of the fan control module connector or the cooling fan motor No.1 connector</div>
+<div class="list">―  Cooling fan motor No.2</div>
+<div class="list">―  Fan control module <div>(See <font class="extxref-label"><a href="id0112b3802000.html">COOLING FAN MOTOR COMPONENT INSPECTION[L3 Turbo]</a></font>.)</div>
+</div>
+</dd>
+</dl>
+</p><br clear="all"><a name="id0103b480370036"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Wastegate Control System Operation Inspection</p>
+<div class="ptxt"><span class="bold">If simulation function of M-MDS is used:</span></div>
+<p class="list">1.  Start the engine and run it is idling.</p>
+<p class="list">
+</p>
+<p class="list">2.  Disconnect the hose between the wastegate control solenoid valve and the intake pipe.</p>
+<p class="list">
+</p>
+<p class="list">3.  Put a finger to the wastegate control solenoid valve and verify that there is no pressure applied.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If there is pressure, inspect the following:</div>
+<dl>
+<dd class="list">
+<div class="list">―  Wiring harness and connectors (Wastegate control solenoid valve—PCM terminal 2AA)</div>
+<div class="list">―  Wastegate control solenoid valve (Stuck open)</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+<p class="list">4.  Warm up the engine to normal operating temperature.</p>
+<p class="list">
+</p>
+<p class="list">5.  Connect the M-MDS to the DLC-2 and verify that DTC P0245 or P0246 are shown. Perform the DTC inspection. </p>
+<p class="list">(See <font class="extxref-label"><a href="id0102b7806300.html">DTC P0245[L3 Turbo]</a></font>.)<div>(See <font class="extxref-label"><a href="id0102b7806400.html">DTC P0246[L3 Turbo]</a></font>.)</div>
+</p>
+<p class="list">6.  Select the VGT PID.</p>
+<p class="list">
+</p>
+<p class="list">7.  Increase the duty value of the wastegate control solenoid valve and inspect if the operation sound of the solenoid valve is heard.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the operation sound is heard, inspect for loose or damaged vacuum hoses. (Wastegate actuator - wastegate control solenoid valve - intake hose)</div>
+<div class="list">•  If the operation sound is not heard, perform the wastegate control solenoid valve inspection.<div>(See <font class="extxref-label"><a href="id0113b5800600.html">WASTEGATE CONTROL SOLENOID VALVE INSPECTION[L3 Turbo]</a></font>.)</div>
+</div>
+</dd>
+</dl>
+</p>
+<p class="list">8.  Warm up the engine to normal operating temperature.</p>
+<p class="list">
+</p>
+<p class="list">9.  Monitor the VGT and APP PIDs using the M-MDS.</p>
+<p class="list">
+</p>
+<p class="list">10.  Run the engine with the APP PID <span class="bold">above 30%</span> and verify that the VGT PID value increases from <span class="bold">0%</span>.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the VGT PID is <span class="bold">0%</span>, inspect the APP PID.</div>
+</dd>
+</dl>
+</p><br clear="all"><a name="id0103b480370037"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>If simulation function of M-MDS is not used:</p>
+<p class="list">1.  Start the engine and run it is idling.</p>
+<p class="list">
+</p>
+<p class="list">2.  Disconnect the hose between the wastegate control solenoid valve and the intake pipe.</p>
+<p class="list">
+</p>
+<p class="list">3.  Put a finger to the wastegate control solenoid valve and verify that there is no pressure applied.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If there is pressure, inspect the following:</div>
+<dl>
+<dd class="list">
+<div class="list">―  Wiring harness and connectors (Wastegate control solenoid valve - PCM terminal 2AA)</div>
+<div class="list">―  Wastegate control solenoid valve (Stuck open)</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+<p class="list">4.  Warm up the engine to normal operating temperature.</p>
+<p class="list">
+</p>
+<p class="list">5.  Connect the M-MDS to the DLC-2 and verify that the DTC P0245 or P0246 are shown. Perform the DTC inspection. </p>
+<p class="list">(See <font class="extxref-label"><a href="id0102b7806300.html">DTC P0245[L3 Turbo]</a></font>.)<div>(See <font class="extxref-label"><a href="id0102b7806400.html">DTC P0246[L3 Turbo]</a></font>.)</div>
+</p>
+<p class="list">6.  Warm up the engine to normal operating temperature.</p>
+<p class="list">
+</p>
+<p class="list">7.  Monitor the VGT and APP PIDs using the M-MDS.</p>
+<p class="list">
+</p>
+<p class="list">8.  The hose between the wastegate control solenoid valve and intake pipe is disconnected.</p>
+<p class="list">
+</p>
+<p class="list">9.  Run the engine with the APP PID <span class="bold">above 30%</span> and verify that the VGT PID value increases from <span class="bold">0%</span> and there is pressure applied.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the VGT PID is <span class="bold">0%</span>, inspect the TP_REL PID.</div>
+<div class="list">•  If there is no pressure applied, inspect for the following:</div>
+<dl>
+<dd class="list">
+<div class="list">―  Wastegate control solenoid valve (Stuck closed)</div>
+<div class="list">―  Hose connection (Intake hose (turbocharger compressor downstream side) - wastegate actuator - intake hose (turbocharger compressor upstream side))</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p><br clear="all"><a name="id0103b480370038"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Variable Valve Timing Control System Operation Inspection</p><br clear="all"><p><a name="id0103b480370039"></a><p class="topic-title"><span class="topic-head"></span>When idling cannot be continued</p>
+<p class="list">1.  Remove the oil control valve (OCV) and verify that the spool valve is at maximum retard position.</p>
+<p class="list">
+</p>
+<p class="list">2.  Connect the oil control valve (OCV).</p>
+<p class="list">
+</p>
+<p class="list">3.  Turn the ignition switch to the ON position.</p>
+<p class="list">
+</p>
+<p class="list">4.  Verify that the spool valve is at the maximum retard position.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the spool valve is stuck in the advance direction, inspect for the following: </div>
+<dl>
+<dd class="list">
+<div class="list">―  Short circuit in wiring harnesses or connectors between the oil control valve (OCV) and the PCM.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+<p class="list">5.  Inspect the variable timing actuator.</p>
+<p class="list">
+</p>
+</p><br clear="all"><p><a name="id0103b480370040"></a><p class="topic-title"><span class="topic-head"></span>When idling can be continued</p>
+<div class="ptxt"><span class="bold">If simulation function of M-MDS is used:</span></div>
+<p class="list">1.  Warm up the engine to normal operating temperature.</p>
+<p class="list">
+</p>
+<p class="list">2.  Connect the M-MDS to the DLC-2.</p>
+<p class="list">
+</p>
+<p class="list">3.  Start the engine and run it is idling.</p>
+<p class="list">
+</p>
+<p class="list">4.  Select the VT DUTY1 PID.</p>
+<p class="list">
+</p>
+<p class="list">5.  Increase the oil control valve (OCV) duty value and verify that the engine idles roughly or stalls.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If as specified, inspect the timing chain component (valve timing deviation).</div>
+<div class="list">•  If not as specified, go to the next step.</div>
+</dd>
+</dl>
+</p>
+<p class="list">6.  Remove the oil control valve (OCV) while the connector is connected.</p>
+<p class="list">
+</p>
+<p class="list">7.  Turn the ignition switch to the ON position.</p>
+<p class="list">
+</p>
+<p class="list">8.  Select VT DUTY1 PID.</p>
+<p class="list">
+</p>
+<p class="list">9.  Increase the oil control valve (OCV) duty value and verify that the spool valve operates in the advance direction.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If as specified, inspect the following hydraulic passage for clogging and/or leakage.</div>
+<dl>
+<dd class="list">
+<div class="list">―  Oil pressure switch - oil control valve (OCV)</div>
+<div class="list">―  Oil control valve (OCV) - camshaft</div>
+<div class="list">―  Camshaft internal passage</div>
+</dd>
+</dl>
+</dd>
+</dl>
+<dl>
+<dd>
+<div class="list">•  If not as specified, inspect the following:</div>
+<dl>
+<dd class="list">
+<div class="list">―  Oil control valve (OCV) operation</div>
+<div class="list">―  Harness and connectors for open or short circuit (Oil control valve (OCV) - PCM terminal 2AF)</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+<p class="list">10.  If they are normal, replace the intake camshaft pulley (with a built-in variable valve timing actuator).</p>
+<p class="list">
+</p>
+</p><br clear="all"><a name="id0103b480370041"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>If simulation function of M-MDS is not used:</p>
+<p class="list">1.  Disconnect the oil control valve (OCV) connector.</p>
+<p class="list">
+</p>
+<p class="list">2.  Warm up the engine and idle it.</p>
+<p class="list">
+</p>
+<p class="list">3.  Apply battery voltage to the oil control valve (OCV) and verify that the engine idles roughly or stalls.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the engine idles roughly or stalls, inspect the timing chain component (valve timing deviation).</div>
+<div class="list">•  If the engine does not idle roughly or stalls, go to the next step.</div>
+</dd>
+</dl>
+</p>
+<p class="list">4.  Remove the oil control valve (OCV) and perform the spool valve operation inspection.</p>
+<p class="list"> (See <font class="extxref-label"><a href="id0110b3801400.html">OIL CONTROL VALVE (OCV) INSPECTION[L3 Turbo]</a></font>.)<dl>
+<dd>
+<div class="list">•  If not as specified, inspect the following: </div>
+<dl>
+<dd class="list">
+<div class="list">―  Oil control valve (OCV)</div>
+<div class="list">―  Harnesses and connectors between oil control valve (OCV) and PCM have an open or short circuit.</div>
+</dd>
+</dl>
+<div class="list">•  If as specified, inspect the following hydraulic passages for clogging or leakage or both: </div>
+<dl>
+<dd class="list">
+<div class="list">―  Oil pressure switch – oil control valve (OCV)</div>
+<div class="list">―  Oil control valve (OCV) – camshaft</div>
+<div class="list">―  Camshaft internal passage</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+<p class="list">5.  If they are normal, replace the camshaft pulley (with built-in variable valve timing actuator).</p>
+<p class="list">
+</p>
+</body>
+</html>

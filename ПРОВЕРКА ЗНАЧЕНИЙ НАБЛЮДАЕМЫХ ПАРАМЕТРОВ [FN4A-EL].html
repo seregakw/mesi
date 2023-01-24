@@ -1,0 +1,904 @@
+<html lang="ru"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<link rel="stylesheet" href="css/mazda-css-ru.css" type="text/css">
+<title>ПРОВЕРКА ЗНАЧЕНИЙ НАБЛЮДАЕМЫХ ПАРАМЕТРОВ [FN4A-EL]</title>
+</head>
+<body><a name="id0502a1805600"></a><p class="servinfo-title"><span class="servinfo-head"></span>ПРОВЕРКА ЗНАЧЕНИЙ НАБЛЮДАЕМЫХ ПАРАМЕТРОВ [FN4A-EL]</p>
+<hr>
+<p class="servinfo-title-id" align="right">id0502a1805600</p>
+<p class="list">1.&nbsp;&nbsp;Подключите диагностическую систему M-MDS к диагностическому разъему DLC-2.</p>
+<p class="list">
+<table class="figure-flame">
+<tbody><tr>
+<td width="10mm"></td>
+<td>
+<table class="figure-float" cellspacing="0" bordercolor="black">
+<tbody><tr>
+<td align="center"><img src="imageRU/am3zzw00000458.png"></td>
+</tr>
+</tbody></table>
+<div class="figure-caption">am3zzw00000458</div>
+</td>
+</tr>
+</tbody></table>
+</p>
+<p class="list">2.&nbsp;&nbsp;После идентификации автомобиля выберите следующие пункты меню в окне начального этапа диагностической системы M-MDS.</p>
+<p class="list">
+</p><dl>
+<dd>
+<div class="list">•&nbsp;&nbsp;При использовании IDS (портативного ПК)</div>
+<dl>
+<dd class="list">
+<div class="list">1.&nbsp;&nbsp;Выберите “Toolbox”.</div>
+<div class="list">2.&nbsp;&nbsp;Выберите “DataLogger”.</div>
+<div class="list">3.&nbsp;&nbsp;Выберите “Modules”.</div>
+<div class="list">4.&nbsp;&nbsp;Выберите “PCM”.</div>
+</dd>
+</dl>
+<div class="list">•&nbsp;&nbsp;При использовании PDS (карманного ПК)</div>
+<dl>
+<dd class="list">
+<div class="list">1.&nbsp;&nbsp;Выберите “Module Tests”.</div>
+<div class="list">2.&nbsp;&nbsp;Выберите “PCM”.</div>
+<div class="list">3.&nbsp;&nbsp;Выберите “DataLogger”.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+<p></p>
+<p class="list">3.&nbsp;&nbsp;Выберите PID из таблицы PID</p>
+<p class="list"></p>
+<p class="list">4.&nbsp;&nbsp;Убедитесь, что PID соответствует указаниями, появляющимися на экране M-MDS.</p>
+<p class="list"></p>
+<dl>
+<dd>
+<div class="attention3-label">Примечание</div>
+</dd>
+<dd>
+<div class="attention3">
+<div class="list">•&nbsp;&nbsp;Проведите проверку выводящего устройства после проверки блока РСМ.</div>
+<div class="list">•&nbsp;&nbsp;Параметры, контролируемые в режиме /DATA MONITOR, представляют собой расчетные значения входных/выходных сигналов блока PCM. Поэтому, если контролируемый параметр устройства вывода не соответствует техническим условиям, необходимо проверить контролируемый параметр устройства ввода, соответствующего выходному. Если ошибка выходного параметра не отображается непосредственно как неисправность, необходимо проверить устройство вывода отдельно, используя  имитационный тест.</div>
+</div>
+</dd>
+</dl>
+<p clear="all">
+</p><p class="table-title">Таблица функций PID/DATA MONITOR и записи</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center" rowspan="2">
+<p class="thead">Контролируемые параметры (Наименования)</p>
+</th>
+<th id="" align="center" rowspan="2">
+<p class="thead">Единица измерения/состояние</p>
+</th>
+<th id="" align="center" rowspan="2">
+<p class="thead">Состояние/Технические условия</p>
+</th>
+<th id="" align="center" rowspan="2">
+<p class="thead">Предпринимаемые меры</p>
+</th>
+<th id="" align="center" colspan="3">
+<p class="thead">Контакт блока РСМ</p>
+</th>
+</tr>
+<tr>
+<th id="" align="center">
+<p class="thead">ZY</p>
+</th>
+<th id="" align="center">
+<p class="thead">Z6</p>
+</th>
+<th id="" align="center">
+<p class="thead">LF</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="left">
+<div class="tbody">DTCCNT</div>
+<div class="tbody"> (Число обнаруженных диагностических кодов)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Нет данных</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Обнаружена неисправность с диагностическим кодом: 1—255</div>
+<div class="list">•&nbsp;&nbsp;Не выявлено кодов неисправности: 0</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Выполните соответствующую диагностическому коду процедуру диагностики.</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="htmlRU/id0502a1800500.html">ТАБЛИЦА ДИАГНОСТИЧЕСКИХ КОДОВ НЕИСПРАВНОСТЕЙ [FN4A-EL]</a></font>.)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Нет данных</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Нет данных</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Нет данных</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">DWN SW</div>
+<div class="tbody"> (Переключатель понижения передачи)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">On/Off</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Режима M, переключатель включения более низкой передачи: On</div>
+<div class="list">•&nbsp;&nbsp;Другие: Off</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Проверьте узел селектора в сборе.</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="htmlRU/id051800800600.html">ПРОВЕРКА СЕЛЕКТОРА В СБОРЕ</a></font>.)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1J</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1AB</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1P</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">ПЕРЕДАЧА</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1/2/3/4</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;1-я передача: 1</div>
+<div class="list">•&nbsp;&nbsp;2-я передача: 2</div>
+<div class="list">•&nbsp;&nbsp;3-я передача: 3</div>
+<div class="list">•&nbsp;&nbsp;4-я передача: 4</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Проверьте следующие PID: </div>
+<div class="tbody">SSA/SS1, SSB/SS2, SSC/SS3, SSD/SS4, SSE_SS5</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Нет данных</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Нет данных</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Нет данных</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">HTM_CNT</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Нет данных</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Отображает номер режима высокой температуры рабочей жидкости автоматической коробки передач (130 °C {266 °F} или выше)</div>
+<div class="list">•&nbsp;&nbsp;0—65,535</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Нет данных</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Нет данных</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Нет данных</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Нет данных</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">HTM_DIS</div>
+</td>
+<td id="" align="center">
+<div class="tbody">км</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Отображает пробег после включения сигнала о высокой температуре рабочей жидкости автоматической коробки передач (130 °C {266 °F} или выше)</div>
+<div class="list">•&nbsp;&nbsp;0—65535 км</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Нет данных</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Нет данных</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Нет данных</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Нет данных</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">LINEDES</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Па</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Отображает заданное магистральное давление</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Проверьте следующие PID: </div>
+<div class="tbody">OSS, TFT, TFTV, TR, THOP, TSS, VPWR, VSS</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Нет данных</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Нет данных</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Нет данных</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">LPS</div>
+<div class="tbody"> (Электромагнитный регулятор давления)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">A</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Изменение параметра в соответствии с углом открытия дроссельной заслонки</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Проверьте электромагнитный регулятор давления</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="htmlRU/id0517a1801900.html">ПРОВЕРКА ЭЛЕКТРОМАГНИТНОГО КЛАПАНА [FN4A-EL]</a></font>.)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1P, 1T</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1AF, 1AV</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1G, 1H</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">MNL SW</div>
+<div class="tbody"> (Выключатель режима M)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">On/Off</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Режим M: On</div>
+<div class="list">•&nbsp;&nbsp;Другие: Off</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Проверьте узел селектора в сборе.</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="htmlRU/id051800800600.html">ПРОВЕРКА СЕЛЕКТОРА В СБОРЕ</a></font>.)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1N</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1AQ</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1O</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">OSS</div>
+<div class="tbody"> (Частота вращения выходного вала КП)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">RPM</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Отображает частоту вращения выходного вала</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Проверьте датчика скорости движения автомобиля.</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="htmlRU/id0517a1801400.html">ПРОВЕРКА ДАТЧИКА СКОРОСТИ ДВИЖЕНИЯ АВТОМОБИЛЯ[FN4A-EL]</a></font>.)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1AX</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1AY</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1J</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">SSA/SS1</div>
+<div class="tbody"> (Электромагнитный клапан А переключения передач)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">%</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;4-я передача: <span>99%</span></div>
+<div class="list">•&nbsp;&nbsp;Прочее: <span>0%</span></div>
+</td>
+<td id="" align="left">
+<div class="tbody">Проверьте электромагнитный клапан переключения передач A.</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="htmlRU/id0517a1801900.html">ПРОВЕРКА ЭЛЕКТРОМАГНИТНОГО КЛАПАНА [FN4A-EL]</a></font>.)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1D</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1AZ</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1B</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">SSB/SS2</div>
+<div class="tbody"> (Электромагнитный клапан В переключения передач)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">%</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;1-я передача, позиция D: <span>99%</span></div>
+<div class="list">•&nbsp;&nbsp;Прочее: <span>0%</span></div>
+</td>
+<td id="" align="left">
+<div class="tbody">Проверьте электромагнитный клапан переключения передач В.</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="htmlRU/id0517a1801900.html">ПРОВЕРКА ЭЛЕКТРОМАГНИТНОГО КЛАПАНА [FN4A-EL]</a></font>.)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1H</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1BH</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1C</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">SSC/SS3</div>
+<div class="tbody"> (Электромагнит С переключения передач)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">%</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;1-я передача/2-я передача: <span>99%</span></div>
+<div class="list">•&nbsp;&nbsp;Прочее: <span>0%</span></div>
+</td>
+<td id="" align="left">
+<div class="tbody">Проверьте электромагнитный клапан переключения передач С.</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="htmlRU/id0517a1801900.html">ПРОВЕРКА ЭЛЕКТРОМАГНИТНОГО КЛАПАНА [FN4A-EL]</a></font>.)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1L</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1BD</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1D</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">SSD/SS4</div>
+<div class="tbody">(Электромагнитный клапан D переключения передач)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">On/Off</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Позиция P/N, 4-я передача при позиции D, 1-я передача при позиции М: On</div>
+<div class="list">•&nbsp;&nbsp;Прочее: Off</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Проверьте электромагнитный клапан переключения передач D.</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="htmlRU/id0517a1801900.html">ПРОВЕРКА ЭЛЕКТРОМАГНИТНОГО КЛАПАНА [FN4A-EL]</a></font>.)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1K</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1AJ</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1E</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">SSE_SS5</div>
+<div class="tbody">(Электромагнитный клапан E переключения передач)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">On/Off</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Функционирование муфты блокировки гидротрансформатора On</div>
+<div class="list">•&nbsp;&nbsp;Муфта блокировки гидротрансформатора не функционирует: Off</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Проверьте электромагнитный клапан переключения передач Е.</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="htmlRU/id0517a1801900.html">ПРОВЕРКА ЭЛЕКТРОМАГНИТНОГО КЛАПАНА [FN4A-EL]</a></font>.)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1O</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1AR</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1F</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">TFT</div>
+<div class="tbody"> (Температура рабочей жидкости автоматической трансмиссии)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">°C</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Отображает температуру рабочей жидкости автоматической коробки передач</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Проверьте датчик температуры рабочей жидкости автоматической коробки передач.</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="htmlRU/id0517a1801000.html">ПРОВЕРКА ДАТЧИКА ТЕМПЕРАТУРЫ РАБОЧЕЙ ЖИДКОСТИ АВТОМАТИЧЕСКОЙ КОРОБКИ ПЕРЕДАЧ[FN4A-EL]</a></font>.)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1AH</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1AU</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1U</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">TFTV</div>
+<div class="tbody"> (Сигнал температуры рабочей жидкости автоматической коробки передач)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">V</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;При температуре рабочей жидкости автоматической коробки передач <span>20 °C {68 °F}</span>: <span>Приблизительно 3,3 В</span></div>
+<div class="list">•&nbsp;&nbsp;При температуре рабочей жидкости автоматической коробки передач <span>40 °C {104 °F}</span>: <span>Приблизительно 2,4 В</span></div>
+<div class="list">•&nbsp;&nbsp;При температуре рабочей жидкости автоматической коробки передач <span>60 °C {140 °F}</span>: <span>Приблизительно 1,5 В</span></div>
+</td>
+<td id="" align="left">
+<div class="tbody">Проверьте датчик температуры рабочей жидкости автоматической коробки передач.</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="htmlRU/id0517a1801000.html">ПРОВЕРКА ДАТЧИКА ТЕМПЕРАТУРЫ РАБОЧЕЙ ЖИДКОСТИ АВТОМАТИЧЕСКОЙ КОРОБКИ ПЕРЕДАЧ[FN4A-EL]</a></font>.)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1AH</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1AU</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1U</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">THOP</div>
+<div class="tbody"> (Датчик положения дроссельной заслонки)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">%</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Педаль акселератора отпущена: <span>0%</span></div>
+<div class="tbody">Педаль акселератора полностью нажата: <span>100%</span></div>
+</td>
+<td id="" align="left">
+<div class="tbody">Проверьте датчик положения педали акселератора.</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="htmlRU/id0140b1803200.html">ПРОВЕРКА ДАТЧИКА ПОЛОЖЕНИЯ ПЕДАЛИ АКСЕЛЕРАТОРА (АPP) [ZJ, ZY, Z6]</a></font>.)</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="htmlRU/id0140a9803200.html">ПРОВЕРКА ДАТЧИКА ПОЛОЖЕНИЯ ПЕДАЛИ АКСЕЛЕРАТОРА (АPP) [LF, L3]</a></font>.)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">2AT, 2AX</div>
+</td>
+<td id="" align="center">
+<div class="tbody">2AA</div>
+</td>
+<td id="" align="center">
+<div class="tbody">2I, 2M</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">TR</div>
+<div class="tbody"> (Диапазон автоматической коробки передач)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">P/R/N/D</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Позиция Р: P</div>
+<div class="list">•&nbsp;&nbsp;Позиция R: R</div>
+<div class="list">•&nbsp;&nbsp;Позиция N: N</div>
+<div class="list">•&nbsp;&nbsp;Позиция D: D</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Проверьте датчик TR.</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="htmlRU/id0517a1800900.html">ПРОВЕРКА ДАТЧИКА ПОЛОЖЕНИЯ СЕЛЕКТОРА (ДАТЧИКА TR)[FN4A-EL]</a></font>.)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1AS</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1X</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1S</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">TR_SENS</div>
+<div class="tbody"> (Датчик TR)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">V</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Позиция Р: <span>4,34—4,79 В</span></div>
+<div class="list">•&nbsp;&nbsp;Позиция R: <span>3,83—4,18 В</span></div>
+<div class="list">•&nbsp;&nbsp;Позиция N: <span>3,05—3,50 В</span></div>
+<div class="list">•&nbsp;&nbsp;Позиция D: <span>2,23—2,66 В</span></div>
+</td>
+<td id="" align="left">
+<div class="tbody">Проверьте датчик TR.</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="htmlRU/id0517a1800900.html">ПРОВЕРКА ДАТЧИКА ПОЛОЖЕНИЯ СЕЛЕКТОРА (ДАТЧИКА TR)[FN4A-EL]</a></font>.)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1AS</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1X</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1S</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">TSS</div>
+<div class="tbody"> (Датчик частоты вращения колеса турбины)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">RPM</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Отображает скорость вращения колеса турбины</div>
+<dl>
+<dd class="list">
+<div class="list">―&nbsp;&nbsp;Выключатель зажигания в позиции "ON" (ВКЛ): <span>0 об/мин</span></div>
+<div class="list">―&nbsp;&nbsp;Холостой ход: <span>700—800 об/мин</span> (позиции P, N)</div>
+</dd>
+</dl>
+</td>
+<td id="" align="left">
+<div class="tbody">Проверьте датчик частоты вращения колеса турбины.</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="htmlRU/id0517a1801200.html">ПРОВЕРКА ДАТЧИКА ЧАСТОТЫ ВРАЩЕНИЯ КОЛЕСА ТУРБИНЫ[FN4A-EL]</a></font>.)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1R, 1V</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1K, 1O</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1M, 1Q</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">UP SW</div>
+<div class="tbody"> (Переключатель повышения передачи)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">On/Off</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Режима M, переключатель включения более высокой передачи: On</div>
+<div class="list">•&nbsp;&nbsp;Другие: Off</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Проверьте узел селектора в сборе.</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="htmlRU/id051800800600.html">ПРОВЕРКА СЕЛЕКТОРА В СБОРЕ</a></font>.)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1M</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1P</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1K</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p></p><br clear="all"><a name="id0502a180560001"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Порядок использования функции симуляции</p>
+<p class="list">1.&nbsp;&nbsp;Подключите диагностическую систему M-MDS к диагностическому разъему DLC-2.</p>
+<p class="list">
+<table class="figure-flame">
+<tbody><tr>
+<td width="10mm"></td>
+<td>
+<table class="figure-float" cellspacing="0" bordercolor="black">
+<tbody><tr>
+<td align="center"><img src="imageRU/am3zzw00000458.png"></td>
+</tr>
+</tbody></table>
+<div class="figure-caption">am3zzw00000458</div>
+</td>
+</tr>
+</tbody></table>
+</p>
+<p class="list">2.&nbsp;&nbsp;После идентификации автомобиля выберите следующие пункты меню в окне начального этапа диагностической системы M-MDS.</p>
+<p class="list">
+</p><dl>
+<dd>
+<div class="list">•&nbsp;&nbsp;При использовании IDS (портативного ПК)</div>
+<dl>
+<dd class="list">
+<div class="list">―&nbsp;&nbsp;Выберите “Toolbox”.</div>
+<div class="list">―&nbsp;&nbsp;Выберите “DataLogger”.</div>
+<div class="list">―&nbsp;&nbsp;Выберите “Modules”.</div>
+<div class="list">―&nbsp;&nbsp;Выберите “PCM”.</div>
+</dd>
+</dl>
+<div class="list">•&nbsp;&nbsp;При использовании PDS (карманного ПК)</div>
+<dl>
+<dd class="list">
+<div class="list">―&nbsp;&nbsp;Выберите “Module Tests”.</div>
+<div class="list">―&nbsp;&nbsp;Выберите “PCM”.</div>
+<div class="list">―&nbsp;&nbsp;Выберите “DataLogger”.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+<p></p>
+<p class="list">3.&nbsp;&nbsp;Выберите с помощью системы M-MDS перечисленные параметры для имитации:</p>
+<p class="list"></p>
+<p class="list">4.&nbsp;&nbsp;Для проверки работы каждого компонента выполните имитационный тест.</p>
+<p class="list">
+</p><dl>
+<dd>
+<div class="list">•&nbsp;&nbsp;Если при проведении имитационного теста из электромагнитного клапана не слышны характерные щелчки, свидетельствующие о его работе, значит возможно наличие обрыва или короткого замыкания в цепи электромагнитного клапана или его зависание и выход из строя.</div>
+</dd>
+</dl>
+<p></p>
+<p clear="all">
+</p><p class="table-title">Таблица пунктов симуляции</p>
+<p>
+</p><div>X: Доступен</div>
+<p></p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center" rowspan="2">
+<p class="thead">Пункт симуляции</p>
+</th>
+<th id="" align="center" rowspan="2">
+<p class="thead">Задействованные компоненты</p>
+</th>
+<th id="" align="center" rowspan="2">
+<p class="thead">Единицы измерения/Состояние</p>
+</th>
+<th id="" align="center" colspan="2">
+<p class="thead">Функционирование</p>
+</th>
+<th id="" align="center" colspan="3">
+<p class="thead">Контакт блока РСМ</p>
+</th>
+</tr>
+<tr>
+<th id="" align="center">
+<p class="thead">IG ON</p>
+</th>
+<th id="" align="center">
+<p class="thead">Холостой ход</p>
+</th>
+<th id="" align="center">
+<p class="thead">ZY</p>
+</th>
+<th id="" align="center">
+<p class="thead">Z6</p>
+</th>
+<th id="" align="center">
+<p class="thead">LF</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="left">
+<div class="tbody">LPS</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Электромагнитный регулятор давления</div>
+</td>
+<td id="" align="center">
+<div class="tbody">%</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Нет данных</div>
+</td>
+<td id="" align="center">
+<div class="tbody">X</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1P, 1T</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1AF, 1AV</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1G, 1H</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">SSA/SS1</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Электромагнитный клапан А переключения передач</div>
+</td>
+<td id="" align="center">
+<div class="tbody">%</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Нет данных</div>
+</td>
+<td id="" align="center">
+<div class="tbody">X</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1D</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1AZ</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1B</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">SSB/SS2</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Электромагнитный клапан В переключения передач</div>
+</td>
+<td id="" align="center">
+<div class="tbody">%</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Нет данных</div>
+</td>
+<td id="" align="center">
+<div class="tbody">X</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1H</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1BH</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1C</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">SSC/SS3</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Электромагнитный клапан С переключения передач</div>
+</td>
+<td id="" align="center">
+<div class="tbody">%</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Нет данных</div>
+</td>
+<td id="" align="center">
+<div class="tbody">X</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1L</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1BD</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1D</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">SSD/SS4</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Электромагнитный клапан D переключения передач</div>
+</td>
+<td id="" align="center">
+<div class="tbody">On/Off</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Нет данных</div>
+</td>
+<td id="" align="center">
+<div class="tbody">X</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1K</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1AJ</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1E</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">SSE_SS5</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Электромагнитный клапан E переключения передач</div>
+</td>
+<td id="" align="center">
+<div class="tbody">On/Off</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Нет данных</div>
+</td>
+<td id="" align="center">
+<div class="tbody">X</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1O</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1AR</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1F</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p></p>
+
+
+</body></html>

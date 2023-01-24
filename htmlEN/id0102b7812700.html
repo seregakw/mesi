@@ -1,0 +1,555 @@
+<html lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../css/mazda-css-en.css" type="text/css">
+<title>DTC P2195 [L3 Turbo]</title>
+</head>
+<body><a name="id0102b7812700"></a><p class="servinfo-title"><span class="servinfo-head"></span>DTC P2195 [L3 Turbo]</p>
+<hr>
+<p class="servinfo-title-id" align="right">id0102b7812700</p>
+<p clear="all">
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">DTC P2195</p>
+</th>
+<th id="" align="left">
+<p class="thead">A/F sensor signal stuck lean</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center">
+<div class="tbody"><span>DETECTION CONDITION</span></div>
+</td>
+<td id="" align="left">
+<div class="list">•  The PCM monitors the A/F sensor output when the following conditions are met. If the output is<span> more than 1.15 for 25 s</span>, the PCM determines that the A/F sensor has a malfunction.</div>
+<dl>
+<div class="list-title">MONITORING CONDITION</div>
+<dd class="list">
+<div class="list">―  ECT: more than<span> 70 °C {158 °F}</span></div>
+<div class="list">―  Engine speed:<span> 1,000—3,200 rpm</span></div>
+<div class="list">―  Charging efficiency:<span> 20—62.5%</span></div>
+<div class="list">―  Output voltage from the HO2S:<span> 0.2 V or above</span></div>
+</dd>
+</dl>
+<div class="list-title">Diagnostic support note</div>
+<div class="list">•  This is an intermittent monitor (A/F sensor, HO2S).</div>
+<div class="list">•  MIL illuminates if the PCM detects the above malfunction condition in two consecutive drive cycles or in one drive cycle while the DTC for the same malfunction has been stored in the PCM.</div>
+<div class="list">•  PENDING CODE is available if the PCM detects the above malfunction condition during the first drive cycle.</div>
+<div class="list">•  FREEZE FRAME DATA is available.</div>
+<div class="list">•  The DTCs are stored in the PCM memory.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody"><span>POSSIBLE CAUSE</span></div>
+</td>
+<td id="" align="left">
+<div class="list">•  A/F sensor malfunction</div>
+<div class="list">•  Fuel injector malfunction</div>
+<div class="list">•  Insufficient fuel line pressure</div>
+<div class="list">•  Fuel pressure sensor malfunction</div>
+<div class="list">•  Relief valve (built-in fuel delivery pipe) malfunction</div>
+<div class="list">•  Spill valve control solenoid valve (built-in high pressure fuel pump) malfunction</div>
+<div class="list">•  High pressure fuel pump malfunction</div>
+<div class="list">•  Exhaust gas leakage</div>
+<div class="list">•  Air suction at intake-air system malfunction</div>
+<div class="list">•  Fuel leakage</div>
+<div class="list">•  MAF sensor malfunction</div>
+<div class="list">•  ECT sensor malfunction</div>
+<div class="list">•  PCM malfunction</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+<p clear="all">
+<p class="table-title">Diagnostic procedure</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">STEP</p>
+</th>
+<th id="" align="center" colspan="2">
+<p class="thead">INSPECTION</p>
+</th>
+<th id="" align="center">
+<p class="thead">ACTION</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">1</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">VERIFY FREEZE FRAME DATA AND DIAGNOSTIC MONITORING TEST RESULTS HAVE BEEN RECORDED</div>
+<div class="list">•  Have the FREEZE FRAME DATA and DIAGNOSTIC MONITORING TEST RESULTS (A/F sensor, HO2S related) been recorded?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Record the FREEZE FRAME DATA and DIAGNOSTIC MONITORING TEST RESULTS on the repair order, then go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">2</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">VERIFY RELATED SERVICE INFORMATION AVAILABILITY</div>
+<div class="list">•  Verify related Service Information availability.</div>
+<div class="list">•  Is any related Service Information available?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Perform the repair or diagnosis according to the available Service Information.</div>
+<div class="list">•  If the vehicle is not repaired, go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">3</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">VERIFY RELATED PENDING CODE OR STORED DTC</div>
+<div class="list">•  Turn the ignition switch to off, then to ON position (Engine off).</div>
+<div class="list">•  Verify the related PENDING CODE or stored DTCs.</div>
+<div class="list">•  Is the DTC P2177 or P2187 also present?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the applicable DTC inspection.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id0102b7801500.html">DTC TABLE [L3 Turbo]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">4</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">IDENTIFY TRIGGER DTC FOR FREEZE FRAME DATA</div>
+<div class="list">•  Is DTC P2195 on FREEZE FRAME DATA?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to FREEZE FRAME DATA DTC inspection.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id0102b7801500.html">DTC TABLE [L3 Turbo]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">5</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">VERIFY CURRENT INPUT SIGNAL STATUS</div>
+<div class="list">•  Connect the M-MDS to the DLC-2.</div>
+<div class="list">•  Verify the following PIDs.<div> (See <font class="extxref-label"><a href="id0140b6802500.html">PCM INSPECTION [L3 Turbo]</a></font>.)</div>
+</div>
+<dl>
+<dd class="list">
+<div class="list">―  APP1</div>
+<div class="list">―  APP2</div>
+<div class="list">―  ECT</div>
+<div class="list">―  MAF</div>
+<div class="list">―  TP</div>
+<div class="list">―  VSS</div>
+</dd>
+</dl>
+<div class="list">•  Are the PIDs normal?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Inspect the malfunctioning part according to the inspection results.</div>
+<div class="tbody">Then go to Step 16.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">6</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">VERIFY CURRENT INPUT SIGNAL STATUS UNDER FREEZE FRAME DATA CONDITION</div>
+<div class="list">•  Connect the M-MDS to the DLC-2.</div>
+<div class="list">•  Verify the following PIDs under FREEZE FRAME DATA condition.<div> (See <font class="extxref-label"><a href="id0140b6802500.html">PCM INSPECTION [L3 Turbo]</a></font>.)</div>
+</div>
+<dl>
+<dd class="list">
+<div class="list">―  APP1</div>
+<div class="list">―  APP2</div>
+<div class="list">―  ECT</div>
+<div class="list">―  MAF</div>
+<div class="list">―  TP</div>
+<div class="list">―  VSS</div>
+</dd>
+</dl>
+<div class="list">•  Are the PIDs normal?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Inspect the malfunctioning part according to the inspection results.</div>
+<div class="tbody">Then go to Step 16.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">7</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">INSPECT INTAKE-AIR SYSTEM FOR EXCESSIVE AIR SUCTION</div>
+<div class="list">•  Visually inspect for loosen, cracks or damages hose in intake-air system.</div>
+<div class="list">•  Is there any malfunction<span>?</span></div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Repair or replace the malfunctioning part, then go to Step 16.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">8</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">VERIFY CURRENT INPUT SIGNAL STATUS OF MAF SENSOR</div>
+<div class="list">•  Connect the M-MDS to the DLC-2.</div>
+<div class="list">•  Start the engine.</div>
+<div class="list">•  Access the MAF PID.</div>
+<div class="list">•  Verify that the MAF PID changes quickly according to engine speed.</div>
+<div class="list">•  Is the PID normal?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Replace the MAF/IAT sensor, then go to Step 16.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">9</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">INSPECT A/F SENSOR</div>
+<div class="list">•  Inspect the A/F sensor.<div> (See <font class="extxref-label"><a href="id0140b6899800.html">AIR FUEL RATIO (A/F) SENSOR, HEATED OXYGEN SENSOR (HO2S) INSPECTION [L3 Turbo]</a></font>.)</div>
+</div>
+<div class="list">•  Is there any malfunction<span>?</span></div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Replace the A/F sensor, then go to Step 16.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id0115b4800200.html">EXHAUST SYSTEM REMOVAL/INSTALLATION [L3 Turbo]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">10</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">INSPECT FUEL INJECTOR</div>
+<div class="list">•  Inspect the fuel injector.<div> (See <font class="extxref-label"><a href="id0114b4800700.html">FUEL INJECTOR INSPECTION [L3 Turbo]</a></font>.)</div>
+</div>
+<div class="list">•  Is there any malfunction?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Replace the suspected fuel injector, then go to Step 16.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id0114b4800600.html">FUEL INJECTOR REMOVAL/INSTALLATION [L3 Turbo]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">11</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">INSPECT FUEL PRESSURE (HIGH-SIDE)</div>
+<div class="list">•  Access and monitor FUEL_PRES PID.</div>
+<div class="list">•  Is the FUEL_PRES PID value within the specified?<div> (See <font class="extxref-label"><a href="id0140b6802500.html">PCM INSPECTION [L3 Turbo]</a></font>.)</div>
+</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to Step 15.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">12</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">IDENTIFY CAUSE BY FUEL PRESSURE SENSOR OR HIGH PRESSURE FUEL PUMP</div>
+<div class="list">•  Is the vehicle accelerate performance normally?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to Step 14.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">13</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">INSPECT FUEL PRESSURE SENSOR</div>
+<div class="list">•  Inspect the fuel pressure sensor.<div> (See <font class="extxref-label"><a href="id0140b6801300.html">FUEL PRESSURE SENSOR INSPECTION [L3 Turbo]</a></font>.)</div>
+</div>
+<div class="list">•  Is the fuel pressure sensor normal?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to Step 15.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Replace the fuel delivery pipe, then go to Step 16.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">14</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">INSPECT HIGH PRESSURE FUEL PUMP</div>
+<div class="list">•  Replace the high pressure fuel pump</div>
+<div class="list">•  Monitor FUEL_PRES PID</div>
+<div class="list">•  Is the FUEL_PRES PID value within the specified?</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id0140b6802500.html">PCM INSPECTION [L3 Turbo]</a></font>.)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to Step 16.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">15</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">INSPECT FUEL PRESSURE (LOW-SIDE)</div>
+<div class="list">•  Connect the fuel pressure gauge between fuel pump and high pressure fuel pump.<div> (See <font class="extxref-label"><a href="id0114b4801500.html">HIGH PRESSURE FUEL PUMP INSPECTION [L3 Turbo]</a></font>.)</div>
+</div>
+<div class="list">•  Measure the low side fuel pressure.<div>(See <font class="extxref-label"><a href="id0114b4800500.html">FUEL LINE PRESSURE INSPECTION [L3 Turbo]</a></font>.)</div>
+</div>
+<div class="list">•  Is the low side fuel pressure within the specified?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Inspect for following:</div>
+<div class="list">•  Fuel line restriction</div>
+<div class="list">•  Fuel filter clogging</div>
+<div class="tbody">If okay replace the fuel pump. Then go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">16</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">VERIFY TROUBLESHOOTING OF DTC P2195 COMPLETED</div>
+<div class="list">•  Make sure to reconnect all disconnected connectors.</div>
+<div class="list">•  Clear the DTC from the PCM memory using the M-MDS.</div>
+<div class="list">•  Perform the following conditions.</div>
+<dl>
+<dd class="list">
+<div class="list">―  ECT: more than<span> 70 —150 °C {158—302 °F}</span></div>
+<div class="list">―  Engine speed:<span> 1,000—3,200 rpm</span></div>
+<div class="list">―  Charging efficiency:<span> 20—62.5%</span></div>
+<div class="list">―  Output voltage from the HO2S:<span> 0.2 V or above</span></div>
+</dd>
+</dl>
+<div class="list">•  Is the PENDING CODE for this DTC present?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Replace the PCM, then go to the next step.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id0140b6802400.html">PCM REMOVAL/INSTALLATION [L3 Turbo]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">17</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">VERIFY AFTER REPAIR PROCEDURE</div>
+<div class="list">•  Perform the “AFTER REPAIR PROCEDURE”.<div> (See <font class="extxref-label"><a href="id0102b7801100.html">AFTER REPAIR PROCEDURE [L3 Turbo]</a></font>.)</div>
+</div>
+<div class="list">•  Are any DTCs present?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the applicable DTC inspection.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id0102b7801500.html">DTC TABLE [L3 Turbo]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Troubleshooting completed.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</body>
+</html>

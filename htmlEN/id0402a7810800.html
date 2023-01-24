@@ -1,0 +1,248 @@
+<html lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../css/mazda-css-en.css" type="text/css">
+<title>DTC C1446 (EXCEPT MZ-CD 1.6 (Y6)) [ABS]</title>
+</head>
+<body><a name="id0402a7810800"></a><p class="servinfo-title"><span class="servinfo-head"></span>DTC C1446 (EXCEPT MZ-CD 1.6 (Y6)) [ABS]</p>
+<hr>
+<p class="servinfo-title-id" align="right">id0402a7810800</p>
+<p clear="all">
+<table class="table-flame" border="1">
+<tbody>
+<tr>
+<td id="" align="center">
+<div class="tbody"><span>DTC</span></div>
+</td>
+<td id="" align="left" colspan="2">
+<div class="tbody"><span>C1446</span></div>
+</td>
+<td id="" align="left">
+<div class="tbody"><span>Brake switch</span></div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" colspan="2">
+<div class="tbody"><span>DETECTION CONDITION</span></div>
+</td>
+<td id="" align="left" colspan="2">
+<div class="list">•  Brake switch ON signal is input for <span>6 min or more</span> when driving at a vehicle speed of <span>20 km/h {12.4 mph} or more</span>.</div>
+<div class="list">•  Brake switch ON signal is not input even though the control module determines vehicle deceleration.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" colspan="2">
+<div class="tbody"><span>POSSIBLE CAUSE</span></div>
+</td>
+<td id="" align="left" colspan="2">
+<div class="list">•  Open or short circuit in wiring harness between the brake switch and PJB terminal</div>
+<div class="list">•  Open or short circuit in wiring harness between the PJB and PCM terminals</div>
+<div class="list">•  Brake switch malfunction</div>
+<div class="list">•  Poor connection at connectors (female terminal)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" colspan="4"><img src="images/am3zzw00001692.png"></td>
+</tr>
+</tbody>
+</table>
+</p>
+<p clear="all">
+<p class="table-title">Diagnostic procedure</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">STEP</p>
+</th>
+<th id="" align="center" colspan="2">
+<p class="thead">INSPECTION</p>
+</th>
+<th id="" align="center">
+<p class="thead">ACTION</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">1</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">VERIFY OPEN OR SHORT CIRCUIT IN BRAKE SWITCH SIGNAL</div>
+<div class="list">•  Turn the ignition switch to the ON position.</div>
+<div class="list">•  Measure the voltage between the following PCM terminals and body ground when the brake pedal is depressed and released:</div>
+<dl>
+<dd class="list">
+<div class="list">―  PCM (ZJ, Z6): 1V—Body ground</div>
+<div class="list">―  PCM (ZY): 1G—Body ground</div>
+<div class="list">―  PCM (LF (MTX, ATX [FS5A-EL]), L3 (MTX)): 1AB—Body ground</div>
+<div class="list">―  PCM (LF (ATX [FN4A- EL]), L3 (ATX)): 1AU—Body ground</div>
+</dd>
+</dl>
+<dl>
+<dd class="list">
+<div class="list"><span>Voltage</span><div><span>Brake pedal depressed: B+</span></div>
+<div><span>Brake pedal released: </span><span></span></div>
+<div><span>1 V or less</span></div>
+</div>
+</dd>
+</dl>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to Step 5.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">If it is <span>B+</span> under any condition, then go to the next step.</div>
+<div class="tbody">If it is <span>1 V or less</span> under any condition, then go to Step 3.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">2</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">INSPECT BRAKE SWITCH SIGNAL FOR SHORT TO POWER SUPPLY CIRCUIT</div>
+<div class="list">•  Disconnect the brake switch connector.</div>
+<div class="list">•  Measure voltage between the brake switch connector terminal D (vehicle harness-side) and body ground.</div>
+<div class="list">•  Is the voltage <span>1 V or less</span>?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to Step 4.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Repair or replace the wiring harness between the PCM and brake switch, then go to Step 5</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">3</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">INSPECT BRAKE SWITCH SIGNAL FOR OPEN CIRCUIT</div>
+<div class="list">•  Disconnect the PCM connectors.</div>
+<div class="list">•  Disconnect the brake switch connector.</div>
+<div class="list">•  Inspect continuity between the following PCM connector terminals (vehicle harness-side) and brake switch terminal D:</div>
+<dl>
+<dd class="list">
+<div class="list">―  PCM (ZJ, Z6): 1V</div>
+<div class="list">―  PCM (ZY): 1G</div>
+<div class="list">―  PCM (LF (MTX, ATX [FS5A-EL]), L3 (MTX)): 1AB</div>
+<div class="list">―  PCM (LF (ATX [FN4A- EL]), L3 (ATX)): 1AU</div>
+</dd>
+</dl>
+<div class="list">•  Is there continuity?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Repair or replace the wiring harness between the PCM and brake switch, then go to Step 5.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">4</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">INSPECT BRAKE SWITCH</div>
+<div class="list">•  Inspect the brake switch.<div>(See <font class="extxref-label"><a href="id041100801985.html">BRAKE SWITCH INSPECTION [EXCEPT MZ-CD 1.6 (Y6)]</a></font>.)</div>
+</div>
+<div class="list">•  Is the brake switch normal?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Replace the brake switch, then go to the next step.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id041100801285.html">BRAKE PEDAL REMOVAL/INSTALLATION [EXCEPT MZ-CD 1.6 (Y6)]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">5</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">VERIFY THAT THE SAME DTC IS NOT PRESENT</div>
+<div class="list">•  Reconnect all disconnected connectors.</div>
+<div class="list">•  Clear the DTCs from the memory.<div> (See <font class="extxref-label"><a href="id0402a7805500.html">ON-BOARD DIAGNOSIS [ABS]</a></font>.)</div>
+</div>
+<div class="list">•  Start the engine and drive the vehicle at <span>20 km/h {12.4 mph} or more</span>.</div>
+<div class="list">•  Are the same DTCs present?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Repeat the inspection from Step 1.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">6</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">VERIFY THAT NO OTHER DTCS ARE PRESENT</div>
+<div class="list">•  Are any other DTCs output?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the applicable DTC inspection.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id0402a7805500.html">ON-BOARD DIAGNOSIS [ABS]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">DTC troubleshooting completed.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</body>
+</html>

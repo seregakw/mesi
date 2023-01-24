@@ -1,0 +1,203 @@
+<html lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../css/mazda-css-en.css" type="text/css">
+<title>DTC U2202 [MULTIPLEX COMMUNICATION SYSTEM]</title>
+</head>
+<body><a name="id0902e6830300"></a><p class="servinfo-title"><span class="servinfo-head"></span>DTC U2202 [MULTIPLEX COMMUNICATION SYSTEM]</p>
+<hr>
+<p class="servinfo-title-id" align="right">id0902e6830300</p>
+<p clear="all">
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">DTC</p>
+</th>
+<th id="" align="center">
+<p class="thead">U2202</p>
+</th>
+<th id="" align="left">
+<p class="thead">DSC HU/CM</p>
+</th>
+<th id="" align="left">
+<p class="thead">Communication error to PCM</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center" colspan="2">
+<div class="tbody"><span>DETECTION CONDITION</span></div>
+</td>
+<td id="" align="left" colspan="2">
+<dl>
+<dd>
+<div class="attention1-label">Warning</div>
+</dd>
+<dd>
+<div class="attention1">
+<div class="list">•  Detection conditions are for understanding the DTC outline before performing an inspection. Performing an inspection according to only detection conditions may cause injury due to operating error, or damage the system. When performing an inspection, always follow the inspection procedure.</div>
+</div>
+</dd>
+</dl>
+<div class="list">•  CAN system related harness malfunction</div>
+<div class="list">•  Related module communication error</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" colspan="2">
+<div class="tbody"><span>POSSIBLE CAUSE</span></div>
+</td>
+<td id="" align="left" colspan="2">
+<div class="list">•  Open or short circuit in wiring harness</div>
+<div class="list">•  Malfunction of connectors between PCM and DSC HU/CM</div>
+<div class="list">•  DSC HU/CM malfunction</div>
+<div class="list">•  PCM malfunction</div>
+<div class="list">•  Incorrect vehicle data (suspension and brake specs.) input during PCM configuration</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+<p clear="all">
+<p class="table-title">Diagnostic procedure</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">STEP</p>
+</th>
+<th id="" align="center" colspan="2">
+<p class="thead">INSPECTION</p>
+</th>
+<th id="" align="center">
+<p class="thead">ACTION</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">1</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">INSPECT DTC</div>
+<div class="list">•  Is DTC U2202 displayed?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Perform the PCM configuration.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id0140b1802600.html">PCM CONFIGURATION [ZJ, ZY, Z6]</a></font>.)</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id0140a9802600.html">PCM CONFIGURATION [LF, L3]</a></font>.)</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id0140b6802600.html">PCM CONFIGURATION [L3 Turbo]</a></font>.)</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id0140b2802600.html">PCM CONFIGURATION [MZ-CD 1.6 (Y6)]</a></font>.)</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0140f1802600.html">PCM CONFIGURATION [MZR-CD (RF Turbo)]</a></font>.)</div>
+<dl>
+<dd>
+<div class="attention2-label">Caution</div>
+</dd>
+<dd>
+<div class="attention2">
+<div class="list">•  When inputting the configuration data by hand, verify that it matches the vehicle specification.</div>
+</div>
+</dd>
+</dl>
+<div class="tbody">Clear the DTC, then go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Troubleshooting completed.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">2</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">INSPECT DTC</div>
+<div class="list">•  Is DTC U2202 displayed?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Troubleshooting completed.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">3</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">INSPECT HARNESS MALFUNCTION</div>
+<div class="tbody">Determine malfunctioning part in can system.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0902e6830500.html">PROCEDURES FOR DETERMINING THE LOCATION OF A MALFUNCTION [MULTIPLEX COMMUNICATION SYSTEM]</a></font>.)</div>
+<div class="tbody">Is there any malfunction?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Replace the wiring harness.</div>
+<div class="tbody">Clear the DTC.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Replace the DSC HU/CM.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id041500801100.html">DSC HU/CM INSPECTION</a></font>.)</div>
+<div class="tbody">Clear the DTC, then go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">4</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">VERIFY TROUBLESHOOTING COMPLETED</div>
+<div class="list">•  Is DTC U2202 displayed?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Replace the PCM.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0140b1802400.html">PCM REMOVAL/INSTALLATION [ZJ, ZY, Z6]</a></font>.)</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0140a9802400.html">PCM REMOVAL/INSTALLATION [LF, L3]</a></font>.)</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0140b6802400.html">PCM REMOVAL/INSTALLATION [L3 Turbo]</a></font>.)</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0140b2802400.html">PCM REMOVAL/INSTALLATION [MZ-CD 1.6 (Y6)]</a></font>.)</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0140f1802400.html">PCM REMOVAL/INSTALLATION [MZR-CD (RF Turbo)]</a></font>.)</div>
+<div class="tbody">Clear the DTC.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Troubleshooting completed.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</body>
+</html>

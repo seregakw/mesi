@@ -1,0 +1,305 @@
+<html lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../css/mazda-css-en.css" type="text/css">
+<title>DTC P2251 [MTX, LF ATX (FS5A-EL)]</title>
+</head>
+<body><a name="id0102b4813400"></a><p class="servinfo-title"><span class="servinfo-head"></span>DTC P2251 [MTX, LF ATX (FS5A-EL)]</p>
+<hr>
+<p class="servinfo-title-id" align="right">id0102b4813400</p>
+<p clear="all">
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">DTC P2251</p>
+</th>
+<th id="" align="left">
+<p class="thead">A/F sensor negative current control circuit open</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center">
+<div class="tbody"><span>DETECTION CONDITION</span></div>
+</td>
+<td id="" align="left">
+<div class="list">•  The PCM monitors A/F sensor negative current control circuit voltage. If the voltage is not changed against the PCM control value while the engine running, the PCM determines that the A/F sensor negative current control circuit is open.</div>
+<div class="list-title">Diagnostic support note</div>
+<div class="list">•  This is a continuous monitor (A/F sensor, HO2S).</div>
+<div class="list">•  The MIL illuminates if PCM detects the above malfunctioning condition in two consecutive drive cycles or in one drive cycle while the DTC for the same malfunction has been stored in the PCM.</div>
+<div class="list">•  PENDING CODE is available if PCM detects the above malfunction conditions during the first drive cycle.</div>
+<div class="list">•  FREEZE FRAME DATA is available.</div>
+<div class="list">•  DTC is stored in the PCM memory</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody"><span>POSSIBLE CAUSE</span></div>
+</td>
+<td id="" align="left">
+<div class="list">•  A/F sensor malfunction</div>
+<div class="list">•  Connector or terminal malfunction</div>
+<div class="list">•  Open circuit between PCM terminal 2AC and A/F sensor terminal D</div>
+<div class="list">•  A/F sensor heater can not be controlled</div>
+<div class="list">•  PCM malfunction</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" colspan="2"><img src="images/am3zzw00004645.png"></td>
+</tr>
+</tbody>
+</table>
+</p>
+<p clear="all">
+<p class="table-title">Diagnostic procedure</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">STEP</p>
+</th>
+<th id="" align="center" colspan="2">
+<p class="thead">INSPECTION</p>
+</th>
+<th id="" align="center">
+<p class="thead">ACTION</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">1</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">VERIFY FREEZE FRAME DATA HAVE BEEN RECORDED</div>
+<div class="list">•  Have FREEZE FRAME DATA been recorded?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Record the FREEZE FRAME DATA on the repair order, then go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">2</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">VERIFY RELATED SERVICE INFORMATION AVAILABILITY</div>
+<div class="list">•  Verify related Service Information availability.</div>
+<div class="list">•  Is any related Service Information available?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Perform repair or diagnosis according to the available Service Information.</div>
+<div class="list">•  If the vehicle is not repaired, go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">3</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">VERIFY RELATED PENDING CODE OR STORED DTC</div>
+<div class="list">•  Turn the ignition switch off, then ON position (Engine off).</div>
+<div class="list">•  Verify the related PENDING CODE or stored DTCs using the M-MDS.</div>
+<div class="list">•  Is the DTC P0030, P0031 or P0032 also present?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to appropriate DTC troubleshooting procedure.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id0102b4801500.html">DTC TABLE [MTX, LF ATX (FS5A-EL)]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">4</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">IDENTIFY TRIGGER DTC FOR FREEZE FRAME DATA</div>
+<div class="list">•  Is the DTC P2251 on FREEZE FRAME DATA?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to troubleshooting for DTC on FREEZE FRAME DATA.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id0102b4801500.html">DTC TABLE [MTX, LF ATX (FS5A-EL)]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">5</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">INSPECT A/F SENSOR CONNECTOR FOR POOR CONNECTION</div>
+<div class="list">•  Turn the ignition switch to off.</div>
+<div class="list">•  Disconnect the A/F sensor connector.</div>
+<div class="list">•  Inspect for poor connection (such as damaged/pulled-out pins, and corrosion).</div>
+<div class="list">•  Is there any malfunction?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Repair or replace the terminal, then go to Step 8.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">6</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">INSPECT PCM CONNECTOR FOR POOR CONNECTION</div>
+<div class="list">•  Turn the ignition switch to off.</div>
+<div class="list">•  Disconnect the PCM connector.</div>
+<div class="list">•  Inspect for poor connection (such as damaged/pulled-out pins, and corrosion).</div>
+<div class="list">•  Is there any malfunction?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Repair or replace the terminal, then go to Step 8.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">7</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">INSPECT A/F SENSOR NEGATIVE CURRENT CONTROL CIRCUIT FOR OPEN CIRCUIT</div>
+<div class="list">•  A/F sensor and PCM connectors disconnected.</div>
+<div class="list">•  Verify the continuity between PCM terminal 2AC and A/F sensor terminal D at wiring harness-side connectors.</div>
+<div class="list">•  Is there continuity?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Replace the A/F sensor, then go to the next step. </div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Repair or replace for an open circuit, then go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">8</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">VERIFY TROUBLESHOOTING OF DTC P2251 COMPLETED</div>
+<div class="list">•  Make sure to reconnect all disconnected connectors</div>
+<div class="list">•  Clear the DTC from the PCM memory using the M-MDS.</div>
+<div class="list">•  Perform the KOEO or KOER self-test.<div> (See <font class="extxref-label"><a href="id0102b4801200.html">KOEO/KOER SELF TEST [MTX, LF ATX (FS5A-EL)]</a></font>.)</div>
+</div>
+<div class="list">•  Is the DTC P2251 present?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Replace the PCM, then go to the next step.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id0140a9802400.html">PCM REMOVAL/INSTALLATION [LF, L3]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">9</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">VERIFY AFTER REPAIR PROCEDURE</div>
+<div class="list">•  Perform the “AFTER REPAIR PROCEDURE”.<div> (See <font class="extxref-label"><a href="id0102b4801100.html">AFTER REPAIR PROCEDURE [MTX, LF ATX (FS5A-EL)]</a></font>.)</div>
+</div>
+<div class="list">•  Are any DTCs present?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the applicable DTC inspection.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id0102b4801500.html">DTC TABLE [MTX, LF ATX (FS5A-EL)]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Troubleshooting completed.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</body>
+</html>

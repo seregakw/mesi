@@ -1,0 +1,215 @@
+<html lang="ru">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../css/mazda-css-ru.css" type="text/css">
+<title>ПРОВЕРОЧНЫЙ ЕЗДОВОЙ ЦИКЛ OBD 
+[LF АКП (FN4A-EL), L3 АКП]</title>
+</head>
+<body><a name="id0102b6815800"></a><p class="servinfo-title"><span class="servinfo-head"></span>ПРОВЕРОЧНЫЙ ЕЗДОВОЙ ЦИКЛ OBD 
+[LF АКП (FN4A-EL), L3 АКП]</p>
+<hr>
+<p class="servinfo-title-id" align="right">id0102b6815800</p>
+<div class="list">•  Проверочный ездовой цикл предназначен для проверки правильности работы системы бортовой диагностики (OBD) и отсутствия вновь появившихся кодов неисправностей.</div>
+<div class="list">•  Во время проверочного ездового цикла выполняется проверка перечисленных ниже систем: </div>
+<dl>
+<dd class="list">
+<div class="list">―  Подогреватель датчика состава смеси</div>
+<div class="list">―  Подогреватель датчика HO2S на выходе из нейтрализатора</div>
+<div class="list">―  Датчик состава смеси</div>
+<div class="list">―  Датчик HO2S на выходе из нейтрализатора</div>
+<div class="list">―  Трёхкомпонентный каталитический нейтрализатор (TWC)</div>
+<div class="list">―  Топливная система и пропуски вспышек</div>
+</dd>
+</dl>
+<dl>
+<dd>
+<div class="attention2-label">Осторожно</div>
+</dd>
+<dd>
+<div class="attention2">
+<div class="list">•  При выполнении проверочного ездового цикла соблюдайте осторожность и правила дорожного движения.</div>
+<div class="list">•  Если во время выполнения поездки, для наблюдения за системой контроля параметров используется диагностическая система M-MDS, то нужно обязательно прибегать к помощи напарника, либо вести запись параметров системой M-MDS (функция PID/DATA MONITOR AND RECORD), чтобы анализировать эти данные позже.</div>
+</div>
+</dd>
+</dl>
+<dl>
+<dd>
+<div class="attention3-label">Примечание</div>
+</dd>
+<dd>
+<div class="attention3">
+<div class="list">•  Значения скорости движения автомобиля и частоты вращения коленчатого вала, определяемые блоком РСМ, могут отличаться от показаний спидометра и тахометра. Для наблюдения за скоростью движения следует использовать диагностическую систему M-MDS.</div>
+<div class="list">•  Если во время выполнения проверочного ездового цикла проверка системы OBD не может быть завершена, то на это возможны следующие причины: </div>
+<dl>
+<dd class="list">
+<div class="list">―  Система OBD обнаружила неисправность.</div>
+<div class="list">―  Проверочный ездовой цикл был завершён некорректно.</div>
+</dd>
+</dl>
+<div class="list">•  Отсоединение аккумуляторной батареи приводит к очистке памяти. Не отсоединяйте аккумуляторную батарею во время и после выполнения проверочного ездового цикла.</div>
+<div class="list">•  При выполнении проверочного ездового цикла для определения момента завершения проверки системы OBD можно всегда воспользоваться диагностической системой M-MDS. Наблюдение за ходом проверки ведётся при помощи опции ON BOARD SYSTEM READINESS (готовность бортовой системы).</div>
+</div>
+</dd>
+</dl><br clear="all"><a name="id0102b681580001"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Режим 1 (PCM Adaptive Memory Produce Drive Mode) (процедура обучения адаптивной памяти блока РСМ)</p>
+<p class="list">1.  Запустите двигатель и прогрейте его до нормальной рабочей температуры.</p>
+<p class="list"></p>
+<p class="list">2.  Проверьте соблюдение перечисленных условий и исправьте при необходимости: </p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  Выключено всё вспомогательное оборудование (кондиционер, фары, вентилятор отопителя, обогреватель заднего стекла).</div>
+<div class="list">•  Установочный угол опережения зажигания и обороты холостого хода соответствуют техническим условиям.</div>
+</dd>
+</dl>
+</p>
+<p class="list">3.  Поднимите обороты до <span>2800—3200 об/мин</span> не менее, чем на <span>30 с</span>, не создавая нагрузки на двигатель (выключены все навесные агрегаты).</p>
+<p class="list"></p>
+<p class="list">4.  После остановки вентилятора системы охлаждения оставьте двигатель работать в режиме холостого хода не менее, чем на <span>30 с</span>.</p>
+<p class="list"></p>
+<p class="list">5.  Выключите зажигание.</p>
+<p class="list"></p><br clear="all"><a name="id0102b681580002"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Режим 3 (послеремонтный проверочный ездовой цикл для проверки подогревателя датчика состава смеси, подогревателя датчика HO2S на выходе из нейтрализатора, датчика состава смеси, датчика HO2S на выходе из нейтрализатора и нейтрализатора TWC) </p>
+<p class="list">1.  В первую очередь выполняется проверка в Режиме 1.</p>
+<p class="list"></p>
+<p class="list">2.  Проверьте, чтобы всё вспомогательное оборудование (кондиционер, фары, вентилятор отопителя, обогреватель заднего стекла) было выключено.</p>
+<p class="list"></p>
+<p class="list">3.  Выполните показанный на рисунке ездовой цикл: вначале - участок О, затем выполняются участки A или B затем - C или D и, в завершение - участок Е или F. 
+Ездовые параметры перед началом прохождения участка с постоянной скоростью техническими условиями не оговариваются.</p>
+<p class="list">
+<table class="figure-flame">
+<tr>
+<td width="10mm"></td>
+<td>
+<table class="figure-float" cellspacing="0" bordercolor="black">
+<tr>
+<td align="center"><img src="images/am3zzw00003703.png"></td>
+</tr>
+</table>
+<div class="figure-caption">am3zzw00003703</div>
+</td>
+</tr>
+</table>
+<p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">Участок</p>
+</th>
+<th id="" align="center">
+<p class="thead">Положение селектора</p>
+</th>
+<th id="" align="center">
+<p class="thead">Скорость автомобиля (км/ч {миль/ч})</p>
+</th>
+<th id="" align="center">
+<p class="thead">Время (с)</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center">
+<div class="tbody">O</div>
+</td>
+<td id="" align="center">
+<div class="tbody">P или N</div>
+</td>
+<td id="" align="center">
+<div class="tbody">0 {0} (двигатель в режиме холостого хода)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">T1: свыше 455</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">A</div>
+</td>
+<td id="" align="center">
+<div class="tbody">M (3 передача)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">40—50 {25—31}</div>
+</td>
+<td id="" align="center" rowspan="2">
+<div class="tbody">T2: свыше 30</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">B</div>
+</td>
+<td id="" align="center">
+<div class="tbody">M (4 передача)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">65—100 {41—62}</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">C</div>
+</td>
+<td id="" align="center">
+<div class="tbody">M (2 передача)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">60—75 {38—46}</div>
+</td>
+<td id="" align="center" rowspan="2">
+<div class="tbody">T3: свыше 20</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">D</div>
+</td>
+<td id="" align="center">
+<div class="tbody">M (3 передача)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">85—100 {53—62}</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">E</div>
+</td>
+<td id="" align="center">
+<div class="tbody">M (3 передача)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">50—75 {32—46}</div>
+</td>
+<td id="" align="center" rowspan="2">
+<div class="tbody">T4: свыше 120</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">F</div>
+</td>
+<td id="" align="center">
+<div class="tbody">D</div>
+</td>
+<td id="" align="center">
+<div class="tbody">75—100 {47—62}</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</p>
+<p class="list">4.  Остановите автомобиль и выберите ON BOARD SYSTEM READINESS (готовность бортовой системы) для проверки завершения проверочного ездового цикла </p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  Если цикл завершён, то значение RFC меняется с "No" на "Yes".</div>
+<div class="list">•  Если цикл не завершён, то выключите зажигание и вернитесь к этапу 3.</div>
+</dd>
+</dl>
+</p>
+<p class="list">5.  Убедитесь в отсутствии записанных кодов неисправностей.</p>
+<p class="list"></p>
+</body>
+</html>

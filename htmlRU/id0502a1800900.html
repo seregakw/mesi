@@ -1,0 +1,217 @@
+<html lang="ru">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../css/mazda-css-ru.css" type="text/css">
+<title>DTC P0706 [FN4A-EL]</title>
+</head>
+<body><a name="id0502a1800900"></a><p class="servinfo-title"><span class="servinfo-head"></span>DTC P0706 [FN4A-EL]</p>
+<hr>
+<p class="servinfo-title-id" align="right">id0502a1800900</p>
+<p clear="all">
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">ДИАГНОСТИЧЕСКИЙ КОД НЕИСПРАВНОСТИ P0706</p>
+</th>
+<th id="" align="left">
+<p class="thead">Нарушение характеристики датчика TR /работоспособность датчика</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center">
+<div class="tbody"><span>УСЛОВИЯ ОБНАРУЖЕНИЯ</span></div>
+</td>
+<td id="" align="left">
+<div class="list">•  Когда все условия приведенные ниже выполнены и прошло <span>не менее 100 секунд</span>.</div>
+<dl>
+<dd class="list">
+<div class="list">―  Частота вращения коленчатого вала <span>не менее 530 об/мин</span></div>
+<div class="list">―  Скорость движения автомобиля <span>не менее 20 км/ч /12 миль/ч}</span></div>
+<div class="list">―  Напряжение на контактах 1AS (ZY)/1X (Z6)/1S (LF) блока управления силовым агрегатом <span>не менее 0,5 В</span></div>
+<div class="list">―  Диапазон/позиция P, R, N или D не определены</div>
+</dd>
+</dl>
+<div class="list-title">Примечание по диагностике: </div>
+<div class="list">•  Это постоянно контролируемый параметр (комплексный контроль компонентов)</div>
+<div class="list">•  Сигнализатор MIL включается, если блок РСМ регистрирует описанное выше состояние в двух последовательных ездовых циклах, или в одном цикле при том условии, что данный код неисправности уже сохранён в памяти блока РСМ.</div>
+<div class="list">•  Сообщение PENDING CODE (неподтвержденный диагностический код) появляется если блок управления силовым агрегатом обнаружит изменения условий неисправности при первом ездовом цикле.</div>
+<div class="list">•  Имеются данные стоп-кадра (FREEZE FRAME DATA).</div>
+<div class="list">•  Горит предупреждающий световой сигнализатор неисправности автоматической коробки передач</div>
+<div class="list">•  Код неисправности сохраняется в памяти блока РСМ.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody"><span>ВОЗМОЖНАЯ ПРИЧИНА НЕИСПРАВНОСТИ</span></div>
+</td>
+<td id="" align="left">
+<div class="list">•  Неисправен датчик TR</div>
+<div class="list">•  Неправильная регулировка датчика TR</div>
+<div class="list">•  Неисправность блока РСМ</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+<p clear="all">
+<p class="table-title">Процедура диагностики</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">ЭТАП</p>
+</th>
+<th id="" align="center" colspan="2">
+<p class="thead">ПРОВЕРКА</p>
+</th>
+<th id="" align="center">
+<p class="thead">ПРЕДПРИНИМАЕМЫЕ МЕРЫ</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">1</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ЗАПИСИ ДАННЫХ СТОП-КАДРА (FREEZE FRAME DATA)</div>
+<div class="list">•  ДАННЫЕ СТОП-КАДРА ПАРАМЕТРОВ были записаны?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Запишите данные стоп-кадра в заказ-наряд на выполнение ремонта и переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">2</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА НАЛИЧИЯ ДОПОЛНИТЕЛЬНОЙ СЕРВИСНОЙ ИНФОРМАЦИИ</div>
+<div class="list">•  Проверьте наличие дополнительной сервисной информации по данной проблеме.</div>
+<div class="list">•  Имеется ли в наличии дополнительная сервисная информация по данной проблеме?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Пользуясь дополнительной сервисной информацией, выполните ремонт или диагностирование.</div>
+<div class="list">•  Если неисправность не устранена, то переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">3</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРЬТЕ ДАТЧИК TR</div>
+<div class="list">•  Поверните выключатель зажигания в положение LOCK (Блокировка).</div>
+<div class="list">•  Отсоедините разъем от датчика TR.</div>
+<div class="list">•  Проверьте сопротивление между контактами В и С датчика TR.</div>
+<div class="list">•  Находится ли сопротивление в норме?<div> (См. <font class="extxref-label"><a href="id0517a1800900.html">ПРОВЕРКА ДАТЧИКА ПОЛОЖЕНИЯ СЕЛЕКТОРА (ДАТЧИКА TR)[FN4A-EL]</a></font>.)</div>
+</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Отрегулируйте положение датчика TR, затем переходите к выполнению следующего этапа.</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="id0517a1803700.html">РЕГУЛИРОВКА ДАТЧИКА ПОЛОЖЕНИЯ СЕЛЕКТОРА  (ДАТЧИКА TR)[FN4A-EL]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Замените датчик TR, затем переходите к выполнению следующего этапа.</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="id0517a1804000.html">СНЯТИЕ/УСТАНОВКА ДАТЧИКА ПОЛОЖЕНИЯ СЕЛЕКТОРА (ДАТЧИКА TR)[FN4A-EL]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">4</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">УДОСТОВЕРЬТЕСЬ, ЧТО УСТРАНЕНИЕ НЕИСПРАВНОСТИ С ДИАГНОСТИЧЕСКИМ КОДОМ НЕИСПРАВНОСТИ P0706 ПОЛНОСТЬЮ ЗАВЕРШЕНО</div>
+<div class="list">•  Убедитесь, что все разъемы, которые были отключены в процессе работ по устранению неисправности, подключены обратно.</div>
+<div class="list">•  Удалите из памяти системы информацию о диагностическом коде неисправности при помощи диагностической системы M-MDS.</div>
+<div class="list">•  Выполните поездку на автомобиле на всех передачах (в том числе и задним ходом) <span>не менее 100 секунд</span> при следующих условиях:</div>
+<dl>
+<dd class="list">
+<div class="list">―  Частота вращения коленчатого вала (параметр RPM): <span>не менее 530 об/мин</span></div>
+<div class="list">―  Скорость движения автомобиля (параметр VSS): <span>не менее 20 км/ч /12 миль/ч}</span></div>
+</dd>
+</dl>
+<div class="list">•  Надпись PENDING CODE отображается?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Замените блок РСМ и перейдите к следующему этапу.</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="id0140b1802400.html">СНЯТИЕ И УСТАНОВКА БЛОКА РСМ [ZJ, ZY, Z6]</a></font>.)</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="id0140a9802400.html">СНЯТИЕ И УСТАНОВКА БЛОКА РСМ [LF, L3]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Ничего не обнаружено. Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">5</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ВЫПОЛНИТЕ ПОСЛЕРЕМОНТНЫЕ МЕРОПРИЯТИЯ</div>
+<div class="list">•  Выполните мероприятия в соответствии с требованиями раздела “ПОСЛЕРЕМОНТНЫЕ МЕРОПРИЯТИЯ”.<div> (См. <font class="extxref-label"><a href="id0502a1800400.html">ПОСЛЕРЕМОНТНЫЕ МЕРОПРИЯТИЯ [FN4A-EL]</a></font>.)</div>
+</div>
+<div class="list">•  Имеются ли коды неисправностей?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к проверке по существующим кодам неисправностей.</div>
+<div class="tbody">(См. <font class="extxref-label"><a href="id0502a1800500.html">ТАБЛИЦА ДИАГНОСТИЧЕСКИХ КОДОВ НЕИСПРАВНОСТЕЙ [FN4A-EL]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Процедура поиска и устранения неисправностей завершена.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</body>
+</html>

@@ -1,0 +1,143 @@
+<html lang="ru">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../css/mazda-css-ru.css" type="text/css">
+<title>DTC P1639 [MZ-CD 1.6 (Y6)]</title>
+</head>
+<body><a name="id0102c3826600"></a><p class="servinfo-title"><span class="servinfo-head"></span>DTC P1639 [MZ-CD 1.6 (Y6)]</p>
+<hr>
+<p class="servinfo-title-id" align="right">id0102c3826600</p>
+<p clear="all">
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">DTC P1639</p>
+</th>
+<th id="" align="left">
+<p class="thead">Vehicle identification block corrupted or not programmed</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center">
+<div class="tbody"><span>DETECTION CONDITION</span></div>
+</td>
+<td id="" align="left">
+<div class="list">•  Vehicle identification block not programmed - program vehicle identification block</div>
+<div class="list">•  Vehicle identification checksum error - re-program vehicle identification</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody"><span>POSSIBLE CAUSE</span></div>
+</td>
+<td id="" align="left">
+<div class="list">•  No configuration data in the PCM.</div>
+<div class="list">•  PCM internal EEPROM is damaged.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+<p clear="all">
+<p class="table-title">Diagnostic procedure</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">STEP</p>
+</th>
+<th id="" align="center" colspan="2">
+<p class="thead">INSPECTION</p>
+</th>
+<th id="" align="center">
+<p class="thead">ACTION</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">1</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">VERIFY RELATED REPAIR INFORMATION AVAILABILITY</div>
+<div class="list">•  Verify related service bulletins and/or on-line repair information availability.</div>
+<div class="list">•  Is any repair information available?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Perform repair or diagnosis according to the available repair information.</div>
+<div class="list">•  If vehicle is not repaired, go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Perform the “PCM CONFIGURATION”, then go to the next step.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id0140b2802600.html">PCM CONFIGURATION [MZ-CD 1.6 (Y6)]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">2</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">VERIFY DTC P1639 DETECTED AGAIN</div>
+<div class="list">•  Clear the DTC from the memory using the M-MDS.</div>
+<div class="list">•  Run the vehicle under the FREEZE FRAME DATA stored condition.</div>
+<div class="list">•  Is the same DTC present?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Replace the PCM, then go to the next step.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0140b2802400.html">PCM REMOVAL/INSTALLATION [MZ-CD 1.6 (Y6)]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">3</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">VERIFY AFTER REPAIR PROCEDURE</div>
+<div class="list">•  Perform the after repair procedure.<div> (See <font class="extxref-label"><a href="id0102c3801100.html">AFTER REPAIR PROCEDURE [MZ-CD 1.6 (Y6)]</a></font>.)</div>
+</div>
+<div class="list">•  Are any DTCs present?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the applicable DTC inspection.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id0102c3801500.html">DTC TABLE [MZ-CD 1.6 (Y6)]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">DTC troubleshooting completed.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</body>
+</html>

@@ -1,0 +1,397 @@
+<html lang="ru">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../css/mazda-css-ru.css" type="text/css">
+<title>DTC P0507 
+[ZJ, ZY, Z6]</title>
+</head>
+<body><a name="id0102c1808700"></a><p class="servinfo-title"><span class="servinfo-head"></span>DTC P0507 
+[ZJ, ZY, Z6]</p>
+<hr>
+<p class="servinfo-title-id" align="right">id0102c1808700</p><br clear="all"><a name="id0102c180870001"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Только для моделей без моторедуктора привода дроссельной заслонки</p>
+<p clear="all">
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">DTC P0507</p>
+</th>
+<th id="" align="left">
+<p class="thead">Обороты холостого хода выше ожидаемых (работа регулятора холостого хода)</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center">
+<div class="tbody"><span>УСЛОВИЕ ОПРЕДЕЛЕНИЯ</span></div>
+</td>
+<td id="" align="left">
+<div class="list">•  Во время работы двигателя блок РСМ сравнивает текущее значение оборотов холостого хода с расчётным значением. Если текущее значение оборотов холостого хода выше расчётного <span>на 200 об/мин </span> на протяжении <span> 14 с</span>, то блок РСМ решает, что регулятор холостого хода завышает обороты холостого хода.</div>
+<div class="list-title">Примечание к проведению диагностирования</div>
+<div class="list">•  Это постоянно контролируемый параметр (комплексный контроль компонентов)</div>
+<div class="list">•  Сигнализатор MIL включается, если блок РСМ регистрирует описанное выше состояние в двух последовательных ездовых циклах, или в одном цикле при том условии, что данный код неисправности уже сохранён в памяти блока РСМ.</div>
+<div class="list">•  НЕПОДТВЕРЖДЁННЫЙ КОД (PENDING CODE) записывается, если блок РСМ обнаруживает описанное выше состояние неисправности во время первого ездового цикла. </div>
+<div class="list">•  Имеются данные стоп-кадра (FREEZE FRAME DATA).</div>
+<div class="list">•  Код неисправности сохраняется в памяти блока РСМ.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody"><span>ВОЗМОЖНЫЕ ПРИЧИНЫ НЕИСПРАВНОСТИ</span></div>
+</td>
+<td id="" align="left">
+<div class="list">•  Неправильное присоединение вакуумных трубок (коммутация)</div>
+<div class="list">•  Неисправность регулятора холостого хода</div>
+<div class="list">•  Неправильная регулировка троса привода дроссельной заслонки</div>
+<div class="list">•  Неисправность дроссельной заслонки</div>
+<div class="list">•  Неисправность датчика температуры воздуха на впуске (IAT)</div>
+<div class="list">•  Неисправность датчика температуры охлаждающей жидкости (ЕСТ)</div>
+<div class="list">•  Неисправность датчика СКР</div>
+<div class="list">•  Неисправность блока РСМ</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+<p clear="all">
+<p class="table-title">Процедура диагностики</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">ЭТАП</p>
+</th>
+<th id="" align="center" colspan="2">
+<p class="thead">ПРОВЕРКА</p>
+</th>
+<th id="" align="center">
+<p class="thead">ВЫПОЛНЯЕМЫЕ ДЕЙСТВИЯ</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">1</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ЗАПИСИ ДАННЫХ СТОП-КАДРА (FREEZE FRAME DATA)</div>
+<div class="list">•  Был ли записан стоп-кадр?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Запишите данные стоп-кадра в заказ-наряд на выполнение ремонта и переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">2</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА НАЛИЧИЯ ДОПОЛНИТЕЛЬНОЙ СЕРВИСНОЙ ИНФОРМАЦИИ</div>
+<div class="list">•  Проверьте наличие дополнительной сервисной информации по данной проблеме.</div>
+<div class="list">•  Имеется ли в наличии дополнительная сервисная информация по данной проблеме?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Пользуясь дополнительной сервисной информацией, выполните ремонт или диагностирование.</div>
+<div class="list">•  Если неисправность не устранена, то переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">3</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА СОПУТСТВУЮЩИХ НЕПОДТВЕРЖДЁННЫХ КОДОВ НЕИСПРАВНОСТЕЙ ИЛИ СОХРАНЁННЫХ КОДОВ НЕИСПРАВНОСТЕЙ</div>
+<div class="list">•  Выключите зажигание, затем поверните выключатель зажигания в положение ON (двигатель не работает).</div>
+<div class="list">•  Проверьте наличие сопутствующих неподтверждённых или сохранённых кодов неисправностей.</div>
+<div class="list">•  Имеются ли иные коды неисправностей?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к проверке по существующим кодам неисправностей.</div>
+<div class="tbody">(См. <font class="extxref-label"><a href="id0102c1801500.html">ТАБЛИЦА КОДОВ НЕИСПРАВНОСТЕЙ 
+[ZJ, ZY, Z6]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">4</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ПРАВИЛЬНОСТИ ПРИСОЕДИНЕНИЯ ВАКУУМНЫХ ШЛАНГОВ</div>
+<div class="list">•  Правильно ли присоединены вакуумные шланги?<div>(См. <font class="extxref-label"><a href="id0113b1804100.html">СХЕМА ПРОКЛАДКИ ВОЗДУШНЫХ ШЛАНГОВ ВПУСКНОЙ СИСТЕМЫ 
+[ZJ, ZY, Z6]</a></font>.)</div>
+</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Присоедините правильно вакуумные шланги и переходите к этапу 11.</div>
+<div class="tbody">(См. <font class="extxref-label"><a href="id0113b1804100.html">СХЕМА ПРОКЛАДКИ ВОЗДУШНЫХ ШЛАНГОВ ВПУСКНОЙ СИСТЕМЫ 
+[ZJ, ZY, Z6]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">5</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА РЕГУЛЯТОРА ХОЛОСТОГО ХОДА</div>
+<div class="list">•  Проверьте регулятор холостого хода.<div>(См. <font class="extxref-label"><a href="id0113b1820000.html">ПРОВЕРКА РЕГУЛЯТОРА ХОЛОСТОГО ХОДА 
+[ZJ, ZY, Z6]</a></font>.)</div>
+</div>
+<div class="list">•  Найдена ли неисправность<span></span>?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Отремонтируйте регулятор холостого хода и перейдите к этапу 11.</div>
+<div class="tbody">(См. <font class="extxref-label"><a href="id0113b1819900.html">СНЯТИЕ И УСТАНОВКА РЕГУЛЯТОРА ХОЛОСТОГО ХОДА 
+[ZJ, ZY, Z6]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу. </div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">6</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА СВОБОДНОГО ХОДА ТРОСА ПРИВОДА ДРОССЕЛЬНОЙ ЗАСЛОНКИ</div>
+<div class="list">•  Проверьте свободный ход троса привода дроссельной заслонки.<div>(См. <font class="extxref-label"><a href="id0113b1805300.html">ПРОВЕРКА И РЕГУЛИРОВКА ТРОСА ПРИВОДА ДРОССЕЛЬНОЙ ЗАСЛОНКИ 
+[ZJ, ZY, Z6]</a></font>.)</div>
+</div>
+<div class="list">•  Найдена ли неисправность<span></span>?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Отрегулируйте свободный ход троса привода дроссельной заслонки, затем переходите к этапу 11.</div>
+<div class="tbody">(См. <font class="extxref-label"><a href="id0113b1805300.html">ПРОВЕРКА И РЕГУЛИРОВКА ТРОСА ПРИВОДА ДРОССЕЛЬНОЙ ЗАСЛОНКИ 
+[ZJ, ZY, Z6]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу. </div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">7</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ДРОССЕЛЬНОЙ ЗАСЛОНКИ</div>
+<div class="list">•  Снимите корпус дроссельной заслонки.<div>(См. <font class="extxref-label"><a href="id0113b1801900.html">СНЯТИЕ И УСТАНОВКА ВПУСКНОЙ СИСТЕМЫ 
+[ZJ, ZY, Z6]</a></font>.)</div>
+</div>
+<div class="list">•  Найдена ли неисправность<span></span>?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Очистите или замените корпус дроссельной заслонки и перейдите к этапу 11.</div>
+<div class="tbody">(См. <font class="extxref-label"><a href="id0113b1801900.html">СНЯТИЕ И УСТАНОВКА ВПУСКНОЙ СИСТЕМЫ 
+[ZJ, ZY, Z6]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу. </div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">8</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ДАТЧИКА ТЕМПЕРАТУРЫ ВОЗДУХА НА ВПУСКЕ (IAT)</div>
+<div class="list">•  Проверьте датчик IAT.<div>(См. <font class="extxref-label"><a href="id0140b1802200.html">ПРОВЕРКА ДАТЧИКА ТЕМПЕРАТУРЫ ВОЗДУХА НА ВПУСКЕ (IAT) [ZJ, ZY, Z6]</a></font>.)</div>
+</div>
+<div class="list">•  Найдена ли неисправность<span></span>?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Замените датчик MAF/IAT и переходите к этапу 11.</div>
+<div class="tbody">(См. <font class="extxref-label"><a href="id0140b1805500.html">СНЯТИЕ/УСТАНОВКА ДАТЧИКА МАССОВОГО РАСХОДА ВОЗДУХА (MAF) / ДАТЧИКА ТЕМПЕРАТУРЫ ВОЗДУХА НА ВПУСКЕ (IAT) [ZJ, ZY, Z6]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">9</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ДАТЧИКА ЕСТ</div>
+<div class="list">•  Проверьте датчик ЕСТ.<div>(См. <font class="extxref-label"><a href="id0140b1802000.html">ПРОВЕРКА ДАТЧИКА ТЕМПЕРАТУРЫ ОХЛАЖДАЮЩЕЙ ЖИДКОСТИ ДВИГАТЕЛЯ (ЕСТ) [ZJ, ZY, Z6]</a></font>.)</div>
+</div>
+<div class="list">•  Найдена ли неисправность<span></span>?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Замените датчик ЕСТ и перейдите к этапу 11.</div>
+<div class="tbody">(См. <font class="extxref-label"><a href="id0140b1801900.html">СНЯТИЕ/УСТАНОВКА ДАТЧИКА ТЕМПЕРАТУРЫ ОХЛАЖДАЮЩЕЙ ЖИДКОСТИ ДВИГАТЕЛЯ (ЕСТ) [ZJ, ZY, Z6]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">10</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ДАТЧИКА СКР</div>
+<div class="list">•  Проверьте датчик CKP.<div>(См. <font class="extxref-label"><a href="id0140b1800500.html">ПРОВЕРКА ДАТЧИКА ПОЛОЖЕНИЯ КОЛЕНЧАТОГО ВАЛА (CKP) [ZJ, ZY, Z6]</a></font>.)</div>
+</div>
+<div class="list">•  Найдена ли какая-либо неисправность?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Замените датчик СКР, затем переходите к следующему этапу.</div>
+<div class="tbody">(См. <font class="extxref-label"><a href="id0140b1800600.html">СНЯТИЕ/УСТАНОВКА ДАТЧИКА ПОЛОЖЕНИЯ КОЛЕНЧАТОГО ВАЛА (CKP) [ZJ, ZY, Z6]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">11</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ЗАВЕРШЕНИЯ ДИАГНОСТИРОВАНИЯ ПО DTC P0507</div>
+<div class="list">•  Проверьте, чтобы все ранее отсоединённые разъёмы были вновь присоединены.</div>
+<div class="list">•  При помощи диагностической системы M-MDS удалите коды неисправностей из памяти блока РСМ.</div>
+<div class="list">•  Запустите двигатель.</div>
+<div class="list">•  Существует ли данный код неисправности в неподтверждённом состоянии (PENDING CODE)? </div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Замените блок РСМ и перейдите к следующему этапу.</div>
+<div class="tbody">(См. <font class="extxref-label"><a href="id0140b1802400.html">СНЯТИЕ И УСТАНОВКА БЛОКА РСМ [ZJ, ZY, Z6]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">12</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ПОСЛЕ ЗАВЕРШЕНИЯ РЕМОНТА</div>
+<div class="list">•  Выполните мероприятия в соответствии с требованиями раздела “ПОСЛЕРЕМОНТНЫЕ МЕРОПРИЯТИЯ”.<div>(См. <font class="extxref-label"><a href="id0102c1801100.html">ПОСЛЕРЕМОНТНЫЕ МЕРОПРИЯТИЯ 
+[ZJ, ZY, Z6]</a></font>.)</div>
+</div>
+<div class="list">•  Имеются ли коды неисправностей?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к проверке по существующим кодам неисправностей.</div>
+<div class="tbody">(См. <font class="extxref-label"><a href="id0102c1801500.html">ТАБЛИЦА КОДОВ НЕИСПРАВНОСТЕЙ 
+[ZJ, ZY, Z6]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Поиск и устранение неисправностей по кодам неисправностей завершён.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</body>
+</html>

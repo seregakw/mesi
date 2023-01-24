@@ -1,0 +1,1737 @@
+<html lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../css/mazda-css-en.css" type="text/css">
+<title>ENGINE CONTROL SYSTEM OPERATION INSPECTION [ZJ, ZY, Z6]</title>
+</head>
+<body><a name="id0103b1803700"></a><p class="servinfo-title"><span class="servinfo-head"></span>ENGINE CONTROL SYSTEM OPERATION INSPECTION [ZJ, ZY, Z6]</p>
+<hr>
+<p class="servinfo-title-id" align="right">id0103b1803700</p><br clear="all"><a name="id0103b180370001"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Main Relay Operation Inspection</p>
+<p class="list">1.  Verify that the main relay clicks when the ignition switch turned to the ON position and off.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If there is no operation sound, inspect the following.</div>
+<dl>
+<dd class="list">
+<div class="list">―  Main relay (See <font class="extxref-label"><a href="id092100800300.html">RELAY INSPECTION</a></font>.)</div>
+<div class="list">―  Wiring harness and connector between ignition switch and main relay terminal A</div>
+<div class="list">―  Wiring harness and connector between PCM terminal 1AW and main relay terminal B</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p><br clear="all"><a name="id0103b180370002"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Intake Manifold Vacuum Inspection</p>
+<p class="list">1.  Verify the air intake hoses are installed properly.</p>
+<p class="list"></p>
+<p class="list">2.  Start the engine and idle it.</p>
+<p class="list"></p>
+<p class="list">3.  Disconnect the vacuum hose between the intake manifold and purge solenoid valve from the intake manifold side.</p>
+<p class="list"></p>
+<p class="list">4.  Connect a vacuum gauge to the intake manifold and measure the intake manifold vacuum. (See <font class="extxref-label"><a href="id0113b1801800.html">INTAKE MANIFOLD VACUUM INSPECTION [ZJ, ZY, Z6]</a></font>)</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If not as specified, inspect the following.</div>
+</dd>
+</dl>
+<dl>
+<dd>
+<div class="attention3-label">Note</div>
+</dd>
+<dd>
+<div class="attention3">
+<div class="list">•  Air suction can be located by engine speed change when lubricant is sprayed on the area where suction is occurring.</div>
+<dl>
+<dd class="list">
+<div class="list">―  Air suction at throttle body, intake manifold and PCV valve installation points</div>
+<div class="list">―  Accelerator cable free play</div>
+<div class="list">―  Fuel injector insulator</div>
+<div class="list">―  Engine compression (See <font class="extxref-label"><a href="id0110b1800300.html">COMPRESSION INSPECTION [ZJ, ZY, Z6]</a></font>.)</div>
+</dd>
+</dl>
+</div>
+</dd>
+</dl>
+</p><br clear="all"><a name="id0103b180370003"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Idle Air Control System Inspection (Without Throttle Valve Actuator)</p><br clear="all"><p><a name="id0103b180370004"></a><p class="topic-title"><span class="topic-head"></span>Engine coolant temperature compensation inspection</p>
+<p class="list">1.  Connect the M-MDS to the DLC-2.</p>
+<p class="list"></p>
+<p class="list">2.  Access the following PIDs.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  ECT</div>
+<div class="list">•  IAT</div>
+<div class="list">•  RPM</div>
+</dd>
+</dl>
+</p>
+<p class="list">3.  Verify that the engine is in cold condition, then start the engine.</p>
+<p class="list"></p>
+<p class="list">4.  Verify that the engine speed decreases as the engine warms up.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the engine speed does not decrease or decreases slowly, inspect the following.</div>
+<dl>
+<dd class="list">
+<div class="list">―  ECT sensor and related wiring harness (See <font class="extxref-label"><a href="id0140b1802000.html">ENGINE COOLANT TEMPERATURE (ECT) SENSOR INSPECTION [ZJ, ZY, Z6]</a></font>.)</div>
+<div class="list">―  IAC valve and related wiring harness (See <font class="extxref-label"><a href="id0113b1820000.html">IDLE AIR CONTROL (IAC) VALVE INSPECTION [ZJ, ZY, Z6]</a></font>.)</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+</p><br clear="all"><p><a name="id0103b180370005"></a><p class="topic-title"><span class="topic-head"></span>Load compensation inspection</p>
+<p class="list">1.  Start the engine and run is during idle.</p>
+<p class="list"></p>
+<p class="list">2.  Connect the M-MDS to the DLC-2.</p>
+<p class="list"></p>
+<p class="list">3.  Verify that P0511 not displayed.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If P0511 shown, perform the DTC inspection. (See <font class="extxref-label"><a href="id0102c1821200.html">DTC P0511 [ZJ, ZY, Z6]</a></font>.)</div>
+</dd>
+</dl>
+</p>
+<p class="list">4.  Change the duty value of the IAC valve to <span>100%</span> using the IAC PID.</p>
+<p class="list"></p>
+<p class="list">5.  Verify that the idle speed increases.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the idle speed does not change, inspect the following.</div>
+<dl>
+<dd class="list">
+<div class="list">―  IAC valve air passage</div>
+<div class="list">―  Open or short circuit in wiring harness between IAC valve terminals and PCM terminals 2X and 2AB</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+<p class="list">6.  Access the following PIDs.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  AC_REQ</div>
+<div class="list">•  IAC</div>
+<div class="list">•  PSP</div>
+<div class="list">•  RPM</div>
+</dd>
+</dl>
+<dl>
+<dd>
+<div class="attention3-label">Note</div>
+</dd>
+<dd>
+<div class="attention3">
+<div class="list">•  Excludes temporary idle speed drop just after the loads are turned on.</div>
+</div>
+</dd>
+</dl>
+</p>
+<p class="list">7.  Verify that the engine speed is within the specification under each load condition. (See <font class="extxref-label"><a href="id0110b1800600.html">ENGINE TUNE-UP [ZJ, ZY, Z6]</a></font>)</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If not as specified under each load condition, inspect the following.</div>
+<dl>
+<dd class="list">
+<div class="list">―  Refrigerant pressure switch (low, high) and related wiring harness (See <font class="extxref-label"><a href="id074000802700.html">REFRIGERANT PRESSURE SWITCH INSPECTION</a></font>.)</div>
+<div class="list">―  Fan switch and related wiring harness (See <font class="extxref-label"><a href="id074000801300.html">FAN SWITCH INSPECTION</a></font>.)</div>
+<div class="list">―  PSP switch and related wiring harness (See <font class="extxref-label"><a href="id0140b1803100.html">POWER STEERING PRESSURE (PSP) SWITCH INSPECTION [ZJ, ZY, Z6]</a></font>.)</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+</p><br clear="all"><a name="id0103b180370006"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Electronic Throttle Control System Inspection (With Throttle Valve Actuator)</p><br clear="all"><p><a name="id0103b180370007"></a><p class="topic-title"><span class="topic-head"></span>Engine coolant temperature compensation inspection</p>
+<p class="list">1.  Connect the M-MDS to the DLC-2.</p>
+<p class="list"></p>
+<p class="list">2.  Access the following PIDs.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  ECT</div>
+<div class="list">•  IAT</div>
+<div class="list">•  RPM</div>
+</dd>
+</dl>
+</p>
+<p class="list">3.  Verify that the engine is cold, then start the engine.</p>
+<p class="list"></p>
+<p class="list">4.  Verify that the engine speed decreases as the engine warms up.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the engine speed does not decrease or decreases slowly, inspect the following.</div>
+<dl>
+<dd class="list">
+<div class="list">―  ECT sensor and related wiring harness (See <font class="extxref-label"><a href="id0140b1802000.html">ENGINE COOLANT TEMPERATURE (ECT) SENSOR INSPECTION [ZJ, ZY, Z6]</a></font>.)</div>
+<div class="list">―  Electronic throttle body and related wiring harness (See <font class="extxref-label"><a href="id0113b1802600.html">THROTTLE BODY INSPECTION [ZJ, ZY, Z6]</a></font>.)</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+</p><br clear="all"><p><a name="id0103b180370008"></a><p class="topic-title"><span class="topic-head"></span>Load compensation inspection</p>
+<p class="list">1.  Start the engine and run is during idle.</p>
+<p class="list"></p>
+<p class="list">2.  Connect the M-MDS to the DLC-2.</p>
+<p class="list"></p>
+<p class="list">3.  Verify that P0511 not displayed.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If P0511 shown, perform the DTC inspection. (See <font class="extxref-label"><a href="id0102c1821200.html">DTC P0511 [ZJ, ZY, Z6]</a></font>.)</div>
+</dd>
+</dl>
+</p>
+<p class="list">4.  Access the RPM PID.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="attention3-label">Note</div>
+</dd>
+<dd>
+<div class="attention3">
+<div class="list">•  Excludes temporary idle speed drop just after the loads are turned on.</div>
+</div>
+</dd>
+</dl>
+</p>
+<p class="list">5.  Verify that the engine speed is within the specification under each load condition. (See <font class="extxref-label"><a href="id0110b1800600.html">ENGINE TUNE-UP [ZJ, ZY, Z6]</a></font>.)</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If not as specified under each load condition, inspect the following.</div>
+<dl>
+<dd class="list">
+<div class="list">―  Refrigerant pressure switch (low, high) and related wiring harness (See <font class="extxref-label"><a href="id074000802700.html">REFRIGERANT PRESSURE SWITCH INSPECTION</a></font>.)</div>
+<div class="list">―  Fan switch and related wiring harness (See <font class="extxref-label"><a href="id074000801300.html">FAN SWITCH INSPECTION</a></font>.)</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+</p><br clear="all"><a name="id0103b180370009"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Throttle Position (TP) Sweep Inspection (With Throttle Valve Actuator)</p>
+<p class="list">1.  Connect the M-MDS to the DLC-2.</p>
+<p class="list"></p>
+<p class="list">2.  Turn the ignition switch to the ON position.</p>
+<p class="list"></p>
+<p class="list">3.  Verify that none of the following DTC are displayed.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  P0122, P0123, P0222, P0223, P0638, P2100, P2101, P2102, P2103, P2107, P2108, P2119, P2122, P2123, P2127, P2128, P2135, P2138</div>
+<dl>
+<dd class="list">
+<div class="list">―  If any one DTC is displayed, perform DTC inspection.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+<p class="list">4.  Access TP_REL PID.</p>
+<p class="list"></p>
+<p class="list">5.  Verify that the PID reading is within the CTP valve. (See <font class="extxref-label"><a href="id0140b1802500.html">PCM INSPECTION [ZJ, ZY, Z6]</a></font>.)</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the PID reading is out of range, perform the following:</div>
+<dl>
+<dd class="list">
+<div class="list">―  Remove the air duct from the throttle valve body.</div>
+<div class="list">―  Verify that the throttle valve opens when the accelerator pedal is depressed.</div>
+</dd>
+</dl>
+<div class="list">•  If the throttle valve opens inspect the throttle position sensor and related wiring harness.</div>
+<div class="list">•  If the throttle valve dose not open, inspect the throttle actuator control motor and related wiring harness.</div>
+</dd>
+</dl>
+</p>
+<p class="list">6.  Gradually depress the throttle pedal and verify that the PID reading increases accordingly.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the PID reading drops momentarily, inspect the following:</div>
+<dl>
+<dd class="list">
+<div class="list">―  Throttle position sensor</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+<p class="list">7.  Fully depress the throttle pedal and verify that the PID reading is within WOT valve. (See <font class="extxref-label"><a href="id0140b1802500.html">PCM INSPECTION [ZJ, ZY, Z6]</a></font>.)</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the PID reading is out of range, perform the followings:</div>
+<dl>
+<dd class="list">
+<div class="list">―  Remove the air duct from throttle valve body.</div>
+<div class="list">―  Verify that the throttle valve opens when throttle pedal is depressed.</div>
+</dd>
+</dl>
+<div class="list">•  If the throttle valve opens, inspect the throttle position sensor and related wiring harness.</div>
+<div class="list">•  If the throttle valve dose not open, inspect the throttle actuator control motor and related wiring harness.</div>
+</dd>
+</dl>
+</p><br clear="all"><a name="id0103b180370010"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Variable intake air Control Operation Inspection</p>
+<p class="list">1.  Connect the M-MDS to the DLC-2.</p>
+<p class="list"></p>
+<p class="list">2.  Perform the KOEO self-test using M-MDS.</p>
+<p class="list"></p>
+<p class="list">3.  Verify that DTC P0660 is not displayed.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If DTC P0660 is shown, perform the DTC inspection. (See <font class="extxref-label"><a href="id0102c1833800.html">DTC P0660 [ZJ, ZY, Z6]</a></font>.)</div>
+</dd>
+</dl>
+</p>
+<p class="list">4.  Turn the ignition switch to the ON position (Engine off).</p>
+<p class="list"></p>
+<p class="list">5.  Turn variable intake air shutter valve actuator from on to off and from off to on using the IMTV PID and verify that operation sound of the actuator is heard.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If operation sound is not head, inspect the following.</div>
+<dl>
+<dd class="list">
+<div class="list">―  Variable intake air shutter valve actuator (See <font class="extxref-label"><a href="id0113b1804700.html">VARIABLE INTAKE AIR SHUTTER VALVE ACTUATOR INSPECTION [ZJ, ZY, Z6]</a></font>.)</div>
+<div class="list">―  Variable intake shutter valve actuator stuck open or close</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p><br clear="all"><a name="id0103b180370011"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Variable Tumble Control Operation Inspection</p>
+<p class="list">1.  Connect the M-MDS to the DLC-2.</p>
+<p class="list"></p>
+<p class="list">2.  Perform the KOEO self-test using M-MDS.</p>
+<p class="list"></p>
+<p class="list">3.  Verify that DTC P2006 and P2008 are not displayed.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If DTC P2006 or P2008 is shown, perform the DTC inspection. (See <font class="extxref-label"><a href="id0102c1801500.html">DTC TABLE [ZJ, ZY, Z6]</a></font>.)</div>
+</dd>
+</dl>
+</p>
+<p class="list">4.  Turn the ignition switch to the ON position (Engine off).</p>
+<p class="list"></p>
+<p class="list">5.  Monitor ECT, RPM and IMRC PIDs.</p>
+<p class="list"></p>
+<p class="list">6.  Verify that ECT PID is <span>60 °C {140 °F} or less</span>.</p>
+<p class="list"></p>
+<p class="list">7.  Start engine.</p>
+<p class="list"></p>
+<p class="list">8.  Verify that IMRC PID is following while ECT PID is <span>60 °C {140 °F} or less</span>.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the IMRC PID is not specified, inspect TP sensor (misadjustment).</div>
+</dd>
+</dl>
+<p clear="all">
+<p class="table-title">Engine speed</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th align="center" colspan="2" rowspan="2">
+<p class="thead">Engine speed </p>
+</th>
+<th align="center" colspan="2">
+<p class="thead">3,250 rpm</p>
+</th>
+</tr>
+<tr>
+<th align="center">
+<p class="thead">Less than</p>
+</th>
+<th align="center">
+<p class="thead">More than</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" colspan="2">
+<div class="tbody">IMRC PID</div>
+</td>
+<td align="center">
+<div class="tbody">On</div>
+</td>
+<td align="center">
+<div class="tbody">Off</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</p>
+<p class="list">9.  Turn variable tumble shutter valve actuator from on to off and from off to on using IMRC PID and verify that operation sound of the actuator is heard.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If operation sound is not heard, inspect the following.</div>
+<dl>
+<dd class="list">
+<div class="list">―  Variable tumble shutter valve actuator (See <font class="extxref-label"><a href="id0113b1803100.html">VARIABLE TUMBLE SHUTTER VALVE ACTUATOR INSPECTION [ZJ, ZY, Z6]</a></font>.)</div>
+<div class="list">―  Variable tumble shutter valve actuator stuck open or close</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p><br clear="all"><a name="id0103b180370012"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Fuel Injector Operation Inspection</p>
+<p clear="all">
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th align="center">
+<p class="thead">STEP</p>
+</th>
+<th align="center">
+<p class="thead">INSPECTION</p>
+</th>
+<th align="center">
+<p class="thead">RESULTS</p>
+</th>
+<th align="center">
+<p class="thead">ACTION</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">1</div>
+</td>
+<td align="left" rowspan="2">
+<div class="tbody">While cranking engine, inspect for fuel injector operation sound at each cylinder using a soundscope.</div>
+<div class="tbody">Is operation sound heard?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Fuel injector operation is normal.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody"><span>All cylinders no heard: </span></div>
+<div class="tbody">Go to the next step.</div>
+<div class="tbody"><span>Some cylinders no heard: </span></div>
+<div class="tbody">Go to Step 3.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">2</div>
+</td>
+<td align="left" rowspan="2">
+<div class="tbody">Perform the main relay operation inspection.</div>
+<div class="tbody">Is main relay operation normal?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Inspect the following: </div>
+<div class="list">•  Fuel injector power system related wiring harness and connectors</div>
+<div class="list">•  PCM connectors</div>
+<div class="list">•  Fuel injector ground and related wiring harness and connectors</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Repair or replace the malfunctioning part.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">3</div>
+</td>
+<td align="left" rowspan="2">
+<div class="tbody">Change fuel injector connector of not operating fuel injector and operating fuel injector.</div>
+<div class="tbody">Is operation sound heard?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Replace fuel injector.</div>
+<div class="tbody">Fuel pump relay (See <font class="extxref-label"><a href="id0114c1800700.html">FUEL INJECTOR INSPECTION [ZJ, ZY, Z6]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">4</div>
+</td>
+<td align="left" rowspan="2">
+<div class="tbody">Are wiring harness and connectors of not operation fuel injector normal? (Open or short circuit)</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Inspect the PCM terminal voltage of fuel injector signal.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Repair or replace the malfunctioning part.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p><br clear="all"><a name="id0103b180370013"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Fuel Cut Control System Inspection</p>
+<p class="list">1.  Warm-up engine and idle it.</p>
+<p class="list"></p>
+<p class="list">2.  Turn off the electrical loads and A/C switch.</p>
+<p class="list"></p>
+<p class="list">3.  Connect M-MDS to the DLC-2.</p>
+<p class="list"></p>
+<p class="list">4.  Access RPM and FUELPW PIDs.</p>
+<p class="list"></p>
+<p class="list">5.  Monitor both PIDs while performing the following steps.</p>
+<p class="list">
+<dl class="list">
+<dd>(1)  Depress the accelerator pedal and increase the engine speed to <span>4,000 rpm</span>.</dd>
+<dd></dd>
+</dl>
+<dl class="list">
+<dd>(2)  Release the accelerator pedal (brake pedal is not depressed) and verify that the fuel injector duration time is <span>0 ms</span>, and <span>2—5 ms </span>when the engine speed drops <span>1,200 rpm or less</span>.</dd>
+<dd>
+<dl>
+<dd>
+<div class="list">•  If not as specified, inspect the following.</div>
+<dl>
+<dd class="list">
+<div class="list">―  ECT sensor and related wiring harness (See <font class="extxref-label"><a href="id0140b1802000.html">ENGINE COOLANT TEMPERATURE (ECT) SENSOR INSPECTION [ZJ, ZY, Z6]</a></font>.)</div>
+<div class="list">―  Neutral/clutch pedal position switch and related wiring harness (MTX) (See <font class="extxref-label"><a href="id0140b1803300.html">CLUTCH PEDAL POSITION (CPP) SWITCH INSPECTION (MTX) [ZJ, ZY, Z6]</a></font>.)</div>
+<div class="list">―  TR switch and related wiring harness (ATX) (See <font class="extxref-label"><a href="id0517a1800900.html">TRANSAXLE RANGE (TR) SWITCH INSPECTION [FN4A-EL]</a></font>.)</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+</p><br clear="all"><a name="id0103b180370014"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Fuel Pump Operation Inspection</p><br clear="all"><p><a name="id0103b180370015"></a><p class="topic-title"><span class="topic-head"></span>Without throttle valve actuator</p>
+<p class="list">1.  Connect the M-MDS to the DLC-2.</p>
+<p class="list"></p>
+<p class="list">2.  Remove the fuel-filler cap.</p>
+<p class="list"></p>
+<p class="list">3.  Turn the ignition switch to the ON position.</p>
+<p class="list"></p>
+<p class="list">4.  Turn the fuel pump relay from off to on using the FP PID and inspect if the operation sound is heard.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If no operation sounds is heard, proceed to next step.</div>
+</dd>
+</dl>
+</p>
+<p class="list">5.  Measure the voltage at wiring harness-side fuel pump terminal A.</p>
+<p class="list">
+<div class="spec">
+<dl>
+<dd>
+<div class="list-title">Specification</div>
+</dd>
+</dl>
+<dl>
+<dd>
+<div class="list">B+ (Ignition switch is ON position)</div>
+</dd>
+</dl>
+</div>
+<dl>
+<dd>
+<div class="list">•  If the voltage is as specified, inspect the following.</div>
+<dl>
+<dd class="list">
+<div class="list">―  Fuel pump continuity</div>
+<div class="list">―  Fuel pump ground</div>
+<div class="list">―  Wiring harness between fuel pump relay and PCM terminal 1AH (without immobilizer system), 1AC (with immobilizer system)</div>
+</dd>
+</dl>
+</dd>
+</dl>
+<dl>
+<dd>
+<div class="list">•  If not as specified, inspect the following.</div>
+<dl>
+<dd class="list">
+<div class="list">―  Fuel pump relay (See <font class="extxref-label"><a href="id092100800300.html">RELAY INSPECTION</a></font>.)</div>
+<div class="list">―  Wiring harness and connector (Main relay-fuel pump relay-fuel pump)</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+</p><br clear="all"><p><a name="id0103b180370016"></a><p class="topic-title"><span class="topic-head"></span>With throttle valve actuator</p>
+<p class="list">1.  Connect the M-MDS to the DLC-2.</p>
+<p class="list"></p>
+<p class="list">2.  Remove the fuel-filler cap.</p>
+<p class="list"></p>
+<p class="list">3.  Turn the ignition switch to the ON position.</p>
+<p class="list"></p>
+<p class="list">4.  Turn the fuel pump relay from off to on using the FP PID and inspect if the operation sound is heard.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If no operation sounds is heard, proceed to next step.</div>
+</dd>
+</dl>
+</p>
+<p class="list">5.  Measure the voltage at wiring harness-side fuel pump terminal A.</p>
+<p class="list">
+<div class="spec">
+<dl>
+<dd>
+<div class="list-title">Specification</div>
+</dd>
+</dl>
+<dl>
+<dd>
+<div class="list">B+ (Ignition switch is ON position)</div>
+</dd>
+</dl>
+</div>
+<dl>
+<dd>
+<div class="list">•  If the voltage is as specified, inspect the following.</div>
+<dl>
+<dd class="list">
+<div class="list">―  Fuel pump continuity</div>
+<div class="list">―  Fuel pump ground</div>
+<div class="list">―  Wiring harness between fuel pump relay and PCM terminal 1AQ (without immobilizer system), 1AR (with immobilizer system)</div>
+</dd>
+</dl>
+</dd>
+</dl>
+<dl>
+<dd>
+<div class="list">•  If not as specified, inspect the following.</div>
+<dl>
+<dd class="list">
+<div class="list">―  Fuel pump relay (See <font class="extxref-label"><a href="id092100800300.html">RELAY INSPECTION</a></font>.)</div>
+<div class="list">―  Wiring harness and connector (Main relay-fuel pump relay-fuel pump)</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+</p><br clear="all"><a name="id0103b180370017"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Fuel Pump Control System Inspection</p>
+<p class="list">1.  Connect the M-MDS to the DLC-2.</p>
+<p class="list"></p>
+<p class="list">2.  Turn the ignition switch to the ON position.</p>
+<p class="list"></p>
+<p class="list">3.  Access FP PID.</p>
+<p class="list"></p>
+<p class="list">4.  Turn the fuel pump relay from off to on and inspect if the operation sound of the fuel pump relay is heard.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If no operation sound is heard, inspect the fuel pump relay.</div>
+<div class="list">•  If the fuel pump relay is normal, inspect the following.</div>
+<dl>
+<dd class="list">
+<div class="list">―  Wiring harnesses and connectors (Main relay-fuel pump relay-PCM)</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p><br clear="all"><a name="id0103b180370018"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Spark Test</p>
+<p class="list">1.  Remove the fuel pump relay.</p>
+<p class="list"></p>
+<p class="list">2.  Verify that each ignition coil and connector is connected properly.</p>
+<p class="list"></p>
+<p class="list">3.  Inspect the ignition system in the following procedure.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="attention1-label">Warning</div>
+</dd>
+<dd>
+<div class="attention1">
+<div class="list">•  High voltage in the ignition system can cause strong electrical shock which can result in serious injury. Avoid direct contact to the vehicle body during the following spark test.</div>
+</div>
+</dd>
+</dl>
+</p>
+<p clear="all">
+<p class="table-title">Without throttle valve actuator</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th align="center">
+<p class="thead">STEP</p>
+</th>
+<th align="center" colspan="2">
+<p class="thead">INSPECTION</p>
+</th>
+<th align="center">
+<p class="thead">ACTION</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">1</div>
+</td>
+<td align="left" rowspan="2">
+<div class="list">•  Disconnect the ignition coil from the spark plugs.</div>
+<div class="list">•  Remove the spark plugs.</div>
+<div class="list">•  Verify that the spark plugs do not have carbon deposits.</div>
+<div class="list">•  Are the spark plugs normal?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Perform no-load racing at 4,000 rpm for 2 min, 2 times to burn off the carbon deposits.</div>
+<div class="tbody">Repeat Step 1.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">2</div>
+</td>
+<td align="left" rowspan="2">
+<div class="list">•  Inspect the spark plugs for damage, wear, and proper plug gap.</div>
+<div class="list">•  Are the spark plugs normal?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Replace spark plugs, then go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">3</div>
+</td>
+<td align="left" rowspan="2">
+<div class="list">•  Reconnect the spark plugs to the ignition coil.</div>
+<div class="list">•  Ground the spark plugs to the engine.</div>
+<div class="list">•  Is a strong blue spark visible at each cylinder while cranking the engine?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Ignition system is normal.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="list-title">Some cylinders do not spark: </div>
+<div class="list">•  Go to the next step.</div>
+<div class="list-title">All cylinders do not spark: </div>
+<div class="list">•  Go to Step 5.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">4</div>
+</td>
+<td align="left" rowspan="2">
+<div class="list">•  Inspect following wiring harnesses for open or short circuit: </div>
+<dl>
+<dd class="list">
+<div class="list">―  Ignition coil No.1 terminal C—PCM terminal 2Y</div>
+<div class="list">―  Ignition coil No.2 terminal C—PCM terminal 2U</div>
+<div class="list">―  Ignition coil No.3 terminal C—PCM terminal 2Q</div>
+<div class="list">―  Ignition coil No.4 terminal C—PCM terminal 2M</div>
+</dd>
+</dl>
+<div class="list">•  Are wiring harnesses normal?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Inspect and replace the ignition coil.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id0118b1800300.html">IGNITION COIL INSPECTION [ZJ, ZY, Z6]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Repair or replace the malfunctioning part, then go to Step 1.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">5</div>
+</td>
+<td align="left" rowspan="2">
+<div class="list">•  Measure the voltage at terminal A in each ignition coils.</div>
+<div class="list">•  Is the voltage <span>B+</span>?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Inspect power supply circuit of ignition coils.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">6</div>
+</td>
+<td align="left" rowspan="2">
+<div class="list">•  Disconnect the ignition switch connectors.</div>
+<div class="list">•  Verify that the continuity between ignition coils terminal B and GND.</div>
+<div class="list">•  Is there any continuity?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Inspect GND circuit for of ignition coil.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">7</div>
+</td>
+<td align="left" rowspan="2">
+<div class="list">•  Does the PCM connector or ignition coil connectors have poor connection?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Repair or replace the connector, then go to Step 1.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">8</div>
+</td>
+<td align="left" rowspan="2">
+<div class="list">•  Are the following parts normal?</div>
+<dl>
+<dd class="list">
+<div class="list">―  CKP sensor and crankshaft pulley</div>
+</dd>
+</dl>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Inspect for open or short circuit in wiring harness and connector of CKP sensor.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Repair or replace the malfunctioning part, then go to Step 1.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+<p clear="all">
+<p class="table-title">With throttle valve actuator</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th align="center">
+<p class="thead">STEP</p>
+</th>
+<th align="center" colspan="2">
+<p class="thead">INSPECTION</p>
+</th>
+<th align="center">
+<p class="thead">ACTION</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">1</div>
+</td>
+<td align="left" rowspan="2">
+<div class="list">•  Disconnect the ignition coil from the spark plugs.</div>
+<div class="list">•  Remove the spark plugs.</div>
+<div class="list">•  Verify that the spark plugs do not have carbon deposits.</div>
+<div class="list">•  Are the spark plugs normal?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Perform no-load racing at 4,000 rpm for 2 min, 2 times to burn off the carbon deposits.</div>
+<div class="tbody">Repeat Step 1.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">2</div>
+</td>
+<td align="left" rowspan="2">
+<div class="list">•  Inspect the spark plugs for damage, wear, and proper plug gap.</div>
+<div class="list">•  Are the spark plugs normal?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Replace spark plugs, then go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">3</div>
+</td>
+<td align="left" rowspan="2">
+<div class="list">•  Reconnect the spark plugs to the ignition coil.</div>
+<div class="list">•  Ground the spark plugs to the engine.</div>
+<div class="list">•  Is a strong blue spark visible at each cylinder while cranking the engine?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Ignition system is normal.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="list-title">Some cylinders do not spark: </div>
+<div class="list">•  Go to the next step.</div>
+<div class="list-title">All cylinders do not spark: </div>
+<div class="list">•  Go to Step 5.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">4</div>
+</td>
+<td align="left" rowspan="2">
+<div class="list">•  Inspect following wiring harnesses for open or short circuit: </div>
+<dl>
+<dd class="list">
+<div class="list">―  Ignition coil No.1 terminal C—PCM terminal 2AQ</div>
+<div class="list">―  Ignition coil No.2 terminal C—PCM terminal 2AR</div>
+<div class="list">―  Ignition coil No.3 terminal C—PCM terminal 2AU</div>
+<div class="list">―  Ignition coil No.4 terminal C—PCM terminal 2AV</div>
+</dd>
+</dl>
+<div class="list">•  Are wiring harnesses normal?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Inspect and replace the ignition coil.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id0118b1800300.html">IGNITION COIL INSPECTION [ZJ, ZY, Z6]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Repair or replace the malfunctioning part, then go to Step 1.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">5</div>
+</td>
+<td align="left" rowspan="2">
+<div class="list">•  Measure the voltage at terminal A in each ignition coils.</div>
+<div class="list">•  Is the voltage <span>B+</span>?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Inspect power supply circuit of ignition coils.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">6</div>
+</td>
+<td align="left" rowspan="2">
+<div class="list">•  Disconnect the ignition switch connectors.</div>
+<div class="list">•  Verify that the continuity between ignition coils terminal B and GND.</div>
+<div class="list">•  Is there any continuity?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Inspect GND circuit for of ignition coil.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">7</div>
+</td>
+<td align="left" rowspan="2">
+<div class="list">•  Does the PCM connector or ignition coil connectors have poor connection?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Repair or replace the connector, then go to Step 1.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">8</div>
+</td>
+<td align="left" rowspan="2">
+<div class="list">•  Are the following parts normal?</div>
+<dl>
+<dd class="list">
+<div class="list">―  CKP sensor and crankshaft pulley</div>
+</dd>
+</dl>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Inspect for open or short circuit in wiring harness and connector of CKP sensor.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Repair or replace the malfunctioning part, then go to Step 1.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p><br clear="all"><a name="id0103b180370019"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>EGR Control System Inspection (With Throttle Valve Actuator)</p>
+<p class="list">1.  Crank the engine and verify that EGR valve operation (initial operation) sound is heard.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the operation sound is not heard, connect M-MDS to the DLC-2 and verify that the DTC P0403 is shown. Perform the DTC inspection. (See <font class="extxref-label"><a href="id0102c1801500.html">DTC TABLE [ZJ, ZY, Z6]</a></font>.)</div>
+</dd>
+</dl>
+</p>
+<p class="list">2.  Start the engine and idle it.</p>
+<p class="list"></p>
+<p class="list">3.  Increase the step value of EGR valve from <span>0 </span>to <span>40</span> using SEGRP PID.</p>
+<p class="list"></p>
+<p class="list">4.  Operate the EGR valve and inspect if the engine speed becomes unstable or the engine stalls.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the engine speed will not change, proceed to following.</div>
+</dd>
+</dl>
+<dl class="list">
+<dd>(1)  Stop the engine.</dd>
+<dd></dd>
+</dl>
+<dl class="list">
+<dd>(2)  Remove the EGR valve.</dd>
+<dd></dd>
+</dl>
+<dl class="list">
+<dd>(3)  Connect the EGR valve connector.</dd>
+<dd></dd>
+</dl>
+<dl class="list">
+<dd>(4)  Turn the ignition switch to the ON position.</dd>
+<dd></dd>
+</dl>
+<dl class="list">
+<dd>(5)  Increase the step value of EGR valve from <span>0 </span>to <span>40</span> using SEGRP PID.</dd>
+<dd></dd>
+</dl>
+<dl class="list">
+<dd>(6)  Inspect the EGR operation.</dd>
+<dd>
+<dl>
+<dd>
+<div class="list">•  If the EGR valve is operated, clean the EGR valve and reinspect from Step 2.</div>
+<div class="list">•  If the EGR valve will not operate, replace the EGR valve and reinspect from Step 2.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+<p class="list">5.  Start the engine and warm it up completely.</p>
+<p class="list"></p>
+<p class="list">6.  Access the following PIDs.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  ECT</div>
+<div class="list">•  RPM</div>
+<div class="list">•  SEGRP</div>
+<div class="list">•  TP</div>
+<div class="list">•  VSS</div>
+</dd>
+</dl>
+</p>
+<p class="list">7.  Idle the vehicle and verify that the SEGRP value is <span>0</span>.</p>
+<p class="list"></p>
+<p class="list">8.  Drive the vehicle.</p>
+<p class="list"></p>
+<p class="list">9.  Depress the accelerator pedal and verify that the SEGRP value is increased.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the SEGRP value will not increase, inspect the VSS, TP and ECT PIDs. (See <font class="extxref-label"><a href="id0140b1802500.html">PCM INSPECTION [ZJ, ZY, Z6]</a></font>.)</div>
+</dd>
+</dl>
+</p>
+<p class="list">10.  Stop the vehicle and verify that the SEGRP value is returned <span>0</span>.</p>
+<p class="list"></p><br clear="all"><a name="id0103b180370020"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Purge Control System Inspection</p><br clear="all"><p><a name="id0103b180370021"></a><p class="topic-title"><span class="topic-head"></span>Without throttle valve actuator</p>
+<p class="list">1.  Connect the M-MDS to the DLC-2.</p>
+<p class="list"></p>
+<p class="list">2.  Start the engine and idle it.</p>
+<p class="list"></p>
+<p class="list">3.  Access ECT PID.</p>
+<p class="list"></p>
+<p class="list">4.  Verify that the engine coolant temperature is <span>60 °C {140 °F} or more</span>.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the M-MDS indicates <span>60 °C {140 °F} or less</span>, perform out the ECT sensor inspection.</div>
+</dd>
+</dl>
+</p>
+<p class="list">5.  Disconnect the vacuum hose between the purge solenoid valve and the charcoal canister.</p>
+<p class="list"></p>
+<p class="list">6.  Put a finger to the purge solenoid valve and verify that there is vacuum applied when the engine is cold.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If there is no vacuum, inspect the following.</div>
+<dl>
+<dd class="list">
+<div class="list">―  Wiring harness and connectors (Purge solenoid valve-PCM terminal 2AV)</div>
+<div class="list">―  Purge solenoid valve</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+<p class="list">7.  Stop the engine.</p>
+<p class="list"></p>
+<p class="list">8.  Verify that the DTC P0443 is shown. Perform out DTC inspection. (See <font class="extxref-label"><a href="id0102c1807600.html">DTC P0443 [ZJ, ZY, Z6]</a></font>.)</p>
+<p class="list"></p>
+<p class="list">9.  Turn the ignition switch to the ON position.</p>
+<p class="list"></p>
+<p class="list">10.  Access EVAPCP PID.</p>
+<p class="list"></p>
+<p class="list">11.  Increase the duty value of the purge solenoid valve to <span>50%</span> and inspect if the operation sound of the valve is heard.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the operation sound is heard, inspect for the loose or damaged vacuum hose. (Intake manifold-purge solenoid valve-charcoal canister)</div>
+<div class="list">•  If the operation sound is not heard, perform the purge solenoid valve inspection.</div>
+</dd>
+</dl>
+</p>
+</p><br clear="all"><p><a name="id0103b180370022"></a><p class="topic-title"><span class="topic-head"></span>With throttle valve actuator</p>
+<p class="list">1.  Connect the M-MDS to the DLC-2.</p>
+<p class="list"></p>
+<p class="list">2.  Start the engine and idle it.</p>
+<p class="list"></p>
+<p class="list">3.  Access ECT PID.</p>
+<p class="list"></p>
+<p class="list">4.  Verify that the engine coolant temperature is <span>60 °C {140 °F} or more</span>.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the M-MDS indicates <span>60 °C {140 °F} or less</span>, perform out the ECT sensor inspection.</div>
+</dd>
+</dl>
+</p>
+<p class="list">5.  Disconnect the vacuum hose between the purge solenoid valve and the charcoal canister.</p>
+<p class="list"></p>
+<p class="list">6.  Put a finger to the purge solenoid valve and verify that there is vacuum applied when the engine is cold.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If there is no vacuum, inspect the following.</div>
+<dl>
+<dd class="list">
+<div class="list">―  Wiring harness and connectors (Purge solenoid valve-PCM terminal 2S)</div>
+<div class="list">―  Purge solenoid valve</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+<p class="list">7.  Stop the engine.</p>
+<p class="list"></p>
+<p class="list">8.  Verify that the DTC P0443 is shown. Perform out DTC inspection. (See <font class="extxref-label"><a href="id0102c1807600.html">DTC P0443 [ZJ, ZY, Z6]</a></font>.)</p>
+<p class="list"></p>
+<p class="list">9.  Turn the ignition switch to the ON position.</p>
+<p class="list"></p>
+<p class="list">10.  Access EVAPCP PID.</p>
+<p class="list"></p>
+<p class="list">11.  Increase the duty value of the purge solenoid valve to <span>50%</span> and inspect if the operation sound of the valve is heard.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the operation sound is heard, inspect for the loose or damaged vacuum hose. (Intake manifold-purge solenoid valve-charcoal canister)</div>
+<div class="list">•  If the operation sound is not heard, perform the purge solenoid valve inspection.</div>
+</dd>
+</dl>
+</p>
+</p><br clear="all"><a name="id0103b180370023"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>A/C Cut-off Control System Inspection</p><br clear="all"><p><a name="id0103b180370024"></a><p class="topic-title"><span class="topic-head"></span>Without throttle valve actuator</p>
+<p class="list">1.  Start the engine.</p>
+<p class="list"></p>
+<p class="list">2.  Turn the A/C switch and fan switch on.</p>
+<p class="list"></p>
+<p class="list">3.  Verify that the A/C compressor magnetic clutch actuates.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If it does not actuate, go to symptom troubleshooting “No.23 A/C does not work sufficiently“. (See <font class="extxref-label"><a href="id0103b1802900.html">NO.23 A/C DOES NOT WORK SUFFICIENTLY [ZJ, ZY, Z6]</a></font>.)</div>
+</dd>
+</dl>
+</p>
+<p class="list">4.  Fully open the throttle valve and verify that the A/C compressor magnetic clutch does not actuate for <span>2—5 s</span>.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If it actuates, inspect as follows.</div>
+</dd>
+</dl>
+<dl class="list">
+<dd>(1)  Connect M-MDS to the DLC-2.</dd>
+<dd></dd>
+</dl>
+<dl class="list">
+<dd>(2)  Turn the A/C switch off.</dd>
+<dd></dd>
+</dl>
+<dl class="list">
+<dd>(3)  Turn the ignition switch to the ON position.</dd>
+<dd></dd>
+</dl>
+<dl class="list">
+<dd>(4)  Access ACCS PID.</dd>
+<dd></dd>
+</dl>
+<dl class="list">
+<dd>(5)  Turn the A/C relay from off to on and inspect if the operation sound of the relay is heard.</dd>
+<dd>
+<dl>
+<dd>
+<div class="list">•  If the operation sound is heard, inspect TP PID.</div>
+<div class="list">•  If the operation sound is not heard, inspect following.</div>
+<dl>
+<dd class="list">
+<div class="list">―  A/C relay</div>
+<div class="list">―  Open circuit or short to ground in wiring harness and connectors (Ignition switch-A/C relay-PCM terminal 1AL)</div>
+<div class="list">―  A/C related parts</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+</p><br clear="all"><p><a name="id0103b180370025"></a><p class="topic-title"><span class="topic-head"></span>With throttle valve actuator</p>
+<p class="list">1.  Start the engine.</p>
+<p class="list"></p>
+<p class="list">2.  Turn the A/C switch and fan switch on.</p>
+<p class="list"></p>
+<p class="list">3.  Verify that the A/C compressor magnetic clutch actuates.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If it does not actuate, go to symptom troubleshooting “No.23 A/C does not work sufficiently“. (See <font class="extxref-label"><a href="id0103b1802900.html">NO.23 A/C DOES NOT WORK SUFFICIENTLY [ZJ, ZY, Z6]</a></font>.)</div>
+</dd>
+</dl>
+</p>
+<p class="list">4.  Fully open the throttle valve and verify that the A/C compressor magnetic clutch does not actuate for <span>2—5 s</span>.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If it actuates, inspect as follows.</div>
+</dd>
+</dl>
+<dl class="list">
+<dd>(1)  Connect M-MDS to the DLC-2.</dd>
+<dd></dd>
+</dl>
+<dl class="list">
+<dd>(2)  Turn the A/C switch off.</dd>
+<dd></dd>
+</dl>
+<dl class="list">
+<dd>(3)  Turn the ignition switch to the ON position.</dd>
+<dd></dd>
+</dl>
+<dl class="list">
+<dd>(4)  Access ACCS PID.</dd>
+<dd></dd>
+</dl>
+<dl class="list">
+<dd>(5)  Turn the A/C relay from off to on and inspect if the operation sound of the relay is heard.</dd>
+<dd>
+<dl>
+<dd>
+<div class="list">•  If the operation sound is heard, inspect TP PID.</div>
+<div class="list">•  If the operation sound is not heard, inspect following.</div>
+<dl>
+<dd class="list">
+<div class="list">―  A/C relay</div>
+<div class="list">―  Open circuit or short to ground in wiring harness and connectors (Ignition switch-A/C relay-PCM terminal 1AN)</div>
+<div class="list">―  A/C related parts</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+</p><br clear="all"><a name="id0103b180370026"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Cooling Fan Motor Operation Inspection</p><br clear="all"><p><a name="id0103b180370027"></a><p class="topic-title"><span class="topic-head"></span>Without throttle valve actuator</p>
+<p class="list">1.  Verify that the battery voltage is <span>above 12.4 V</span>.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the battery voltage is <span>below 12.4 V</span>, charge the battery or connect the external power supply.</div>
+</dd>
+</dl>
+</p>
+<p class="list">2.  Connect the M-MDS to the DLC-2.</p>
+<p class="list"></p>
+<p class="list">3.  Access the following PIDs.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  ECT</div>
+<div class="list">•  AC_REQ</div>
+<div class="list">•  COLP</div>
+</dd>
+</dl>
+</p>
+<p class="list">4.  Turn the A/C switch to off.</p>
+<p class="list"></p>
+<p class="list">5.  Verify that ECT PID is <span>below 98 °C {209 °F}</span> and the AC_REQ is off.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the ECT PID is <span>below 98 °C {209 °F}</span>, inspect the ECT sensor.</div>
+<div class="list">•  If the AC_REQ PID is on, inspect the A/C switch and A/C refrigerant pressure switch (high/low pressure).</div>
+</dd>
+</dl>
+</p>
+<p class="list">6.  Turn the ignition switch to the ON position while the temperature is <span>below 98 °C {209 °F}</span> with the ignition switch in the ON position.</p>
+<p class="list"></p>
+<p class="list">7.  Verify that the cooling fan is not operating.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the cooling fan is operating inspect the following:</div>
+</dd>
+</dl>
+<dl class="list">
+<dd>(1)  Verify that the FAN DUTY PID is <span>0 %</span>.</dd>
+<dd>
+<dl>
+<dd>
+<div class="list">•  If the FAN DUTY PID is not <span>0 %</span>, inspect the following PID and related parts.</div>
+<dl>
+<dd class="list">
+<div class="list">―  ECT (ECT sensor)</div>
+<div class="list">―  AC_REQ (A/C switch and A/C refrigerant pressure switch (high/low) pressure)</div>
+<div class="list">―  COLP (A/C refrigerant pressure switch (medium pressure))</div>
+<div class="list">―  VSS (Vehicle speed sensor)</div>
+<div class="list">―  ACCS (A/C magnetic clutch)</div>
+</dd>
+</dl>
+</dd>
+</dl>
+<dl>
+<dd>
+<div class="list">•  If the FAN DUTY PID is <span>0 %</span>, replace cooling fan component.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+<p class="list">8.  Turn the A/C switch to on.</p>
+<p class="list"></p>
+<p class="list">9.  Verify that the cooling fan is operating while the ECT PID is <span>below 98 °C {209 °F}</span>.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the cooling fan does not operate, inspect for the following:</div>
+<dl>
+<dd class="list">
+<div class="list">―  A/C switch</div>
+<div class="list">―  A/C refrigerant pressure switch</div>
+<div class="list">―  Fan control module power supply circuit (open or short circuit)</div>
+<div class="list">―  Fan control module ground circuit (open or short circuit)</div>
+<div class="list">―  Fan control module control signal circuit (open or short circuit between fan control module terminal 1C and PCM terminal 1AP)</div>
+<div class="list">―  Fan control module<div>(See <font class="extxref-label"><a href="id0112c1802000.html">COOLING FAN MOTOR COMPONENT INSPECTION [ZJ, ZY, Z6]</a></font>.)</div>
+</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+<p class="list">10.  Verify that the cooling fan operates at medium speed while the COLP PID is off and high speed while the COLP PID is on.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the cooling fan does not operate medium and/or high speed, inspect for the following:</div>
+<dl>
+<dd class="list">
+<div class="list">―  A/C refrigerant pressure switch (medium switch)</div>
+<div class="list">―  Fan control module<div>(See <font class="extxref-label"><a href="id0112c1802000.html">COOLING FAN MOTOR COMPONENT INSPECTION [ZJ, ZY, Z6]</a></font>.)</div>
+</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+<p class="list">11.  Turn the A/C switch to the off position.</p>
+<p class="list"></p>
+<p class="list">12.  Start the engine and idle it.</p>
+<p class="list"></p>
+<p class="list">13.  Verify that the cooling fan operating speed increases relative to the ECT PID increase.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the cooling fan speed does not increase inspect the following:</div>
+<dl>
+<dd class="list">
+<div class="list">―  ECT sensor (characteristic)</div>
+<div class="list">―  Fan control signal circuit (between fan control module terminal 1C and PCM terminal 1AP)</div>
+</dd>
+</dl>
+</dd>
+</dl>
+<dl>
+<dd>
+<div class="list">•  If the all items are normal, replace the cooling fan component.</div>
+</dd>
+</dl>
+</p>
+</p><br clear="all"><p><a name="id0103b180370028"></a><p class="topic-title"><span class="topic-head"></span>With throttle valve actuator</p>
+<p class="list">1.  Verify that the battery voltage is <span>above 12.4 V</span>.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the battery voltage is <span>below 12.4 V</span>, charge the battery or connect the external power supply.</div>
+</dd>
+</dl>
+</p>
+<p class="list">2.  Connect the M-MDS to the DLC-2.</p>
+<p class="list"></p>
+<p class="list">3.  Access the following PIDs.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  ECT</div>
+<div class="list">•  AC_REQ</div>
+<div class="list">•  COLP</div>
+</dd>
+</dl>
+</p>
+<p class="list">4.  Turn the A/C switch to off.</p>
+<p class="list"></p>
+<p class="list">5.  Verify that ECT PID is <span>below 98 °C {209 °F}</span> and the AC_REQ is off.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the ECT PID is <span>below 98 °C {209 °F}</span>, inspect the ECT sensor.</div>
+<div class="list">•  If the AC_REQ PID is on, inspect the A/C switch and A/C refrigerant pressure switch (high/low pressure).</div>
+</dd>
+</dl>
+</p>
+<p class="list">6.  Turn the ignition switch to the ON position while the temperature is <span>below 98 °C {209 °F}</span> with the ignition switch in the ON position.</p>
+<p class="list"></p>
+<p class="list">7.  Verify that the cooling fan is not operating.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the cooling fan is operating inspect the following:</div>
+</dd>
+</dl>
+<dl class="list">
+<dd>(1)  Verify that the FAN DUTY PID is <span>0 %</span>.</dd>
+<dd>
+<dl>
+<dd>
+<div class="list">•  If the FAN DUTY PID is not <span>0 %</span>, inspect the following PID and related parts.</div>
+<dl>
+<dd class="list">
+<div class="list">―  ECT (ECT sensor)</div>
+<div class="list">―  AC_REQ (A/C switch and A/C refrigerant pressure switch (high/low) pressure)</div>
+<div class="list">―  COLP (A/C refrigerant pressure switch (medium pressure))</div>
+<div class="list">―  VSS (Vehicle speed sensor)</div>
+<div class="list">―  ACCS (A/C magnetic clutch)</div>
+</dd>
+</dl>
+</dd>
+</dl>
+<dl>
+<dd>
+<div class="list">•  If the FAN DUTY PID is <span>0 %</span>, replace cooling fan component.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+<p class="list">8.  Turn the A/C switch to on.</p>
+<p class="list"></p>
+<p class="list">9.  Verify that the cooling fan is operating while the ECT PID is <span>below 98 °C {209 °F}</span>.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the cooling fan does not operate, inspect for the following:</div>
+<dl>
+<dd class="list">
+<div class="list">―  A/C switch</div>
+<div class="list">―  A/C refrigerant pressure switch</div>
+<div class="list">―  Fan control module power supply circuit (open or short circuit)</div>
+<div class="list">―  Fan control module ground circuit (open or short circuit)</div>
+<div class="list">―  Fan control module control signal circuit (open or short circuit between fan control module terminal 1C and PCM terminal 1AM)</div>
+<div class="list">―  Fan control module<div>(See <font class="extxref-label"><a href="id0112c1802000.html">COOLING FAN MOTOR COMPONENT INSPECTION [ZJ, ZY, Z6]</a></font>.)</div>
+</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+<p class="list">10.  Verify that the cooling fan operates at medium speed while the COLP PID is off and high speed while the COLP PID is on.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the cooling fan does not operate medium and/or high speed, inspect for the following:</div>
+<dl>
+<dd class="list">
+<div class="list">―  A/C refrigerant pressure switch (medium switch)</div>
+<div class="list">―  Fan control module<div>(See <font class="extxref-label"><a href="id0112c1802000.html">COOLING FAN MOTOR COMPONENT INSPECTION [ZJ, ZY, Z6]</a></font>.)</div>
+</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+<p class="list">11.  Turn the A/C switch to the off position.</p>
+<p class="list"></p>
+<p class="list">12.  Start the engine and idle it.</p>
+<p class="list"></p>
+<p class="list">13.  Verify that the cooling fan operating speed increases relative to the ECT PID increase.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the cooling fan speed does not increase inspect the following:</div>
+<dl>
+<dd class="list">
+<div class="list">―  ECT sensor (characteristic)</div>
+<div class="list">―  Fan control signal circuit (between fan control module terminal 1C and PCM terminal 1AM)</div>
+</dd>
+</dl>
+</dd>
+</dl>
+<dl>
+<dd>
+<div class="list">•  If the all items are normal, replace the cooling fan component.</div>
+</dd>
+</dl>
+</p>
+</p><br clear="all"><a name="id0103b180370029"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Variable Valve Timing Control System Operation Inspection</p><br clear="all"><p><a name="id0103b180370030"></a><p class="topic-title"><span class="topic-head"></span>When idling cannot be continued</p>
+<p class="list">1.  Remove the OCV and verify that the spool valve is at maximum retard position.</p>
+<p class="list"></p>
+<p class="list">2.  If the spool valve is stuck in advance direction, replace the OCV.</p>
+<p class="list"></p>
+<p class="list">3.  Connect the OCV.</p>
+<p class="list"></p>
+<p class="list">4.  Turn the ignition switch to the ON position.</p>
+<p class="list"></p>
+<p class="list">5.  Verify that the spool valve is at maximum retard position.</p>
+<p class="list"></p>
+<p class="list">6.  If the spool valve is stuck in advance direction, inspect for the following.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  Short circuit in wiring harnesses or connectors between the OCV and the PCM.</div>
+</dd>
+</dl>
+</p>
+<p class="list">7.  Inspect the variable valve timing actuator.</p>
+<p class="list"></p>
+</p><br clear="all"><p><a name="id0103b180370031"></a><p class="topic-title"><span class="topic-head"></span>When idling can be continued</p>
+<p class="list">1.  Warn-up the engine.</p>
+<p class="list"></p>
+<p class="list">2.  Connect the M-MDS to the DLC-2.</p>
+<p class="list"></p>
+<p class="list">3.  Idle the engine.</p>
+<p class="list"></p>
+<p class="list">4.  Access VT DUTY1 Wt PID.</p>
+<p class="list"></p>
+<p class="list">5.  Set the OCV duty valve to <span>100%</span> and verify that the engine idles roughly or stalls.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If as specified, inspect the timing chain component (valve timing deviation).</div>
+<div class="list">•  If not as specified, go to the next step.</div>
+</dd>
+</dl>
+</p>
+<p class="list">6.  Remove the OCV and connect the OCV connector to the OCV.</p>
+<p class="list"></p>
+<p class="list">7.  Turn the ignition switch to the ON position.</p>
+<p class="list"></p>
+<p class="list">8.  Access VT DUTY1 Wt PID.</p>
+<p class="list"></p>
+<p class="list">9.  Set the OCV duty value to <span>100%</span>and verify that the spool valve operates in the advance direction.</p>
+<p class="list"></p>
+<p class="list">10.  If not as specified, inspect the following.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  OCV operation.</div>
+<div class="list">•  Wiring harness and connectors between the OCV and the PCM for open or short circuit.</div>
+</dd>
+</dl>
+</p>
+<p class="list">11.  Inspect the following hydraulic passages for clogging and/or leakage.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  Oil pressure switch—OCV</div>
+<div class="list">•  OCV—camshaft</div>
+<div class="list">•  Camshaft internal passage</div>
+</dd>
+</dl>
+</p>
+<p class="list">12.  If they are normal, replace the intake camshaft pulley (with a built-in variable valve timing actuator).</p>
+<p class="list"></p>
+</p>
+</body>
+</html>

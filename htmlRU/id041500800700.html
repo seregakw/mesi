@@ -1,0 +1,588 @@
+<html lang="ru">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../css/mazda-css-ru.css" type="text/css">
+<title>ПРОВЕРКА СИСТЕМЫ ДИНАМИЧЕСКОЙ СТАБИЛИЗАЦИИ (DSC)</title>
+</head>
+<body><a name="id041500800700"></a><p class="servinfo-title"><span class="servinfo-head"></span>ПРОВЕРКА СИСТЕМЫ ДИНАМИЧЕСКОЙ СТАБИЛИЗАЦИИ (DSC)</p>
+<hr>
+<p class="servinfo-title-id" align="right">id041500800700</p><br clear="all"><a name="id04150080070001"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Подготовительные операции</p>
+<p class="list">1.  Убедитесь, что аккумуляторная батарея заряжена полностью.</p>
+<p class="list"></p>
+<p class="list">2.  Установите выключатель зажигания в положение "ON" и убедитесь, что предупреждающий сигнализатор антиблокировочной тормозной системы гаснет приблизительно <span>через 3 секунды</span>.</p>
+<p class="list"></p>
+<p class="list">3.  Поверните выключатель зажигания в положение "OFF".</p>
+<p class="list"></p>
+<p class="list">4.  Поднимите автомобиль и установите его на страховочные стойки.</p>
+<p class="list"></p>
+<p class="list">5.  Установите селектор в положение N.</p>
+<p class="list"></p>
+<p class="list">6.  Убедитесь, что все четыре колеса свободно вращаются.</p>
+<p class="list"></p>
+<p class="list">7.  Вращайте колеса рукой, чтобы убедиться в отсутствии "прихватывания" тормозных колодок.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  При обнаружении "прихватывания" тормозных колодок выполните обычную проверку тормозной системы.</div>
+<div class="list">•  При отсутствии "прихватывания" тормозных колодок проверьте работу блока DSC HU/CM.</div>
+</dd>
+</dl>
+</p><br clear="all"><a name="id04150080070002"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Проверка работы антиблокировочной системы (ABS)</p>
+<p class="list">1.  Выполните “подготовительные операции”.</p>
+<p class="list"></p>
+<p class="list">2.  Подключите диагностическую систему M-MDS к диагностическому разъему DLC-2.</p>
+<p class="list">
+<table class="figure-flame">
+<tr>
+<td width="10mm"></td>
+<td>
+<table class="figure-float" cellspacing="0" bordercolor="black">
+<tr>
+<td align="center"><img src="images/am3zzw00001643.png"></td>
+</tr>
+</table>
+<div class="figure-caption">am3zzw00001643</div>
+</td>
+</tr>
+</table>
+</p>
+<p class="list">3.  Включите проверку в режиме активной подачи команд, используя команды, приведенные ниже. (См. <font class="extxref-label"><a href="id0402b2800200.html">БОРТОВАЯ ДИАГНОСТИКА [СИСТЕМА ДИНАМИЧЕСКОЙ СТАБИЛИЗАЦИИ (DSC)]</a></font>.)</p>
+<p class="list">
+<p clear="all">
+<p class="table-title">Сохранение тормозного давления</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center" rowspan="2">
+<p class="thead">Название команды</p>
+</th>
+<th id="" align="center" colspan="4">
+<p class="thead">Проверяемое колесо</p>
+</th>
+</tr>
+<tr>
+<th id="" align="center">
+<p class="thead">LF (ЛЕВОЕ ПЕРЕДНЕЕ)</p>
+</th>
+<th id="" align="center">
+<p class="thead">RF (ПРАВОЕ ПЕРЕДНЕЕ)</p>
+</th>
+<th id="" align="center">
+<p class="thead">LR (ЛЕВОЕ ЗАДНЕЕ)</p>
+</th>
+<th id="" align="center">
+<p class="thead">RR (ПРАВОЕ ЗАДНЕЕ)</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center">
+<div class="tbody">LF_TC_PRV</div>
+</td>
+<td id="" align="center" colspan="4" rowspan="4">
+<div class="tbody">OFF</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">RF_TC_PRV</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">LF_TC_SWV</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">RF_TC_SWV</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">LF_INLET</div>
+</td>
+<td id="" align="center">
+<div class="tbody">ON</div>
+</td>
+<td id="" align="center" rowspan="4">
+<div class="tbody">OFF</div>
+</td>
+<td id="" align="center" rowspan="2">
+<div class="tbody">OFF</div>
+</td>
+<td id="" align="center" rowspan="6">
+<div class="tbody">OFF</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">LF_OUTLET</div>
+</td>
+<td id="" align="center" rowspan="8">
+<div class="tbody">OFF</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">LR_INLET</div>
+</td>
+<td id="" align="center">
+<div class="tbody">ON</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">LR_OUTLET</div>
+</td>
+<td id="" align="center" rowspan="6">
+<div class="tbody">OFF</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">RF_INLET</div>
+</td>
+<td id="" align="center">
+<div class="tbody">ON</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">RF_OUTLET</div>
+</td>
+<td id="" align="center" rowspan="4">
+<div class="tbody">OFF</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">RR_INLET</div>
+</td>
+<td id="" align="center">
+<div class="tbody">ON</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">RR_OUTLET</div>
+</td>
+<td id="" align="center" rowspan="2">
+<div class="tbody">OFF</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">PMP_MOTOR</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+<p clear="all">
+<p class="table-title">Сброс тормозного давления</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center" rowspan="2">
+<p class="thead">Название команды</p>
+</th>
+<th id="" align="center" colspan="4">
+<p class="thead">Проверяемое колесо</p>
+</th>
+</tr>
+<tr>
+<th id="" align="center">
+<p class="thead">LF (ЛЕВОЕ ПЕРЕДНЕЕ)</p>
+</th>
+<th id="" align="center">
+<p class="thead">RF (ПРАВОЕ ПЕРЕДНЕЕ)</p>
+</th>
+<th id="" align="center">
+<p class="thead">LR (ЛЕВОЕ ЗАДНЕЕ)</p>
+</th>
+<th id="" align="center">
+<p class="thead">RR (ПРАВОЕ ЗАДНЕЕ)</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center">
+<div class="tbody">LF_TC_PRV</div>
+</td>
+<td id="" align="center" colspan="4" rowspan="4">
+<div class="tbody">OFF</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">RF_TC_PRV</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">LF_TC_SWV</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">RF_TC_SWV</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">LF_INLET</div>
+</td>
+<td id="" align="center" rowspan="2">
+<div class="tbody">ON</div>
+</td>
+<td id="" align="center" rowspan="4">
+<div class="tbody">OFF</div>
+</td>
+<td id="" align="center" rowspan="2">
+<div class="tbody">OFF</div>
+</td>
+<td id="" align="center" rowspan="6">
+<div class="tbody">OFF</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">LF_OUTLET</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">LR_INLET</div>
+</td>
+<td id="" align="center" rowspan="6">
+<div class="tbody">OFF</div>
+</td>
+<td id="" align="center" rowspan="2">
+<div class="tbody">ON</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">LR_OUTLET</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">RF_INLET</div>
+</td>
+<td id="" align="center" rowspan="2">
+<div class="tbody">ON</div>
+</td>
+<td id="" align="center" rowspan="4">
+<div class="tbody">OFF</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">RF_OUTLET</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">RR_INLET</div>
+</td>
+<td id="" align="center" rowspan="2">
+<div class="tbody">OFF</div>
+</td>
+<td id="" align="center" rowspan="2">
+<div class="tbody">ON</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">RR_OUTLET</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">PMP_MOTOR</div>
+</td>
+<td id="" align="center" colspan="4">
+<div class="tbody">ON</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+<dl>
+<dd>
+<div class="attention2-label">Осторожно</div>
+</dd>
+<dd>
+<div class="attention2">
+<div class="list">•  При управлении электромагнитным клапаном и электродвигателем насоса в режиме активной подачи команд следите за тем, чтобы время их работы не превышало 2 секунды. В противном случае возможно повреждение блока DSC HU/CM.</div>
+</div>
+</dd>
+</dl>
+<dl>
+<dd>
+<div class="attention3-label">Примечание</div>
+</dd>
+<dd>
+<div class="attention3">
+<div class="list">•  При выполнении работы с помощником один специалист должен держать педаль тормоза нажатой, а второй - пытаться провернуть соответствующее колесо.</div>
+</div>
+</dd>
+</dl>
+</p>
+<p class="list">4.  Подача команды должна осуществляться при нажатой педали тормоза и во время попытки провернуть соответствующее колесо.</p>
+<p class="list"></p>
+<p class="list">5.  Когда в режиме сохранения давления раздастся звук срабатывания блока DSC HU/CM, убедитесь, что колесо не проворачивается. Когда в режиме сброса давления раздастся звук срабатывания блока DSC HU/CM, убедитесь, что колесо проворачивается.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  Выполнение описанной выше проверки позволяет установить, что:</div>
+<dl>
+<dd class="list">
+<div class="list">―  Тормозные магистрали блока DSC HU/CM исправны.</div>
+<div class="list">―  Гидравлическая система блока DSC HU/CM (включая внутренние детали DSC HU/CM) ) не имеет серьезных неисправностей.</div>
+<div class="list">―  Внутренние детали блока DSC HU/CM (электромагнитный клапан, электродвигатель и другие детали) исправны.</div>
+<div class="list">―  Проводные жгуты системы вывода блока DSC HU/CM (электромагнитный клапан, реле) исправны.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+<dl>
+<dd>
+<div class="list">•  При этом отсутствует возможность выявления перечисленных ниже неисправностей:</div>
+<dl>
+<dd class="list">
+<div class="list">―  Эпизодически возникающая неисправность по названным выше позициям</div>
+<div class="list">―  Неисправность проводных жгутов и деталей системы ввода блока управления DSC HU/CM</div>
+<div class="list">―  Чрезвычайно малые утечки из гидравлической системы DSC HU/CM</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p><br clear="all"><a name="id04150080070003"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Проверка системы DSC</p>
+<p class="list">1.  Выполните “подготовительные операции”.</p>
+<p class="list"></p>
+<p class="list">2.  Подключите диагностическую систему M-MDS к диагностическому разъему DLC-2.</p>
+<p class="list">
+<table class="figure-flame">
+<tr>
+<td width="10mm"></td>
+<td>
+<table class="figure-float" cellspacing="0" bordercolor="black">
+<tr>
+<td align="center"><img src="images/am3zzw00001643.png"></td>
+</tr>
+</table>
+<div class="figure-caption">am3zzw00001643</div>
+</td>
+</tr>
+</table>
+</p>
+<p class="list">3.  Включите проверку в режиме активной подачи команд, используя команды, приведенные ниже. (См. <font class="extxref-label"><a href="id0402b2800200.html">БОРТОВАЯ ДИАГНОСТИКА [СИСТЕМА ДИНАМИЧЕСКОЙ СТАБИЛИЗАЦИИ (DSC)]</a></font>.)</p>
+<p class="list">
+<dl>
+<dd>
+<div class="attention2-label">Осторожно</div>
+</dd>
+<dd>
+<div class="attention2">
+<div class="list">•  При управлении электромагнитным клапаном и электродвигателем насоса в режиме активной подачи команд следите за тем, чтобы время их работы не превышало 2 секунды. В противном случае возможно повреждение блока DSC HU/CM.</div>
+</div>
+</dd>
+</dl>
+<p clear="all">
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center" rowspan="3">
+<p class="thead">Название команды</p>
+</th>
+<th id="" align="center" colspan="4">
+<p class="thead">Проверяемое колесо</p>
+</th>
+</tr>
+<tr>
+<th id="" align="center" colspan="2">
+<p class="thead">Управление недостаточной поворачиваемостью отключено</p>
+</th>
+<th id="" align="center" colspan="2">
+<p class="thead">Управление избыточной поворачиваемостью отключено</p>
+</th>
+</tr>
+<tr>
+<th id="" align="center">
+<p class="thead">LF (ЛЕВОЕ ПЕРЕДНЕЕ)</p>
+</th>
+<th id="" align="center">
+<p class="thead">RF (ПРАВОЕ ПЕРЕДНЕЕ)</p>
+</th>
+<th id="" align="center">
+<p class="thead">LR (ЛЕВОЕ ЗАДНЕЕ)</p>
+</th>
+<th id="" align="center">
+<p class="thead">RR (ПРАВОЕ ЗАДНЕЕ)</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center">
+<div class="tbody">LF_TC_PRV</div>
+</td>
+<td id="" align="center">
+<div class="tbody">ON</div>
+</td>
+<td id="" align="center" colspan="2">
+<div class="tbody">OFF</div>
+</td>
+<td id="" align="center">
+<div class="tbody">ON</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">RF_TC_PRV</div>
+</td>
+<td id="" align="center">
+<div class="tbody">OFF</div>
+</td>
+<td id="" align="center" colspan="2">
+<div class="tbody">ON</div>
+</td>
+<td id="" align="center">
+<div class="tbody">OFF</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">LF_TC_SWV</div>
+</td>
+<td id="" align="center" colspan="4" rowspan="2">
+<div class="tbody">OFF</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">RF_TC_SWV</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">LF_INLET</div>
+</td>
+<td id="" align="center" rowspan="6">
+<div class="tbody">OFF</div>
+</td>
+<td id="" align="center" rowspan="2">
+<div class="tbody">OFF</div>
+</td>
+<td id="" align="center" rowspan="4">
+<div class="tbody">OFF</div>
+</td>
+<td id="" align="center">
+<div class="tbody">ON</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">LF_OUTLET</div>
+</td>
+<td id="" align="center" rowspan="7">
+<div class="tbody">OFF</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">LR_INLET</div>
+</td>
+<td id="" align="center">
+<div class="tbody">ON</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">LR_OUTLET</div>
+</td>
+<td id="" align="center" rowspan="5">
+<div class="tbody">OFF</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">RF_INLET</div>
+</td>
+<td id="" align="center">
+<div class="tbody">ON</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">RF_OUTLET</div>
+</td>
+<td id="" align="center" rowspan="3">
+<div class="tbody">OFF</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">RR_INLET</div>
+</td>
+<td id="" align="center">
+<div class="tbody">ON</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">RR_OUTLET</div>
+</td>
+<td id="" align="center">
+<div class="tbody">OFF</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">PMP_MOTOR</div>
+</td>
+<td id="" align="center" colspan="4">
+<div class="tbody">ON</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</p>
+<p class="list">4.  Подайте команду, провернув провернув рукой проверяемое колесо вперед.</p>
+<p class="list"></p>
+<p class="list">5.  Убедитесь, что когда слышен звук срабатывания блока DSC HU/CM, колесо не проворачивается.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  Выполнение описанной выше проверки позволяет установить, что:</div>
+<dl>
+<dd class="list">
+<div class="list">―  Тормозные магистрали блока DSC HU/CM исправны.</div>
+<div class="list">―  Гидравлическая система блока DSC HU/CM (включая внутренние детали DSC HU/CM) ) не имеет серьезных неисправностей.</div>
+<div class="list">―  Внутренние детали блока DSC HU/CM (электромагнитный клапан, электродвигатель и другие детали) исправны.</div>
+<div class="list">―  Проводные жгуты системы вывода блока DSC HU/CM (электромагнитный клапан, реле) исправны.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+<dl>
+<dd>
+<div class="list">•  При этом отсутствует возможность выявления перечисленных ниже неисправностей:</div>
+<dl>
+<dd class="list">
+<div class="list">―  Эпизодически возникающая неисправность по названным выше позициям</div>
+<div class="list">―  Неисправность проводных жгутов и деталей системы ввода блока управления DSC HU/CM</div>
+<div class="list">―  Чрезвычайно малые утечки из гидравлической системы DSC HU/CM</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+</body>
+</html>

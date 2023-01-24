@@ -1,0 +1,374 @@
+<html lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../css/mazda-css-en.css" type="text/css">
+<title>ENGINE CONTROL SYSTEM OPERATION INSPECTION[MZ-CD 1.6 (Y6)]</title>
+</head>
+<body><a name="id0103b3803700"></a><p class="servinfo-title"><span class="servinfo-head"></span>ENGINE CONTROL SYSTEM OPERATION INSPECTION[MZ-CD 1.6 (Y6)]</p>
+<hr>
+<p class="servinfo-title-id" align="right">id0103b3803700</p><br clear="all"><a name="id0103b380370001"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Guide Blade Actuator Operation Inspection</p>
+<p class="list">1.  Connect the M-MDS to the DLC‐2.</p>
+<p class="list">
+</p>
+<p class="list">2.  Perform the self-test and verify that the DTC P0045, P0246, P0047 and P0048 do not displayed.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  Is the DTC P0045, P0246, P0047 or P0048 displayed, carry out appropriate DTC troubleshooting procedure.</div>
+</dd>
+</dl>
+</p>
+<p class="list">3.  Start the engine and run it at idle.</p>
+<p class="list">
+</p>
+<p class="list">4.  Simulate the VBCV PID duty value increase from <span class="bold">0%</span> and verify that the guide blade actuator move.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the guide blade actuator rod does not move inspect the following:</div>
+<dl>
+<dd class="list">
+<div class="list">―  Vacuum tube connection</div>
+<div class="list">―  Guide blade actuator (stick or damaged)</div>
+<div class="list">―  VBC solenoid valve (stuck open or close).</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p><br clear="all"><a name="id0103b380370002"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Cooling Fan Motor Operation Inspection</p>
+<p class="list">1.  Verify that the battery voltage is <span class="bold">12.4 V</span> or more.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the battery voltage is <span class="bold">12.4 V</span> or less, charge the battery or connect the external power supply.</div>
+</dd>
+</dl>
+</p>
+<p class="list">2.  Connect the M-MDS to the DLC-2.</p>
+<p class="list">
+</p>
+<p class="list">3.  Access the following PIDs.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  ECT</div>
+<div class="list">•  AC_LOWSW</div>
+<div class="list">•  COLP</div>
+</dd>
+</dl>
+</p>
+<p class="list">4.  Turn the A/C switch to OFF.</p>
+<p class="list">
+</p>
+<p class="list">5.  Verify that ECT PID is <span class="bold">98 °C {209 °F}</span> or less and the AC_REQ is off.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the ECT PID is<span class="bold"> 98 °C {209 °F}</span>, or less inspect the ECT sensor.</div>
+<div class="list">•  If the AC_REQ PID is on, inspect the A/C switch and A/C refrigerant pressure switch (high/low pressure).</div>
+</dd>
+</dl>
+</p>
+<p class="list">6.  Turn the engine switch to the ON position while the temperature is<span class="bold"> 98 °C {209 °F}</span> or less with the engine switch in the ON position.</p>
+<p class="list">
+</p>
+<p class="list">7.  Verify that the cooling fan is not operating.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the cooling fan is operating inspect the following:</div>
+</dd>
+</dl>
+<dl class="list">
+<dd>(1)  Verify that the FAN DUTY PID is <span class="bold">0 %</span>.</dd>
+<dd>
+<dl>
+<dd>
+<div class="list">•  If the FAN DUTY PID is not <span class="bold">0 %</span>, inspect the following PID and related parts.</div>
+<dl>
+<dd class="list">
+<div class="list">―  ECT (ECT sensor)</div>
+<div class="list">―  AC_LOWSW (A/C switch and A/C refrigerant pressure switch (high/low) pressure)</div>
+<div class="list">―  COLP (A/C refrigerant pressure switch (medium pressure))</div>
+<div class="list">―  VSS (Vehicle speed sensor)</div>
+<div class="list">―  ACCS (A/C magnetic clutch)</div>
+</dd>
+</dl>
+</dd>
+</dl>
+<dl>
+<dd>
+<div class="list">•  If the FAN DUTY PID is <span class="bold">0 %</span>, replace cooling fan component.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+<p class="list">8.  Turn the A/C switch to ON.</p>
+<p class="list">
+</p>
+<p class="list">9.  Verify that the cooling fan is operating while the ECT PID is <span class="bold">below 98 °C {209 °F}</span> or less.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the cooling fan does not operate, inspect the following:</div>
+<dl>
+<dd class="list">
+<div class="list">―  A/C switch</div>
+<div class="list">―  A/C refrigerant pressure switch</div>
+<div class="list">―  Fan control module power supply circuit (open or short circuit)</div>
+<div class="list">―  Fan control module ground circuit (open or short circuit)</div>
+<div class="list">―  Fan control module control signal circuit (open or short circuit between fan control module terminal 1C and PCM terminal 318)</div>
+<div class="list">―  Fan control module<div>(See <font class="extxref-label"><a href="id0112c3802000.html">COOLING FAN MOTOR COMPONENT INSPECTION[MZ-CD 1.6 (Y6)]</a></font>.)</div>
+</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+<p class="list">10.  Verify that the cooling fan operates at medium speed while the COLP PID is off and at high speed while the COLP PID is on.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the cooling fan does not operate at medium and/or high speed, inspect the following:</div>
+<dl>
+<dd class="list">
+<div class="list">―  A/C refrigerant pressure switch (medium switch)</div>
+<div class="list">―  Fan control module<div>(See <font class="extxref-label"><a href="id0112c3802000.html">COOLING FAN MOTOR COMPONENT INSPECTION[MZ-CD 1.6 (Y6)]</a></font>.)</div>
+</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+<p class="list">11.  Turn the A/C switch to OFF position.</p>
+<p class="list">
+</p>
+<p class="list">12.  Start the engine and idle it.</p>
+<p class="list">
+</p>
+<p class="list">13.  Verify that the cooling fan operating speed increases relative to the ECT PID increase.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the cooling fan speed does not increase inspect the following:</div>
+<dl>
+<dd class="list">
+<div class="list">―  ECT sensor (characteristic)</div>
+<div class="list">―  Fan control signal circuit (between fan control module terminal 1C and PCM terminal 318)</div>
+</dd>
+</dl>
+</dd>
+</dl>
+<dl>
+<dd>
+<div class="list">•  If the all items are normal, replace the cooling fan component.</div>
+</dd>
+</dl>
+</p><br clear="all"><a name="id0103b380370003"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Fuel Warmer System Operation Inspection</p>
+<p class="list">1.  Verify that the fuel warmer relay operation sound is heard when the engine switch is turned to the ON position.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the operation sound is not heard, Inspect the following:</div>
+<dl>
+<dd class="list">
+<div class="list">―  Wiring harness between the engine switch and fuel warmer relay (open circuit)</div>
+<div class="list">―  Wiring harness between the fuel warmer relay and ground (open circuit, short to power supply)</div>
+<div class="list">―  Fuel warmer relay (stuck on or off)</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+<p class="list">2.  Inspect the fuel warmer.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the fuel warmer is not normal, replace the fuel warmer.</div>
+<div class="list">•  If the fuel warmer is normal, inspect and repair the following:</div>
+<dl>
+<dd class="list">
+<div class="list">―  Wiring harness between the fuel warmer relay and fuel warmer terminal 1 (open circuit)</div>
+<div class="list">―  Wiring harness between the fuel warmer relay terminal 2 and ground (open circuit)</div>
+<div class="list">―  Fuel warmer connector (corrosion, damage and/or pulled-out pins)</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p><br clear="all"><a name="id0103b380370004"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Glow System Operation Inspection</p>
+<p class="list">1.  Connect the M-MDS to the DLC-2.</p>
+<p class="list">
+</p>
+<p class="list">2.  Verify that DTCs are not displayed.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If any ETC sensor related DTC (P0117, P0118) is displayed, perform the appropriate DTC troubleshooting procedures.</div>
+</dd>
+</dl>
+</p>
+<p class="list">3.  Disconnect the glow plug wire connector.</p>
+<p class="list">
+</p>
+<p class="list">4.  Select the GPC PID and send ON.</p>
+<p class="list">
+</p>
+<p class="list">5.  Verify that the glow plug relay operation sound is heard.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  Wiring harness and connector between the battery positive post and glow plug relay terminal A</div>
+<dl>
+<dd class="list">
+<div class="list">―  Open or short circuit in the wiring harness and connector between PCM terminal 210 and glow plug relay terminal C</div>
+<div class="list">―  Open or short circuit in the wiring harness and connector between PCM terminal 132 and glow plug relay terminal D</div>
+<div class="list">―  Glow plug relay</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+<p class="list">6.  Measure the voltage between the glow plug wire vehicle side connector and ground while the GPC PID is ON.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the voltage is <span class="bold">not B+</span> Inspect the following:</div>
+<dl>
+<dd class="list">
+<div class="list">―  Open or short circuit in the wiring harness between glow plug relay terminal D and glow plug wire terminal A</div>
+<div class="list">―  Open or short circuit in the wiring harness between glow plug relay terminal D and glow plug wire terminal B</div>
+<div class="list">―  Open or short circuit in the wiring harness between glow plug relay terminal D and glow plug wire terminal C</div>
+<div class="list">―  Open or short circuit in the wiring harness between glow plug relay terminal D and glow plug wire terminal D</div>
+</dd>
+</dl>
+</dd>
+</dl>
+<dl>
+<dd>
+<div class="list">•  If the voltage is<span class="bold"> B+</span> Inspect the following:</div>
+<dl>
+<dd class="list">
+<div class="list">―  Open or short circuit in the glow plug wire</div>
+<div class="list">―  Glow plugs</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p><br clear="all"><a name="id0103b380370005"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>EGR System Operation Inspection</p>
+<p class="list">1.  Connect the M-MDS to the DLC-2.</p>
+<p class="list">
+</p>
+<p class="list">2.  Verify that the DTC is not displayed.</p>
+<p class="list">
+</p>
+<p class="list">3.  If any EGR system related DTC is displayed, perform the appropriate DTC troubleshooting procedures.</p>
+<p class="list">
+</p>
+<p class="list">4.  Access the following PIDs:</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  ECT</div>
+<div class="list">•  EgrDc</div>
+<div class="list">•  RPM</div>
+</dd>
+</dl>
+</p>
+<p class="list">5.  Warm up the engine to the normal operating temperature and run it at idle.</p>
+<p class="list">
+</p>
+<p class="list">6.  Verify that the intake throttle and EGR valve when EgrDc PID is decrease (close) after the engine speed raised up <span class="bold">above 3,000 rpm</span>.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">―  If it is not verified, perform the following procedures:</div>
+</dd>
+</dl>
+<dl class="list">
+<dd>(1)  Turn the engine switch off.</dd>
+<dd>
+</dd>
+</dl>
+<dl class="list">
+<dd>(2)  Remove the EGR valve with the connector connected.</dd>
+<dd>
+</dd>
+</dl>
+<dl class="list">
+<dd>(3)  Turn the engine switch to the ON position.</dd>
+<dd>
+</dd>
+</dl>
+<dl class="list">
+<dd>(4)  Send the open and/or close command to the EGR valve using the EgrDc PID.</dd>
+<dd>
+</dd>
+</dl>
+<dl class="list">
+<dd>(5)  Verify that the EGR valve moves according to the command.</dd>
+<dd>
+<dl>
+<dd>
+<div class="list">•  If the EGR valve does not move inspect the following:</div>
+<dl>
+<dd class="list">
+<div class="list">―  EGR valve (stuck)</div>
+<div class="list">―  Open or short circuit in the wiring harness between PCM terminal 228 and EGR valve terminal C</div>
+<div class="list">―  Open or short circuit in the wiring harness between PCM terminal 227 and EGR valve terminal D</div>
+</dd>
+</dl>
+</dd>
+</dl>
+<dl>
+<dd>
+<div class="list">•  If the intake throttle valve moves, inspect the following:</div>
+<dl>
+<dd class="list">
+<div class="list">―  EGR valve position sensor</div>
+<div class="list">―  Open or short circuit in the wiring harness between EGR valve terminal F and PCM terminal 201</div>
+<div class="list">―  Open or short circuit in the wiring harness between EGR valve terminal E and PCM terminal 129</div>
+<div class="list">―  Open or short circuit in the wiring harness between EGR valve terminal A and PCM terminal 121</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+</p><br clear="all"><a name="id0103b380370006"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Air Bypass Valve Operation Inspection (High Power-Euro 4)</p>
+<p class="list">1.  Remove the air bypass valve with the electrical connector connected</p>
+<p class="list">
+</p>
+<p class="list">2.  Connect the M-MDS to DLC-2.</p>
+<p class="list">
+</p>
+<p class="list">3.  Access the CABVP and CABVDC PIDs.</p>
+<p class="list">
+</p>
+<p class="list">4.  Turn the engine switch to ON.</p>
+<p class="list">
+</p>
+<p class="list">5.  Operate the air bypass valve using the simulation function of CABVP PID.</p>
+<p class="list">
+</p>
+<p class="list">6.   Verify that the air bypass valve operation visually and the CABVDC PID are according to simulated air bypass valve position.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the air bypass valve does not move according to simulated position, inspect the air bypass valve motor related wiring harnesses.</div>
+<dl>
+<dd class="list">
+<div class="list">―  If the wirings are okay, replace the air bypass valve.</div>
+</dd>
+</dl>
+<div class="list">•  If the CABVDC PID value does not indicate according to simulated position, inspect the air bypass valve position senor related wiring harnesses.</div>
+<dl>
+<dd class="list">
+<div class="list">―  If the wirings are okay, replace the air bypass valve.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+</body>
+</html>

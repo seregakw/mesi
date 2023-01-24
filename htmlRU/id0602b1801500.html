@@ -1,0 +1,537 @@
+<html lang="ru">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../css/mazda-css-ru.css" type="text/css">
+<title>СИСТЕМА БОРТОВОЙ ДИАГНОСТИКИ [ЭЛЕКТРОГИДРАВЛИЧЕСКИЙ УСИЛИТЕЛЬ РУЛЕВОГО УПРАВЛЕНИЯ (EHPAS)]</title>
+</head>
+<body><a name="id0602b1801500"></a><p class="servinfo-title"><span class="servinfo-head"></span>СИСТЕМА БОРТОВОЙ ДИАГНОСТИКИ [ЭЛЕКТРОГИДРАВЛИЧЕСКИЙ УСИЛИТЕЛЬ РУЛЕВОГО УПРАВЛЕНИЯ (EHPAS)]</p>
+<hr>
+<p class="servinfo-title-id" align="right">id0602b1801500</p><br clear="all"><a name="id0602b180150001"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Описание проверки, выполняемой системой бортовой диагностики (OBD)</p>
+<div class="list">•  Проверка, выполняемая системой бортовой диагностики, служит для определения целостности и работоспособности электрогидравлического усилителя рулевого управления (EHPAS). Система бортовой диагностики выводит результаты проверки по специальному запросу.</div>
+<div class="list">•  Кроме того, система бортовой диагностики:</div>
+<dl>
+<dd class="list">
+<div class="list">―  Выполняет быструю проверку жидкостного насоса электрогидравлического усилителя рулевого управления, которая обычно проводится в начале каждой процедуры диагностики.</div>
+<div class="list">―  Обеспечивает сверку данных после ремонтных работ, что позволяет убедиться в отсутствии появления новых неисправностей в ходе ремонта.</div>
+</dd>
+</dl>
+<div class="list">•  Проверка, выполняемая системой бортовой диагностики, состоит из двух частей:</div>
+<dl>
+<dd class="list">
+<div class="list">―  Считывание/удаление результатов диагностики, мониторинга и записи параметров.</div>
+</dd>
+</dl><br clear="all"><p><a name="id0602b180150002"></a><p class="topic-title"><span class="topic-head"></span>Считывание/удаление результатов диагностики</p>
+<dl>
+<dd>
+<div class="list">•  Данная функция обеспечивает считывание или удаление кодов неисправности из памяти блока EHPAS.</div>
+</dd>
+</dl>
+</p><br clear="all"><p><a name="id0602b180150003"></a><p class="topic-title"><span class="topic-head"></span>мониторинг и запись PID/данных</p>
+<dl>
+<dd>
+<div class="list">•  Данная функция обеспечивает доступ к некоторым параметрам, входным сигналам, расчетным величинами и информации о статусе системы.</div>
+</dd>
+</dl>
+</p><br clear="all"><a name="id0602b180150004"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Процедура считывания диагностических кодов неисправности</p>
+<p class="list">1.  Подключите диагностическую систему M-MDS к диагностическому разъему DLC-2.</p>
+<p class="list">
+<table class="figure-flame">
+<tr>
+<td width="10mm"></td>
+<td>
+<table class="figure-float" cellspacing="0" bordercolor="black">
+<tr>
+<td align="center"><img src="images/am3zzw00001707.png"></td>
+</tr>
+</table>
+<div class="figure-caption">am3zzw00001707</div>
+</td>
+</tr>
+</table>
+</p>
+<p class="list">2.  После идентификации автомобиля выберите последовательно следующие пункты меню на экране M-MDS.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  При использовании IDS (портативного ПК)</div>
+<dl>
+<dd class="list">
+<div class="list">1.  Выберите “Toolbox”.</div>
+<div class="list">2.  Выберите “Self Test”.</div>
+<div class="list">3.  Выберите “Modules”.</div>
+<div class="list">4.  Выберите “EPS”.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+<dl>
+<dd>
+<div class="list">•  При использовании PDS (карманного ПК)</div>
+<dl>
+<dd class="list">
+<div class="list">1.  Выберите “Module Tests”.</div>
+<div class="list">2.  Выберите “EPS”.</div>
+<div class="list">3.  Выберите “Self Test”.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+<p class="list">3.  Проверьте диагностический код неисправности в соответствии с указаниями, появляющимися на экране.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  В случае вывода на дисплей какого-либо диагностического кода неисправности выполните процедуру поиска и устранения неисправностей, соответствующую этому диагностическому коду неисправности.</div>
+</dd>
+</dl>
+</p>
+<p class="list">4.  После устранения неисправности удалите все диагностические коды неисправности из памяти блока управления DSC. (См. <font class="extxref-label"><a href="id0602b1801500.html">СИСТЕМА БОРТОВОЙ ДИАГНОСТИКИ [ЭЛЕКТРОГИДРАВЛИЧЕСКИЙ УСИЛИТЕЛЬ РУЛЕВОГО УПРАВЛЕНИЯ (EHPAS)]</a></font>.)</p>
+<p class="list"></p><br clear="all"><a name="id0602b180150005"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Процедура удаления диагностического кода неисправности</p>
+<p class="list">1.  Подключите диагностическую систему M-MDS к диагностическому разъему DLC-2.</p>
+<p class="list">
+<table class="figure-flame">
+<tr>
+<td width="10mm"></td>
+<td>
+<table class="figure-float" cellspacing="0" bordercolor="black">
+<tr>
+<td align="center"><img src="images/am3zzw00001707.png"></td>
+</tr>
+</table>
+<div class="figure-caption">am3zzw00001707</div>
+</td>
+</tr>
+</table>
+</p>
+<p class="list">2.  После идентификации автомобиля выберите последовательно следующие пункты меню на экране M-MDS.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  При использовании IDS (портативного ПК)</div>
+<dl>
+<dd class="list">
+<div class="list">1.  Выберите “Toolbox”.</div>
+<div class="list">2.  Выберите “Self Test”.</div>
+<div class="list">3.  Выберите “Modules”.</div>
+<div class="list">4.  Выберите “EPS”.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+<dl>
+<dd>
+<div class="list">•  При использовании PDS (карманного ПК)</div>
+<dl>
+<dd class="list">
+<div class="list">1.  Выберите “Module Tests”.</div>
+<div class="list">2.  Выберите “EPS”.</div>
+<div class="list">3.  Выберите “Self Test”.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+<p class="list">3.  Проверьте диагностический код неисправности в соответствии с указаниями, появляющимися на экране.</p>
+<p class="list"></p>
+<p class="list">4.  Находясь в экране кодов неисправностей, нажмите кнопку удаления (clear), чтобы удалить коды неисправностей.</p>
+<p class="list"></p>
+<p class="list">5.  Убедитесь, что коды неисправностей больше не показываются.</p>
+<p class="list"></p><br clear="all"><a name="id0602b180150006"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Процедура мониторинга и записи PID/данных</p>
+<p class="list">1.  Подключите диагностическую систему M-MDS к диагностическому разъему DLC-2.</p>
+<p class="list">
+<table class="figure-flame">
+<tr>
+<td width="10mm"></td>
+<td>
+<table class="figure-float" cellspacing="0" bordercolor="black">
+<tr>
+<td align="center"><img src="images/am3zzw00001707.png"></td>
+</tr>
+</table>
+<div class="figure-caption">am3zzw00001707</div>
+</td>
+</tr>
+</table>
+</p>
+<p class="list">2.  После идентификации автомобиля выберите последовательно следующие пункты меню на экране M-MDS.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  При использовании IDS (портативного ПК)</div>
+<dl>
+<dd class="list">
+<div class="list">1.  Выберите “Toolbox”.</div>
+<div class="list">2.  Выберите “Data Logger”.</div>
+<div class="list">3.  Выберите “Modules”.</div>
+<div class="list">4.  Выберите “EPS”.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+<dl>
+<dd>
+<div class="list">•  При использовании PDS (карманного ПК)</div>
+<dl>
+<dd class="list">
+<div class="list">1.  Выберите “Module Tests”.</div>
+<div class="list">2.  Выберите “EPS”.</div>
+<div class="list">3.  Выберите “Data Logger”.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+<p class="list">3.  Выберите соответствующие параметры (PID) из таблицы параметров.</p>
+<p class="list"></p>
+<p class="list">4.  Выполните проверку значений параметров в соответствии с указаниями, появляющимися на экране.</p>
+<p class="list"></p>
+<dl>
+<dd>
+<div class="attention3-label">Примечание</div>
+</dd>
+<dd>
+<div class="attention3">
+<div class="list">•  Функция наблюдения значений параметров применяется для отслеживания расчетных значений параметров. Поэтому, если расчётное значение наблюдаемого параметра устройства вывода не укладывается в допустимые пределы, требуется проверка наблюдаемых параметров соответствующих исполнительных устройств.  Кроме того, поскольку система не воспринимает неисправность устройства вывода, как отклонение наблюдаемого параметра от нормы, нужна отдельная проверка исполнительного устройства.</div>
+</div>
+</dd>
+</dl><br clear="all"><a name="id0602b180150007"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Таблица диагностических кодов неисправностей </p>
+<p clear="all">
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">DTC</p>
+</th>
+<th id="" align="center" rowspan="2">
+<p class="thead">Компонент системы диагностики</p>
+</th>
+<th id="" align="center" rowspan="2">
+<p class="thead">Страница</p>
+</th>
+</tr>
+<tr>
+<th id="" align="center">
+<p class="thead">M-MDS</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center">
+<div class="tbody">B1238</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Блок управления электрогидравлическим усилителем рулевого управления (EHPAS)</div>
+</td>
+<td id="" align="left">
+<div class="tbody">(См. <font class="extxref-label"><a href="id0602b1800100.html">DTC B1238 [ЭЛЕКТРОГИДРАВЛИЧЕСКИЙ УСИЛИТЕЛЬ РУЛЕВОГО УПРАВЛЕНИЯ (EHPAS)]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">B1317</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Питание от аккумуляторной батареи</div>
+</td>
+<td id="" align="left">
+<div class="tbody">(См. <font class="extxref-label"><a href="id0602b1800200.html">DTC B1317, B1318 [ЭЛЕКТРОГИДРАВЛИЧЕСКИЙ УСИЛИТЕЛЬ РУЛЕВОГО УПРАВЛЕНИЯ (EHPAS)]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">B1318</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Питание от аккумуляторной батареи</div>
+</td>
+<td id="" align="left">
+<div class="tbody">(См. <font class="extxref-label"><a href="id0602b1800200.html">DTC B1317, B1318 [ЭЛЕКТРОГИДРАВЛИЧЕСКИЙ УСИЛИТЕЛЬ РУЛЕВОГО УПРАВЛЕНИЯ (EHPAS)]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">B1342</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Блок управления электрогидравлическим усилителем рулевого управления (EHPAS)</div>
+</td>
+<td id="" align="left">
+<div class="tbody">(См. <font class="extxref-label"><a href="id0602b1800300.html">DTC B1342 [ЭЛЕКТРОГИДРАВЛИЧЕСКИЙ УСИЛИТЕЛЬ РУЛЕВОГО УПРАВЛЕНИЯ (EHPAS)]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">B1352</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Цепь питания зажигания</div>
+</td>
+<td id="" align="left">
+<div class="tbody">(См. <font class="extxref-label"><a href="id0602b1800400.html">DTC B1352 [ЭЛЕКТРОГИДРАВЛИЧЕСКИЙ УСИЛИТЕЛЬ РУЛЕВОГО УПРАВЛЕНИЯ (EHPAS)]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">B2477</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Конфигурация блока управления EHPAS</div>
+</td>
+<td id="" align="left">
+<div class="tbody">(См. <font class="extxref-label"><a href="id0602b1801600.html">DTC B2477 [ЭЛЕКТРОГИДРАВЛИЧЕСКИЙ УСИЛИТЕЛЬ РУЛЕВОГО УПРАВЛЕНИЯ (EHPAS)]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">C1099</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Жидкостный насос электрогидравлического усилителя рулевого управления (электродвигатель)</div>
+</td>
+<td id="" align="left">
+<div class="tbody">(См. <font class="extxref-label"><a href="id0602b1800600.html">DTC C1099 [ЭЛЕКТРОГИДРАВЛИЧЕСКИЙ УСИЛИТЕЛЬ РУЛЕВОГО УПРАВЛЕНИЯ (EHPAS)]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">C1278</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Датчик угла поворота рулевого колеса</div>
+</td>
+<td id="" align="left">
+<div class="tbody">(См. <font class="extxref-label"><a href="id0602b1801000.html">DTC C1278 [ЭЛЕКТРОГИДРАВЛИЧЕСКИЙ УСИЛИТЕЛЬ РУЛЕВОГО УПРАВЛЕНИЯ (EHPAS)]</a></font>)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">U0073</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Ошибка передачи данных по шине CAN</div>
+</td>
+<td id="" align="left">
+<div class="tbody">(См. <font class="extxref-label"><a href="id0902e6837000.html">ТАБЛИЦА ДИАГНОСТИЧЕСКИХ КОДОВ НЕИСПРАВНОСТЕЙ [МУЛЬТИПЛЕКСНАЯ СИСТЕМА ПЕРЕДАЧИ ДАННЫХ]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">U0100</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Потеря связи с блоком PCM</div>
+</td>
+<td id="" align="left">
+<div class="tbody">(См. <font class="extxref-label"><a href="id0902e6837000.html">ТАБЛИЦА ДИАГНОСТИЧЕСКИХ КОДОВ НЕИСПРАВНОСТЕЙ [МУЛЬТИПЛЕКСНАЯ СИСТЕМА ПЕРЕДАЧИ ДАННЫХ]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">U2023</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Получена ошибка от других блоков</div>
+</td>
+<td id="" align="left">
+<div class="tbody">(См. <font class="extxref-label"><a href="id0902e6837000.html">ТАБЛИЦА ДИАГНОСТИЧЕСКИХ КОДОВ НЕИСПРАВНОСТЕЙ [МУЛЬТИПЛЕКСНАЯ СИСТЕМА ПЕРЕДАЧИ ДАННЫХ]</a></font>.)</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p><br clear="all"><a name="id0602b180150008"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Таблица мониторинга PID/DATA</p>
+<p clear="all">
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">Наименование параметра</p>
+<p class="thead">(расшифровка)</p>
+</th>
+<th id="" align="center">
+<p class="thead">Единица измерения/</p>
+<p class="thead">Состояние</p>
+</th>
+<th id="" align="center">
+<p class="thead">Состояние/Технические условия</p>
+</th>
+<th id="" align="center">
+<p class="thead">Предпринимаемые меры</p>
+</th>
+<th id="" align="center">
+<p class="thead">Контакты блока управления EHPAS</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="left">
+<div class="tbody">BOARD_T</div>
+<div class="tbody">(температура печатной платы)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">°C, °F</div>
+</td>
+<td id="" align="left">
+<div class="list">•  Сообщает температуру печатной платы</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Замените блок EHPAS. (См. <font class="extxref-label"><a href="id0614008032c2.html">СНЯТИЕ/УСТАНОВКА НАСОСА ЭЛЕКТРОГИДРАВЛИЧЕСКОГО УСИЛИТЕЛЯ РУЛЕВОГО УПРАВЛЕНИЯ [ZY, LF, L3, MZ-CD 1.6 (Y6)]</a></font>.)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">CCNT</div>
+<div class="tbody">(Количество непрерывных кодов)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="left">
+<div class="list">•  Выявлены коды неисправности: <span>1—255</span></div>
+<div class="list">•  Диагностические коды не обнаружены: <span>0</span></div>
+</td>
+<td id="" align="left">
+<div class="tbody">Выполните проверку по описанию соответствующего кода неисправности.</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">ENGRPM</div>
+<div class="tbody">(сигнал частоты вращения коленчатого вала двигателя)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">RPM</div>
+</td>
+<td id="" align="left">
+<div class="list">•  Частота вращения коленчатого вала двигателя: 1 000 об/мин: <span>1000 RPM</span></div>
+</td>
+<td id="" align="left">
+<div class="tbody">Выполните проверку блока РСМ. (См. <font class="extxref-label"><a href="id0140a9802500.html">ПРОВЕРКА БЛОКА РСМ [LF, L3]</a></font>.) (См. <font class="extxref-label"><a href="id0140b2802500.html">PCM INSPECTION [MZ-CD 1.6 (Y6)]</a></font>.) (См. <font class="extxref-label"><a href="id0140b1802500.html">ПРОВЕРКА БЛОКА РСМ [ZJ, ZY, Z6]</a></font>.)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">MTR_AMP</div>
+<div class="tbody">(рабочий ток электродвигателя насоса)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">A</div>
+</td>
+<td id="" align="left">
+<div class="list">•  Сообщает рабочий ток электродвигателя насоса.</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Замените блок EHPAS. (См. <font class="extxref-label"><a href="id0614008032c2.html">СНЯТИЕ/УСТАНОВКА НАСОСА ЭЛЕКТРОГИДРАВЛИЧЕСКОГО УСИЛИТЕЛЯ РУЛЕВОГО УПРАВЛЕНИЯ [ZY, LF, L3, MZ-CD 1.6 (Y6)]</a></font>.)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">RPM_ACT</div>
+<div class="tbody">(Фактическая частота вращения вала насоса)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">RPM</div>
+</td>
+<td id="" align="left">
+<div class="list">•  Сообщает фактическую частоту вращения вала насоса.</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Замените блок EHPAS. (См. <font class="extxref-label"><a href="id0614008032c2.html">СНЯТИЕ/УСТАНОВКА НАСОСА ЭЛЕКТРОГИДРАВЛИЧЕСКОГО УСИЛИТЕЛЯ РУЛЕВОГО УПРАВЛЕНИЯ [ZY, LF, L3, MZ-CD 1.6 (Y6)]</a></font>.)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">RPM_TGT</div>
+<div class="tbody">(Заданная частота вращения вала насоса)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">RPM</div>
+</td>
+<td id="" align="left">
+<div class="list">•  Сообщает заданную частоту вращения вала насоса.</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Замените блок EHPAS. (См. <font class="extxref-label"><a href="id0614008032c2.html">СНЯТИЕ/УСТАНОВКА НАСОСА ЭЛЕКТРОГИДРАВЛИЧЕСКОГО УСИЛИТЕЛЯ РУЛЕВОГО УПРАВЛЕНИЯ [ZY, LF, L3, MZ-CD 1.6 (Y6)]</a></font>.)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">STEER_RATE</div>
+<div class="tbody">(Угловая скорость рулевого колеса)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">°/с</div>
+</td>
+<td id="" align="left">
+<div class="list">•  Сообщает угловую скорость рулевого колеса.</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Проверьте датчик угла поворота рулевого колеса. (См. <font class="extxref-label"><a href="id061400802100.html">ПРОВЕРКА ДАТЧИКА УГЛА ПОВОРОТА РУЛЕВОГО КОЛЕСА</a></font>.)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">3B, 3D</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">VPWR</div>
+<div class="tbody">(напряжение питания блока)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">V</div>
+</td>
+<td id="" align="left">
+<div class="list">•  Выключатель зажигания находится в положении «ON»: <span>B+</span></div>
+</td>
+<td id="" align="left">
+<div class="tbody">Проверьте аккумуляторную батарею. (См. <font class="extxref-label"><a href="id0117c2800600.html">ПРОВЕРКА АККУМУЛЯТОРНОЙ БАТАРЕИ [LF, L3]</a></font>.) (См. <font class="extxref-label"><a href="id0117c3800600.html">ПРОВЕРКА АККУМУЛЯТОРНОЙ БАТАРЕИ [MZ-CD 1.6 (Y6)]</a></font>.) (См. <font class="extxref-label"><a href="id0117c1800600.html">ПРОВЕРКА АККУМУЛЯТОРНОЙ БАТАРЕИ [ZJ, ZY, Z6]</a></font>.)</div>
+<div class="tbody">Проверьте цепь питания (выключатель зажигания, предохранитель и т.д.).</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1B, 2F</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">VSS</div>
+<div class="tbody">(Скорость автомобиля)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">KPH/MPH</div>
+</td>
+<td id="" align="left">
+<div class="list">•  Автомобиль неподвижен: <div><span>0 KPH/0 MPH</span></div>
+</div>
+<div class="list">•  Скорость автомобиля <span>20 км/ч {12 миль/ч}</span>: <span>20 KPH/12 MPH</span></div>
+</td>
+<td id="" align="left">
+<div class="tbody">Выполните проверку блока РСМ. (См. <font class="extxref-label"><a href="id0140a9802500.html">ПРОВЕРКА БЛОКА РСМ [LF, L3]</a></font>.) (См. <font class="extxref-label"><a href="id0140b2802500.html">PCM INSPECTION [MZ-CD 1.6 (Y6)]</a></font>.) (См. <font class="extxref-label"><a href="id0140b1802500.html">ПРОВЕРКА БЛОКА РСМ [ZJ, ZY, Z6]</a></font>.)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</body>
+</html>

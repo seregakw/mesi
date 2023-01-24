@@ -1,0 +1,239 @@
+<html lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../css/mazda-css-en.css" type="text/css">
+<title>NO.9 FAST IDLE/RUNS ON[MZ-CD 1.6 (Y6)]</title>
+</head>
+<body><a name="id0103b3801500"></a><p class="servinfo-title"><span class="servinfo-head"></span>NO.9 FAST IDLE/RUNS ON[MZ-CD 1.6 (Y6)]</p>
+<hr>
+<p class="servinfo-title-id" align="right">id0103b3801500</p>
+<p clear="all">
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th align="center">
+<p class="thead"><span class="bold">9</span></p>
+</th>
+<th align="left">
+<p class="thead"><span class="bold">RUNS IDLE/RUNS ON</span></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">
+<div class="tbody"><span class="bold">DESCRIPTION</span></div>
+</td>
+<td align="left">
+<div class="list">•  The engine speed continues at fast idle after warm-up.</div>
+<div class="list">•  The engine runs after engine key is turned off.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody"><span class="bold">POSSIBLE CAUSE</span></div>
+</td>
+<td align="left">
+<div class="list">•  ECT sensor or related circuit malfunction</div>
+<div class="list">•  Accelerator pedal position sensor or related circuit malfunction</div>
+<div class="list">•  Idle switch or related circuit malfunction</div>
+<div class="list">•  Fuel metering valve malfunction</div>
+<div class="list">•  Fuel injector malfunction</div>
+<div class="list">•  Vacuum leakage</div>
+<dl>
+<dd>
+<div class="attention1-label">Warning</div>
+</dd>
+<dd>
+<div class="attention1">
+<div>The following troubleshooting flow chart contains the fuel system diagnosis and repair procedures. Read the following warnings before servicing the fuel system:</div>
+<div class="list">•  Fuel vapor is hazardous. It can easily ignite, causing serious injury and damage. Always keep sparks and flames away from fuel.</div>
+<div class="list">•  Fuel line spills and leakage are dangerous. Fuel can ignite and cause serious injury or death and damage. Fuel can also irritate skin and eyes. To prevent this, always complete “BEFORE REPAIR PROCEDURE” and “AFTER REPAIR PROCEDURE” described in this manual.</div>
+</div>
+</dd>
+</dl>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+<p clear="all">
+<p class="table-title">Diagnostic Procedure</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th align="center">
+<p class="thead"><span class="bold">STEP</span></p>
+</th>
+<th align="center">
+<p class="thead"><span class="bold">INSPECTION</span></p>
+</th>
+<th align="center">
+<p class="thead"><span class="bold">RESULTS</span></p>
+</th>
+<th align="center">
+<p class="thead"><span class="bold">ACTION</span></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">1</div>
+</td>
+<td align="left" rowspan="2">
+<div class="tbody">Connect the M-MDS to the DLC-2.</div>
+<div class="tbody">Access the ECT PID.</div>
+<div class="tbody">Start and warm-up the engine to normal operating temperature.</div>
+<div class="tbody">Is the ECT PID reading between <span class="bold">82—112 °C {180—233 °F}</span>?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody"><span class="bold">ECT PID is higher than 112 °C {233 °F}:</span></div>
+<div class="tbody">Go to symptom troubleshooting “NO.17 COOLING SYSTEM CONCERNS—OVERHEATING”.</div>
+<div class="tbody"><span class="bold">ECT PID is less than 82 °C {180 °F}:</span></div>
+<div class="tbody">Go to symptom troubleshooting “NO.18 COOLING SYSTEM CONCERNS—RUNS COLD”.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">2</div>
+</td>
+<td align="left" rowspan="2">
+<div class="tbody">Perform the self-test function using the M-MDS.</div>
+<div class="tbody">Turn the engine switch to the ON position.</div>
+<div class="tbody">Retrieve any DTC.</div>
+<div class="tbody">Are DTCs displayed?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody"><span class="bold">DTC is displayed:</span></div>
+<div class="tbody">Go to the appropriate DTC test.</div>
+<div class="tbody"><span class="bold">Communication error message is displayed:</span></div>
+<div class="tbody">Inspect for the following:</div>
+<div class="list">•  Open circuit between the PCM control relay and PCM terminals 236, 231</div>
+<div class="list">•  Open circuit between PCM control relay and PCM terminal 241</div>
+<div class="list">•  PCM control relay stuck open</div>
+<div class="list">•  Open or poor ground circuit (PCM terminal 307, 308, or 332)</div>
+<div class="list">•  Poorly connected vehicle body ground</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody"><span class="bold">No DTC is displayed:</span></div>
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">3</div>
+</td>
+<td align="left" rowspan="2">
+<div class="tbody">Inspect fuel metering valve.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0114c3804200.html">FUEL METERING VALVE INSPECTION[MZ-CD 1.6 (Y6)]</a></font>.)</div>
+<div class="tbody">Is the fuel metering valve normal?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Replace the fuel pump.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0114c3804100.html">FUEL PUMP REMOVAL/INSTALLATION[MZ-CD 1.6 (Y6)]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">4</div>
+</td>
+<td align="left" rowspan="2">
+<div class="tbody">Inspect the fuel injector.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0114c3800700.html">FUEL INJECTOR INSPECTION[MZ-CD 1.6 (Y6)]</a></font>.)</div>
+<div class="tbody">Is the fuel injector normal?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Replace the fuel injector.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0114c3800600.html">FUEL INJECTOR REMOVAL/INSTALLATION[MZ-CD 1.6 (Y6)]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">5</div>
+</td>
+<td align="left" rowspan="2">
+<div class="tbody">Connect the M-MDS to the DLC-2.</div>
+<div class="tbody">Access the following PID.</div>
+<div class="list">•  APP</div>
+<div class="tbody">Verify that the PID value when the accelerator pedal is depressed and/or released.</div>
+<div class="tbody">Is the PID value normal?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Inspect for vacuum leakage.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Inspect and repair or replace the following part:</div>
+<div class="list">•  Accelerator pedal position sensor</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">6</div>
+</td>
+<td align="left" colspan="3">
+<div class="tbody">Verify test results.</div>
+<div class="list">•  If normal, return to the diagnostic index to service any additional symptoms. (See <font class="extxref-label"><a href="id0103b3805100.html">SYMPTOM DIAGNOSTIC INDEX[MZ-CD 1.6 (Y6)]</a></font>.)</div>
+<div class="list">•  If the malfunction remains, inspect related Service Information and perform repair on diagnosis.</div>
+<dl>
+<dd class="list">
+<div class="list">―  If the vehicle is repaired, troubleshooting is completed.</div>
+<div class="list">―  If the vehicle is not repaired or additional diagnostic information is not available, replace the PCM. (See <font class="extxref-label"><a href="id0140b2802400.html">PCM REMOVAL/INSTALLATION[MZ-CD 1.6 (Y6)]</a></font>.)</div>
+</dd>
+</dl>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</body>
+</html>

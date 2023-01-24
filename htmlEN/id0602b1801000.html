@@ -1,0 +1,299 @@
+<html lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../css/mazda-css-en.css" type="text/css">
+<title>DTC C1278 [ELECTRO HYDRAULIC POWER ASSIST STEERING (EHPAS)]</title>
+</head>
+<body><a name="id0602b1801000"></a><p class="servinfo-title"><span class="servinfo-head"></span>DTC C1278 [ELECTRO HYDRAULIC POWER ASSIST STEERING (EHPAS)]</p>
+<hr>
+<p class="servinfo-title-id" align="right">id0602b1801000</p>
+<div></div>
+<p clear="all">
+<table class="table-flame" border="1">
+<tbody>
+<tr>
+<td id="" align="center">
+<div class="tbody"><span>DTC</span></div>
+</td>
+<td id="" align="left" colspan="2">
+<div class="tbody"><span>C1278</span></div>
+</td>
+<td id="" align="left">
+<div class="tbody"><span>Steering angle sensor</span></div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" colspan="2">
+<div class="tbody"><span>DETECTION CONDITION</span></div>
+</td>
+<td id="" align="left" colspan="2">
+<div class="list">•  The EHPAS control module detects that the monitor voltage from the steering angle sensor is <span>more than 4.9 V </span>or <span>less than 0.8 V</span></div>
+<div class="list">•  The EHPAS control module detects that the two monitor voltages modulate at the same phase a specified amount of phases or more.</div>
+<div class="list">•  The EHPAS control module detects that the EHPAS sensor signal dose not change.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" colspan="2">
+<div class="tbody"><span>POSSIBLE CAUSE</span></div>
+</td>
+<td id="" align="left" colspan="2">
+<div class="list">•  Short to power supply, open circuit, or short to ground in wiring harness between EHPAS control module terminal 3B and steering angle sensor B</div>
+<div class="list">•  Short to power supply, open circuit, or short to ground in wiring harness between EHPAS control module terminal 3D and steering angle sensor terminal C</div>
+<div class="list">•  Open circuit in wiring harness between EHPAS control module terminal 3A and steering angle sensor terminal D (without DSC)</div>
+<div class="list">•  Open circuit in wiring harness between DSC HU/CM terminal AH and steering angle sensor terminal D (with DSC)</div>
+<div class="list">•  Short circuit in wiring harness between steering angle sensor terminal A and D</div>
+<div class="list">•  Steering angle sensor malfunction.</div>
+<div class="list">•  Steering angle sensor ring has fallen off.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" colspan="4"><img src="images/am3zzw00001737.png"></td>
+</tr>
+</tbody>
+</table>
+</p>
+<p clear="all">
+<p class="table-title">Diagnostic procedure</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">STEP</p>
+</th>
+<th id="" align="center" colspan="2">
+<p class="thead">INSPECTION</p>
+</th>
+<th id="" align="center">
+<p class="thead">ACTION</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">1</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">INSPECT PID FOR STEERING ANGLE SENSOR MALFUNCTION USING M-MDS</div>
+<div class="list">•  Turn the ignition switch off.</div>
+<div class="list">•  Connect the M-MDS to the DLC-2.</div>
+<div class="list">•  Select the “STEER_RATE” PID.</div>
+<div class="list">•  Verify that the M-MDS display changes correctly according to steering wheel operation.</div>
+<div class="list">•  Does it change correctly?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Replace the steering angle sensor.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id081000802000.html">CLOCK SPRING REMOVAL/INSTALLATION</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">2</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">INSPECT POWER SUPPLY VOLTAGE OF STEERING ANGLE SENSOR</div>
+<div class="list">•  Turn the ignition switch to the ON position (Engine off).</div>
+<div class="list">•  Measure the voltage between steering angle sensor terminal A and ground.</div>
+<div class="list">•  Is the voltage <span>B+</span>?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Without DSC</div>
+<div class="list">•  Repair or replace the wiring harness between ignition switch and steering angle sensor terminal A, then go to the step 7.</div>
+<div class="tbody">With DSC</div>
+<div class="list">•  Repair or replace the wiring harness between DSC HU/CM terminal AB and steering angle sensor terminal A, then go to the step 7.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">3</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">INSPECT GROUND CIRCUIT OF STEERING ANGLE SENSOR FOR OPEN CIRCUIT</div>
+<div class="list">•  Turn the ignition switch off.</div>
+<div class="list">•  Disconnect the EHPAS control module (without DSC) or DSC HU/CM (with DSC) and steering angle sensor connectors.</div>
+<div class="list">•  Inspect for continuity between EHPAS control module terminal 3A (without DSC) or DSC HU/CM terminal AH (with DSC) and steering angle sensor terminal D.</div>
+<div class="list">•  Is there continuity?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Repair or replace the wiring harness between EHPAS control module terminal 3A (without DSC) or DSC HU/CM terminal AH (with DSC) and steering angle sensor terminal D, then go to the step 7.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">4</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">INSPECT STEERING ANGLE SENSOR SIGNAL CIRCUIT FOR SHORT TO POWER</div>
+<div class="list">•  Turn ignition key to ON (engine OFF).</div>
+<div class="list">•  Measure the voltage between the EHPAS control module and body ground at the following:</div>
+<dl>
+<dd class="list">
+<div class="list">―  Sensor 1: EHPAS control module terminal 3B and body ground</div>
+<div class="list">―  Sensor 2: EHPAS control module terminal 3D and body ground</div>
+</dd>
+</dl>
+<div class="list">•  Is voltage <span>B+</span>?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Repair or replace the related wiring harnesses between the EHPAS control module and steering angle sensor, then go to the step 7.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">5</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">INSPECT STEERING ANGLE SENSOR SIGNAL CIRCUIT FOR SHORT TO GROUND</div>
+<div class="list">•  Turn the ignition switch off.</div>
+<div class="list">•  Inspect continuity between the EHPAS control module and body ground at the following:</div>
+<dl>
+<dd class="list">
+<div class="list">―  Sensor 1: EHPAS control module terminal 3B and body ground</div>
+<div class="list">―  Sensor 2: EHPAS control module terminal 3D and body ground</div>
+</dd>
+</dl>
+<div class="list">•  Is there continuity?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Repair or replace the related wiring harnesses between the EHPAS control module and steering angle sensor, then go to the step 7.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">6</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">INSPECT SENSORS 1 AND 2 OF THE STEERING ANGLE SENSOR FOR CONTINUITY</div>
+<div class="list">•  Turn the ignition switch off.</div>
+<div class="list">•  Disconnect the EHPAS control module and steering angle sensor connectors.</div>
+<div class="list">•  Inspect for continuity between steering angle sensor terminals B and C.</div>
+<div class="list">•  Is there continuity?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Replace the steering angle sensor, then go to the step 7.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id081000802000.html">CLOCK SPRING REMOVAL/INSTALLATION</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">7</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">VERIFY THAT THE SAME DTC IS NOT PRESENT</div>
+<div class="list">•  Reconnect all disconnected connectors.</div>
+<div class="list">•  Clear the DTC from the memory.<div>(See <font class="extxref-label"><a href="id0602b1801500.html">ON-BOARD DIAGNOSIS [ELECTRO HYDRAULIC POWER ASSIST STEERING (EHPAS)]</a></font>.)</div>
+</div>
+<div class="list">•  Is the same DTC present?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="list">•  Repeat the inspection from Step 1.</div>
+<div class="list">•  If the malfunction recurs, replace the electric power steering oil pump component.<div> (See <font class="extxref-label"><a href="id0614008050c2.html">ELECTRIC POWER STEERING OIL PUMP COMPONENT REMOVAL/INSTALLATION [ZY, LF, L3, MZ-CD 1.6 (Y6)]</a></font>.)</div>
+</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">8</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">VERIFY THAT NO OTHER DTCS ARE PRESENT</div>
+<div class="list">•  Are any other DTCs output?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the applicable DTC inspection.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0602b1801500.html">ON-BOARD DIAGNOSIS [ELECTRO HYDRAULIC POWER ASSIST STEERING (EHPAS)]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">DTC troubleshooting completed.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</body>
+</html>

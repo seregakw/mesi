@@ -1,0 +1,254 @@
+<html lang="ru">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../css/mazda-css-ru.css" type="text/css">
+<title>DTC P0111 
+[МКП, LF АКП (FS5A-EL)]</title>
+</head>
+<body><a name="id0102b4803600"></a><p class="servinfo-title"><span class="servinfo-head"></span>DTC P0111 
+[МКП, LF АКП (FS5A-EL)]</p>
+<hr>
+<p class="servinfo-title-id" align="right">id0102b4803600</p>
+<p clear="all">
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">DTC P0111</p>
+</th>
+<th id="" align="left">
+<p class="thead">Неисправность датчика температуры воздуха на впуске (IAT) (характеристика датчика/работа датчика)</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center">
+<div class="tbody"><span>УСЛОВИЕ ОПРЕДЕЛЕНИЯ</span></div>
+</td>
+<td id="" align="left">
+<div class="list">•  Если измеренная температура воздуха на впуске выше измеренной температуры охлаждающей жидкости на <span>18 °C {32,4 °F} на протяжении 1,2 с</span> при включённом зажигании<sup>*</sup>, то блок РСМ считает, что датчик неисправен или его характеристика имеет искажения.</div>
+<div class="list">*: Зажигание включается не менее чем через <span>6 часов</span> после последнего выключения зажигания.</div>
+<div class="list-title">Примечание к проведению диагностирования</div>
+<div class="list">•  Это постоянно контролируемый параметр (комплексный контроль компонентов)</div>
+<div class="list">•  Сигнализатор MIL включается, если блок РСМ регистрирует описанное выше состояние в двух последовательных ездовых циклах, или в одном цикле при том условии, что данный код неисправности уже сохранён в памяти блока РСМ.</div>
+<div class="list">•  НЕПОДТВЕРЖДЁННЫЙ КОД (PENDING CODE) записывается, если блок РСМ обнаруживает описанное выше состояние неисправности во время первого ездового цикла. </div>
+<div class="list">•  Имеются данные стоп-кадра (FREEZE FRAME DATA).</div>
+<div class="list">•  Код неисправности сохраняется в памяти блока РСМ.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody"><span>ВОЗМОЖНЫЕ ПРИЧИНЫ НЕИСПРАВНОСТИ</span></div>
+</td>
+<td id="" align="left">
+<div class="list">•  Неисправность датчика температуры воздуха на впуске (IAT)</div>
+<div class="list">•  Плохой контакт в разъёме датчика MAF/IAT или блока PCM</div>
+<div class="list">•  Неисправность блока РСМ</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+<p clear="all">
+<p class="table-title">Процедура диагностики</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">ЭТАП</p>
+</th>
+<th id="" align="center" colspan="2">
+<p class="thead">ПРОВЕРКА</p>
+</th>
+<th id="" align="center">
+<p class="thead">ВЫПОЛНЯЕМЫЕ ДЕЙСТВИЯ</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">1</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ЗАПИСИ ДАННЫХ СТОП-КАДРА (FREEZE FRAME DATA)</div>
+<div class="list">•  Был ли записан стоп-кадр?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Запишите данные стоп-кадра в заказ-наряд на выполнение ремонта и переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">2</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА НАЛИЧИЯ ДОПОЛНИТЕЛЬНОЙ СЕРВИСНОЙ ИНФОРМАЦИИ</div>
+<div class="list">•  Проверьте наличие дополнительной сервисной информации по данной проблеме.</div>
+<div class="list">•  Имеется ли в наличии дополнительная сервисная информация по данной проблеме?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Пользуясь дополнительной сервисной информацией, выполните ремонт или диагностирование.</div>
+<div class="list">•  Если неисправность не устранена, то переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">3</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА КАЧЕСТВА КОНТАКТА В РАЗЪЁМЕ ДАТЧИКА MAF/IAT ВОЗДУХА</div>
+<div class="list">•  Выключите зажигание.</div>
+<div class="list">•  Отсоедините разъём от датчика MAF/IAT.</div>
+<div class="list">•  Проверьте наличие дефектов в разъёме (повреждённые или смещённые контактные штыри, наличие коррозии).</div>
+<div class="list">•  Найдена ли какая-либо неисправность?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Отремонтируйте или замените контакт и перейдите к этапу 6.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">4</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ДАТЧИКА ТЕМПЕРАТУРЫ ВОЗДУХА НА ВПУСКЕ (IAT)</div>
+<div class="list">•  Проверьте датчик IAT.<div> (См. <font class="extxref-label"><a href="id0140a9802200.html">ПРОВЕРКА ДАТЧИКА ТЕМПЕРАТУРЫ ВОЗДУХА НА ВПУСКЕ (IAT) [LF, L3]</a></font>.)</div>
+</div>
+<div class="list">•  Исправен ли датчик IAT?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Замените датчик MAF/IAT и переходите к этапу 6.</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="id0113b3800400.html">СНЯТИЕ И УСТАНОВКА ВПУСКНОЙ СИСТЕМЫ 
+[LF, L3]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">5</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА КАЧЕСТВА КОНТАКТА В РАЗЪЁМЕ БЛОКА РСМ</div>
+<div class="list">•  Отсоедините разъем от блока РСМ.</div>
+<div class="list">•  Проверьте наличие дефектов в разъёме (повреждённые или смещённые контактные штыри, наличие коррозии).</div>
+<div class="list">•  Найдена ли какая-либо неисправность?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Отремонтируйте или замените контакт и перейдите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">6</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ЗАВЕРШЕНИЯ ДИАГНОСТИРОВАНИЯ ПО DTC P0111</div>
+<div class="list">•  Проверьте, чтобы все ранее отсоединённые разъёмы были вновь присоединены.</div>
+<div class="list">•  При помощи диагностической системы M-MDS удалите коды неисправностей из памяти блока РСМ.</div>
+<div class="list">•  Запустите двигатель и установите режим работы в соответствии со значениями параметров, сохранёнными в стоп-кадре.</div>
+<div class="list">•  Существует ли данный код неисправности в неподтверждённом состоянии (PENDING CODE)? </div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Замените блок РСМ и перейдите к следующему этапу.</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="id0140a9802400.html">СНЯТИЕ И УСТАНОВКА БЛОКА РСМ [LF, L3]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">7</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ПОСЛЕ ЗАВЕРШЕНИЯ РЕМОНТА</div>
+<div class="list">•  Выполните мероприятия в соответствии с требованиями раздела “ПОСЛЕРЕМОНТНЫЕ МЕРОПРИЯТИЯ”.<div> (См. <font class="extxref-label"><a href="id0102b4801100.html">ПОСЛЕРЕМОНТНЫЕ МЕРОПРИЯТИЯ 
+[МКП, LF АКП (FS5A-EL)]</a></font>.)</div>
+</div>
+<div class="list">•  Имеются ли коды неисправностей?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к поиску и устранению неисправностей по существующим кодам неисправностей.</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="id0102b4801500.html">ТАБЛИЦА КОДОВ НЕИСПРАВНОСТЕЙ [МКП, LF АКП (FS5A-EL)]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Процедура поиска и устранения неисправностей завершена.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</body>
+</html>

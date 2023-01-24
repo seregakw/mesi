@@ -1,0 +1,348 @@
+<html lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../css/mazda-css-en.css" type="text/css">
+<title>DTC P0012[MTX, LF ATX (FS5A-EL)]</title>
+</head>
+<body><a name="id0102b4801700"></a><p class="servinfo-title"><span class="servinfo-head"></span>DTC P0012[MTX, LF ATX (FS5A-EL)]</p>
+<hr>
+<p class="servinfo-title-id" align="right">id0102b4801700</p>
+<p clear="all">
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th align="center">
+<p class="thead">DTC P0012</p>
+</th>
+<th align="left">
+<p class="thead">CMP timing over-retarded</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">
+<div class="tbody"><span class="bold">DETECTION CONDITION</span></div>
+</td>
+<td align="left">
+<div class="list">•  Actual valve timing is over-retarded by <span class="bold">10°</span> from the target valve timing for <span class="bold">5 s</span> when the OCV system control is within the feed-back range.</div>
+<dl>
+<div class="list-title">Monitoring condition</div>
+<dd class="list">
+<div class="list">―  Engine speed: <span class="bold">below 4,000 rpm</span></div>
+<div class="list">―  Engine coolant temperature: <span class="bold">70—110°C {158—230°F}</span></div>
+</dd>
+</dl>
+<div class="list-title">Diagnostic support note</div>
+<div class="list">•  This is a continuous monitor (CCM).</div>
+<div class="list">•  The MIL illuminates if the PCM detects the above malfunction condition in two consecutive drive cycles or in one drive cycle while the DTC for the same malfunction has been stored in the PCM.</div>
+<div class="list">•  PENDING CODE is available if the PCM detects the above malfunction condition during the first drive cycle.</div>
+<div class="list">•  FREEZE FRAME DATA is available.</div>
+<div class="list">•  The DTC is stored in the PCM memory.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody"><span class="bold">POSSIBLE CAUSE</span></div>
+</td>
+<td align="left">
+<div class="list">•  Oil control valve (OCV) malfunction</div>
+<div class="list">•  Low engine oil pressure</div>
+<div class="list">•  Spool valve in the OCV is stuck in retard position.</div>
+<div class="list">•  Variable valve timing actuator is stuck in retard position.</div>
+<div class="list">•  Following oil runners are clogged or have leakage.</div>
+<dl>
+<div class="list-title">Oil runners</div>
+<dd class="list">
+<div class="list">―  Between the oil pressure switch and the OCV </div>
+<div class="list">―  Between the OCV and the variable valve timing actuator</div>
+<div class="list">―  In variable valve timing actuator</div>
+</dd>
+</dl>
+<div class="list">•  Loose timing chain or improper valve timing due to the timing chain slippage</div>
+<div class="list">•  PCM malfunction</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+<p clear="all">
+<p class="table-title">Diagnostic procedure</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th align="center">
+<p class="thead">STEP</p>
+</th>
+<th align="center" colspan="2">
+<p class="thead">INSPECTION</p>
+</th>
+<th align="center">
+<p class="thead">ACTION</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">1</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">VERIFY FREEZE FRAME DATA HAS BEEN RECORDED</div>
+<div class="list">•  Has FREEZE FRAME DATA been recorded?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Record the FREEZE FRAME DATA on the repair order, then go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">2</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">VERIFY RELATED SERVICE INFORMATION AVAILABILITY</div>
+<div class="list">•  Verify related Service Information availability.</div>
+<div class="list">•  Is any related Service Information available?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Perform repair or diagnosis according to the available Service Information.</div>
+<div class="list">•  If the vehicle is not repaired, go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">3</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">VERIFY RELATED PENDING CODE OR STORED DTCS</div>
+<div class="list">•  Is DTC P2088 or P2089 present?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the appropriate DTC troubleshooting procedure.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0102b4810600.html">DTC P2088[MTX, LF ATX (FS5A-EL)]</a></font> or <font class="extxref-label"><a href="id0102b4810700.html">DTC P2089[MTX, LF ATX (FS5A-EL)]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">4</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">VERIFY ENGINE OIL PRESSURE</div>
+<div class="list">•  Start the engine.</div>
+<div class="list">•  Does the oil pressure warning light illuminate?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Inspect the engine oil pressure, then go to Step 8.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0111b5800300.html">OIL PRESSURE INSPECTION[LF, L3]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">5</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">VERIFY TIMING CHAIN INSTALLATION</div>
+<div class="list">•  Stop the engine.</div>
+<div class="list">•  Remove the timing chain cover.</div>
+<div class="list">•  Is the camshaft timing mark at correct point?<div>(See <font class="extxref-label"><a href="id0110a0801000.html">TIMING CHAIN REMOVAL/INSTALLATION[LF, L3]</a></font>.)</div>
+</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Reinstall the timing chain, then go to Step 8.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">6</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">INSPECT OCV FOR MALFUNCTION</div>
+<div class="list">•  Stop the engine.</div>
+<div class="list">•  Remove the OCV.</div>
+<div class="list">•  Inspect the position of the spool valve in the OCV.</div>
+<div class="list">•  Is the spool valve located at the valve retard position?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="entry-title">VARIABLE VALVE TIMING MECHANISM IS NORMAL</div>
+<dl>
+<dd>
+<div class="attention3-label">Note</div>
+</dd>
+<dd>
+<div class="attention3">
+<div class="list">•  This DTC detected by intermittent concern.</div>
+<div class="list">•  Intermittent concern might be removed by cleaning mode of the variable valve timing control function.</div>
+</div>
+</dd>
+</dl>
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Replace the OCV, then go to Step 8.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">7</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">INSPECT ENGINE OIL RUNNER</div>
+<div class="list">•  Inspect the following engine oil runners for clogging or leakage.</div>
+<dl>
+<dd class="list">
+<div class="list">―  Between oil pressure switch and OCV </div>
+<div class="list">―  Between OCV and variable valve timing actuator</div>
+<div class="list">―  In variable valve timing actuator</div>
+</dd>
+</dl>
+<div class="list">•  Is there any clogging or leakage?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Repair or replace the suspected runner, then go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="entry-title">VARIABLE VALVE TIMING MECHANISM IS NORMAL</div>
+<dl>
+<dd>
+<div class="attention3-label">Note</div>
+</dd>
+<dd>
+<div class="attention3">
+<div class="list">•  This DTC is detected by intermittent concern.</div>
+<div class="list">•  Intermittent concern might be removed by cleaning mode of the variable valve timing control function.</div>
+</div>
+</dd>
+</dl>
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">8</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">VERIFY TROUBLESHOOTING OF DTC P0012 COMPLETED</div>
+<div class="list">•  Make sure to reconnect all disconnected connectors.</div>
+<div class="list">•  Clear the DTC from the PCM memory using the M-MDS.</div>
+<div class="list">•  Turn the ignition switch off.</div>
+<div class="list">•  Start the engine and warm it up completely.</div>
+<div class="list">•  Is the PENDING CODE for this DTC present?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Replace the PCM, then go to the next step.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0140a9802400.html">PCM REMOVAL/INSTALLATION[LF, L3]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">9</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">VERIFY AFTER REPAIR PROCEDURE</div>
+<div class="list">•  Perform the “AFTER REPAIR PROCEDURE”.<div>(See <font class="extxref-label"><a href="id0102b4801100.html">AFTER REPAIR PROCEDURE[MTX, LF ATX (FS5A-EL)]</a></font>.)</div>
+</div>
+<div class="list">•  Is there any DTC present?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the applicable DTC inspection.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0102b4801500.html">DTC TABLE[MTX, LF ATX (FS5A-EL)]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Troubleshooting completed.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</body>
+</html>

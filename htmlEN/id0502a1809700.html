@@ -1,0 +1,203 @@
+<html lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../css/mazda-css-en.css" type="text/css">
+<title>DTC P0744[FN4A-EL]</title>
+</head>
+<body><a name="id0502a1809700"></a><p class="servinfo-title"><span class="servinfo-head"></span>DTC P0744[FN4A-EL]</p>
+<hr>
+<p class="servinfo-title-id" align="right">id0502a1809700</p>
+<p clear="all">
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th align="center">
+<p class="thead">DTC P0744</p>
+</th>
+<th align="left">
+<p class="thead">Slip control malfunction</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">
+<div class="tbody"><span class="bold">DETECTION CONDITION</span></div>
+</td>
+<td align="left">
+<div class="list">•  With the engine running, all of the following conditions are met:</div>
+<dl>
+<dd class="list">
+<div class="list">―  ATF temperature <span class="bold">20 °C {68 °F} or more</span></div>
+<div class="list">―  Differential gear case (output) revolution speed <span class="bold">35 rpm or more</span></div>
+<div class="list">―  Accelerator opening angle <span class="bold">18.75% or less</span></div>
+<div class="list">―  Torque converter clutch (TCC) operating</div>
+<div class="list">―  When any of the following conditions are met:</div>
+<dl>
+<dd class="list">
+<div class="list">•  Revolution ratio of the forward clutch drum to differential gear case is <span class="bold">1.404 or less</span> or <span class="bold">1.704 or more</span> when driving in 2GR.</div>
+<div class="list">•  Revolution ratio of the forward clutch drum to differential gear case is <span class="bold">0.91 or less</span> or <span class="bold">1.09 or more</span> when driving in 3GR.</div>
+<div class="list">•  Revolution ratio of the forward clutch drum to differential gear case is <span class="bold">0.605 or less</span> or <span class="bold">0.785 or more</span> when driving in 4GR.</div>
+</dd>
+</dl>
+<div class="list">―  None of the following DTCs are present: P0706, P0707, P0708, P0712, P0713, P0715, P0720, P0751, P0752, P0753, P0756, P0757, P0758, P0761, P0762, P0763, P0766, P0767, P0768, P0771, P0772, P0773</div>
+</dd>
+</dl>
+<div class="list-title">Diagnostic support note:</div>
+<div class="list">•  This is a continuous monitor (CCM).</div>
+<div class="list">•  The MIL does not illuminates if the PCM detects the above malfunction condition in two consecutive drive cycles or in one drive cycle while the DTC for the same malfunction has been stored in the PCM.</div>
+<div class="list">•  A PENDING CODE is not available.</div>
+<div class="list">•  FREEZE FRAME DATA is not available.</div>
+<div class="list">•  The AT warning light illuminates.</div>
+<div class="list">•  DTCs are stored in the PCM memory.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody"><span class="bold">POSSIBLE CAUSE</span></div>
+</td>
+<td align="left">
+<div class="list">•  Forward clutch not engaged or slipped</div>
+<div class="list">•  Short to power supply in wiring harness between shift solenoid A terminal B and PCM terminal 1D</div>
+<div class="list">•  Shift solenoid A stuck on</div>
+<div class="list">•  Short to power supply in wiring harness between shift solenoid D terminal A and PCM terminal 1K</div>
+<div class="list">•  Shift solenoid D stuck on</div>
+<div class="list">•  Short to ground in wiring harness between shift solenoid E terminal A and PCM terminal 1O</div>
+<div class="list">•  Shift solenoid E stuck off</div>
+<div class="list">•  PCM malfunction</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+<p clear="all">
+<p class="table-title">Diagnostic procedure</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th align="center">
+<p class="thead">STEP</p>
+</th>
+<th align="center" colspan="2">
+<p class="thead">INSPECTION</p>
+</th>
+<th align="center">
+<p class="thead">ACTION</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">1</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">VERIFY FREEZE FRAME DATA HAS BEEN RECORDED</div>
+<div class="list">•  Has the FREEZE FRAME DATA been recorded?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Record the FREEZE FRAME DATA on the repair order, then go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">2</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">VERIFY DTCS</div>
+<div class="list">•  Turn the ignition switch to the LOCK position, then to the ON position.</div>
+<div class="list">•  Verify the DTCs in the PCM memory.</div>
+<div class="list">•  Are DTCs P0752, P0753, P0767, P0768, P0771, and P0773 output?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the applicable DTC inspection.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Replace the forward clutch, then go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">3</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">VERIFY TROUBLESHOOTING OF DTC P0744 COMPLETED</div>
+<div class="list">•  Make sure to reconnect all the disconnected connectors.</div>
+<div class="list">•  Clear the DTC from the memory using the M-MDS.</div>
+<div class="list">•  Warm up the engine.</div>
+<div class="list">•  Drive the vehicle under the following conditions and make sure that gears shift smoothly from 1GR to 4GR.</div>
+<dl>
+<dd class="list">
+<div class="list">―  ATF temperature (TFT PID): <span class="bold">20 °C {68 °F} or more</span></div>
+<div class="list">―  Drive in the D range</div>
+<div class="list">―  Accelerator opening angle (APP PID): <span class="bold">18.75% or less</span></div>
+</dd>
+</dl>
+<div class="list">•  Are any DTCs present?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Replace the PCM, then go to the next step.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0140b1802400.html">PCM REMOVAL/INSTALLATION[ZJ, ZY, Z6]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">No concern is detected. Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">4</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">VERIFY AFTER REPAIR PROCEDURE</div>
+<div class="list">•  Perform the "After Repair Procedure".<div>(See <font class="extxref-label"><a href="id0502a1800400.html">AFTER REPAIR PROCEDURE[FN4A-EL]</a></font>.)</div>
+</div>
+<div class="list">•  Are any DTCs present?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the applicable DTC inspection.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0502a1800500.html">DTC TABLE[FN4A-EL]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">DTC troubleshooting completed.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</body>
+</html>

@@ -1,0 +1,407 @@
+<html lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../css/mazda-css-en.css" type="text/css">
+<title>NO.23 A/C DOES NOT WORK SUFFICIENTLY [ZJ, ZY, Z6]</title>
+</head>
+<body><a name="id0103b1802900"></a><p class="servinfo-title"><span class="servinfo-head"></span>NO.23 A/C DOES NOT WORK SUFFICIENTLY [ZJ, ZY, Z6]</p>
+<hr>
+<p class="servinfo-title-id" align="right">id0103b1802900</p><br clear="all"><a name="id0103b180290001"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Without Throttle Valve Actuator</p>
+<p clear="all">
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">23</p>
+</th>
+<th id="" align="left">
+<p class="thead">A/C DOES NOT WORK SUFFICIENTLY.</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center">
+<div class="tbody"><span>DESCRIPTION</span></div>
+</td>
+<td id="" align="left">
+<div class="tbody">The A/C compressor magnetic clutch does not engage when the A/C switch is turned on.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody"><span>POSSIBLE CAUSE</span></div>
+</td>
+<td id="" align="left">
+<div class="list">•  Improper refrigerant charging amount</div>
+<div class="list">•  Open A/C magnetic clutch</div>
+<div class="list">•  Open circuit in wiring harness between A/C relay and A/C magnetic clutch</div>
+<div class="list">•  Poor ground of A/C magnetic clutch</div>
+<div class="list">•  Refrigerant pressure switch is stuck open.</div>
+<div class="list">•  A/C relay is stuck open.</div>
+<div class="list">•  Seized A/C compressor</div>
+<div class="list">•  Open circuit in wiring harness between A/C switch and PCM through both refrigerant pressure switch and A/C amplifier</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+<p clear="all">
+<p class="table-title">Diagnostic procedure</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">STEP</p>
+</th>
+<th id="" align="center">
+<p class="thead">INSPECTION</p>
+</th>
+<th id="" align="center">
+<p class="thead">RESULTS</p>
+</th>
+<th id="" align="center">
+<p class="thead">ACTION</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">1</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="tbody">Connect the M-MDS to the DLC-2.</div>
+<div class="tbody">Retrieve any continuous memory, KOEO and KOER DTCs using M-MDS.</div>
+<div class="tbody">Are there any DTCs displayed?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody"><span>DTC is displayed: </span></div>
+<div class="tbody">Go to the appropriate DTC inspection.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0102c1801500.html">DTC TABLE[ZJ, ZY, Z6]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody"><span>No DTC is displayed: </span></div>
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">2</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="tbody">Disconnect the A/C compressor connector.</div>
+<div class="tbody">Start the engine and turn the A/C switch on.</div>
+<div class="tbody">Is there correct voltage at the </div>
+<div class="tbody">A/C compressor magnetic clutch terminal?</div>
+<div class="list"><span>Specification</span><div><span>0.5—1.5 mm {0.02—0.05 in}</span></div>
+</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Inspect for ground condition of the magnetic clutch on the A/C compressor.</div>
+<div class="list">•  If ground condition is normal, inspect for open circuit magnetic clutch coil.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">3</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="tbody">Disconnect the refrigerant pressure switch connector.</div>
+<div class="tbody">Connect jumper wire between </div>
+<div class="tbody">A/C high-pressure switch terminals.</div>
+<div class="tbody">Connect jumper wires between refrigerant pressure switch terminals.</div>
+<div class="tbody">Connect M-MDS to DLC-2.</div>
+<div class="tbody">Access AC_REQ PID.</div>
+<div class="tbody">Turn the ignition switch to the ON position position.</div>
+<div class="tbody">Turn the A/C switch on and set the blower fan at any speed.</div>
+<div class="tbody">Does AC_REQ PID read On?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Inspect the refrigerant pressure switch operation.</div>
+<div class="list">•  If the switch is normal, go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Inspect for following: </div>
+<div class="list">•  A/C switch is stuck open.</div>
+<div class="list">•  Open circuit in wiring harness between refrigerant pressure switch and PCM terminal 1Q</div>
+<div class="list">•  Open circuit of blower motor fan switch and resistor (if blower motor does not operate)</div>
+<div class="list">•  Evaporator temperature sensor and A/C amplifier</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">4</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="tbody">Remove jumper wire from the switch connector.</div>
+<div class="tbody">Reconnect connector to the refrigerant pressure switch.</div>
+<div class="tbody">Start the engine and turn the A/C switch on.</div>
+<div class="tbody">Does the fan operate?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Inspect for stuck open the A/C relay.</div>
+<div class="tbody">Replace if necessary.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Inspect following and repair or replace if necessary: </div>
+<div class="list">•  Refrigerant charging amount</div>
+<div class="list">•  A/C compressor for being seized</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">5</div>
+</td>
+<td id="" align="left" colspan="3">
+<div class="tbody">Verify test results.</div>
+<div class="list">•  If normal, return to diagnostic index to service any additional symptoms.<div>(See <font class="extxref-label"><a href="id0103b1800500.html">SYMPTOM DIAGNOSTIC INDEX [ZJ, ZY, Z6]</a></font>.)</div>
+</div>
+<div class="list">•  If malfunction remains, inspect related Service information perform repair or diagnosis.</div>
+<dl>
+<dd class="list">
+<div class="list">―  If vehicle repaired, troubleshooting completed.</div>
+<div class="list">―  If vehicle not repaired or additional diagnostic information not available, replace the PCM.<div>(See <font class="extxref-label"><a href="id0140b1802400.html">PCM REMOVAL/INSTALLATION [ZJ, ZY, Z6]</a></font>.)</div>
+</div>
+</dd>
+</dl>
+</td>
+</tr>
+</tbody>
+</table>
+</p><br clear="all"><a name="id0103b180290002"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>With Throttle Valve Actuator</p>
+<p clear="all">
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">23</p>
+</th>
+<th id="" align="left">
+<p class="thead">A/C DOES NOT WORK SUFFICIENTLY.</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center">
+<div class="tbody"><span>DESCRIPTION</span></div>
+</td>
+<td id="" align="left">
+<div class="tbody">The A/C compressor magnetic clutch does not engage when the A/C switch is turned on.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody"><span>POSSIBLE CAUSE</span></div>
+</td>
+<td id="" align="left">
+<div class="list">•  Improper refrigerant charging amount</div>
+<div class="list">•  Open A/C magnetic clutch</div>
+<div class="list">•  Open circuit in wiring harness between A/C relay and A/C magnetic clutch</div>
+<div class="list">•  Poor GND of A/C magnetic clutch</div>
+<div class="list">•  Refrigerant pressure switch is stuck open.</div>
+<div class="list">•  A/C relay is stuck open.</div>
+<div class="list">•  Seized A/C compressor</div>
+<div class="list">•  Open circuit in wiring harness between A/C switch and PCM through both refrigerant pressure switch and A/C amplifier</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+<p clear="all">
+<p class="table-title">Diagnostic procedure</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">STEP</p>
+</th>
+<th id="" align="center">
+<p class="thead">INSPECTION</p>
+</th>
+<th id="" align="center">
+<p class="thead">RESULTS</p>
+</th>
+<th id="" align="center">
+<p class="thead">ACTION</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">1</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="tbody">Connect the M-MDS to the DLC-2.</div>
+<div class="tbody">Retrieve any continuous memory, KOEO and KOER DTCs using M-MDS.</div>
+<div class="tbody">Are there any DTCs displayed?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody"><span>DTC is displayed: </span></div>
+<div class="tbody">Go to the appropriate DTC inspection.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0102c1801500.html">DTC TABLE[ZJ, ZY, Z6]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody"><span>No DTC is displayed: </span></div>
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">2</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="tbody">Disconnect the A/C compressor connector.</div>
+<div class="tbody">Start the engine and turn the A/C switch on.</div>
+<div class="tbody">Is there correct voltage at the </div>
+<div class="tbody">A/C compressor magnetic clutch terminal?</div>
+<div class="list"><span>Specification</span><div><span>0.5—1.5 mm {0.02—0.05 in}</span></div>
+</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Inspect for GND condition of the magnetic clutch on the A/C compressor.</div>
+<div class="list">•  If GND condition is normal, inspect for open circuit magnetic clutch coil.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">3</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="tbody">Disconnect the refrigerant pressure switch connector.</div>
+<div class="tbody">Connect jumper wire between </div>
+<div class="tbody">A/C high-pressure switch terminals.</div>
+<div class="tbody">Connect jumper wires between refrigerant pressure switch terminals.</div>
+<div class="tbody">Connect M-MDS to DLC-2.</div>
+<div class="tbody">Access AC_REQ PID.</div>
+<div class="tbody">Turn the ignition switch to the ON position position.</div>
+<div class="tbody">Turn the A/C switch on and set the blower fan at any speed.</div>
+<div class="tbody">Does AC_REQ PID read On?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Inspect the refrigerant pressure switch operation.</div>
+<div class="list">•  If the switch is normal, go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Inspect for following: </div>
+<div class="list">•  A/C switch is stuck open.</div>
+<div class="list">•  Open circuit in wiring harness between refrigerant pressure switch and PCM terminal 1Y</div>
+<div class="list">•  Open circuit of blower motor fan switch and resistor (if blower motor does not operate)</div>
+<div class="list">•  Evaporator temperature sensor and A/C amplifier</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">4</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="tbody">Remove jumper wire from the switch connector.</div>
+<div class="tbody">Reconnect connector to the refrigerant pressure switch.</div>
+<div class="tbody">Start the engine and turn the A/C switch on.</div>
+<div class="tbody">Does the fan operate?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Inspect for stuck open the A/C relay.</div>
+<div class="tbody">Replace if necessary.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Inspect following and repair or replace if necessary: </div>
+<div class="list">•  Refrigerant charging amount</div>
+<div class="list">•  A/C compressor for being seized</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">5</div>
+</td>
+<td id="" align="left" colspan="3">
+<div class="tbody">Verify test results.</div>
+<div class="list">•  If normal, return to diagnostic index to service any additional symptoms.<div>(See <font class="extxref-label"><a href="id0103b1800500.html">SYMPTOM DIAGNOSTIC INDEX [ZJ, ZY, Z6]</a></font>.)</div>
+</div>
+<div class="list">•  If malfunction remains, inspect related Service information perform repair or diagnosis.</div>
+<dl>
+<dd class="list">
+<div class="list">―  If vehicle repaired, troubleshooting completed.</div>
+<div class="list">―  If vehicle not repaired or additional diagnostic information not available, replace the PCM.<div>(See <font class="extxref-label"><a href="id0140b1802400.html">PCM REMOVAL/INSTALLATION [ZJ, ZY, Z6]</a></font>.)</div>
+</div>
+</dd>
+</dl>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</body>
+</html>

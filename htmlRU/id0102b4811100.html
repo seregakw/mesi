@@ -1,0 +1,670 @@
+<html lang="ru">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../css/mazda-css-ru.css" type="text/css">
+<title>DTC P2101 
+[МКП, LF АКП (FS5A-EL)]</title>
+</head>
+<body><a name="id0102b4811100"></a><p class="servinfo-title"><span class="servinfo-head"></span>DTC P2101 
+[МКП, LF АКП (FS5A-EL)]</p>
+<hr>
+<p class="servinfo-title-id" align="right">id0102b4811100</p>
+<p clear="all">
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">DTC P2101</p>
+</th>
+<th id="" align="left">
+<p class="thead">Диапазон работы моторедуктора привода дроссельной заслонки/работа моторедуктора</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center">
+<div class="tbody"><span>УСЛОВИЕ ОПРЕДЕЛЕНИЯ</span></div>
+</td>
+<td id="" align="left">
+<div class="list">•  Если любое из перечисленных ниже состояний сохраняется на протяжении определённого промежутка времени, то блок РСМ решает, что моторедуктор привода дроссельной заслонки неисправен.</div>
+<dl>
+<dd class="list">
+<div class="list">―  При включённом реле моторедуктора напряжение питания <span>не превышает 4 В</span></div>
+<div class="list">―  Системная ошибка в контуре управления электронной дроссельной заслонкой блоком РСМ</div>
+<div class="list">―  Температура контура управления в блоке РСМ достигла <span>180 °C {356 °F}</span></div>
+</dd>
+</dl>
+<div class="list-title">Примечание к проведению диагностирования</div>
+<div class="list">•  Наблюдение является непрерывным. (CCM)</div>
+<div class="list">•  Сигнализатор MIL включается, если блок РСМ обнаруживает описанное выше состояние во время первого ездового цикла. </div>
+<div class="list">•  Имеются данные стоп-кадра (FREEZE FRAME DATA).</div>
+<div class="list">•  Код неисправности сохраняется в памяти блока РСМ.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody"><span>ВОЗМОЖНЫЕ ПРИЧИНЫ НЕИСПРАВНОСТИ</span></div>
+</td>
+<td id="" align="left">
+<div class="list">•  Неисправность реле привода дроссельной заслонки и сопутствующей электрической цепи</div>
+<div class="list">•  Неисправность главного реле и сопутствующей электрической цепи</div>
+<div class="list">•  Неисправность датчика 1 положения дроссельной заслонки и сопутствующей электрической цепи</div>
+<div class="list">•  Неисправность датчика 2 положения дроссельной заслонки и сопутствующей электрической цепи</div>
+<div class="list">•  Неисправность блока РСМ</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" colspan="2"><img src="images/am3zzw00000896.png"></td>
+</tr>
+</tbody>
+</table>
+</p>
+<p clear="all">
+<p class="table-title">Процедура диагностики</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">ЭТАП</p>
+</th>
+<th id="" align="center" colspan="2">
+<p class="thead">ПРОВЕРКА</p>
+</th>
+<th id="" align="center">
+<p class="thead">ВЫПОЛНЯЕМЫЕ ДЕЙСТВИЯ</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">1</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ЗАПИСИ ДАННЫХ СТОП-КАДРА (FREEZE FRAME DATA)</div>
+<div class="list">•  Был ли записан стоп-кадр?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Запишите данные стоп-кадра в заказ-наряд на выполнение ремонта и переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">2</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА НАЛИЧИЯ ДОПОЛНИТЕЛЬНОЙ СЕРВИСНОЙ ИНФОРМАЦИИ</div>
+<div class="list">•  Проверьте наличие дополнительной сервисной информации по данной проблеме.</div>
+<div class="list">•  Имеется ли в наличии дополнительная сервисная информация по данной проблеме?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Пользуясь дополнительной сервисной информацией, выполните ремонт или диагностирование.</div>
+<div class="list">•  Если неисправность не устранена, то переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">3</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА СОПУТСТВУЮЩИХ НЕПОДТВЕРЖДЁННЫХ КОДОВ НЕИСПРАВНОСТИ И СОХРАНЁННЫХ КОДОВ НЕИСПРАВНОСТЕЙ</div>
+<div class="list">•  Выключите зажигание, затем поверните выключатель зажигания в положение ON (двигатель не работает).</div>
+<div class="list">•  При помощи диагностической системы M-MDS проверьте наличие неподтверждённых и сохранённых кодов неисправностей.</div>
+<div class="list">•  Найден ли какой-либо код неисправности?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к проверке по соответствующим кодам неисправностей.</div>
+<div class="tbody">(См. <font class="extxref-label"><a href="id0102b4801500.html">ТАБЛИЦА КОДОВ НЕИСПРАВНОСТЕЙ [МКП, LF АКП (FS5A-EL)]</a></font>).</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">4</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ОПРЕДЕЛЕНИЕ КОДА НЕИСПРАВНОСТИ, ЗАПУСКАЮЩЕГО ЗАПИСЬ СТОП-КАДРА (FREEZE FRAME DATA)</div>
+<div class="list">•  Имеется ли код P2101 в данных стоп-кадра (FREEZE FRAME DATA)?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Выполните процедуру поиска и устранения неисправностей по кодам неисправностей из данных стоп-кадра (FREEZE FRAME DATA).</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">5</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА КАЧЕСТВА СОЕДИНЕНИЯ В РАЗЪЁМЕ БЛОКА РСМ</div>
+<div class="list">•  Выключите зажигание.</div>
+<div class="list">•  Отсоедините разъем от блока РСМ.</div>
+<div class="list">•  Проверьте наличие дефектов в разъёме (повреждённые или смещённые контакты, наличие коррозии).</div>
+<div class="list">•  Найдена ли какая-либо неисправность?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Отремонтируйте или замените контакт и перейдите к этапу 22.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">6</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ВЫХОДНОГО НАПРЯЖЕНИЯ ГЛАВНОГО РЕЛЕ</div>
+<div class="list">•  Выключите зажигание.</div>
+<div class="list">•  Присоедините разъём блока РСМ.</div>
+<div class="list">•  Поверните выключатель зажигания в положение ON (двигатель не работает).</div>
+<div class="list">•  Измерьте напряжение между контактом 1BE блока РСМ и "массой" кузова.</div>
+<div class="list">•  Равно ли напряжение <span>"положительному" напряжению+</span> аккумуляторной батареи?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к этапу 13.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">7</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА КАЧЕСТВА ЭЛЕКТРИЧЕСКОГО СОЕДИНЕНИЯ В РАЗЪЁМЕ ГЛАВНОГО РЕЛЕ</div>
+<div class="list">•  Выключите зажигание.</div>
+<div class="list">•  Отсоедините разъём главного реле.</div>
+<div class="list">•  Проверьте наличие дефектов в разъёме (повреждённые или смещённые контакты, наличие коррозии).</div>
+<div class="list">•  Найдена ли какая-либо неисправность?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Отремонтируйте или замените контакт и перейдите к этапу 22.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">8</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ПИТАНИЯ ГЛАВНОГО РЕЛЕ</div>
+<div class="list">•  Поверните выключатель зажигания в положение ON (двигатель не работает).</div>
+<div class="list">•  Измерьте напряжение между контактом Е главного реле и "массой" кузова.</div>
+<div class="list">•  Равно ли напряжение <span>"положительному" напряжению+</span> аккумуляторной батареи?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Устраните обрыв в проводном жгуте или замените жгут и переходите к этапу 22.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">9</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ПИТАНИЯ В ЦЕПИ УПРАВЛЕНИЯ ГЛАВНОГО РЕЛЕ</div>
+<div class="list">•  Поверните выключатель зажигания в положение ON (двигатель не работает).</div>
+<div class="list">•  Измерьте напряжение между контактом В главного реле и "массой" кузова.</div>
+<div class="list">•  Равно ли напряжение <span>"положительному" напряжению+</span> аккумуляторной батареи?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к этапу 22.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">10</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ГЛАВНОГО РЕЛЕ</div>
+<div class="list">•  Проверьте главное реле.<div>(См. <font class="extxref-label"><a href="id092100800300.html">ПРОВЕРКА РЕЛЕ</a></font>.)</div>
+</div>
+<div class="list">•  Исправно ли главное реле?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Замените главное реле и перейдите к этапу 22.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">11</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ЦЕПИ ПИТАНИЯ НА ОБРЫВ</div>
+<div class="list">•  Выключите зажигание.</div>
+<div class="list">•  Отсоедините разъёмы от главного реле и и от блока РСМ.</div>
+<div class="list">•  Проверьте неразрывность цепи между контактом А главного реле и контактом 1BE блока РСМ.</div>
+<div class="list">•  Существует ли неразрывность цепи?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Устраните обрыв в проводном жгуте или замените жгут и переходите к этапу 22.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">12</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ЦЕПИ УПРАВЛЕНИЯ НА ПРЕДМЕТ ОБРЫВА</div>
+<div class="list">•  Проверьте неразрывность цепи между контактом D главного реле и контактом 1Q блока РСМ.</div>
+<div class="list">•  Существует ли неразрывность цепи?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Устраните обрыв в проводном жгуте или замените жгут и переходите к этапу 22.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к этапу 22.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">13</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ВЫХОДНОГО НАПРЯЖЕНИЯ РЕЛЕ ПРИВОДА ДРОССЕЛЬНОЙ ЗАСЛОНКИ</div>
+<div class="list">•  Поверните выключатель зажигания в положение ON (двигатель не работает).</div>
+<div class="list">•  Измерьте напряжение между контактом 1AX блока РСМ и "массой" кузова.</div>
+<div class="list">•  Равно ли напряжение <span>"положительному" напряжению+</span> аккумуляторной батареи?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к этапу 20.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">14</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА КАЧЕСТВА ЭЛЕКТРИЧЕСКОГО СОЕДИНЕНИЯ В РАЗЪЁМЕ РЕЛЕ ПРИВОДА ДРОССЕЛЬНОЙ ЗАСЛОНКИ</div>
+<div class="list">•  Выключите зажигание.</div>
+<div class="list">•  Отсоедините разъём от реле привода дроссельной заслонки.</div>
+<div class="list">•  Проверьте наличие дефектов в разъёме реле (повреждённые или смещённые контакты, наличие коррозии).</div>
+<div class="list">•  Найдена ли какая-либо неисправность?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Отремонтируйте или замените контакт и перейдите к этапу 22.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">15</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ЦЕПИ ПИТАНИЯ РЕЛЕ ПРИВОДА ДРОССЕЛЬНОЙ ЗАСЛОНКИ</div>
+<div class="list">•  Поверните выключатель зажигания в положение ON (двигатель не работает).</div>
+<div class="list">•  Измерьте напряжение между контактом D реле привода дроссельной заслонки и "массой" кузова.</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Устраните обрыв в проводном жгуте или замените жгут и переходите к этапу 22.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">16</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ПИТАНИЯ В ЦЕПИ УПРАВЛЕНИЯ РЕЛЕ ПРИВОДА ДРОССЕЛЬНОЙ ЗАСЛОНКИ</div>
+<div class="list">•  Поверните выключатель зажигания в положение ON (двигатель не работает).</div>
+<div class="list">•  Измерьте напряжение между контактом а реле привода дроссельной заслонки и "массой" кузова.</div>
+<div class="list">•  Равно ли напряжение <span>"положительному" напряжению+</span> аккумуляторной батареи?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Устраните обрыв в цепи между контактом А реле привода дроссельной заслонки и контактом С главного реле, затем переходите к этапу 22.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">17</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА РЕЛЕ ПРИВОДА ДРОССЕЛЬНОЙ ЗАСЛОНКИ</div>
+<div class="list">•  Проверьте реле привода дроссельной заслонки.<div>(См. <font class="extxref-label"><a href="id092100800300.html">ПРОВЕРКА РЕЛЕ</a></font>.)</div>
+</div>
+<div class="list">•  Исправно ли реле привода дроссельной заслонки?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Замените реле привода дроссельной заслонки и перейдите к этапу 22.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">18</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ЦЕПИ ПИТАНИЯ НА ОБРЫВ</div>
+<div class="list">•  Выключите зажигание.</div>
+<div class="list">•  Проверьте неразрывность цепи между контактом С реле привода дроссельной заслонки и контактом 1AX блока РСМ.</div>
+<div class="list">•  Существует ли неразрывность цепи?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Устраните обрыв в проводном жгуте или замените жгут и переходите к этапу 22.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">19</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ЦЕПИ УПРАВЛЕНИЯ НА ПРЕДМЕТ ОБРЫВА</div>
+<div class="list">•  Проверьте неразрывность цепи между контактом А реле привода дроссельной заслонки и контактом 1BE блока РСМ.</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Устраните обрыв в проводном жгуте или замените жгут и переходите к этапу 22.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">20</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ВЫХОДНОГО НАПРЯЖЕНИЯ ДАТЧИКА 1 ПОЛОЖЕНИЯ ДРОССЕЛЬНОЙ ЗАСЛОНКИ</div>
+<div class="list">•  Выключите зажигание.</div>
+<div class="list">•  Присоедините разъём блока РСМ.</div>
+<div class="list">•  Поверните выключатель зажигания в положение ON (двигатель не работает).</div>
+<div class="list">•  Измерьте напряжение между контактом 2AK блока РСМ и "массой" кузова.</div>
+<div class="list">•  Находится ли напряжение в пределах <span>0,40—0,60 В</span>?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Проверьте датчик 1 положения дроссельной заслонки, а также сопутствующие электрические цепи и контакты.</div>
+<div class="tbody">(См. <font class="extxref-label"><a href="id0140a9802700.html">ПРОВЕРКА ДАТЧИКА ПОЛОЖЕНИЯ ДРОССЕЛЬНОЙ ЗАСЛОНКИ (ТP) [LF, L3]</a></font>.)</div>
+<div class="tbody">При необходимости выполните ремонт или замену и перейдите к этапу 22.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">21</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ВЫХОДНОГО НАПРЯЖЕНИЯ ДАТЧИКА 2 ПОЛОЖЕНИЯ ДРОССЕЛЬНОЙ ЗАСЛОНКИ</div>
+<div class="list">•  Поверните выключатель зажигания в положение ON (двигатель не работает).</div>
+<div class="list">•  Измерьте напряжение между контактом 2AL блока РСМ и "массой" кузова.</div>
+<div class="list">•  Находится ли напряжение в пределах <span>4,40—4,60 В</span>?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Проверьте датчик 2 положения дроссельной заслонки, а также сопутствующие электрические цепи и контакты.</div>
+<div class="tbody">(См. <font class="extxref-label"><a href="id0140a9802700.html">ПРОВЕРКА ДАТЧИКА ПОЛОЖЕНИЯ ДРОССЕЛЬНОЙ ЗАСЛОНКИ (ТP) [LF, L3]</a></font>.)</div>
+<div class="tbody">Выполните необходимый ремонт или замену и переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">22</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ЗАВЕРШЕНИЯ ДИАГНОСТИРОВАНИЯ ПО DTC P2101</div>
+<div class="list">•  Проверьте, чтобы все ранее отсоединённые разъёмы были вновь присоединены.</div>
+<div class="list">•  Поверните выключатель зажигания в положение ON (двигатель не работает).</div>
+<div class="list">•  При помощи диагностической системы M-MDS удалите коды неисправностей из памяти блока РСМ.</div>
+<div class="list">•  Запустите двигатель и оставьте его работать на холостом ходу.</div>
+<div class="list">•  Выключите зажигание, затем поверните выключатель зажигания в положение ON (двигатель не работает).</div>
+<div class="list">•  Записывается ли снова данный код неисправности?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Замените блок РСМ и перейдите к следующему этапу.</div>
+<div class="tbody">(См. <font class="extxref-label"><a href="id0140a9802400.html">СНЯТИЕ И УСТАНОВКА БЛОКА РСМ [LF, L3]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">23</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ПОСЛЕ ЗАВЕРШЕНИЯ РЕМОНТА</div>
+<div class="list">•  Выполните мероприятия в соответствии с требованиями раздела “ПОСЛЕРЕМОНТНЫЕ МЕРОПРИЯТИЯ”.<div>(См. <font class="extxref-label"><a href="id0102b4801100.html">ПОСЛЕРЕМОНТНЫЕ МЕРОПРИЯТИЯ 
+[МКП, LF АКП (FS5A-EL)]</a></font>.)</div>
+</div>
+<div class="list">•  Существуют ли какие-либо коды неисправностей?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к проверке по соответствующим кодам неисправностей.</div>
+<div class="tbody">(См. <font class="extxref-label"><a href="id0102b4801500.html">ТАБЛИЦА КОДОВ НЕИСПРАВНОСТЕЙ [МКП, LF АКП (FS5A-EL)]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Процедура поиска и устранения неисправностей завершена.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</body>
+</html>

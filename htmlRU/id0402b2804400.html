@@ -1,0 +1,164 @@
+<html lang="ru">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../css/mazda-css-ru.css" type="text/css">
+<title>КОД НЕИСПРАВНОСТИ C2785 [СИСТЕМА ДИНАМИЧЕСКОЙ СТАБИЛИЗАЦИИ (DSC)]</title>
+</head>
+<body><a name="id0402b2804400"></a><p class="servinfo-title"><span class="servinfo-head"></span>КОД НЕИСПРАВНОСТИ C2785 [СИСТЕМА ДИНАМИЧЕСКОЙ СТАБИЛИЗАЦИИ (DSC)]</p>
+<hr>
+<p class="servinfo-title-id" align="right">id0402b2804400</p>
+<p clear="all">
+<table class="table-flame" border="1">
+<tbody>
+<tr>
+<td id="" align="center">
+<div class="tbody"><span>ДИАГНОСТИЧЕСКИЙ КОД НЕИСПРАВНОСТИ</span></div>
+</td>
+<td id="" align="left" colspan="2">
+<div class="tbody"><span>C2785</span></div>
+</td>
+<td id="" align="left">
+<div class="tbody"><span>Система объединенного датчика (не выполнена процедура инициализации)</span></div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" colspan="2">
+<div class="tbody"><span>УСЛОВИЕ ОПРЕДЕЛЕНИЯ</span></div>
+</td>
+<td id="" align="left" colspan="2">
+<div class="list">•  Система DSC определила, что не выполнена процедура инициализации объединенного датчика.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" colspan="2">
+<div class="tbody"><span>ВОЗМОЖНЫЕ ПРИЧИНЫ НЕИСПРАВНОСТИ</span></div>
+</td>
+<td id="" align="left" colspan="2">
+<div class="list">•  Не выполнена процедура инициализации объединенного датчика</div>
+<div class="list">•  Неисправность объединенного датчика</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+<p clear="all">
+<p class="table-title">Процедура диагностики</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">ЭТАП</p>
+</th>
+<th id="" align="center" colspan="2">
+<p class="thead">ПРОВЕРКА</p>
+</th>
+<th id="" align="center">
+<p class="thead">ПРЕДПРИНИМАЕМЫЕ МЕРЫ</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">1</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="tbody"><span>ПРОВЕРЬТЕ, НЕ ЗАПИСАНЫ ЛИ В ПАМЯТИ ДРУГИЕ ДИАГНОСТИЧЕСКИЕ КОДЫ НЕИСПРАВНОСТИ</span></div>
+<div class="list">•  Записан ли также в памяти код неисправности B2141?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к проверке по существующим кодам неисправностей.</div>
+<div class="tbody">(См. <font class="extxref-label"><a href="id0402b2800200.html">БОРТОВАЯ ДИАГНОСТИКА [СИСТЕМА ДИНАМИЧЕСКОЙ СТАБИЛИЗАЦИИ (DSC)]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">2</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРЬТЕ ВЫПОЛНЕНИЕ ПРОЦЕДУРЫ ИНИЦИАЛИЗАЦИИ</div>
+<div class="list">•  Выполнена ли процедура инициализации объединенного датчика?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Выполните процедуру инициализации объединенного датчика, затем переходите к следующему этапу.</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="id041500801400.html">ПРОЦЕДУРА ИНИЦИАЛИЗАЦИИ ОБЪЕДИНЕННОГО ДАТЧИКА</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">3</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">УБЕДИТЕСЬ В ОТСУТСТВИИ ТОГО ЖЕ ДИАГНОСТИЧЕСКОГО КОДА НЕИСПРАВНОСТИ</div>
+<div class="list">•  Удалите из памяти блока диагностические коды неисправности.<div> (См. <font class="extxref-label"><a href="id0402b2800200.html">БОРТОВАЯ ДИАГНОСТИКА [СИСТЕМА ДИНАМИЧЕСКОЙ СТАБИЛИЗАЦИИ (DSC)]</a></font>.)</div>
+</div>
+<div class="list">•  Присутствует ли тот же диагностический код неисправности?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Повторите процедуру проверки, начиная с этапа 1.</div>
+<div class="tbody">В случае повторного возникновения неисправности замените блок DSC CM, затем переходите к следующему этапу.</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="id041500801000.html">СНЯТИЕ/УСТАНОВКА БЛОКА DSC HU/CM</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">4</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">УБЕДИТЕСЬ В ОТСУТСТВИИ ДРУГИХ ДИАГНОСТИЧЕСКИХ КОДОВ НЕИСПРАВНОСТИ</div>
+<div class="list">•  Присутствуют ли другие диагностические коды неисправности?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к проверке по существующим кодам неисправностей.</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="id0402b2800200.html">БОРТОВАЯ ДИАГНОСТИКА [СИСТЕМА ДИНАМИЧЕСКОЙ СТАБИЛИЗАЦИИ (DSC)]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Поиск и устранение неисправностей по коду неисправности завершён.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</body>
+</html>

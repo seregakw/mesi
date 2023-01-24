@@ -1,0 +1,275 @@
+<html lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../css/mazda-css-en.css" type="text/css">
+<title>DTC C1141, C1142, C1143, C1144, C1233, C1234, C1235, C1236 [ABS]</title>
+</head>
+<body><a name="id0402a7803300"></a><p class="servinfo-title"><span class="servinfo-head"></span>DTC C1141, C1142, C1143, C1144, C1233, C1234, C1235, C1236 [ABS]</p>
+<hr>
+<p class="servinfo-title-id" align="right">id0402a7803300</p>
+<dl>
+<dd>
+<div class="attention3-label">Note</div>
+</dd>
+<dd>
+<div class="attention3">
+<div class="list">•  When only the driving wheels are rotated while the vehicle is jacked up, DTCs C1235 and C1236 are input to the memory.</div>
+</div>
+</dd>
+</dl>
+<p clear="all">
+<table class="table-flame" border="1">
+<tbody>
+<tr>
+<td id="" align="center">
+<div class="tbody"><span>DTC</span></div>
+</td>
+<td id="" align="left" colspan="2">
+<div class="tbody"><span>C1141, C1142, C1143, C1144, C1233, C1234, C1235, C1236</span></div>
+</td>
+<td id="" align="left">
+<div class="tbody"><span>ABS wheel-speed sensor/ABS sensor rotor</span></div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" colspan="2">
+<div class="tbody"><span>DETECTION CONDITION</span></div>
+</td>
+<td id="" align="left" colspan="2">
+<div class="list">•  C1141, C1142, C1143, C1144</div>
+<dl>
+<dd class="list">
+<div class="list">―  Periodic abnormality is detected in the signal wave pattern from the ABS wheel-speed sensors.</div>
+</dd>
+</dl>
+<div class="list">•  C1234, C1233, C1235, C1236 </div>
+<dl>
+<dd class="list">
+<div class="list">―  Wheel speed signal is not input or extremely low wheel speed signal is input from any of the four wheels when driving at a vehicle speed of <span>10 km/h {6.2 mph} or more</span>.</div>
+<div class="list">―  A large, sudden change in wheel speed signal is detected.</div>
+<div class="list">―  ABS control operates for <span>28 s or more</span>.</div>
+</dd>
+</dl>
+</td>
+</tr>
+<tr>
+<td id="" align="center" colspan="2">
+<div class="tbody"><span>POSSIBLE CAUSE</span></div>
+</td>
+<td id="" align="left" colspan="2">
+<div class="list">•  ABS wheel-speed sensor malfunction</div>
+<div class="list">•  ABS sensor rotor malfunction (foreign material adhering)</div>
+<div class="list">•  Improper installation of ABS wheel-speed sensor and/or sensor rotor</div>
+<div class="list">•  Excessive clearance between the ABS wheel-speed sensor and sensor rotor</div>
+<div class="list">•  Continuous ABS operation</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" colspan="4"><img src="images/am3zzw00001628.png"></td>
+</tr>
+</tbody>
+</table>
+</p>
+<p clear="all">
+<p class="table-title">Diagnostic procedure</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">STEP</p>
+</th>
+<th id="" align="center" colspan="2">
+<p class="thead">INSPECTION</p>
+</th>
+<th id="" align="center">
+<p class="thead">ACTION</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">1</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">INSPECT PID FOR ABS WHEEL-SPEED SENSOR OUTPUT ERROR USING M-MDS</div>
+<div class="list">•  Turn the ignition switch off.</div>
+<div class="list">•  Connect the M-MDS to the DLC-2.</div>
+<div class="list">•  Select the following PIDs using the M-MDS:<div>LF_WSPD</div>
+<div>LR_WSPD</div>
+<div>RF_WSPD</div>
+<div>RR_WSPD</div>
+</div>
+<div class="list">•  Drive the vehicle.</div>
+<div class="list">•  Verify that the vehicle speeds detected by the four ABS wheel-speed sensors are approximately the same.</div>
+<div class="list">•  Are the vehicle speeds approximately the same?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to Step 3.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">2</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">INSPECT FOR SHORT TO GROUND BETWEEN ABS WHEEL-SPEED SENSOR CONNECTORS AND GROUND</div>
+<div class="list">•  Disconnect the ABS wheel-speed sensor connectors.</div>
+<div class="list">•  Inspect for no continuity between the following ABS wheel-speed sensor connector terminals (vehicle harness-side) and body ground:</div>
+<dl>
+<dd class="list">
+<div class="list">―  ABS wheel-speed sensor (RF): <div>B—Body ground</div>
+</div>
+<div class="list">―  ABS wheel-speed sensor (LF): <div>B—Body ground</div>
+</div>
+<div class="list">―  ABS wheel-speed sensor (RR): <div>B—Body ground</div>
+</div>
+<div class="list">―  ABS wheel-speed sensor (LR): <div>B—Body ground</div>
+</div>
+</dd>
+</dl>
+<div class="list">•  Is the continuity normal?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Repair or replace the wiring harness, then go to Step 5.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">3</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">INSPECT IF MALFUNCTION OCCURRED DUE TO IMPROPER SENSOR CLEARANCE.</div>
+<div class="list">•  Inspect the clearance between the ABS wheel-speed sensor and the ABS sensor rotor.<div> (See <font class="extxref-label"><a href="id041300801300.html">FRONT ABS WHEEL-SPEED SENSOR INSPECTION</a></font>.)</div>
+<div> (See <font class="extxref-label"><a href="id041300801200.html">REAR ABS WHEEL-SPEED SENSOR INSPECTION</a></font>.)</div>
+</div>
+<div class="list">•  Is the clearance normal?</div>
+<dl>
+<dd class="list">
+<div class="list"><span>Clearance</span><div><span>Front: 2.1 mm {0.082 in} or less</span></div>
+<div><span>Rear: 1.46 mm {0.057 in} or less</span></div>
+</div>
+</dd>
+</dl>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Replace the ABS wheel-speed sensor, then go to Step 5.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id041300800700.html">FRONT ABS WHEEL-SPEED SENSOR REMOVAL/INSTALLATION</a></font>.)</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id041300800500.html">REAR ABS WHEEL-SPEED SENSOR REMOVAL/INSTALLATION</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">4</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">VISUALLY INSPECT ABS SENSOR ROTOR FOR FOREIGN MATERIAL ADHERING OR IMPROPER INSTALLATION</div>
+<div class="list">•  Is the result normal?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Replace the wheel hub component, then go to the next step.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id031100800400.html">WHEEL HUB, STEERING KNUCKLE REMOVAL/INSTALLATION</a></font>.)</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id031200800400.html">WHEEL HUB COMPONENT REMOVAL/INSTALLATION</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">5</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">VERIFY THAT THE SAME DTC IS NOT PRESENT</div>
+<div class="list">•  Clear the DTCs from the memory.<div> (See <font class="extxref-label"><a href="id0402a7805500.html">ON-BOARD DIAGNOSIS [ABS]</a></font>.)</div>
+</div>
+<div class="list">•  Start the engine and drive the vehicle at <span>10 km/h {6.2 mph} or more</span>.</div>
+<div class="list">•  Are the same DTCs present?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Repeat the inspection from Step 1.</div>
+<div class="tbody">If the malfunction recurs, replace the ABS CM, then go to the next step.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id041300801400.html">ABS HU/CM REMOVAL/INSTALLATION</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">6</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">VERIFY THAT NO OTHER DTCS ARE PRESENT</div>
+<div class="list">•  Are any other DTCs output?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the applicable DTC inspection.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id0402a7805500.html">ON-BOARD DIAGNOSIS [ABS]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">DTC troubleshooting completed.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</body>
+</html>

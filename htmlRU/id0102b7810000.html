@@ -1,0 +1,461 @@
+<html lang="ru">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../css/mazda-css-ru.css" type="text/css">
+<title>DTC P0704 
+[L3 Turbo]</title>
+</head>
+<body><a name="id0102b7810000"></a><p class="servinfo-title"><span class="servinfo-head"></span>DTC P0704 
+[L3 Turbo]</p>
+<hr>
+<p class="servinfo-title-id" align="right">id0102b7810000</p>
+<p clear="all">
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">DTC P0704</p>
+</th>
+<th id="" align="left">
+<p class="thead">Неисправность в цепи датчика положения педали сцепления (СРР)</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center">
+<div class="tbody"><span>УСЛОВИЕ ОПРЕДЕЛЕНИЯ</span></div>
+</td>
+<td id="" align="left">
+<div class="list">•  Блок РСМ следит за изменением входного напряжения от (контактного) датчика положения педали сцепления. Если блок РСМ не обнаруживает изменения входного напряжения во время поездки с скоростью <span>не менее 30 км/ч {19 миль/ч}</span> при том, что автомобиль останавливался и начинал движение <span> 8 раз</span><span></span>, то блок РСМ решает, что в цепи датчика СРР имеется неисправность.</div>
+<div class="list-title">Примечание к проведению диагностирования</div>
+<div class="list">•  Это постоянно контролируемый параметр (комплексный контроль компонентов)</div>
+<div class="list">•  Сигнализатор MIL включается, если блок РСМ регистрирует описанное выше состояние в двух последовательных ездовых циклах, или в одном цикле при том условии, что данный код неисправности уже записан в памяти блока РСМ.</div>
+<div class="list">•  НЕПОДТВЕРЖДЁННЫЙ КОД (PENDING CODE) записывается, если блок РСМ обнаруживает описанное выше состояние неисправности во время первого ездового цикла. </div>
+<div class="list">•  Имеются данные стоп-кадра (FREEZE FRAME DATA).</div>
+<div class="list">•  Коды неисправности сохраняются в памяти блока РСМ.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody"><span>ВОЗМОЖНЫЕ ПРИЧИНЫ НЕИСПРАВНОСТИ</span></div>
+</td>
+<td id="" align="left">
+<div class="list">•  Неисправность датчика СРР</div>
+<div class="list">•  Плохое качество электрического соединения в разъёме датчика СРР и в разъёме блока РСМ.</div>
+<div class="list">•  Короткое замыкание на "массу" цепи между контактом А датчика СРР и контактом 1D блока РСМ.</div>
+<div class="list">•  Обрыв в цепи между контактом А датчика СРР и контактом 1D блока РСМ</div>
+<div class="list">•  Обрыв между "массой" и контактом В датчика СРР</div>
+<div class="list">•  Неисправность блока РСМ</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" colspan="2"><img src="images/am3uuw00000473.png"></td>
+</tr>
+</tbody>
+</table>
+</p>
+<p clear="all">
+<p class="table-title">Процедура диагностики</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">ЭТАП</p>
+</th>
+<th id="" align="center" colspan="2">
+<p class="thead">ПРОВЕРКА</p>
+</th>
+<th id="" align="center">
+<p class="thead">ВЫПОЛНЯЕМЫЕ ДЕЙСТВИЯ</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">1</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ЗАПИСИ ДАННЫХ СТОП-КАДРА (FREEZE FRAME DATA)</div>
+<div class="list">•  Были ли записаны данные стоп-кадра?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Запишите данные стоп-кадра в заказ-наряд на выполнение ремонта и переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">2</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА НАЛИЧИЯ ДОПОЛНИТЕЛЬНОЙ СЕРВИСНОЙ ИНФОРМАЦИИ</div>
+<div class="list">•  Проверьте наличие дополнительной сервисной информации по данной проблеме.</div>
+<div class="list">•  Имеется ли в наличии дополнительная сервисная информация по данной проблеме?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Пользуясь дополнительной сервисной информацией, выполните ремонт или диагностирование.</div>
+<div class="list">•  Если неисправность не устранена, то переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">3</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ОПРЕДЕЛЕНИЕ ВЫСОКОГО ИЛИ НИЗКОГО УРОВНЯ ВХОДНОГО СИГНАЛА</div>
+<div class="list">•  Подключите диагностическую систему M-MDS к диагностическому разъему DLC-2.</div>
+<div class="list">•  Выберите параметр СРР.</div>
+<div class="list">•  Проверьте значения параметра СРР во время работы педалью сцепления.</div>
+<div class="list">•  Имеет ли параметр CPP постоянное значение (состояние) "OFF"?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к этапу 10.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">4</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА КАЧЕСТВА ЭЛЕКТРИЧЕСКОГО СОЕДИНЕНИЯ В РАЗЪЁМЕ ДАТЧИКА СРР</div>
+<div class="list">•  Выключите зажигание.</div>
+<div class="list">•  Отсоедините электрический разъем датчика СРР.</div>
+<div class="list">•  Проверьте наличие дефектов в разъёме (повреждённые или смещённые контактные штыри, наличие коррозии).</div>
+<div class="list">•  Найдена ли какая-либо неисправность?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Отремонтируйте или замените контакт и перейдите к этапу 14.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">5</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">УТОЧНЕНИЕ МЕСТА НАХОЖДЕНИЯ НЕИСПРАВНОСТИ: ДАТЧИК СРР ИЛИ ЦЕПЬ ДАТЧИКА </div>
+<div class="list">•  Подключите диагностическую систему M-MDS к диагностическому разъему DLC-2.</div>
+<div class="list">•  Выберите параметр СРР.</div>
+<div class="list">•  Соедините контакты А и В в разъёме проводного жгута датчика СРР проволочной перемычкой.</div>
+<div class="list">•  Имеет ли параметр СРР значение "on"?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к этапу 7.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">6</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ДАТЧИКА СРР</div>
+<div class="list">•  Проверьте датчик СРР.<div> (См. <font class="extxref-label"><a href="id0140b6801600.html">ПРОВЕРКА ДАТЧИКА ПОЛОЖЕНИЯ ПЕДАЛИ СЦЕПЛЕНИЯ (CPP) [L3 Turbo]</a></font>.)</div>
+</div>
+<div class="list">•  Исправен ли датчик СРР?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к этапу 14.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Замените датчик СРР и перейдите к этапу 14.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">7</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ЦЕПИ "МАССЫ" ДАТЧИКА СРР НА ПРЕДМЕТ ОБРЫВА</div>
+<div class="list">•  Проверьте неразрывность цепи между контактом В в разъёме проводного жгута датчика СРР и "массой" кузова.</div>
+<div class="list">•  Существует ли неразрывность цепи?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Устраните обрыв в цепи питания датчика СРР или замените жгут проводов и переходите к этапу 14.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">8</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА КАЧЕСТВА СОЕДИНЕНИЯ В РАЗЪЁМЕ БЛОКА РСМ</div>
+<div class="list">•  Выключите зажигание.</div>
+<div class="list">•  Отсоедините разъем от блока РСМ.</div>
+<div class="list">•  Проверьте наличие дефектов в разъёме (повреждённые или смещённые контактные штыри, наличие коррозии).</div>
+<div class="list">•  Найдена ли какая-либо неисправность?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Отремонтируйте или замените контакт и перейдите к этапу 14.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">9</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА СИГНАЛЬНОЙ ЦЕПИ ДАТЧИКА СРР НА ПРЕДМЕТ ОБРЫВА</div>
+<div class="list">•  Проверьте неразрывность цепи между контактом А в разъёме проводного жгута датчика СРР и контактом 1D в разъёме проводного жгута блока РСМ.</div>
+<div class="list">•  Существует ли неразрывность цепи?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Устраните обрыв в проводном жгуте или замените жгут и переходите к этапу 14.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к этапу 14.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">10</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА КАЧЕСТВА ЭЛЕКТРИЧЕСКОГО СОЕДИНЕНИЯ В РАЗЪЁМЕ ДАТЧИКА СРР</div>
+<div class="list">•  Выключите зажигание.</div>
+<div class="list">•  Отсоедините электрический разъем датчика СРР.</div>
+<div class="list">•  Проверьте наличие дефектов в разъёме (повреждённые или смещённые контактные штыри, наличие коррозии).</div>
+<div class="list">•  Найдена ли какая-либо неисправность?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Отремонтируйте или замените контакт и перейдите к этапу 14.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">11</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">УТОЧНЕНИЕ МЕСТА НАХОЖДЕНИЯ НЕИСПРАВНОСТИ: ДАТЧИК СРР ИЛИ ЦЕПЬ ДАТЧИКА </div>
+<div class="list">•  Подключите диагностическую систему M-MDS к диагностическому разъему DLC-2.</div>
+<div class="list">•  Выберите параметр СРР.</div>
+<div class="list">•  Убедитесь в том, что значение параметра CPP при отсоединении разъёма от датчика меняется с ON на OFF.</div>
+<div class="list">•  Меняется ли значение параметра CPP с ON на OFF?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к этапу 13.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">12</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ДАТЧИКА СРР</div>
+<div class="list">•  Проверьте датчик СРР.<div> (См. <font class="extxref-label"><a href="id0140b6801600.html">ПРОВЕРКА ДАТЧИКА ПОЛОЖЕНИЯ ПЕДАЛИ СЦЕПЛЕНИЯ (CPP) [L3 Turbo]</a></font>.)</div>
+</div>
+<div class="list">•  Исправен ли датчик СРР?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к этапу 14.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Замените датчик СРР и перейдите к этапу 14.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">13</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА СИГНАЛЬНОЙ ЦЕПИ ДАТЧИКА СРР НА ПРЕДМЕТ КОРОТКОГО ЗАМЫКАНИЯ НА "МАССУ"</div>
+<div class="list">•  Проверьте неразрывность цепи между контактом А датчика СРР и "массой" кузова.</div>
+<div class="list">•  Существует ли неразрывность цепи?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Устраните короткое замыкание на "массу" в проводном жгуте или замените жгут и переходите к этапу 14.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">14</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ЗАВЕРШЕНИЯ ДИАГНОСТИРОВАНИЯ ПО DTC P0704</div>
+<div class="list">•  Проверьте, чтобы все ранее отсоединённые разъёмы были вновь присоединены.</div>
+<div class="list">•  Запустите двигатель.</div>
+<div class="list">•  При помощи диагностической системы M-MDS удалите коды неисправностей из памяти блока РСМ.</div>
+<div class="list">•  Выполните поездку со скоростью <span>не выше 30 км/ч {19 миль/ч} нажав при этом педаль сцепления с остановкой автомобиля 8 раз </span>.</div>
+<div class="list">•  Существует ли данный код неисправности в неподтверждённом состоянии (PENDING CODE)? </div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Замените блок РСМ и перейдите к следующему этапу.</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="id0140b6802400.html">СНЯТИЕ И УСТАНОВКА БЛОКА РСМ [L3 Turbo]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">15</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ПОСЛЕ ЗАВЕРШЕНИЯ РЕМОНТА</div>
+<div class="list">•  Выполните мероприятия в соответствии с требованиями раздела “ПОСЛЕРЕМОНТНЫЕ МЕРОПРИЯТИЯ”.<div> (См. <font class="extxref-label"><a href="id0102b7801100.html">ПОСЛЕРЕМОНТНЫЕ МЕРОПРИЯТИЯ 
+[L3 Turbo]</a></font>.)</div>
+</div>
+<div class="list">•  Имеются ли коды неисправностей?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к проверке по соответствующим кодам неисправностей.</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="id0102b7801500.html">ТАБЛИЦА КОДОВ НЕИСПРАВНОСТЕЙ 
+[L3 Turbo]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Процедура поиска и устранения неисправностей завершена.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</body>
+</html>

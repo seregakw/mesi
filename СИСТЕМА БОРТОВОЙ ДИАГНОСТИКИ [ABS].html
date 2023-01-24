@@ -1,0 +1,761 @@
+<html lang="ru"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<link rel="stylesheet" href="css/mazda-css-ru.css" type="text/css">
+<title>СИСТЕМА БОРТОВОЙ ДИАГНОСТИКИ [ABS]</title>
+</head>
+<body><a name="id0402a7805500"></a><p class="servinfo-title"><span class="servinfo-head"></span>СИСТЕМА БОРТОВОЙ ДИАГНОСТИКИ [ABS]</p>
+<hr>
+<p class="servinfo-title-id" align="right">id0402a7805500</p><br clear="all"><a name="id0402a780550001"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Описание проверки, выполняемой системой бортовой диагностики (OBD)</p>
+<div class="list">•&nbsp;&nbsp;Проверка, выполняемая системой бортовой диагностики, служит для определения целостности и работоспособности антиблокировочной системы. Система бортовой диагностики выводит результаты проверки по специальному запросу.</div>
+<div class="list">•&nbsp;&nbsp;Кроме того, система бортовой диагностики: </div>
+<dl>
+<dd class="list">
+<div class="list">―&nbsp;&nbsp;Выполняет быструю проверку антиблокировочной системы, которая обычно проводится в начале каждой процедуры диагностики.</div>
+<div class="list">―&nbsp;&nbsp;Обеспечивает сверку данных после ремонтных работ, что позволяет убедиться в отсутствии появления новых неисправностей в ходе ремонта.</div>
+</dd>
+</dl>
+<div class="list">•&nbsp;&nbsp;Проверка, выполняемая системой бортовой диагностики, состоит из трех частей: </div>
+<dl>
+<dd class="list">
+<div class="list">―&nbsp;&nbsp;Считывание/удаление результатов диагностики, мониторинг и запись PID, режим активной подачи команд.</div>
+</dd>
+</dl><br clear="all"><p><a name="id0402a780550002"></a></p><p class="topic-title"><span class="topic-head"></span>Считывание/удаление результатов диагностики</p>
+<dl>
+<dd>
+<div class="list">•&nbsp;&nbsp;Данная функция позволяет считывать и удалять коды неисправности из памяти блока ABS HU/CM.</div>
+</dd>
+</dl>
+<p></p><br clear="all"><p><a name="id0402a780550003"></a></p><p class="topic-title"><span class="topic-head"></span>Мониторинг и запись PID/данных</p>
+<dl>
+<dd>
+<div class="list">•&nbsp;&nbsp;Данная функция обеспечивает доступ к некоторым параметрам, входным сигналам, расчетным величинам и информации о статусе системы.</div>
+</dd>
+</dl>
+<p></p><br clear="all"><p><a name="id0402a780550004"></a></p><p class="topic-title"><span class="topic-head"></span>Режимы активной подачи команд</p>
+<dl>
+<dd>
+<div class="list">•&nbsp;&nbsp;Данная функция позволяет управлять работой устройств с помощью M-MDS.</div>
+</dd>
+</dl>
+<p></p><br clear="all"><a name="id0402a780550005"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Процедура считывания диагностических кодов неисправности</p>
+<p class="list">1.&nbsp;&nbsp;Подключите диагностическую систему M-MDS к диагностическому разъему DLC-2.</p>
+<p class="list">
+<table class="figure-flame">
+<tbody><tr>
+<td width="10mm"></td>
+<td>
+<table class="figure-float" cellspacing="0" bordercolor="black">
+<tbody><tr>
+<td align="center"><img src="imageRU/am3zzw00001688.png"></td>
+</tr>
+</tbody></table>
+<div class="figure-caption">am3zzw00001688</div>
+</td>
+</tr>
+</tbody></table>
+</p>
+<p class="list">2.&nbsp;&nbsp;После идентификации автомобиля выберите следующие пункты меню в окне начального этапа диагностической системы M-MDS.</p>
+<p class="list">
+</p><dl>
+<dd>
+<div class="list">•&nbsp;&nbsp;При использовании IDS (портативного ПК)</div>
+<dl>
+<dd class="list">
+<div class="list">1.&nbsp;&nbsp;Выберите “Toolbox”.</div>
+<div class="list">2.&nbsp;&nbsp;Выберите “Self Test”.</div>
+<div class="list">3.&nbsp;&nbsp;Выберите “Modules”.</div>
+<div class="list">4.&nbsp;&nbsp;Выберите “ABS”.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+<dl>
+<dd>
+<div class="list">•&nbsp;&nbsp;При использовании PDS (карманного ПК)</div>
+<dl>
+<dd class="list">
+<div class="list">1.&nbsp;&nbsp;Выберите “Module Tests”.</div>
+<div class="list">2.&nbsp;&nbsp;Выберите “ABS”.</div>
+<div class="list">3.&nbsp;&nbsp;Выберите “Self Test”.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+<p></p>
+<p class="list">3.&nbsp;&nbsp;Проверьте диагностический код неисправности в соответствии с указаниями, появляющимися на экране.</p>
+<p class="list">
+</p><dl>
+<dd>
+<div class="list">•&nbsp;&nbsp;В случае вывода на дисплей какого-либо диагностического кода неисправности выполните процедуру поиска и устранения неисправностей, соответствующую этому диагностическому коду неисправности.</div>
+</dd>
+</dl>
+<p></p>
+<p class="list">4.&nbsp;&nbsp;После устранения неисправности удалите все диагностические коды неисправности из памяти блока управления DSC. (См. <font class="intxref-label"><a href="htmlRU/id0402a7805500.html#id0402a780550006">Процедура удаления диагностического кода неисправности</a></font>.)</p>
+<p class="list"></p><br clear="all"><a name="id0402a780550006"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Процедура удаления диагностического кода неисправности</p>
+<p class="list">1.&nbsp;&nbsp;Подключите диагностическую систему M-MDS к диагностическому разъему DLC-2.</p>
+<p class="list">
+<table class="figure-flame">
+<tbody><tr>
+<td width="10mm"></td>
+<td>
+<table class="figure-float" cellspacing="0" bordercolor="black">
+<tbody><tr>
+<td align="center"><img src="imageRU/am3zzw00001688.png"></td>
+</tr>
+</tbody></table>
+<div class="figure-caption">am3zzw00001688</div>
+</td>
+</tr>
+</tbody></table>
+</p>
+<p class="list">2.&nbsp;&nbsp;После идентификации автомобиля выберите следующие пункты меню в окне начального этапа диагностической системы M-MDS.</p>
+<p class="list">
+</p><dl>
+<dd>
+<div class="list">•&nbsp;&nbsp;При использовании IDS (портативного ПК)</div>
+<dl>
+<dd class="list">
+<div class="list">1.&nbsp;&nbsp;Выберите “Toolbox”.</div>
+<div class="list">2.&nbsp;&nbsp;Выберите “Self Test”.</div>
+<div class="list">3.&nbsp;&nbsp;Выберите “Modules”.</div>
+<div class="list">4.&nbsp;&nbsp;Выберите “ABS”.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+<dl>
+<dd>
+<div class="list">•&nbsp;&nbsp;При использовании PDS (карманного ПК)</div>
+<dl>
+<dd class="list">
+<div class="list">1.&nbsp;&nbsp;Выберите “Module Tests”.</div>
+<div class="list">2.&nbsp;&nbsp;Выберите “ABS”.</div>
+<div class="list">3.&nbsp;&nbsp;Выберите “Self Test”.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+<p></p>
+<p class="list">3.&nbsp;&nbsp;Проверьте диагностический код неисправности в соответствии с указаниями, появляющимися на экране.</p>
+<p class="list"></p>
+<p class="list">4.&nbsp;&nbsp;Находясь в экране кодов неисправностей, нажмите кнопку удаления (clear), чтобы удалить коды неисправностей.</p>
+<p class="list"></p>
+<p class="list">5.&nbsp;&nbsp;Убедитесь, что коды неисправностей больше не отображаются.</p>
+<p class="list"></p><br clear="all"><a name="id0402a780550007"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Процедура мониторинга и записи PID/данных</p>
+<p class="list">1.&nbsp;&nbsp;Подключите диагностическую систему M-MDS к диагностическому разъему DLC-2.</p>
+<p class="list">
+<table class="figure-flame">
+<tbody><tr>
+<td width="10mm"></td>
+<td>
+<table class="figure-float" cellspacing="0" bordercolor="black">
+<tbody><tr>
+<td align="center"><img src="imageRU/am3zzw00001688.png"></td>
+</tr>
+</tbody></table>
+<div class="figure-caption">am3zzw00001688</div>
+</td>
+</tr>
+</tbody></table>
+</p>
+<p class="list">2.&nbsp;&nbsp;После идентификации автомобиля выберите следующие пункты меню в окне начального этапа диагностической системы M-MDS.</p>
+<p class="list">
+</p><dl>
+<dd>
+<div class="list">•&nbsp;&nbsp;При использовании IDS (портативного ПК)</div>
+<dl>
+<dd class="list">
+<div class="list">1.&nbsp;&nbsp;Выберите “Toolbox”.</div>
+<div class="list">2.&nbsp;&nbsp;Выберите “DataLogger”.</div>
+<div class="list">3.&nbsp;&nbsp;Выберите “Modules”.</div>
+<div class="list">4.&nbsp;&nbsp;Выберите “ABS”.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+<dl>
+<dd>
+<div class="list">•&nbsp;&nbsp;При использовании PDS (карманного ПК)</div>
+<dl>
+<dd class="list">
+<div class="list">1.&nbsp;&nbsp;Выберите “Module Tests”.</div>
+<div class="list">2.&nbsp;&nbsp;Выберите “ABS”.</div>
+<div class="list">3.&nbsp;&nbsp;Выберите “DataLogger”.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+<p></p>
+<p class="list">3.&nbsp;&nbsp;Выберите соответствующие параметры (PID) из таблицы параметров.</p>
+<p class="list"></p>
+<p class="list">4.&nbsp;&nbsp;Выполните проверку значений параметров в соответствии с указаниями, появляющимися на экране.</p>
+<p class="list"></p>
+<dl>
+<dd>
+<div class="attention3-label">Примечание</div>
+</dd>
+<dd>
+<div class="attention3">
+<div class="list">•&nbsp;&nbsp;Функция мониторинга значений параметров применяется для мониторинга расчетных величин. Поэтому, если значение наблюдаемого параметра исполнительного устройства не укладывается в допустимые пределы, требуется проверка наблюдаемых параметров соответствующих исполнительных устройств.  То есть, поскольку система не воспринимает неисправность исполнительного устройства, как отклонение наблюдаемого параметра от нормы, нужно проверять каждое исполнительное устройство в режиме активной подачи команд.</div>
+</div>
+</dd>
+</dl><br clear="all"><a name="id0402a780550008"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Процедура режима активной подачи команд</p>
+<dl>
+<dd>
+<div class="attention3-label">Примечание</div>
+</dd>
+<dd>
+<div class="attention3">
+<div class="list">•&nbsp;&nbsp;Использование режима активной подачи команд при работающем двигателе может привести к записи кода неисправности U2064 в памяти блока управления приборной панелью. Вот почему следует использовать режим активной подачи команд только при неработающем двигателе. Если вы случайно включили режим активной подачи команд при работающем двигателе, проверьте память блока управления приборной панелью на предмет кодов неисправности. При наличии удалите их.</div>
+</div>
+</dd>
+</dl>
+<p class="list">1.&nbsp;&nbsp;Подключите диагностическую систему M-MDS к диагностическому разъему DLC-2.</p>
+<p class="list">
+<table class="figure-flame">
+<tbody><tr>
+<td width="10mm"></td>
+<td>
+<table class="figure-float" cellspacing="0" bordercolor="black">
+<tbody><tr>
+<td align="center"><img src="imageRU/am3zzw00001688.png"></td>
+</tr>
+</tbody></table>
+<div class="figure-caption">am3zzw00001688</div>
+</td>
+</tr>
+</tbody></table>
+</p>
+<p class="list">2.&nbsp;&nbsp;После идентификации автомобиля выберите следующие пункты меню в окне начального этапа диагностической системы M-MDS.</p>
+<p class="list">
+</p><dl>
+<dd>
+<div class="list">•&nbsp;&nbsp;При использовании IDS (портативного ПК)</div>
+<dl>
+<dd class="list">
+<div class="list">1.&nbsp;&nbsp;Выберите “Toolbox”.</div>
+<div class="list">2.&nbsp;&nbsp;Выберите “DataLogger”.</div>
+<div class="list">3.&nbsp;&nbsp;Выберите “Modules”.</div>
+<div class="list">4.&nbsp;&nbsp;Выберите “ABS”.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+<dl>
+<dd>
+<div class="list">•&nbsp;&nbsp;При использовании PDS (карманного ПК)</div>
+<dl>
+<dd class="list">
+<div class="list">1.&nbsp;&nbsp;Выберите “Module Tests”.</div>
+<div class="list">2.&nbsp;&nbsp;Выберите “ABS”.</div>
+<div class="list">3.&nbsp;&nbsp;Выберите “DataLogger”.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+<p></p>
+<p class="list">3.&nbsp;&nbsp;Выберите соответствующий режим активной подачи команд из таблицы PID.</p>
+<p class="list"></p>
+<p class="list">4.&nbsp;&nbsp;Войдя в режим активной подачи команд, проверьте работу каждого компонента.</p>
+<p class="list">
+</p><dl>
+<dd>
+<div class="list">•&nbsp;&nbsp;Отсутствие звука включения реле, электродвигателя или электромагнитного клапана во время проверки в режиме активной подачи команд может говорить об обрыве или коротком замыкании цепи проводного жгута, реле, электродвигателя или электромагнитного клапана, а также об их заедании или иной неисправности.</div>
+</dd>
+</dl>
+<p></p><br clear="all"><a name="id0402a780550009"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Таблица диагностических кодов неисправностей </p>
+<p clear="all">
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">ДИАГНОСТИЧЕСКИЙ КОД НЕИСПРАВНОСТИ</p>
+</th>
+<th id="" align="center" rowspan="2">
+<p class="thead">Местоположение неисправного компонента</p>
+</th>
+<th id="" align="center" rowspan="2">
+<p class="thead">Страница</p>
+</th>
+</tr>
+<tr>
+<th id="" align="center">
+<p class="thead">M-MDS</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center">
+<div class="tbody">B1317</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Система питания</div>
+</td>
+<td id="" align="left">
+<div class="tbody">(См. <font class="extxref-label"><a href="htmlRU/id0402a7806500.html">КОД НЕИСПРАВНОСТИ B1317, B1318 [ABS]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">B1318</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Система питания</div>
+</td>
+<td id="" align="left">
+<div class="tbody">(См. <font class="extxref-label"><a href="htmlRU/id0402a7806500.html">КОД НЕИСПРАВНОСТИ B1317, B1318 [ABS]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">B1342</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Блок ABS HU/CM (внутренняя неисправность)</div>
+</td>
+<td id="" align="left">
+<div class="tbody">(См. <font class="extxref-label"><a href="htmlRU/id0402a7803200.html">КОД НЕИСПРАВНОСТИ B1342, C1267 [ABS]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">C1095</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Электродвигатель насоса, реле электродвигателя</div>
+</td>
+<td id="" align="left">
+<div class="tbody">(См. <font class="extxref-label"><a href="htmlRU/id0402a7802800.html">КОД НЕИСПРАВНОСТИ C1095 [ABS]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">C1141</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Сигнальный диск датчика угловой скорости левого переднего колеса</div>
+</td>
+<td id="" align="left">
+<div class="tbody">(См. <font class="extxref-label"><a href="htmlRU/id0402a7803300.html">КОДЫ НЕИСПРАВНОСТИ C1141, C1142, C1143, C1144, C1233, C1234, C1235, C1236 [ABS]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">C1142</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Сигнальный диск датчика угловой скорости правого переднего колеса</div>
+</td>
+<td id="" align="left">
+<div class="tbody">(См. <font class="extxref-label"><a href="htmlRU/id0402a7803300.html">КОДЫ НЕИСПРАВНОСТИ C1141, C1142, C1143, C1144, C1233, C1234, C1235, C1236 [ABS]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">C1143</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Сигнальный диск датчика угловой скорости левого заднего колеса</div>
+</td>
+<td id="" align="left">
+<div class="tbody">(См. <font class="extxref-label"><a href="htmlRU/id0402a7803300.html">КОДЫ НЕИСПРАВНОСТИ C1141, C1142, C1143, C1144, C1233, C1234, C1235, C1236 [ABS]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">C1144</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Сигнальный диск датчика угловой скорости правого заднего колеса</div>
+</td>
+<td id="" align="left">
+<div class="tbody">(См. <font class="extxref-label"><a href="htmlRU/id0402a7803300.html">КОДЫ НЕИСПРАВНОСТИ C1141, C1142, C1143, C1144, C1233, C1234, C1235, C1236 [ABS]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">C1145</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Датчик угловой скорости переднего правого колеса</div>
+</td>
+<td id="" align="left">
+<div class="tbody">(См. <font class="extxref-label"><a href="htmlRU/id0402a7805700.html">КОД НЕИСПРАВНОСТИ C1145, C1155, C1165, C1175 [ABS]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">C1155</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Датчик угловой скорости переднего левого колеса</div>
+</td>
+<td id="" align="left">
+<div class="tbody">(См. <font class="extxref-label"><a href="htmlRU/id0402a7805700.html">КОД НЕИСПРАВНОСТИ C1145, C1155, C1165, C1175 [ABS]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">C1165</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Датчик угловой скорости заднего правого колеса</div>
+</td>
+<td id="" align="left">
+<div class="tbody">(См. <font class="extxref-label"><a href="htmlRU/id0402a7805700.html">КОД НЕИСПРАВНОСТИ C1145, C1155, C1165, C1175 [ABS]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">C1175</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Датчик угловой скорости заднего левого колеса</div>
+</td>
+<td id="" align="left">
+<div class="tbody">(См. <font class="extxref-label"><a href="htmlRU/id0402a7805700.html">КОД НЕИСПРАВНОСТИ C1145, C1155, C1165, C1175 [ABS]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">C1233</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Датчик угловой скорости левого переднего колеса/сигнальный диск датчика угловой скорости</div>
+</td>
+<td id="" align="left">
+<div class="tbody">(См. <font class="extxref-label"><a href="htmlRU/id0402a7803300.html">КОДЫ НЕИСПРАВНОСТИ C1141, C1142, C1143, C1144, C1233, C1234, C1235, C1236 [ABS]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">C1234</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Датчик угловой скорости правого переднего колеса/сигнальный диск датчика угловой скорости </div>
+</td>
+<td id="" align="left">
+<div class="tbody">(См. <font class="extxref-label"><a href="htmlRU/id0402a7803300.html">КОДЫ НЕИСПРАВНОСТИ C1141, C1142, C1143, C1144, C1233, C1234, C1235, C1236 [ABS]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">C1235</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Датчик угловой скорости правого заднего колеса/сигнальный диск датчика угловой скорости </div>
+</td>
+<td id="" align="left">
+<div class="tbody">(См. <font class="extxref-label"><a href="htmlRU/id0402a7803300.html">КОДЫ НЕИСПРАВНОСТИ C1141, C1142, C1143, C1144, C1233, C1234, C1235, C1236 [ABS]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">C1236</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Датчик угловой скорости левого заднего колеса/сигнальный диск датчика угловой скорости </div>
+</td>
+<td id="" align="left">
+<div class="tbody">(См. <font class="extxref-label"><a href="htmlRU/id0402a7803300.html">КОДЫ НЕИСПРАВНОСТИ C1141, C1142, C1143, C1144, C1233, C1234, C1235, C1236 [ABS]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">C1267</div>
+</td>
+<td id="" align="left">
+<div class="tbody">ABS HU/CM (внутренняя неисправность)</div>
+</td>
+<td id="" align="left">
+<div class="tbody">(См. <font class="extxref-label"><a href="htmlRU/id0402a7803200.html">КОД НЕИСПРАВНОСТИ B1342, C1267 [ABS]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">C1446</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Датчик педали тормоза </div>
+</td>
+<td id="" align="left">
+<div class="tbody">(См. <font class="extxref-label"><a href="htmlRU/id0402a7810800.html">КОД НЕИСПРАВНОСТИ C1446 (КРОМЕ MZ-CD 1.6 (Y6)) [ABS]</a></font>.)</div>
+<div class="tbody">(См. <font class="extxref-label"><a href="htmlRU/id0402a7807100.html">КОД НЕИСПРАВНОСТИ C1446 (MZ-CD 1.6 (Y6)) [ABS]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">U1900</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Шина CAN</div>
+</td>
+<td id="" align="left">
+<div class="tbody">(См. <font class="extxref-label"><a href="htmlRU/id0402a7803500.html">КОД НЕИСПРАВНОСТИ U1900, U2012 [ABS]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">U2012</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Шина CAN</div>
+</td>
+<td id="" align="left">
+<div class="tbody">(См. <font class="extxref-label"><a href="htmlRU/id0402a7803500.html">КОД НЕИСПРАВНОСТИ U1900, U2012 [ABS]</a></font>.)</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p><br clear="all"><a name="id0402a780550010"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Таблица мониторинга PID/DATA</p>
+<p clear="all">
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">Название параметра (определение)</p>
+</th>
+<th id="" align="center">
+<p class="thead">Единица измерения/состояние</p>
+</th>
+<th id="" align="center">
+<p class="thead">Условия возникновения (справочно)</p>
+</th>
+<th id="" align="center">
+<p class="thead">Предпринимаемые меры</p>
+</th>
+<th id="" align="center">
+<p class="thead">Контакт блока ABS HU/CM</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="left">
+<div class="tbody">BOO_ABS</div>
+<div class="tbody"> (входной сигнал датчика педали тормоза)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">On/Off</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Педаль тормоза нажата: On</div>
+<div class="list">•&nbsp;&nbsp;Педаль тормоза отпущена: Off</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Выполните проверку датчика педали тормоза.</div>
+<div class="tbody">(См. <font class="extxref-label"><a href="htmlRU/id041100801985.html">ПРОВЕРКА ДАТЧИКА ПЕДАЛИ ТОРМОЗА [КРОМЕ MZ-CD 1.6 (Y6)]</a></font>.)</div>
+<div class="tbody">(См. <font class="extxref-label"><a href="htmlRU/id0411008019a1.html">ПРОВЕРКА ДАТЧИКА ПЕДАЛИ ТОРМОЗА [MZ-CD 1.6 (Y6)]</a></font>.)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">CCNTABS</div>
+<div class="tbody"> (Количество непрерывных кодов)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Выявленные коды неисправности: <div><span>1—255</span></div>
+</div>
+<div class="list">•&nbsp;&nbsp;Нет выявленных кодов неисправности <span>0</span></div>
+</td>
+<td id="" align="left">
+<div class="tbody">Выполните проверку диагностического кода неисправности.</div>
+<div class="tbody">(См. <font class="intxref-label"><a href="htmlRU/id0402a7805500.html#id0402a780550009">Таблица диагностических кодов неисправностей </a></font>.)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">—</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">LF_WSPD</div>
+<div class="tbody"> (Сигнал датчика угловой скорости левого переднего колеса)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">км/ч, мили/ч</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Автомобиль неподвижен:<span> 0 км/ч, 0 миль/ч</span></div>
+<div class="list">•&nbsp;&nbsp;При движении автомобиля: Скорость автомобиля</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Проверьте датчик угловой скорости колеса.</div>
+<div class="tbody">(См. <font class="extxref-label"><a href="htmlRU/id041300801300.html">ПРОВЕРКА ДАТЧИКА УГЛОВОЙ СКОРОСТИ ПЕРЕДНЕГО КОЛЕСА</a></font>.)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">I, K</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">LR_WSPD</div>
+<div class="tbody"> (Сигнал датчика угловой скорости левого заднего колеса)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">км/ч, мили/ч</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Автомобиль неподвижен:<span> 0 км/ч, 0 миль/ч</span></div>
+<div class="list">•&nbsp;&nbsp;При движении автомобиля: Скорость автомобиля</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Проверьте датчик угловой скорости колеса.</div>
+<div class="tbody">(См. <font class="extxref-label"><a href="htmlRU/id041300801200.html">ПРОВЕРКА ДАТЧИКА УГЛОВОЙ СКОРОСТИ ЗАДНЕГО КОЛЕСА</a></font>.)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">U, W</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">RF_WSPD</div>
+<div class="tbody"> (Сигнал датчика угловой скорости правого переднего колеса)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">км/ч, мили/ч</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Автомобиль неподвижен:<span> 0 км/ч, 0 миль/ч</span></div>
+<div class="list">•&nbsp;&nbsp;При движении автомобиля: Скорость автомобиля</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Проверьте датчик угловой скорости колеса.</div>
+<div class="tbody">(См. <font class="extxref-label"><a href="htmlRU/id041300801300.html">ПРОВЕРКА ДАТЧИКА УГЛОВОЙ СКОРОСТИ ПЕРЕДНЕГО КОЛЕСА</a></font>.)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Q, O</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">RR_WSPD</div>
+<div class="tbody"> (Сигнал датчика угловой скорости правого заднего колеса)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">км/ч, мили/ч</div>
+</td>
+<td id="" align="left">
+<div class="list">•&nbsp;&nbsp;Автомобиль неподвижен:<span> 0 км/ч, 0 миль/ч</span></div>
+<div class="list">•&nbsp;&nbsp;При движении автомобиля: Скорость автомобиля</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Проверьте датчик угловой скорости колеса.</div>
+<div class="tbody">(См. <font class="extxref-label"><a href="htmlRU/id041300801200.html">ПРОВЕРКА ДАТЧИКА УГЛОВОЙ СКОРОСТИ ЗАДНЕГО КОЛЕСА</a></font>.)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">E, C</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p><br clear="all"><a name="id0402a780550011"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Таблица режимов активной подачи команд</p>
+<p clear="all">
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">Название команды</p>
+</th>
+<th id="" align="center">
+<p class="thead">Исполнительное устройство</p>
+</th>
+<th id="" align="center">
+<p class="thead">Действие</p>
+</th>
+<th id="" align="center">
+<p class="thead">Условия работы</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="left">
+<div class="tbody">PMP_MOTOR</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Электродвигатель насоса</div>
+</td>
+<td id="" align="center" rowspan="9">
+<div class="tbody">On/Off</div>
+</td>
+<td id="" align="center" rowspan="9">
+<div class="tbody">Выключатель зажигания в положении "ON"</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">RF_OUTLET</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Выпускной электромагнитный клапан правого переднего колеса</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">RF_INLET</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Впускной электромагнитный клапан правого переднего колеса</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">LF_OUTLET</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Выпускной электромагнитный клапан левого переднего колеса</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">LF_INLET</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Впускной электромагнитный клапан левого переднего колеса</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">RR_OUTLET</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Выпускной электромагнитный клапан правого заднего колеса</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">RR_INLET</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Впускной электромагнитный клапан правого заднего колеса</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">LR_OUTLET</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Выпускной электромагнитный клапан левого заднего колеса</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">LR_INLET</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Впускной электромагнитный клапан левого заднего колеса</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+
+</body></html>

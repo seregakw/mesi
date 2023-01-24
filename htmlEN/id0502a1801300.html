@@ -1,0 +1,325 @@
+<html lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../css/mazda-css-en.css" type="text/css">
+<title>DTC P0712[FN4A-EL]</title>
+</head>
+<body><a name="id0502a1801300"></a><p class="servinfo-title"><span class="servinfo-head"></span>DTC P0712[FN4A-EL]</p>
+<hr>
+<p class="servinfo-title-id" align="right">id0502a1801300</p>
+<p clear="all">
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th align="center">
+<p class="thead">DTC P0712</p>
+</th>
+<th align="left">
+<p class="thead">Transaxle fluid temperature (TFT) sensor circuit malfunction (short to ground)</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">
+<div class="tbody"><span class="bold">DETECTION CONDITION</span></div>
+</td>
+<td align="left">
+<div class="list">•  If the PCM detects either of the following conditions for <span class="bold">150 s or more</span>, the PCM determines that the TFT sensor circuit has a malfunction.</div>
+<dl>
+<dd class="list">
+<div class="list">―  TFT sensor voltage <span class="bold">0.06 V or less</span> and vehicle speed <span class="bold">20 km/h {12 mph} or more</span></div>
+</dd>
+</dl>
+<div class="list-title">Diagnostic support note: </div>
+<div class="list">•  This is a continuous monitor (CCM).</div>
+<div class="list">•  The MIL illuminates if the PCM detects the above malfunction conditions during the first drive cycle.</div>
+<div class="list">•  A PENDING CODE is not available.</div>
+<div class="list">•  FREEZE FRAME DATA is available.</div>
+<div class="list">•  The AT warning light illuminates.</div>
+<div class="list">•  The DTC is stored in the PCM memory.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody"><span class="bold">POSSIBLE CAUSE</span></div>
+</td>
+<td align="left">
+<div class="list">•  TFT sensor malfunction</div>
+<div class="list">•  Short to ground in wiring harness between TFT sensor and ATX terminal E</div>
+<div class="list">•  Short to ground in wiring harness between TFT sensor and ATX terminal H</div>
+<div class="list">•  Short to ground in wiring harness between ATX terminal E and PCM terminal 1AH (ZY)/1AU (Z6)/1U (LF)</div>
+<div class="list">•  Damaged connectors between TFT sensor and PCM</div>
+<div class="list">•  PCM malfunction</div>
+</td>
+</tr>
+<tr>
+<td align="center" colspan="2"><img src="images/am3zzw00001775.png"></td>
+</tr>
+</tbody>
+</table>
+</p>
+<p clear="all">
+<p class="table-title">Diagnostic procedure</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th align="center">
+<p class="thead">STEP</p>
+</th>
+<th align="center" colspan="2">
+<p class="thead">INSPECTION</p>
+</th>
+<th align="center">
+<p class="thead">ACTION</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">1</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">VERIFY FREEZE FRAME DATA HAS BEEN RECORDED</div>
+<div class="list">•  Has the FREEZE FRAME DATA been recorded?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Record the FREEZE FRAME DATA on the repair order, then go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">2</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">VERIFY RELATED SERVICE INFORMATION AVAILABILITY</div>
+<div class="list">•  Verify related Service Information availability.</div>
+<div class="list">•  Is any related Service Information available?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Perform repair or diagnosis according to the available Service Information.</div>
+<div class="list">•  If the vehicle is not repaired, go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">3</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">VERIFY CURRENT INPUT SIGNAL STATUS</div>
+<div class="list">•  Turn the ignition switch to the ON position (engine off).</div>
+<div class="list">•  Inspect the voltage at PCM terminal 1AH (ZY)/1AU (Z6)/1U (LF).</div>
+<div class="list">•  Is the voltage <span class="bold">0.06 V or more</span>?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the intermittent concern troubleshooting procedure.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id0103b1800400.html">INTERMITTENT CONCERN TROUBLESHOOTING[ZJ, ZY, Z6]</a></font>.)</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id0103b2800400.html">INTERMITTENT CONCERN TROUBLESHOOTING[LF, L3]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">4</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">INSPECT TERMINAL CONDITION</div>
+<div class="list">•  Turn the ignition switch to the LOCK position.</div>
+<div class="list">•  Disconnect the ATX connector.</div>
+<div class="list">•  Inspect for poor connection (such as damaged/pulled-out pins, corrosion).</div>
+<div class="list">•  Are the terminals bent?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Repair or replace the terminals, then go to Step 8.</div>
+<div class="list">•  If the terminals cannot be repaired, replace the wiring harness, then go to Step 8.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">5</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">INSPECT TFT SENSOR CIRCUIT</div>
+<div class="list">•  Turn the ignition switch to the ON position (engine off).</div>
+<div class="list">•  Verify that the voltage changes to <span class="bold">4.67 V or more</span> at PCM terminal 1AH (ZY)/1AU (Z6)/1U (LF) when ATX connector is disconnected.</div>
+<div class="list">•  Does the voltage change?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Go to Step 7.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">6</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">INSPECT TFT SENSOR CIRCUIT FOR SHORT TO GROUND</div>
+<div class="list">•  Inspect for continuity between ATX terminals (transaxle case side) and body ground.</div>
+<dl>
+<dd class="list">
+<div class="list">―  E and body ground</div>
+<div class="list">―  H and body ground</div>
+</dd>
+</dl>
+<div class="list">•  Is there continuity?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Repair or replace the wiring harness, then go to Step 8.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Replace the TFT sensor, then go to Step 8.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id0517a1801100.html">TRANSAXLE FLUID TEMPERATURE (TFT) SENSOR REMOVAL/INSTALLATION[FN4A-EL]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">7</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">INSPECT ATX CONNECTOR CIRCUIT FOR SHORT TO GROUND</div>
+<div class="list">•  Turn the ignition switch to the LOCK position.</div>
+<div class="list">•  Inspect for continuity between ATX terminal E (wiring harness-side) and body ground.</div>
+<div class="list">•  Is there continuity?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Repair or replace the wiring harness, then go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">8</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">VERIFY TROUBLESHOOTING OF DTC P0712 COMPLETED</div>
+<div class="list">•  Make sure to reconnect all the disconnected connectors.</div>
+<div class="list">•  Clear the DTC from the memory using the M-MDS.</div>
+<div class="list">•  Drive the vehicle under the following condition for <span class="bold">150 s or more</span>.</div>
+<dl>
+<dd class="list">
+<div class="list">―  Vehicle speed (VSS PID) <span class="bold">20 km/h {12 mph} or more</span>.</div>
+</dd>
+</dl>
+<div class="list">•  Is the same DTC present?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Replace the PCM, then go to the next step.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id0140b1802400.html">PCM REMOVAL/INSTALLATION[ZJ, ZY, Z6]</a></font>.)</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id0140a9802500.html">PCM INSPECTION[LF, L3]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">9</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">VERIFY AFTER REPAIR PROCEDURE</div>
+<div class="list">•  Perform the “After Repair Procedure”.<div> (See <font class="extxref-label"><a href="id0502a1800400.html">AFTER REPAIR PROCEDURE[FN4A-EL]</a></font>.)</div>
+</div>
+<div class="list">•  Are any DTCs present?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the applicable DTC inspection.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id0502a1800500.html">DTC TABLE[FN4A-EL]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">DTC troubleshooting completed.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</body>
+</html>

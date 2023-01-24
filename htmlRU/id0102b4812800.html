@@ -1,0 +1,423 @@
+<html lang="ru">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../css/mazda-css-ru.css" type="text/css">
+<title>DTC P2196 
+[МКП, LF АКП (FS5A-EL)]</title>
+</head>
+<body><a name="id0102b4812800"></a><p class="servinfo-title"><span class="servinfo-head"></span>DTC P2196 
+[МКП, LF АКП (FS5A-EL)]</p>
+<hr>
+<p class="servinfo-title-id" align="right">id0102b4812800</p>
+<p clear="all">
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">DTC P2196</p>
+</th>
+<th id="" align="left">
+<p class="thead">От датчика состава смеси постоянно поступает сигнал богатой смеси</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center">
+<div class="tbody"><span>УСЛОВИЕ ОПРЕДЕЛЕНИЯ</span></div>
+</td>
+<td id="" align="left">
+<div class="list">•  Во время работы двигателя блок РСМ следит за значением силы выходного тока датчика состава смеси при соблюдении перечисленных ниже условий. Если среднее значение силы выходного тока <span>меньше 0,85 A</span> на протяжении <span>25 с</span>, блок РСМ решает, что датчик состава смеси постоянно подаёт сигнал богатой смеси.</div>
+<dl>
+<div class="list-title">УСЛОВИЯ НАБЛЮДЕНИЯ</div>
+<dd class="list">
+<div class="list">―  ECT (температура ОЖ): <span>более 70 °C {158 °F}</span></div>
+<div class="list">―  Частота вращения коленчатого вала двигателя: <span>1 000—3 200 об/мин</span></div>
+<div class="list">―  Наполнение цилиндров: <span>20—62.5</span>%</div>
+<div class="list">―  Выходное напряжение датчика состава смеси: <span>Менее 0,7 В</span></div>
+</dd>
+</dl>
+<div class="list-title">Примечание к проведению диагностирования</div>
+<div class="list">•  Режим наблюдения эпизодический (датчик состава смеси, датчик HO2S на выходе из нейтрализатора).</div>
+<div class="list">•  Сигнализатор MIL включается, если блок РСМ регистрирует описанное выше состояние в двух последовательных ездовых циклах, или в одном цикле при том условии, что данный код неисправности уже сохранён в памяти блока РСМ.</div>
+<div class="list">•  НЕПОДТВЕРЖДЁННЫЙ КОД (PENDING CODE) записывается, если блок РСМ обнаруживает описанное выше состояние неисправности во время первого ездового цикла. </div>
+<div class="list">•  Имеются данные стоп-кадра (FREEZE FRAME DATA).</div>
+<div class="list">•  Записан ли в памяти блока РСМ какой-либо код неисправности?</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody"><span>ВОЗМОЖНЫЕ ПРИЧИНЫ НЕИСПРАВНОСТИ</span></div>
+</td>
+<td id="" align="left">
+<div class="list">•  Неисправность датчика состава смеси</div>
+<div class="list">•  Неисправность форсунки</div>
+<div class="list">•  Чрезмерное давление топлива</div>
+<div class="list">•  Повышенное сопротивление впускного тракта</div>
+<div class="list">•  Неисправность датчика массового расхода воздуха (MAF)</div>
+<div class="list">•  Неисправность датчика температуры охлаждающей жидкости (ЕСТ)</div>
+<div class="list">•  Неисправность блока РСМ</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+<p clear="all">
+<p class="table-title">Процедура диагностики</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">ЭТАП</p>
+</th>
+<th id="" align="center" colspan="2">
+<p class="thead">ПРОВЕРКА</p>
+</th>
+<th id="" align="center">
+<p class="thead">ВЫПОЛНЯЕМЫЕ ДЕЙСТВИЯ</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">1</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ЗАПИСИ ДАННЫХ СТОП-КАДРА (FREEZE FRAME DATA)</div>
+<div class="list">•  Был ли записан стоп-кадр?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Запишите данные стоп-кадра в заказ-наряд на выполнение ремонта и переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">2</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА НАЛИЧИЯ ДОПОЛНИТЕЛЬНОЙ СЕРВИСНОЙ ИНФОРМАЦИИ</div>
+<div class="list">•  Проверьте наличие дополнительной сервисной информации по данной проблеме.</div>
+<div class="list">•  Имеется ли в наличии дополнительная сервисная информация по данной проблеме?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Пользуясь дополнительной сервисной информацией, выполните ремонт или диагностирование.</div>
+<div class="list">•  Если неисправность не устранена, то переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">3</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА СОПУТСТВУЮЩИХ НЕПОДТВЕРЖДЁННЫХ КОДОВ НЕИСПРАВНОСТЕЙ ИЛИ СОХРАНЁННЫХ КОДОВ НЕИСПРАВНОСТЕЙ</div>
+<div class="list">•  Выключите зажигание, затем поверните выключатель зажигания в положение ON (двигатель не работает).</div>
+<div class="list">•  Проверьте наличие сопутствующих неподтверждённых или сохранённых кодов неисправностей.</div>
+<div class="list">•  Записаны ли коды неисправностей P2177 или P2187?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к поиску и устранению неисправностей по соответствующим кодам неисправностей.</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="id0102b4801500.html">ТАБЛИЦА КОДОВ НЕИСПРАВНОСТЕЙ [МКП, LF АКП (FS5A-EL)]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">4</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ОПРЕДЕЛЕНИЕ КОДА НЕИСПРАВНОСТИ, ЗАПУСКАЮЩЕГО ЗАПИСЬ СТОП-КАДРА (FREEZE FRAME DATA)</div>
+<div class="list">•  Имеется ли код P2196 в данных стоп-кадра (FREEZE FRAME DATA)?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к проверке по кодам неисправностей в стоп-кадре (FREEZE FRAME DATA DTC).</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="id0102b4801500.html">ТАБЛИЦА КОДОВ НЕИСПРАВНОСТЕЙ [МКП, LF АКП (FS5A-EL)]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">5</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ТЕКУЩЕГО СТАТУСА ВХОДНОГО СИГНАЛА</div>
+<div class="list">•  Подключите диагностическую систему M-MDS к диагностическому разъему DLC-2.</div>
+<div class="list">•  Проверьте значения перечисленных ниже параметров.<div> (См. <font class="extxref-label"><a href="id0140a9802500.html">ПРОВЕРКА БЛОКА РСМ [LF, L3]</a></font>.)</div>
+</div>
+<dl>
+<dd class="list">
+<div class="list">―  APP1 (датчик 1 положения педали акселератора)</div>
+<div class="list">―  APP2 (датчик 2 положения педали акселератора)</div>
+<div class="list">―  ECT (температура охлаждающей жидкости)</div>
+<div class="list">―  MAF (массовый расход воздуха)</div>
+<div class="list">―  TP1 (датчик 1 положения дроссельной заслонки)</div>
+<div class="list">―  VSS (скорость движения автомобиля)</div>
+</dd>
+</dl>
+<div class="list">•  Соответствуют ли значения параметров техническим условиям?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">В соответствии с результатами проверки проверьте неисправные компоненты.</div>
+<div class="tbody">Затем переходите к этапу 11.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">6</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ТЕКУЩЕГО СТАТУСА ВХОДНЫХ СИГНАЛОВ ПРИ УСЛОВИЯХ ВОЗНИКНОВЕНИЯ НЕИСПРАВНОСТИ (FREEZE FRAME DATA)</div>
+<div class="list">•  Подключите диагностическую систему M-MDS к диагностическому разъему DLC-2.</div>
+<div class="list">•  Проверьте значения перечисленных ниже параметров при условиях, записанных в стоп-кадре (FREEZE FRAME DATA).</div>
+<dl>
+<dd class="list">
+<div class="list">―  APP1 (датчик 1 положения педали акселератора)</div>
+<div class="list">―  APP2 (датчик 2 положения педали акселератора)</div>
+<div class="list">―  ECT (температура охлаждающей жидкости)</div>
+<div class="list">―  MAF (массовый расход воздуха)</div>
+<div class="list">―  TP1 (датчик 1 положения дроссельной заслонки)</div>
+<div class="list">―  VSS (скорость движения автомобиля)</div>
+</dd>
+</dl>
+<div class="list">•  Соответствуют ли значения параметров техническим условиям?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">В соответствии с результатами проверки проверьте неисправные компоненты.</div>
+<div class="tbody">Затем переходите к этапу 11.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">7</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ТЕКУЩЕГО СТАТУСА ВХОДНОГО СИГНАЛА ДАТЧИКА MAF</div>
+<div class="list">•  Подключите диагностическую систему M-MDS к диагностическому разъему DLC-2.</div>
+<div class="list">•  Запустите двигатель.</div>
+<div class="list">•  Выберите параметр MAF</div>
+<div class="list">•  Убедитесь в том, что параметр MAF меняется в соответствии с частотой вращения коленчатого вала.</div>
+<div class="list">•  Является ли значение параметра нормальным?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Замените датчик MAF/IAT и переходите к этапу 11.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">8</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ДАТЧИКА СОСТАВА СМЕСИ</div>
+<div class="list">•  Проверьте датчик состава смеси.<div> (См. <font class="extxref-label"><a href="id0140a9899800.html">ПРОВЕРКА ДАТЧИКА СОСТАВА СМЕСИ (A/F), ПРОВЕРКА ПОДОГРЕВАЕМОГО КИСЛОРОДНОГО ДАТЧИКА (HO2S) [LF, L3]</a></font>.)</div>
+</div>
+<div class="list">•  Найдена ли неисправность<span></span>?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Замените датчик состава смеси и переходите к этапу 11.</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="id0115c2800200.html">СНЯТИЕ И УСТАНОВКА ВЫПУСКНОЙ СИСТЕМЫ 
+[LF, L3]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">9</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ТОПЛИВНОЙ ФОРСУНКИ</div>
+<div class="list">•  Проверьте форсунку.<div> (См. <font class="extxref-label"><a href="id0114c2800700.html">ПРОВЕРКА ТОПЛИВНЫХ ФОРСУНОК 
+[LF, L3]</a></font>.)</div>
+</div>
+<div class="list">•  Найдена ли какая-либо неисправность?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Замените вызывающую сомнения форсунку и перейдите к этапу 11.</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="id0114c2800600.html">СНЯТИЕ И УСТАНОВКА ТОПЛИВНОЙ ФОРСУНКИ 
+[LF, L3]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">10</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ДАВЛЕНИЯ В ТОПЛИВНОЙ МАГИСТРАЛИ</div>
+<div class="list">•  Выполните процедуру “ПРОВЕРКА ДАВЛЕНИЯ В ТОПЛИВНОЙ МАГИСТРАЛИ”.<div> (См. <font class="extxref-label"><a href="id0114c2800500.html">ПРОВЕРКА ДАВЛЕНИЯ В ТОПЛИВНОЙ МАГИСТРАЛИ 
+[LF, L3]</a></font>.)</div>
+</div>
+<div class="list">•  Найдена ли неисправность<span></span>?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Замените электробензонасос в сборе и перейдите к следующему этапу.</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="id0114c2800900.html">СНЯТИЕ И УСТАНОВКА ЭЛЕКТРОБЕНЗОНАСОСА В СБОРЕ 
+[LF, L3]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">11</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ЗАВЕРШЕНИЯ ДИАГНОСТИРОВАНИЯ ПО DTC P2196</div>
+<div class="list">•  Проверьте, чтобы все ранее отсоединённые разъёмы были вновь присоединены.</div>
+<div class="list">•  При помощи диагностической системы M-MDS удалите коды неисправностей из памяти блока РСМ.</div>
+<div class="list">•  Выполните ездовой цикл для обучения блока РСМ и проверки результатов ремонта датчика состава смеси, подогревателя датчика HO2S на выходе из нейтрализатора и нейтрализатора TWC.<div> (См. <font class="extxref-label"><a href="id0102b4815800.html">ПРОВЕРОЧНЫЙ ЕЗДОВОЙ ЦИКЛ OBD 
+[МКП, LF АКП (FS5A-EL)]</a></font>.)</div>
+</div>
+<div class="list">•  Существует ли данный код неисправности в неподтверждённом состоянии (PENDING CODE)? </div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Замените блок РСМ и перейдите к следующему этапу.</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="id0140a9802400.html">СНЯТИЕ И УСТАНОВКА БЛОКА РСМ [LF, L3]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">12</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ПОСЛЕ ЗАВЕРШЕНИЯ РЕМОНТА</div>
+<div class="list">•  Выполните мероприятия в соответствии с требованиями раздела “ПОСЛЕРЕМОНТНЫЕ МЕРОПРИЯТИЯ”.<div> (См. <font class="extxref-label"><a href="id0102b4801100.html">ПОСЛЕРЕМОНТНЫЕ МЕРОПРИЯТИЯ 
+[МКП, LF АКП (FS5A-EL)]</a></font>.)</div>
+</div>
+<div class="list">•  Найден ли какой-либо код неисправности?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к проверке по соответствующим кодам неисправностей.</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="id0102b4801500.html">ТАБЛИЦА КОДОВ НЕИСПРАВНОСТЕЙ [МКП, LF АКП (FS5A-EL)]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Процедура поиска и устранения неисправностей завершена.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</body>
+</html>

@@ -1,0 +1,390 @@
+<html lang="ru">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../css/mazda-css-ru.css" type="text/css">
+<title>DTC P0758 [FN4A-EL]</title>
+</head>
+<body><a name="id0502a1808600"></a><p class="servinfo-title"><span class="servinfo-head"></span>DTC P0758 [FN4A-EL]</p>
+<hr>
+<p class="servinfo-title-id" align="right">id0502a1808600</p>
+<p clear="all">
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">ДИАГНОСТИЧЕСКИЙ КОД НЕИСПРАВНОСТИ P0758</p>
+</th>
+<th id="" align="left">
+<p class="thead">Неисправность (электрическая) электромагнитного клапана переключения передач В</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center">
+<div class="tbody"><span>УСЛОВИЯ ОБНАРУЖЕНИЯ</span></div>
+</td>
+<td id="" align="left">
+<div class="list">•  Если блок управления силовым агрегатом определил нижеприведенные условия, то он распознает наличие неисправности в цепи соленоида переключения передач В.</div>
+<dl>
+<dd class="list">
+<div class="list">―  После запуска двигателя напряжение на электромагнитном клапане переключения передач В осталось равно <span>B+</span>.</div>
+<div class="list">―  После запуска двигателя напряжение на электромагнитном клапане переключения передач В осталось равно <span>0 В</span>.</div>
+</dd>
+</dl>
+<div class="list-title">Примечание по диагностике: </div>
+<div class="list">•  Это постоянно контролируемый параметр (комплексный контроль компонентов)</div>
+<div class="list">•  Индикатор неисправности загорается если блок управления силовым агрегатом обнаружит изменения условий неисправности при первом ездовом цикле.</div>
+<div class="list">•  Неподтверждённый код неисправности (PENDING CODE) не записывается.</div>
+<div class="list">•  Имеются данные стоп-кадра (FREEZE FRAME DATA).</div>
+<div class="list">•  Включается предупреждающий сигнализатор неисправности АКП</div>
+<div class="list">•  Код неисправности сохраняется в памяти блока РСМ.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody"><span>ВОЗМОЖНАЯ ПРИЧИНА НЕИСПРАВНОСТИ</span></div>
+</td>
+<td id="" align="left">
+<div class="list">•  Неисправность электромагнитного клапана переключения передач В</div>
+<div class="list">•  Замыкание на "массу" проводного жгута между контактом С на автоматической коробке передач и контактом 1H (ZY)/1BH (Z6)/1C (LF) блока управления силовым агрегатом</div>
+<div class="list">•  Замыкание на источник питания проводного жгута между контактом С на автоматической коробке передач и контактом 1H (ZY)/1BH (Z6)/1C (LF) блока управления силовым агрегатом</div>
+<div class="list">•  Обрыв провода, соединяющего контакт В соленоида переключения передач В и контакт С на автоматической коробке передач</div>
+<div class="list">•  Обрыв цепи проводного жгута между контактом С на автоматической коробке передач и контактом 1H (ZY)/1BH (Z6)/1C (LF) блока управления силовым агрегатом</div>
+<div class="list">•  Обрыв в жгуте проводов между контактом А электромагнитного клапана переключения передач В и "массой"</div>
+<div class="list">•  Поврежден разъем, соединяющий соленоида переключения передач В и блок управления силовым агрегатом</div>
+<div class="list">•  Неисправность блока РСМ</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" colspan="2"><img src="images/am3zzw00001946.png"></td>
+</tr>
+</tbody>
+</table>
+</p>
+<p clear="all">
+<p class="table-title">Процедура диагностики</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">ЭТАП</p>
+</th>
+<th id="" align="center" colspan="2">
+<p class="thead">ПРОВЕРКА</p>
+</th>
+<th id="" align="center">
+<p class="thead">ПРЕДПРИНИМАЕМЫЕ МЕРЫ</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">1</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ЗАПИСИ ДАННЫХ СТОП-КАДРА (FREEZE FRAME DATA)</div>
+<div class="list">•  Были ли записаны данные СТОП-КАДРА ПАРАМЕТРОВ?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Запишите данные стоп-кадра в заказ-наряд на выполнение ремонта и переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">2</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА НАЛИЧИЯ ДОПОЛНИТЕЛЬНОЙ СЕРВИСНОЙ ИНФОРМАЦИИ</div>
+<div class="list">•  Проверьте наличие дополнительной сервисной информации по данной проблеме.</div>
+<div class="list">•  Имеется ли в наличии дополнительная сервисная информация по данной проблеме?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Пользуясь дополнительной сервисной информацией, выполните ремонт или диагностирование.</div>
+<div class="list">•  Если неисправность не устранена, то переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">3</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА СОСТОЯНИЯ КОНТАКТОВ РАЗЪЕМА АВТОМАТИЧЕСКОЙ КОРОБКИ ПЕРЕДАЧ</div>
+<div class="list">•  Поверните выключатель зажигания в положение LOCK (Блокировка).</div>
+<div class="list">•  Отсоедините разъем автоматической коробки передач.</div>
+<div class="list">•  Проверьте качество электрического соединения в разъёме (наличие повреждённых или смещённых контактных штырей, или коррозии).</div>
+<div class="list">•  Находится ли подключение в норме?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Отремонтируйте или замените разъем и/или контакты, затем переходите к выполнению этапа 11.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">4</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРЬТЕ СОПРОТИВЛЕНИЕ</div>
+<div class="list">•  Проверьте электропроводимость между контактом С разъема автоматической коробки передач (со стороны АКП) и "массой".</div>
+<div class="list">•  Сопротивление находится в пределах <span>1,0—4,2 Ом</span>?<div> (См. <font class="extxref-label"><a href="id0517a1801900.html">ПРОВЕРКА ЭЛЕКТРОМАГНИТНОГО КЛАПАНА [FN4A-EL]</a></font>.)</div>
+</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к выполнению этапа 7.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">5</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА СОСТОЯНИЯ КОНТАКТОВ СОЛЕНОИДА ПЕРЕКЛЮЧЕНИЯ В</div>
+<div class="list">•  Отсоедините разъем электромагнитного клапана переключения передач В.</div>
+<div class="list">•  Проверьте качество электрического соединения в разъёме (наличие повреждённых или смещённых контактных штырей, или коррозии).</div>
+<div class="list">•  Находится ли подключение в норме?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Отремонтируйте или замените разъем и/или контакты, затем переходите к выполнению этапа 11.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">6</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРЬТЕ СОПРОТИВЛЕНИЕ</div>
+<div class="list">•  Проверьте сопротивление между контактами А и В электромагнитного клапана переключения передач В (со стороны электромагнитного клапана).</div>
+<div class="list">•  Сопротивление находится в пределах <span>1,0—4,2 Ом</span>?<div> (См. <font class="extxref-label"><a href="id0517a1801900.html">ПРОВЕРКА ЭЛЕКТРОМАГНИТНОГО КЛАПАНА [FN4A-EL]</a></font>.)</div>
+</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Замените проводной жгут электромагнита, затем переходите к выполнению этапа 11.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Проверьте правильность установки электромагнитного клапана переключения передач В.</div>
+<div class="list">•  Если электромагнитный клапан переключения передач D установлен правильно, замените электромагнитный клапан переключения передач D, затем переходите к выполнению этапа 11.<div> (См. <font class="extxref-label"><a href="id0517a1804600.html">СНЯТИЕ/УСТАНОВКА ЭЛЕКТРОМАГНИТНОГО КЛАПАНА [FN4A-EL]</a></font>.)</div>
+</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">7</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА КАЧЕСТВА ЭЛЕКТРИЧЕСКОГО СОЕДИНЕНИЯ В РАЗЪЁМЕ БЛОКА РСМ</div>
+<div class="list">•  Отсоедините разъем от блока РСМ.</div>
+<div class="list">•  Проверьте качество электрического соединения в разъёме (наличие повреждённых или смещённых контактных штырей, или коррозии).</div>
+<div class="list">•  Находится ли подключение в норме?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Отремонтируйте или замените разъем и/или контакты, затем переходите к выполнению этапа 11.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">8</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА НАЛИЧИЯ ОБРЫВА ЦЕПИ В РАЗЪЕМЕ АВТОМАТИЧЕСКОЙ КОРОБКИ ПЕРЕДАЧ</div>
+<div class="list">•  Проверьте неразрывность цепи между контактом С (со стороны жгута) автоматической коробки передач и контактом 1H (ZY)/1BH (Z6)/1C (LF) (со стороны жгута) блока управления силовым агрегатом.</div>
+<div class="list">•  Существует ли неразрывность цепи между контактами?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Отремонтируйте или замените проводной жгут, затем переходите к выполнению этапа 11.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">9</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА НАЛИЧИЯ КОРОТКОГО ЗАМЫКАНИЯ НА ИСТОЧНИК ПИТАНИЯ ЦЕПИ РАЗЪЕМА АВТОМАТИЧЕСКОЙ КОРОБКИ ПЕРЕДАЧ</div>
+<div class="list">•  Поверните выключатель зажигания в положение «ON» (двигатель не работает).</div>
+<div class="list">•  Проверьте напряжение на контакте С разъема АКП (со стороны жгута).</div>
+<div class="list">•  Равно ли напряжение <span>0 В</span>?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Отремонтируйте или замените проводной жгут, затем переходите к выполнению этапа 11.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">10</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА НАЛИЧИЯ ЗАМЫКАНИЯ НА "МАССУ" ЦЕПИ БЛОКА УПРАВЛЕНИЯ СИЛОВЫМ АГРЕГАТОМ</div>
+<div class="list">•  Поверните выключатель зажигания в положение LOCK (Блокировка).</div>
+<div class="list">•  Проверьте электропроводимость между контактом 1H (ZY)/1BH (Z6)/1C (LF) (со стороны жгута) блока управления силовым агрегатом и "массой".</div>
+<div class="list">•  Существует ли неразрывность цепи?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Отремонтируйте или замените проводной жгут, затем переходите к выполнению этапа 11.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">11</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">УДОСТОВЕРЬТЕСЬ, ЧТО УСТРАНЕНИЕ НЕИСПРАВНОСТИ С ДИАГНОСТИЧЕСКИМ КОДОМ НЕИСПРАВНОСТИ P0758 ПОЛНОСТЬЮ ЗАВЕРШЕНО</div>
+<div class="list">•  Убедитесь, что все разъемы, которые были отключены в процессе работ по устранению неисправности, подключены обратно.</div>
+<div class="list">•  Удалите из памяти системы информацию о диагностическом коде неисправности при помощи диагностической системы M-MDS.</div>
+<div class="list">•  Совершите проверочную поездку в режиме D и убедитесь, что передачи с 1-ой по 4-ю переключаются плавно.</div>
+<div class="list">•  Имеются ли коды неисправностей?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Замените блок РСМ и перейдите к следующему этапу.</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="id0140b1802400.html">СНЯТИЕ И УСТАНОВКА БЛОКА РСМ [ZJ, ZY, Z6]</a></font>.)</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="id0140a9802400.html">СНЯТИЕ И УСТАНОВКА БЛОКА РСМ [LF, L3]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">12</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ВЫПОЛНИТЕ ПОСЛЕРЕМОНТНЫЕ МЕРОПРИЯТИЯ</div>
+<div class="list">•  Выполните мероприятия в соответствии с требованиями раздела "ПОСЛЕРЕМОНТНЫЕ МЕРОПРИЯТИЯ"<div>(См. <font class="extxref-label"><a href="id0502a1800400.html">ПОСЛЕРЕМОНТНЫЕ МЕРОПРИЯТИЯ [FN4A-EL]</a></font>.)</div>
+</div>
+<div class="list">•  Имеются ли коды неисправностей?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к проверке по существующим кодам неисправностей.</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="id0502a1800500.html">ТАБЛИЦА ДИАГНОСТИЧЕСКИХ КОДОВ НЕИСПРАВНОСТЕЙ [FN4A-EL]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Процедура поиска и устранения неисправностей завершена.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</body>
+</html>

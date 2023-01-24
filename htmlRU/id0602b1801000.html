@@ -1,0 +1,299 @@
+<html lang="ru">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../css/mazda-css-ru.css" type="text/css">
+<title>DTC C1278 [ЭЛЕКТРОГИДРАВЛИЧЕСКИЙ УСИЛИТЕЛЬ РУЛЕВОГО УПРАВЛЕНИЯ (EHPAS)]</title>
+</head>
+<body><a name="id0602b1801000"></a><p class="servinfo-title"><span class="servinfo-head"></span>DTC C1278 [ЭЛЕКТРОГИДРАВЛИЧЕСКИЙ УСИЛИТЕЛЬ РУЛЕВОГО УПРАВЛЕНИЯ (EHPAS)]</p>
+<hr>
+<p class="servinfo-title-id" align="right">id0602b1801000</p>
+<div></div>
+<p clear="all">
+<table class="table-flame" border="1">
+<tbody>
+<tr>
+<td id="" align="center">
+<div class="tbody"><span>DTC</span></div>
+</td>
+<td id="" align="left" colspan="2">
+<div class="tbody"><span>C1278</span></div>
+</td>
+<td id="" align="left">
+<div class="tbody"><span>Датчик угла поворота рулевого колеса</span></div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" colspan="2">
+<div class="tbody"><span>УСЛОВИЯ ОБНАРУЖЕНИЯ</span></div>
+</td>
+<td id="" align="left" colspan="2">
+<div class="list">•  Блок управления EHPAS обнаружил, что напряжение на датчике угла поворота рулевого колеса <span>выше 4,9 В </span>или <span>ниже 0,8 В</span></div>
+<div class="list">•  Блок управления EHPAS обнаружил, что две отслеживаемых величины напряжения модулируют в одной фазе определенное количество фаз или более того.</div>
+<div class="list">•  Блок управления EHPAS обнаружил, что сигнал датчика EHPAS не изменяется.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" colspan="2">
+<div class="tbody"><span>ВОЗМОЖНАЯ ПРИЧИНА НЕИСПРАВНОСТИ</span></div>
+</td>
+<td id="" align="left" colspan="2">
+<div class="list">•  Короткое замыкание на цепь питания, обрыв цепи или короткое замыкание на "массу" в проводном жгуте между контактом блока EHPAS 3B и контактом датчика угла поворота рулевого колеса В</div>
+<div class="list">•  Короткое замыкание на цепь питания, обрыв цепи или короткое замыкание на "массу" в проводном жгуте между контактом блока EHPAS 3D и контактом датчика угла поворота рулевого колеса C</div>
+<div class="list">•  Обрыв цепи в проводном жгуте между контактом блока EHPAS 3А и контактом датчика угла поворота рулевого колеса D (автомобили без системы динамической стабилизации)</div>
+<div class="list">•  Обрыв цепи проводного жгута между контактом блока DSC HU/CM АН и контактом датчика угла поворота рулевого колеса D (автомобили с системой динамической стабилизации)</div>
+<div class="list">•  Короткое замыкание в проводном жгуте между контактами датчика угла поворота рулевого колеса A и  D</div>
+<div class="list">•  Неисправность датчика угла поворота рулевого колеса</div>
+<div class="list">•  Выпадение диска датчика угла поворота рулевого колеса.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" colspan="4"><img src="images/am3zzw00001737.png"></td>
+</tr>
+</tbody>
+</table>
+</p>
+<p clear="all">
+<p class="table-title">Процедура диагностики</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">ЭТАП</p>
+</th>
+<th id="" align="center" colspan="2">
+<p class="thead">ПРОВЕРКА</p>
+</th>
+<th id="" align="center">
+<p class="thead">ПРЕДПРИНИМАЕМЫЕ МЕРЫ</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">1</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРЬТЕ ПАРАМЕТРЫ ДАТЧИКА УГЛА ПОВОРОТА РУЛЕВОГО КОЛЕСА С ПОМОЩЬЮ M-MDS</div>
+<div class="list">•  Поверните выключатель зажигания в положение "OFF".</div>
+<div class="list">•  Подключите диагностическую систему M-MDS к диагностическому разъему DLC-2.</div>
+<div class="list">•  Выберите “STEER_RATE” PID.</div>
+<div class="list">•  Убедитесь, что соответствующий параметр на дисплее M-MDS изменяется в зависимости от угла поворота рулевого колеса.</div>
+<div class="list">•  Правильно ли изменяется параметр?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Замените датчик угла поворота рулевого колеса.</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="id081000802000.html">СНЯТИЕ И УСТАНОВКА СПИРАЛЬНОГО КАБЕЛЯ</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">2</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРЬТЕ НАПРЯЖЕНИЕ ПИТАНИЯ ДАТЧИКА УГЛА ПОВОРОТА РУЛЕВОГО КОЛЕСА</div>
+<div class="list">•  Установите выключатель зажигания в положение ON (двигатель не работает).</div>
+<div class="list">•  Измерьте напряжение между контактом датчика угла поворота рулевого колеса А и "массой".</div>
+<div class="list">•  Равно ли напряжение <span>"положительному"+</span> напряжению аккумуляторной батареи?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Автомобиль без системы динамической стабилизации (DSC)</div>
+<div class="list">•  Выполните ремонт или замену проводного жгута между выключателем зажигания и контактом датчика угла поворота рулевого колеса А, затем переходите к этапу 7.</div>
+<div class="tbody">Автомобиль с системой динамической стабилизации (DSC)</div>
+<div class="list">•  Выполните ремонт или замену проводного жгута между контактом блока DSC HU/CM AB и контактом датчика угла поворота рулевого колеса А, затем переходите к этапу 7.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">3</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРЬТЕ ЦЕПЬ "МАССЫ" ДАТЧИКА УГЛА ПОВОРОТА РУЛЕВОГО КОЛЕСА НА ПРЕДМЕТ ОБРЫВА</div>
+<div class="list">•  Поверните выключатель зажигания в положение "OFF".</div>
+<div class="list">•  Разъедините разъемы блока EHPAS (автомобиль без системы динамической стабилизации) или блока DSC HU/CM (автомобиль с системой динамической стабилизации) и датчика угла поворота рулевого колеса.</div>
+<div class="list">•  Проверьте неразрывность цепи между контактом блока EHPAS 3A (автомобиль без системы динамической стабилизации) или контактом блока DSC HU/CM AH (автомобиль с системой динамической стабилизации) и контактом датчика угла поворота рулевого колеса D.</div>
+<div class="list">•  Существует ли неразрывность цепи?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Выполните ремонт или замену проводного жгута между контактом блока EHPAS 3A (автомобиль без системы динамической стабилизации) или контактом блока DSC HU/CM AH (автомобиль с системой динамической стабилизации) и контактом датчика угла поворота рулевого колеса D, затем переходите к этапу 7.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">4</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРЬТЕ ЦЕПЬ СИГНАЛА ДАТЧИКА УГЛА ПОВОРОТА РУЛЕВОГО КОЛЕСА НА ПРЕДМЕТ КОРОТКОГО ЗАМЫКАНИЯ НА ЦЕПЬ ПИТАНИЯ</div>
+<div class="list">•  Установите выключатель зажигания в положение «ON» (на неработающем двигателе).</div>
+<div class="list">•  Измерьте напряжение между блоком EHPAS и "массой" кузова в следующих местах:</div>
+<dl>
+<dd class="list">
+<div class="list">―  Датчик 1: Контакт блока EHPAS 3B и "масса" кузова</div>
+<div class="list">―  Датчик 2: Контакт блока EHPAS 3D и "масса" кузова</div>
+</dd>
+</dl>
+<div class="list">•  Напряжение <span>B+</span>?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Выполните ремонт или замену проводного жгута между блоком EHPAS и датчиком угла поворота рулевого колеса, затем переходите к этапу 7.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">5</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРЬТЕ ЦЕПЬ СИГНАЛА ДАТЧИКА УГЛА ПОВОРОТА РУЛЕВОГО КОЛЕСА НА ПРЕДМЕТ КОРОТКОГО ЗАМЫКАНИЯ НА "МАССУ"</div>
+<div class="list">•  Установите выключатель зажигания в положение "OFF".</div>
+<div class="list">•  Проверьте неразрывность цепи между блоком EHPAS и "массой" кузова в следующих местах:</div>
+<dl>
+<dd class="list">
+<div class="list">―  Датчик 1: Контакт блока EHPAS 3B и "масса" кузова</div>
+<div class="list">―  Датчик 2: Контакт блока EHPAS 3D и "масса" кузова</div>
+</dd>
+</dl>
+<div class="list">•  Существует ли неразрывность цепи?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Выполните ремонт или замену проводного жгута между блоком EHPAS и датчиком угла поворота рулевого колеса, затем переходите к этапу 7.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">6</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРЬТЕ ДАТЧИКИ 1 И 2 УГЛА ПОВОРОТА РУЛЕВОГО КОЛЕСА НА ПРЕДМЕТ НЕРАЗРЫВНОСТИ ЦЕПИ</div>
+<div class="list">•  Установите выключатель зажигания в положение "OFF".</div>
+<div class="list">•  Разъедините разъемы блока EHPAS и датчика угла поворота рулевого колеса.</div>
+<div class="list">•  Проверьте неразрывность цепи между контактами датчика угла поворота рулевого колеса В и С.</div>
+<div class="list">•  Существует ли неразрывность цепи?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Замените датчик угла поворота рулевого колеса, затем переходите к этапу 7.</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="id081000802000.html">СНЯТИЕ И УСТАНОВКА СПИРАЛЬНОГО КАБЕЛЯ</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">7</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">УБЕДИТЕСЬ В ОТСУТСТВИИ ТОГО ЖЕ ДИАГНОСТИЧЕСКОГО КОДА НЕИСПРАВНОСТИ</div>
+<div class="list">•  Соедините все разъединенные разъемы.</div>
+<div class="list">•  Удалите из памяти диагностический код неисправности.<div>(См. <font class="extxref-label"><a href="id0602b1801500.html">СИСТЕМА БОРТОВОЙ ДИАГНОСТИКИ [ЭЛЕКТРОГИДРАВЛИЧЕСКИЙ УСИЛИТЕЛЬ РУЛЕВОГО УПРАВЛЕНИЯ (EHPAS)]</a></font>.)</div>
+</div>
+<div class="list">•  Записывается ли снова данный код неисправности?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="list">•  Повторите процедуру проверки, начиная с этапа 1.</div>
+<div class="list">•  В случае неисправности выполните замену жидкостного насоса электрогидравлического усилителя рулевого управления.<div> (См. <font class="extxref-label"><a href="id0614008032c2.html">СНЯТИЕ/УСТАНОВКА НАСОСА ЭЛЕКТРОГИДРАВЛИЧЕСКОГО УСИЛИТЕЛЯ РУЛЕВОГО УПРАВЛЕНИЯ [ZY, LF, L3, MZ-CD 1.6 (Y6)]</a></font>.)</div>
+</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">8</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">УБЕДИТЕСЬ В ОТСУТСТВИИ ДРУГИХ ДИАГНОСТИЧЕСКИХ КОДОВ НЕИСПРАВНОСТИ</div>
+<div class="list">•  Присутствуют ли другие диагностические коды неисправности?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к проверке по существующим кодам неисправностей.</div>
+<div class="tbody">(См. <font class="extxref-label"><a href="id0602b1801500.html">СИСТЕМА БОРТОВОЙ ДИАГНОСТИКИ [ЭЛЕКТРОГИДРАВЛИЧЕСКИЙ УСИЛИТЕЛЬ РУЛЕВОГО УПРАВЛЕНИЯ (EHPAS)]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Процедура поиска и устранения неисправностей завершена.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</body>
+</html>

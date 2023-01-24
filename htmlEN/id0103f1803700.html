@@ -1,0 +1,299 @@
+<html lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../css/mazda-css-en.css" type="text/css">
+<title>ENGINE CONTROL SYSTEM OPERATION INSPECTION [MZR-CD (RF Turbo)]</title>
+</head>
+<body><a name="id0103f1803700"></a><p class="servinfo-title"><span class="servinfo-head"></span>ENGINE CONTROL SYSTEM OPERATION INSPECTION [MZR-CD (RF Turbo)]</p>
+<hr>
+<p class="servinfo-title-id" align="right">id0103f1803700</p><br clear="all"><a name="id0103f180370001"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Guide Blade Actuator Operation Inspection</p>
+<p class="list">1.  Connect M-MDS to DLC-2.</p>
+<p class="list"></p>
+<p class="list">2.  Start the engine and run it at idle.</p>
+<p class="list"></p>
+<p class="list">3.  Access the VBCV PID.</p>
+<p class="list"></p>
+<p class="list">4.  Verify that the guide blade actuator rod moves when the VBCV PID <span>from 0 to 100 %</span> using simulation function.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the rod movement cannot be verified inspect for followings;</div>
+<dl>
+<dd class="list">
+<div class="list">―  Guide blade actuator (See <font class="extxref-label"><a href="id0113f1807200.html">GUIDE BLADE ACTUATOR INSPECTION [MZR-CD (RF Turbo)]</a></font>.)</div>
+<div class="list">―  Vacuum hose connection between the vacuum chamber and the guide blade actuator through the VBC solenoid valve (See <font class="extxref-label"><a href="id0113f1890000.html">INTAKE-AIR SYSTEM VACUUM HOSE ROUTING DIAGRAM [MZR-CD (RF Turbo)]</a></font>.)</div>
+<div class="list">―  VBC solenoid valve (See <font class="extxref-label"><a href="id0113f1804600.html">VARIABLE BOOST CONTROL (VBC) SOLENOID VALVE INSPECTION [MZR-CD (RF Turbo)]</a></font>.)</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p><br clear="all"><a name="id0103f180370002"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Glow Plug Control Operation Inspection</p>
+<p class="list">1.  Verify that the battery is charged fully.</p>
+<p class="list"></p>
+<p class="list">2.  If not, charge the battery.</p>
+<p class="list"></p>
+<p class="list">3.  Connect the M-MDS to the DLC-2.</p>
+<p class="list"></p>
+<p class="list">4.  Turn the engine switch to the ON position.</p>
+<p class="list"></p>
+<p class="list">5.  Access and monitor the VPWR and GPC PIDs.</p>
+<p class="list"></p>
+<p class="list">6.  Verify that the VPWR PID drops <span>0.3 V or more</span> while the GPC is turned on from off using the simulation function.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If it cannot be verified, inspect the followings;</div>
+<dl>
+<dd class="list">
+<div class="list">―  Glow plug relay</div>
+<div class="list">―  Glow plug</div>
+<div class="list">―  Wiring harness for battery positive post—glow plug relay—glow plug</div>
+<div class="list">―  Wiring harness for PCM terminal 37—glow plug relay—ground</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p><br clear="all"><a name="id0103f180370003"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Intake Shutter Valve Operation Inspection</p>
+<p class="list">1.  Connect the M-MDS to the DLC-2.</p>
+<p class="list"></p>
+<p class="list">2.  Start the engine and run it at idle.</p>
+<p class="list"></p>
+<p class="list">3.  Access and monitor the ETC_DSD, TP and MAP PIDs.</p>
+<p class="list"></p>
+<p class="list">4.  Verify that the MAP PID increases and TP PID increases linearly, while increasing the opening angle of the intake shutter valve using the simulation function of ETC_DSD.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If both PIDs do not increase according to the intake shutter valve opening angle, inspect using the following steps.</div>
+<dl>
+<dd class="list">
+<div class="list">1.  Remove the intake shutter valve with connector connected.</div>
+<div class="list">2.  Verify that the intake shutter valve opens and closes while it is operated using the simulation function of the ETC_DSD.</div>
+<dl>
+<dd class="list">
+<div class="list">―  If not verified, retest after cleaning the intake shutter valve and inspecting related wiring harness and connectors.</div>
+</dd>
+</dl>
+<div class="list">3.  If the intake shutter valve does not operate, replace the intake shutter valve.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+<dl>
+<dd>
+<div class="list">•  If the MAP PID increases but TP PID does not increase linearly according to the intake shutter valve opening angle inspect using the following steps.</div>
+<dl>
+<dd class="list">
+<div class="list">1.  Inspect the intake shutter valve position sensor related wiring harness and connector.</div>
+<div class="list">2.  Remove the intake shutter valve with the connector connected.</div>
+<div class="list">3.  Verify that the TP PID increases and decreases linearly while the intake shutter valve is operated using the simulation function of ETC_DSD.</div>
+<dl>
+<dd class="list">
+<div class="list">―  If the TP PID does not increase and decrease linearly, replace the intake shutter valve.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+<dl>
+<dd>
+<div class="list">•  If the TP PID increases linearly but the MAP PID does not increase according to the intake shutter valve opening angle inspect using the following steps.</div>
+<dl>
+<dd class="list">
+<div class="list">1.  Inspect air for leakage at the intake shutter valve and cylinder head.</div>
+<div class="list">2.  If normal, inspect and replace the MAP sensor.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p><br clear="all"><a name="id0103f180370004"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>EGR Valve Operation Inspection</p>
+<p class="list">1.  Crank the engine and verify that the EGR valve operation (initial operation) sound is heard.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the operation sound is not heard, connect the M-MDS to the DLC-2 and verify that the DTC P0403 is shown. Perform the DTC inspection. (See <font class="extxref-label"><a href="id0102f1801500.html">DTC TABLE [MZR-CD (RF Turbo)]</a></font>.)</div>
+</dd>
+</dl>
+</p>
+<p class="list">2.  Start the engine run it at idle.</p>
+<p class="list"></p>
+<p class="list">3.  Access and monitor EGRP and MAP PIDs.</p>
+<p class="list"></p>
+<p class="list">4.  Verify that the MAP PID increases while increase the opening value of the EGR valve <span>from 0 % to 100 %</span> using the EGRP PID of simulation function.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If both PIDs do not increase according to the EGR valve opening values, inspect using the following steps.</div>
+<dl>
+<dd class="list">
+<div class="list">1.  Remove the EGR valve with the connector connected.</div>
+<div class="list">2.  Verify that the EGR valve opens and closes while it is operated using the simulation function of EGRP.</div>
+<dl>
+<dd class="list">
+<div class="list">―  If not verified, retest after cleaning the EGR valve and inspecting the related harness and connectors.</div>
+</dd>
+</dl>
+<div class="list">3.  If the EGR valve does not operate, replace the EGR valve.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+<dl>
+<dd>
+<div class="list">•  If the MAP PID increases but the EGRP PID does not increase linearly according to the EGR valve opening values, inspect using the following steps.</div>
+<dl>
+<dd class="list">
+<div class="list">1.  Inspect the EGR valve position sensor related harness and connector.</div>
+<div class="list">2.  Remove the EGR valve with the connector connected.</div>
+<div class="list">3.  Verify that the EGRP PID increases and decreases linearly while increasing the EGR valve steps using simulation function of the EGRP.</div>
+<dl>
+<dd class="list">
+<div class="list">―  If the EGRP PID does not increase and decrease linearly, replace the EGR valve.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+<dl>
+<dd>
+<div class="list">•  If the EGRP PID increases linearly but MAP PID does not increase according to the EGR valve opening values, inspect using the following steps.</div>
+<dl>
+<dd class="list">
+<div class="list">1.  Inspect for leakage between the exhaust manifold and surge tank.</div>
+<div class="list">2.  If normal, inspect and replace MAP sensor.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p><br clear="all"><a name="id0103f180370005"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Fuel Injector Operation Inspection</p>
+<p class="list">1.  Connect the M-MDS to the DLC-2.</p>
+<p class="list"></p>
+<p class="list">2.  Start the engine and warm it up to normal operating temperature.</p>
+<p class="list"></p>
+<p class="list">3.  Perform the KOER self-test. (See <font class="extxref-label"><a href="id0102f1801200.html">KOEO/KOER SELF TEST [MZR-CD (RF Turbo)]</a></font>.)</p>
+<p class="list"></p>
+<p class="list">4.  Verify that DTCs P0201, P0202, P0203 and/or P0204 are not shown using the KOER self-test.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If DTC P0201, P0202, P0203 and/or P0204 are shown, perform the DTC troubleshooting procedure. (See <font class="extxref-label"><a href="id0102f1801500.html">DTC TABLE [MZR-CD (RF Turbo)]</a></font>.)</div>
+</dd>
+</dl>
+</p>
+<p class="list">5.  Verify that the engine speed drops or stalls when each cylinder fuel injector turns to off from on using the simulation function.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If it cannot be verified, inspect the following for the suspected cylinder;</div>
+<dl>
+<dd class="list">
+<div class="list">―  Fuel injector (See <font class="extxref-label"><a href="id0114f1800700.html">FUEL INJECTOR INSPECTION [MZR-CD (RF Turbo)]</a></font>.)</div>
+</dd>
+</dl>
+<dl>
+<dd class="list">
+<div class="list">―  Wiring harness for PCM—fuel injector</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p><br clear="all"><a name="id0103f180370006"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Cooling Fan Control System Operation Inspection</p>
+<p class="list">1.  Verify that the battery voltage is <span>above 12.4 V</span>.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the battery voltage is <span>below 12.4 V</span>, charge the battery or connect the external power supply.</div>
+</dd>
+</dl>
+</p>
+<p class="list">2.  Connect the M-MDS to the DLC-2.</p>
+<p class="list"></p>
+<p class="list">3.  Access the following PIDs.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  ECT</div>
+<div class="list">•  AC_REQ</div>
+</dd>
+</dl>
+</p>
+<p class="list">4.  Turn the A/C switch to off.</p>
+<p class="list"></p>
+<p class="list">5.  Verify that ECT PID is <span>below 98 °C {209 °F}</span> and the AC_REQ is off.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the AC_REQ PID is on, inspect the A/C switch and A/C refrigerant pressure switch (high/low pressure).</div>
+</dd>
+</dl>
+</p>
+<p class="list">6.  Verify that the cooling fan is not operating.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the cooling fan is operating inspect the following:</div>
+</dd>
+</dl>
+<dl class="list">
+<dd>(1)  Verify that the FAN DUTY PID is <span>0%</span>.</dd>
+<dd>
+<dl>
+<dd>
+<div class="list">•  If the FAN DUTY PID is 0%, inspect the following PID and related parts.</div>
+<dl>
+<dd class="list">
+<div class="list">―  ECT (ECT sensor)</div>
+<div class="list">―  AC_REQ (A/C switch and A/C refrigerant pressure switch (high/low) pressure)</div>
+<div class="list">―  VSS (Vehicle speed sensor)</div>
+<div class="list">―  ACCS (A/C magnetic clutch)</div>
+</dd>
+</dl>
+<div class="list">•  If the FAN DUTY PID is <span>0%</span>, replace cooling fan component.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+<p class="list">7.  Turn the A/C switch to on.</p>
+<p class="list"></p>
+<p class="list">8.  Verify that the cooling fan is operating while the ECT PID is <span>below 98 °C {209 °F}</span>.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the cooling fan does not operate, inspect for the following:</div>
+<dl>
+<dd class="list">
+<div class="list">―  A/C switch</div>
+<div class="list">―  A/C refrigerant pressure switch</div>
+<div class="list">―  Fan control module power supply circuit (open or short circuit)</div>
+<div class="list">―  Fan control module GND circuit (open or short circuit)</div>
+<div class="list">―  Fan control module control signal circuit (open or short circuit between fan control module terminal B and PCM terminal 25)</div>
+<div class="list">―  Fan control module (See <font class="extxref-label"><a href="id0112f1802000.html">COOLING FAN MOTOR COMPONENT INSPECTION [MZR-CD (RF Turbo)]</a></font>.)</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+<p class="list">9.  Turn the A/C switch to the off position.</p>
+<p class="list"></p>
+<p class="list">10.  Start the engine and idle it.</p>
+<p class="list"></p>
+<p class="list">11.  Verify that the cooling fan operating speed increases relative to the ECT PID increase.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the cooling fan speed does not increase inspect the following:</div>
+<dl>
+<dd class="list">
+<div class="list">―  ECT sensor (characteristic)</div>
+<div class="list">―  Fan control signal circuit (between fan control module terminal B and PCM terminal 25)</div>
+</dd>
+</dl>
+<div class="list">•  If the all items are normal, replace the cooling fan component.</div>
+</dd>
+</dl>
+</p>
+</body>
+</html>

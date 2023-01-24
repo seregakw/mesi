@@ -1,0 +1,904 @@
+<html lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../css/mazda-css-en.css" type="text/css">
+<title>PID/DATA MONITOR INSPECTION [FN4A-EL]</title>
+</head>
+<body><a name="id0502a1805600"></a><p class="servinfo-title"><span class="servinfo-head"></span>PID/DATA MONITOR INSPECTION [FN4A-EL]</p>
+<hr>
+<p class="servinfo-title-id" align="right">id0502a1805600</p>
+<p class="list">1.  Connect the M-MDS to the DLC-2.</p>
+<p class="list">
+<table class="figure-flame">
+<tr>
+<td width="10mm"></td>
+<td>
+<table class="figure-float" cellspacing="0" bordercolor="black">
+<tr>
+<td align="center"><img src="images/am3zzw00000458.png"></td>
+</tr>
+</table>
+<div class="figure-caption">am3zzw00000458</div>
+</td>
+</tr>
+</table>
+</p>
+<p class="list">2.  After the vehicle is identified, select the following items from the initial screen of the M-MDS.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  When using the IDS (laptop PC)</div>
+<dl>
+<dd class="list">
+<div class="list">1.  Select the “Toolbox” tab.</div>
+<div class="list">2.  Select “DataLogger”.</div>
+<div class="list">3.  Select “Modules”.</div>
+<div class="list">4.  Select “PCM”.</div>
+</dd>
+</dl>
+<div class="list">•  When using the PDS (Pocket PC)</div>
+<dl>
+<dd class="list">
+<div class="list">1.  Select “Module Tests”.</div>
+<div class="list">2.  Select “PCM”.</div>
+<div class="list">3.  Select “DataLogger”.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+<p class="list">3.  Select the PID from the PID table</p>
+<p class="list"></p>
+<p class="list">4.  Verify the PID data according to the directions on the M-MDS screen.</p>
+<p class="list"></p>
+<dl>
+<dd>
+<div class="attention3-label">Note</div>
+</dd>
+<dd>
+<div class="attention3">
+<div class="list">•  Perform part inspection for the output device after PCM inspection.</div>
+<div class="list">•  The PID/DATA MONITOR function monitors the calculated value of the input/output signals in the PCM. Therefore, if a monitored value of an output device is out of specification, it is necessary to inspect the monitored value of the input device related to the output device control. Since an output device malfunction is not directly indicated as a malfunction of the monitored value for the output device, it is necessary to inspect the output device individually using methods such as the simulation function.</div>
+</div>
+</dd>
+</dl>
+<p clear="all">
+<p class="table-title">PID/DATA MONITOR AND RECORD function table</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center" rowspan="2">
+<p class="thead">Monitor item (Definition)</p>
+</th>
+<th id="" align="center" rowspan="2">
+<p class="thead">Unit/Condition</p>
+</th>
+<th id="" align="center" rowspan="2">
+<p class="thead">Condition/Specification</p>
+</th>
+<th id="" align="center" rowspan="2">
+<p class="thead">Action</p>
+</th>
+<th id="" align="center" colspan="3">
+<p class="thead">PCM terminal</p>
+</th>
+</tr>
+<tr>
+<th id="" align="center">
+<p class="thead">ZY</p>
+</th>
+<th id="" align="center">
+<p class="thead">Z6</p>
+</th>
+<th id="" align="center">
+<p class="thead">LF</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="left">
+<div class="tbody">DTCCNT</div>
+<div class="tbody"> (Number of DTC detected)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">N/A</div>
+</td>
+<td id="" align="left">
+<div class="list">•  DTCs is detected: 1—255</div>
+<div class="list">•  No DTCs are detected: 0</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Perform applicable DTC troubleshooting.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id0502a1800500.html">DTC TABLE [FN4A-EL]</a></font>.)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">N/A</div>
+</td>
+<td id="" align="center">
+<div class="tbody">N/A</div>
+</td>
+<td id="" align="center">
+<div class="tbody">N/A</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">DWN SW</div>
+<div class="tbody"> (Down switch)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">On/Off</div>
+</td>
+<td id="" align="left">
+<div class="list">•  M range, downshift: On</div>
+<div class="list">•  Other: Off</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Inspect the selector lever component.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id051800800600.html">SELECTOR LEVER COMPONENT INSPECTION</a></font>.)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1J</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1AB</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1P</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">GEAR</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1/2/3/4</div>
+</td>
+<td id="" align="left">
+<div class="list">•  1GR: 1</div>
+<div class="list">•  2GR: 2</div>
+<div class="list">•  3GR: 3</div>
+<div class="list">•  4GR: 4</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Inspect the following PIDs: </div>
+<div class="tbody">SSA/SS1, SSB/SS2, SSC/SS3, SSD/SS4, SSE_SS5</div>
+</td>
+<td id="" align="center">
+<div class="tbody">N/A</div>
+</td>
+<td id="" align="center">
+<div class="tbody">N/A</div>
+</td>
+<td id="" align="center">
+<div class="tbody">N/A</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">HTM_CNT</div>
+</td>
+<td id="" align="center">
+<div class="tbody">N/A</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Indicates number of high oil temperature mode (ATF temperature at 130 °C {266 °F} or more) operations</div>
+<div class="list">•  0—65,535</div>
+</td>
+<td id="" align="center">
+<div class="tbody">N/A</div>
+</td>
+<td id="" align="center">
+<div class="tbody">N/A</div>
+</td>
+<td id="" align="center">
+<div class="tbody">N/A</div>
+</td>
+<td id="" align="center">
+<div class="tbody">N/A</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">HTM_DIS</div>
+</td>
+<td id="" align="center">
+<div class="tbody">km</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Indicates travel distance after operation of high oil temperature mode (ATF temperature at 130 °C {266 °F} or more)</div>
+<div class="list">•  0—65,535 km</div>
+</td>
+<td id="" align="center">
+<div class="tbody">N/A</div>
+</td>
+<td id="" align="center">
+<div class="tbody">N/A</div>
+</td>
+<td id="" align="center">
+<div class="tbody">N/A</div>
+</td>
+<td id="" align="center">
+<div class="tbody">N/A</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">LINEDES</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Pa</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Indicates target line pressure</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Inspect the following PIDs: </div>
+<div class="tbody">OSS, TFT, TFTV, TR, THOP, TSS, VPWR, VSS</div>
+</td>
+<td id="" align="center">
+<div class="tbody">N/A</div>
+</td>
+<td id="" align="center">
+<div class="tbody">N/A</div>
+</td>
+<td id="" align="center">
+<div class="tbody">N/A</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">LPS</div>
+<div class="tbody"> (Pressure control solenoid)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">A</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Change current value according to throttle opening angle</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Inspect the pressure control solenoid.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id0517a1801900.html">SOLENOID VALVE INSPECTION [FN4A-EL]</a></font>.)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1P, 1T</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1AF, 1AV</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1G, 1H</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">MNL SW</div>
+<div class="tbody"> (M range switch)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">On/Off</div>
+</td>
+<td id="" align="left">
+<div class="list">•  M range: On</div>
+<div class="list">•  Other: Off</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Inspect the selector lever component.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id051800800600.html">SELECTOR LEVER COMPONENT INSPECTION</a></font>.)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1N</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1AQ</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1O</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">OSS</div>
+<div class="tbody"> (Output shaft speed)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">RPM</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Indicates output shaft speed</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Inspect the VSS.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id0517a1801400.html">VEHICLE SPEED SENSOR (VSS) INSPECTION [FN4A-EL]</a></font>.)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1AX</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1AY</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1J</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">SSA/SS1</div>
+<div class="tbody"> (Shift solenoid A)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">%</div>
+</td>
+<td id="" align="left">
+<div class="list">•  4GR: <span>99%</span></div>
+<div class="list">•  Others: <span>0%</span></div>
+</td>
+<td id="" align="left">
+<div class="tbody">Inspect the shift solenoid A.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id0517a1801900.html">SOLENOID VALVE INSPECTION [FN4A-EL]</a></font>.)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1D</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1AZ</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1B</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">SSB/SS2</div>
+<div class="tbody"> (Shift solenoid B)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">%</div>
+</td>
+<td id="" align="left">
+<div class="list">•  1GR at D range: <span>99%</span></div>
+<div class="list">•  Others: <span>0%</span></div>
+</td>
+<td id="" align="left">
+<div class="tbody">Inspect the shift solenoid B.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id0517a1801900.html">SOLENOID VALVE INSPECTION [FN4A-EL]</a></font>.)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1H</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1BH</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1C</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">SSC/SS3</div>
+<div class="tbody"> (Shift solenoid C)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">%</div>
+</td>
+<td id="" align="left">
+<div class="list">•  1GR/2GR: <span>99%</span></div>
+<div class="list">•  Others: <span>0%</span></div>
+</td>
+<td id="" align="left">
+<div class="tbody">Inspect the shift solenoid C.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id0517a1801900.html">SOLENOID VALVE INSPECTION [FN4A-EL]</a></font>.)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1L</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1BD</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1D</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">SSD/SS4</div>
+<div class="tbody">(Shift solenoid D)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">On/Off</div>
+</td>
+<td id="" align="left">
+<div class="list">•  P/N position, 4GR at D range, 1GR at M range: On</div>
+<div class="list">•  Others: Off</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Inspect the shift solenoid D.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id0517a1801900.html">SOLENOID VALVE INSPECTION [FN4A-EL]</a></font>.)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1K</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1AJ</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1E</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">SSE_SS5</div>
+<div class="tbody">(Shift solenoid E)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">On/Off</div>
+</td>
+<td id="" align="left">
+<div class="list">•  TCC operating: On</div>
+<div class="list">•  TCC non operating: Off</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Inspect the shift solenoid E.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id0517a1801900.html">SOLENOID VALVE INSPECTION [FN4A-EL]</a></font>.)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1O</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1AR</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1F</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">TFT</div>
+<div class="tbody"> (Transaxle fluid temperature)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">°C</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Indicates transaxle fluid temperature</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Inspect the TFT sensor.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id0517a1801000.html">TRANSAXLE FLUID TEMPERATURE (TFT) SENSOR INSPECTION [FN4A-EL]</a></font>.)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1AH</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1AU</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1U</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">TFTV</div>
+<div class="tbody"> (Transaxle fluid signal voltage)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">V</div>
+</td>
+<td id="" align="left">
+<div class="list">•  ATF <span>20 °C {68 °F}</span>: <span>Approx. 3.3 V</span></div>
+<div class="list">•  ATF <span>40 °C {104 °F}</span>: <span>Approx. 2.4 V</span></div>
+<div class="list">•  ATF <span>60 °C {140 °F}</span>: <span>Approx. 1.5 V</span></div>
+</td>
+<td id="" align="left">
+<div class="tbody">Inspect the TFT sensor.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id0517a1801000.html">TRANSAXLE FLUID TEMPERATURE (TFT) SENSOR INSPECTION [FN4A-EL]</a></font>.)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1AH</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1AU</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1U</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">THOP</div>
+<div class="tbody"> (Throttle position sensor/)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">%</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Accelerator pedal released: <span>0%</span></div>
+<div class="tbody">Accelerator pedal fully depressed: <span>100%</span></div>
+</td>
+<td id="" align="left">
+<div class="tbody">Inspect the APP sensor.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id0140b1803200.html">ACCELERATOR PEDAL POSITION (APP) SENSOR INSPECTION [ZJ, ZY, Z6]</a></font>.)</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id0140a9803200.html">ACCELERATOR PEDAL POSITION (APP) SENSOR INSPECTION [LF, L3]</a></font>.)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">2AT, 2AX</div>
+</td>
+<td id="" align="center">
+<div class="tbody">2AA</div>
+</td>
+<td id="" align="center">
+<div class="tbody">2I, 2M</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">TR</div>
+<div class="tbody"> (Transaxle range)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">P/R/N/D</div>
+</td>
+<td id="" align="left">
+<div class="list">•  P position: P</div>
+<div class="list">•  R position: R</div>
+<div class="list">•  N position: N</div>
+<div class="list">•  D range: D</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Inspect the TR switch.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id0517a1800900.html">TRANSAXLE RANGE (TR) SWITCH INSPECTION [FN4A-EL]</a></font>.)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1AS</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1X</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1S</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">TR_SENS</div>
+<div class="tbody"> (TR switch)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">V</div>
+</td>
+<td id="" align="left">
+<div class="list">•  P position: <span>4.34—4.79 V</span></div>
+<div class="list">•  R position: <span>3.83—4.18 V</span></div>
+<div class="list">•  N position: <span>3.05—3.50 V</span></div>
+<div class="list">•  D range: <span>2.23—2.66 V</span></div>
+</td>
+<td id="" align="left">
+<div class="tbody">Inspect the TR switch.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id0517a1800900.html">TRANSAXLE RANGE (TR) SWITCH INSPECTION [FN4A-EL]</a></font>.)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1AS</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1X</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1S</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">TSS</div>
+<div class="tbody"> (Input/turbine speed)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">RPM</div>
+</td>
+<td id="" align="left">
+<div class="list">•  Indicates Input/turbine speed</div>
+<dl>
+<dd class="list">
+<div class="list">―  Ignition switch ON: <span>0 rpm</span></div>
+<div class="list">―  Idle: <span>700—800 rpm</span> (P, N position)</div>
+</dd>
+</dl>
+</td>
+<td id="" align="left">
+<div class="tbody">Inspect the input/turbine speed sensor.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id0517a1801200.html">INPUT/TURBINE SPEED SENSOR INSPECTION [FN4A-EL]</a></font>.)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1R, 1V</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1K, 1O</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1M, 1Q</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">UP SW</div>
+<div class="tbody"> (Up switch)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">On/Off</div>
+</td>
+<td id="" align="left">
+<div class="list">•  M range, upshift: On</div>
+<div class="list">•  Other: Off</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Inspect the selector lever component.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id051800800600.html">SELECTOR LEVER COMPONENT INSPECTION</a></font>.)</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1M</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1P</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1K</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p><br clear="all"><a name="id0502a180560001"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Simulation Function Procedure</p>
+<p class="list">1.  Connect the M-MDS to the DLC-2.</p>
+<p class="list">
+<table class="figure-flame">
+<tr>
+<td width="10mm"></td>
+<td>
+<table class="figure-float" cellspacing="0" bordercolor="black">
+<tr>
+<td align="center"><img src="images/am3zzw00000458.png"></td>
+</tr>
+</table>
+<div class="figure-caption">am3zzw00000458</div>
+</td>
+</tr>
+</table>
+</p>
+<p class="list">2.  After the vehicle is identified, select the following items from the initial screen of the M-MDS.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  When using the IDS (laptop PC)</div>
+<dl>
+<dd class="list">
+<div class="list">―  Select the “Toolbox” tab.</div>
+<div class="list">―  Select “DataLogger”.</div>
+<div class="list">―  Select “Modules”.</div>
+<div class="list">―  Select “PCM”.</div>
+</dd>
+</dl>
+<div class="list">•  When using the PDS (Pocket PC)</div>
+<dl>
+<dd class="list">
+<div class="list">―  Select “Module Tests”.</div>
+<div class="list">―  Select “PCM”.</div>
+<div class="list">―  Select “DataLogger”.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+<p class="list">3.  Select the simulation items from the PID table.</p>
+<p class="list"></p>
+<p class="list">4.  Perform the simulation function, inspect the operations for each parts.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If there is no operation sound from the solenoid after the simulation function inspection is performed, it is possible that there is an open or short circuit in the wiring harness, or solenoid, or sticking and operation malfunction.</div>
+</dd>
+</dl>
+</p>
+<p clear="all">
+<p class="table-title">Simulation item table</p>
+<p>
+<div>X: Available</div>
+</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center" rowspan="2">
+<p class="thead">Simulation item</p>
+</th>
+<th id="" align="center" rowspan="2">
+<p class="thead">Applicable component</p>
+</th>
+<th id="" align="center" rowspan="2">
+<p class="thead">Unit/Condition</p>
+</th>
+<th id="" align="center" colspan="2">
+<p class="thead">Operation</p>
+</th>
+<th id="" align="center" colspan="3">
+<p class="thead">PCM terminal</p>
+</th>
+</tr>
+<tr>
+<th id="" align="center">
+<p class="thead">IG ON</p>
+</th>
+<th id="" align="center">
+<p class="thead">Idle</p>
+</th>
+<th id="" align="center">
+<p class="thead">ZY</p>
+</th>
+<th id="" align="center">
+<p class="thead">Z6</p>
+</th>
+<th id="" align="center">
+<p class="thead">LF</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="left">
+<div class="tbody">LPS</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Pressure control solenoid</div>
+</td>
+<td id="" align="center">
+<div class="tbody">%</div>
+</td>
+<td id="" align="center">
+<div class="tbody">N/A</div>
+</td>
+<td id="" align="center">
+<div class="tbody">X</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1P, 1T</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1AF, 1AV</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1G, 1H</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">SSA/SS1</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Shift solenoid A</div>
+</td>
+<td id="" align="center">
+<div class="tbody">%</div>
+</td>
+<td id="" align="center">
+<div class="tbody">N/A</div>
+</td>
+<td id="" align="center">
+<div class="tbody">X</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1D</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1AZ</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1B</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">SSB/SS2</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Shift solenoid B</div>
+</td>
+<td id="" align="center">
+<div class="tbody">%</div>
+</td>
+<td id="" align="center">
+<div class="tbody">N/A</div>
+</td>
+<td id="" align="center">
+<div class="tbody">X</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1H</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1BH</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1C</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">SSC/SS3</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Shift solenoid C</div>
+</td>
+<td id="" align="center">
+<div class="tbody">%</div>
+</td>
+<td id="" align="center">
+<div class="tbody">N/A</div>
+</td>
+<td id="" align="center">
+<div class="tbody">X</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1L</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1BD</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1D</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">SSD/SS4</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Shift solenoid D</div>
+</td>
+<td id="" align="center">
+<div class="tbody">On/Off</div>
+</td>
+<td id="" align="center">
+<div class="tbody">N/A</div>
+</td>
+<td id="" align="center">
+<div class="tbody">X</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1K</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1AJ</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1E</div>
+</td>
+</tr>
+<tr>
+<td id="" align="left">
+<div class="tbody">SSE_SS5</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Shift solenoid E</div>
+</td>
+<td id="" align="center">
+<div class="tbody">On/Off</div>
+</td>
+<td id="" align="center">
+<div class="tbody">N/A</div>
+</td>
+<td id="" align="center">
+<div class="tbody">X</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1O</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1AR</div>
+</td>
+<td id="" align="center">
+<div class="tbody">1F</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</body>
+</html>

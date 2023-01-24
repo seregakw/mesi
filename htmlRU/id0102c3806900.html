@@ -1,0 +1,383 @@
+<html lang="ru">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../css/mazda-css-ru.css" type="text/css">
+<title>DTC P0335 [MZ-CD 1.6 (Y6)]</title>
+</head>
+<body><a name="id0102c3806900"></a><p class="servinfo-title"><span class="servinfo-head"></span>DTC P0335 [MZ-CD 1.6 (Y6)]</p>
+<hr>
+<p class="servinfo-title-id" align="right">id0102c3806900</p>
+<p clear="all">
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">DTC P0335</p>
+</th>
+<th id="" align="left">
+<p class="thead">Crankshaft position (CKP) sensor circuit malfunction</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center">
+<div class="tbody"><span>DETECTION CONDITION</span></div>
+</td>
+<td id="" align="left">
+<div class="list">•  The PCM monitors the input voltage from the CKP sensor signal. If the voltages at PCM deviates from the threshold, the PCM determines that the there is a CKP sensor circuit problem.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody"><span>POSSIBLE CAUSE</span></div>
+</td>
+<td id="" align="left">
+<div class="list">•  CKP sensor malfunction</div>
+<div class="list">•  Connector or terminal malfunction</div>
+<div class="list">•  Short to power supply between CKP sensor terminal C and PCM terminal 218 </div>
+<div class="list">•  Short to power supply between CKP sensor terminal B and PCM terminal 238</div>
+<div class="list">•  Short to power supply between CKP sensor terminal A and PCM terminal 239</div>
+<div class="list">•  Short to ground between CKP sensor terminal C and PCM terminal 218 </div>
+<div class="list">•  Short to ground between CKP sensor terminal B and PCM terminal 238</div>
+<div class="list">•  Open circuit between CKP sensor terminal C and PCM terminal 218</div>
+<div class="list">•  Open circuit between CKP sensor terminal B and PCM terminal 238</div>
+<div class="list">•  Open circuit between CKP sensor terminal A and PCM terminal 239</div>
+<div class="list">•  CKP sensor pulse wheel malfunction</div>
+<div class="list">•  PCM malfunction</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" colspan="2"><img src="images/am3zzw00000899.png"></td>
+</tr>
+</tbody>
+</table>
+</p>
+<p clear="all">
+<p class="table-title">Diagnostic procedure</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">STEP</p>
+</th>
+<th id="" align="center" colspan="2">
+<p class="thead">INSPECTION</p>
+</th>
+<th id="" align="center">
+<p class="thead">ACTION</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">1</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">VERIFY FREEZE FRAME DATA HAS BEEN RECORDED</div>
+<div class="list">•  Has the FREEZE FRAME DATA been recorded?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Record FREEZE FRAME DATA on repair order, then go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">2</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">VERIFY RELATED REPAIR INFORMATION AVAILABILITY</div>
+<div class="list">•  Verify related service bulletins and/or on-line repair information availability.</div>
+<div class="list">•  Is any related repair information available?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Perform repair or diagnosis according to available repair information.</div>
+<div class="list">•  If vehicle is not repaired, go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">3</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">VERIFY CURRENT SIGNAL STATUS: IS CONCERN INTERMITTENT OR CONSTANT?</div>
+<div class="list">•  Connect the M-MDS to the DLC-2.</div>
+<div class="list">•  Clear the DTC from the PCM memory using the M-MDS.</div>
+<div class="list">•  Run the vehicle under the FREEZE FRAME DATA stored condition.</div>
+<div class="list">•  Is the same DTC present?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Intermittent concern exists.</div>
+<div class="tbody">Perform the “INTERMITTENT CONCERNS TROUBLESHOOTING”.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0103b3800400.html">INTERMITTENT CONCERN TROUBLESHOOTING [MZ-CD 1.6 (Y6)]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">4</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">INSPECT CKP CIRCUIT FOR SHORT TO POWER SUPPLY</div>
+<div class="list">•  Turn the engine switch off.</div>
+<div class="list">•  Disconnect the CKP sensor connector.</div>
+<div class="list">•  Turn the engine switch to the ON position. (Engine off).</div>
+<div class="list">•  Measure the voltage between the following terminals (wiring harness-side):</div>
+<dl>
+<dd class="list">
+<div class="list">―  CKP sensor terminal A and body ground</div>
+<div class="list">―  CKP sensor terminal B and body ground</div>
+<div class="list">―  CKP sensor terminal C and body ground</div>
+</dd>
+</dl>
+<div class="list">•  Is the voltage <span>B+</span>?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Repair or replace the wiring harness, then go to Step 10.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">5</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">INSPECT CKP SENSOR</div>
+<div class="list">•  Turn the engine switch off.</div>
+<div class="list">•  Inspect the CKP sensor.<div>(See <font class="extxref-label"><a href="id0140b2800500.html">CRANKSHAFT POSITION (CKP) SENSOR INSPECTION [MZ-CD 1.6 (Y6)]</a></font>.)</div>
+</div>
+<div class="list">•  Is the CKP sensor normal?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Replace the CKP sensor, then go to Step 10.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0140b2800600.html">CRANKSHAFT POSITION (CKP) SENSOR REMOVAL/INSTALLATION [MZ-CD 1.6 (Y6)]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">6</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">INSPECT CKP SENSOR CONNECTOR FOR POOR CONNECTION</div>
+<div class="list">•  Turn the engine switch off.</div>
+<div class="list">•  Verify that the CKP sensor connector is connected securely.</div>
+<div class="list">•  Is the connector normal?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Reconnect the connector, then go to Step 10.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">7</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">INSPECT CKP CIRCUIT FOR SHORT TO GROUND</div>
+<div class="list">•  Turn the engine switch off.</div>
+<div class="list">•  Disconnect the PCM connector.</div>
+<div class="list">•  Inspect for continuity the between the following terminals:</div>
+<dl>
+<dd class="list">
+<div class="list">―  CKP sensor connector terminal C (wiring harness-side) and body ground</div>
+<div class="list">―  CKP sensor connector terminal B (wiring harness-side) and body ground</div>
+</dd>
+</dl>
+<div class="list">•  Is there continuity?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Repair or replace the wiring harness, then go to Step 10.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">8</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">INSPECT CKP CIRCUIT FOR OPEN CIRCUIT</div>
+<div class="list">•  Turn the engine switch off.</div>
+<div class="list">•  Inspect for continuity between the following terminals:</div>
+<dl>
+<dd class="list">
+<div class="list">―  CKP sensor terminal C (wiring harness-side) and PCM terminal 218 (wiring harness-side)</div>
+<div class="list">―  CKP sensor terminal B (wiring harness-side) and PCM terminal 238 (wiring harness-side)</div>
+<div class="list">―  CKP sensor terminal A (wiring harness-side) and PCM terminal 239 (wiring harness-side)</div>
+</dd>
+</dl>
+<div class="list">•  Is there continuity?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Repair or replace the wiring harness, then go to Step 10.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">9</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">INSPECT PCM CONNECTOR FOR POOR CONNECTION</div>
+<div class="list">•  Turn the engine switch off.</div>
+<div class="list">•  Disconnect the PCM connector.</div>
+<div class="list">•  Inspect for poor connection (such as damaged/pulled-out terminals, corrosion).</div>
+<div class="list">•  Is there any malfunction?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Repair the terminal, then go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">10</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">VERIFY THAT DTC P0335 TROUBLESHOOTING IS COMPLETED</div>
+<div class="list">•  Make sure to reconnect all disconnected connectors.</div>
+<div class="list">•  Turn the engine switch to the ON position. (Engine off).</div>
+<div class="list">•  Clear the DTC from the PCM memory using the M-MDS.</div>
+<div class="list">•  Run the vehicle under the FREEZE FRAME DATA stored condition.</div>
+<div class="list">•  Is the same DTC present?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Replace the PCM, then go to the next step.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0140b2802400.html">PCM REMOVAL/INSTALLATION [MZ-CD 1.6 (Y6)]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">11</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">VERIFY AFTER REPAIR PROCEDURE</div>
+<div class="list">•  Perform the after repair procedure.<div> (See <font class="extxref-label"><a href="id0102c3801100.html">AFTER REPAIR PROCEDURE [MZ-CD 1.6 (Y6)]</a></font>.)</div>
+</div>
+<div class="list">•  Are any DTCs present?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Yes</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Go to the applicable DTC inspection.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id0102c3801500.html">DTC TABLE [MZ-CD 1.6 (Y6)]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">No</div>
+</td>
+<td id="" align="left">
+<div class="tbody">DTC troubleshooting completed.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</body>
+</html>

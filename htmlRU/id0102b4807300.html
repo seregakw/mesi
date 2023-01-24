@@ -1,0 +1,320 @@
+<html lang="ru">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../css/mazda-css-ru.css" type="text/css">
+<title>DTC P0421 
+[МКП, LF АКП (FS5A-EL)]</title>
+</head>
+<body><a name="id0102b4807300"></a><p class="servinfo-title"><span class="servinfo-head"></span>DTC P0421 
+[МКП, LF АКП (FS5A-EL)]</p>
+<hr>
+<p class="servinfo-title-id" align="right">id0102b4807300</p>
+<p clear="all">
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">DTC P0421</p>
+</th>
+<th id="" align="left">
+<p class="thead">Эффективность подогреваемого каталитического нейтрализатора ниже порогового значения</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center">
+<div class="tbody"><span>УСЛОВИЕ ОПРЕДЕЛЕНИЯ</span></div>
+</td>
+<td id="" align="left">
+<div class="list">•  Блок РСМ, в течение определённого периода, сравнивает количество переключений датчика состава смеси и датчика HO2S на выходе из нейтрализатора. Блок РСМ отслеживает коэффициент переключений для датчика HO2S на выходе из нейтрализатора при соблюдении перечисленных далее условий наблюдения: Блок РСМ определяет коэффициент переключений. Если коэффициент переключений ниже допустимого предела, то блок РСМ считает, что каталитический нейтрализатор потерял свою эффективность.</div>
+<dl>
+<dd class="list">
+<div class="list">―  Частота переключений датчика состава смеси соответствует норме при соблюдении перечисленных далее условий наблюдения:</div>
+<div class="list">―  Накопленная продолжительность перечисленных ниже условий наблюдения превысила установленный предел:</div>
+</dd>
+</dl>
+<dl>
+<div class="list-title">УСЛОВИЯ НАБЛЮДЕНИЯ</div>
+<dd class="list">
+<div class="list">―  Частота вращения коленчатого вала находится в пределах <span>1 600—3 000 об/мин</span>.</div>
+<div class="list">―  Расчётная температура нейтрализатора TWC <span>не ниже 400 °C {752 °F}</span>.</div>
+<div class="list">―  Расчётная нагрузка составляет <span>15—48%</span> (при частоте вращения коленчатого вала <span>2000 об/мин</span><sup></sup>)</div>
+</dd>
+</dl>
+<div class="list-title">Примечание к проведению диагностирования</div>
+<div class="list">•  Прерывистый режим наблюдения. (Нейтрализатор)</div>
+<div class="list">•  Сигнализатор MIL включается, если блок РСМ регистрирует описанное выше состояние в двух последовательных ездовых циклах, или в одном цикле при том условии, что данный код неисправности уже записан в памяти блока РСМ.</div>
+<div class="list">•  НЕПОДТВЕРЖДЁННЫЙ КОД (PENDING CODE) записывается, если блок РСМ обнаруживает описанное выше состояние во время первого ездового цикла. </div>
+<div class="list">•  Имеются РЕЗУЛЬТАТЫ ДИАГНОСТИЧЕСКОЙ ПРОВЕРКИ ПАРАМЕТРОВ</div>
+<div class="list">•  Имеются данные стоп-кадра (FREEZE FRAME DATA).</div>
+<div class="list">•  Код неисправности сохраняется в памяти блока РСМ.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody"><span>ВОЗМОЖНЫЕ ПРИЧИНЫ НЕИСПРАВНОСТИ</span></div>
+</td>
+<td id="" align="left">
+<div class="list">•  Неисправность нейтрализатора TWC или потеря эффективности нейтрализатором</div>
+<div class="list">•  Прорыв ОГ в выпускной системе</div>
+<div class="list">•  Ослаблено крепление датчика состава смеси</div>
+<div class="list">•  Ослаблено крепление датчика HO2S на выходе из нейтрализатора</div>
+<div class="list">•  Неисправность блока РСМ</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+<p clear="all">
+<p class="table-title">Процедура диагностики</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">ЭТАП</p>
+</th>
+<th id="" align="center" colspan="2">
+<p class="thead">ПРОВЕРКА</p>
+</th>
+<th id="" align="center">
+<p class="thead">ВЫПОЛНЯЕМЫЕ ДЕЙСТВИЯ</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">1</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ЗАПИСИ ДАННЫХ СТОП-КАДРА (FREEZE FRAME DATA)</div>
+<div class="list">•  Был ли записан стоп-кадр?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Запишите данные стоп-кадра в заказ-наряд на выполнение ремонта и переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">2</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА НАЛИЧИЯ ДОПОЛНИТЕЛЬНОЙ СЕРВИСНОЙ ИНФОРМАЦИИ</div>
+<div class="list">•  Проверьте наличие дополнительной сервисной информации по данной проблеме.</div>
+<div class="list">•  Имеется ли в наличии дополнительная сервисная информация по данной проблеме?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Пользуясь дополнительной сервисной информацией, выполните ремонт или диагностирование.</div>
+<div class="list">•  Если неисправность не устранена, то переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">3</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА СОПУТСТВУЮЩИХ НЕПОДТВЕРЖДЁННЫХ КОДОВ НЕИСПРАВНОСТЕЙ ИЛИ СОХРАНЁННЫХ КОДОВ НЕИСПРАВНОСТЕЙ</div>
+<div class="list">•  Выключите зажигание, затем поверните выключатель зажигания в положение ON (двигатель не работает).</div>
+<div class="list">•  Проверьте наличие сопутствующих неподтверждённых или сохранённых кодов неисправностей.</div>
+<div class="list">•  Имеются ли иные коды неисправностей?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к соответствующей процедуре поиска и устранения неисправностей по коду неисправности.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">4</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ВЫПУСКНОЙ СИСТЕМЫ НА ПРЕДМЕТ ПРОРЫВА ОГ</div>
+<div class="list">•  Внешним осмотром проверьте выпускную систему на прорыв ОГ. </div>
+<div class="list">•  Имеется ли прорыв ОГ?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Отремонтируйте или замените неисправную секцию выпускной системы и переходите к этапу 7.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">5</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА УСТАНОВКИ ДАТЧИКА СОСТАВА СМЕСИ И ДАТЧИКА HO2S НА ВЫХОДЕ ИЗ НЕЙТРАЛИЗАТОРА</div>
+<div class="list">•  Проверьте надёжность установки датчиков состава смеси и датчика HO2S на выходе из нейтрализатора.</div>
+<div class="list">•  Соответствует ли результат проверки техническим условиям?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Подтяните датчик и перейдите к этапу 7.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">6</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ДАТЧИКА СОСТАВА СМЕСИ</div>
+<div class="list">•  Проверьте датчик состава смеси.<div>(См. <font class="extxref-label"><a href="id0140a9899800.html">ПРОВЕРКА ДАТЧИКА СОСТАВА СМЕСИ (A/F), ПРОВЕРКА ПОДОГРЕВАЕМОГО КИСЛОРОДНОГО ДАТЧИКА (HO2S) [LF, L3]</a></font>.)</div>
+</div>
+<div class="list">•  Исправен ли датчик состава смеси?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Замените датчик состава смеси и переходите к этапу 8.</div>
+<div class="tbody">(См. <font class="extxref-label"><a href="id0140a9899900.html">СНЯТИЕ/УСТАНОВКА ДАТЧИКА СОСТАВА СМЕСИ (A/F), СНЯТИЕ/УСТАНОВКА ПОДОГРЕВАЕМОГО КИСЛОРОДНОГО ДАТЧИКА (HO2S) [LF, L3]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">7</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ДАТЧИКА HO2S НА ВЫХОДЕ ИЗ НЕЙТРАЛИЗАТОРА</div>
+<div class="list">•  Проверьте датчик HO2S на выходе из нейтрализатора.<div>(См. <font class="extxref-label"><a href="id0140a9899800.html">ПРОВЕРКА ДАТЧИКА СОСТАВА СМЕСИ (A/F), ПРОВЕРКА ПОДОГРЕВАЕМОГО КИСЛОРОДНОГО ДАТЧИКА (HO2S) [LF, L3]</a></font>.)</div>
+</div>
+<div class="list">•  Исправен ли датчик HO2S на выходе из нейтрализатора?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Замените нейтрализатор TWC и перейдите к следующему этапу.</div>
+<div class="tbody">(См. <font class="extxref-label"><a href="id0140a9899900.html">СНЯТИЕ/УСТАНОВКА ДАТЧИКА СОСТАВА СМЕСИ (A/F), СНЯТИЕ/УСТАНОВКА ПОДОГРЕВАЕМОГО КИСЛОРОДНОГО ДАТЧИКА (HO2S) [LF, L3]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Замените датчика HO2S на выходе из нейтрализатора и перейдите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">8</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ЗАВЕРШЕНИЯ ДИАГНОСТИРОВАНИЯ ПО DTC P0421</div>
+<div class="list">•  Проверьте, чтобы все ранее отсоединённые разъёмы были вновь присоединены.</div>
+<div class="list">•  Поверните выключатель зажигания в положение ON (двигатель не работает).</div>
+<div class="list">•  При помощи диагностической системы M-MDS удалите коды неисправностей из памяти блока РСМ.</div>
+<div class="list">•  Выполните послеремонтный проверочный ездовой цикл для проверки подогревателя датчика состава смеси, подогревателя датчика HO2S на выходе из нейтрализатора, датчика состава смеси, датчика HO2S на выходе из нейтрализатора и нейтрализатора TWC.  <div>(См. <font class="extxref-label"><a href="id0102b4815800.html">ПРОВЕРОЧНЫЙ ЕЗДОВОЙ ЦИКЛ OBD 
+[МКП, LF АКП (FS5A-EL)]</a></font>.)</div>
+</div>
+<div class="list">•  Существует ли данный код неисправности в неподтверждённом состоянии (PENDING CODE)? </div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Замените блок РСМ и перейдите к следующему этапу.</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="id0140a9802400.html">СНЯТИЕ И УСТАНОВКА БЛОКА РСМ [LF, L3]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">9</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ПОСЛЕ ЗАВЕРШЕНИЯ РЕМОНТА</div>
+<div class="list">•  Выполните мероприятия в соответствии с требованиями раздела “ПОСЛЕРЕМОНТНЫЕ МЕРОПРИЯТИЯ”.<div> (См. <font class="extxref-label"><a href="id0102b4801100.html">ПОСЛЕРЕМОНТНЫЕ МЕРОПРИЯТИЯ 
+[МКП, LF АКП (FS5A-EL)]</a></font>.)</div>
+</div>
+<div class="list">•  Имеются ли коды неисправностей?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к поиску и устранению неисправностей по существующим кодам неисправностей.</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="id0102b4801500.html">ТАБЛИЦА КОДОВ НЕИСПРАВНОСТЕЙ [МКП, LF АКП (FS5A-EL)]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Процедура поиска и устранения неисправностей завершена.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</body>
+</html>

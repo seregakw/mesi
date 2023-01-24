@@ -1,0 +1,402 @@
+<html lang="ru">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../css/mazda-css-ru.css" type="text/css">
+<title>DTC P0030 
+[МКП, LF АКП (FS5A-EL)]</title>
+</head>
+<body><a name="id0102b4801900"></a><p class="servinfo-title"><span class="servinfo-head"></span>DTC P0030 
+[МКП, LF АКП (FS5A-EL)]</p>
+<hr>
+<p class="servinfo-title-id" align="right">id0102b4801900</p>
+<p clear="all">
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">DTC P0030</p>
+</th>
+<th id="" align="left">
+<p class="thead">Неисправность в цепи подогревателя датчика состава смеси</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center">
+<div class="tbody"><span>УСЛОВИЕ ОПРЕДЕЛЕНИЯ</span></div>
+</td>
+<td id="" align="left">
+<div class="list">•  Система бортовой диагностики контролирует выходной сигнал напряжения датчика состава смеси, который пропорционален полному сопротивлению чувствительного элемента датчика.</div>
+<div class="list">•  Если значение выходного сигнала напряжения не находится в диапазоне от <span>0,75 В</span> до <span>1,5 В</span> по истечении определённого периода после запуска двигателя, то констатируется неисправность подогревателя датчика.</div>
+<dl>
+<div class="list-title">УСЛОВИЯ НАБЛЮДЕНИЯ</div>
+<dd class="list">
+<div class="list">―  Напряжение аккумуляторной батареи: <span>10 — 18 В</span></div>
+<div class="list">―  Время, истекшее после запуска двигателя: <span>Не менее 74 с</span></div>
+</dd>
+</dl>
+<div class="list-title">Примечание к проведению диагностирования</div>
+<div class="list">•  Режим наблюдения - прерывистый (подогреватель датчика состава смеси, подогреватель датчика HO2S на выходе из нейтрализатора.</div>
+<div class="list">•  Сигнализатор MIL включается, если блок РСМ регистрирует описанное выше состояние в двух последовательных ездовых циклах, или в одном цикле при том условии, что данный код неисправности уже сохранён в памяти блока РСМ.</div>
+<div class="list">•  НЕПОДТВЕРЖДЁННЫЙ КОД (PENDING CODE) записывается, если блок РСМ обнаруживает описанное выше состояние неисправности во время первого ездового цикла. </div>
+<div class="list">•  Имеются данные стоп-кадра (FREEZE FRAME DATA).</div>
+<div class="list">•  Код неисправности сохраняется в памяти блока РСМ.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody"><span>ВОЗМОЖНЫЕ ПРИЧИНЫ НЕИСПРАВНОСТИ</span></div>
+</td>
+<td id="" align="left">
+<div class="list">•  Неисправность подогревателя датчика состава смеси</div>
+<div class="list">•  Неисправность разъёма или плохой контакт</div>
+<div class="list">•  Короткое замыкание на "массу" в проводном жгуте между контактом Е датчика состава смеси и контактом 2BG блока РСМ</div>
+<div class="list">•  Короткое замыкание на цепь питания в проводном жгуте между контактом Е датчика состава смеси и контактом 2BG блока РСМ</div>
+<div class="list">•  Обрыв между в проводном жгуте между контактом D датчика состава смеси и контактом 2AC блока РСМ.</div>
+<div class="list">•  Обрыв в жгуте проводов между контактом Е датчика состава смеси и контактом 2AC блока РСМ</div>
+<div class="list">•  Неисправность блока РСМ</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" colspan="2"><img src="images/am3zzw00004633.png"></td>
+</tr>
+</tbody>
+</table>
+</p>
+<p clear="all">
+<p class="table-title">Процедура диагностики</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">ЭТАП</p>
+</th>
+<th id="" align="center" colspan="2">
+<p class="thead">ПРОВЕРКА</p>
+</th>
+<th id="" align="center">
+<p class="thead">ВЫПОЛНЯЕМЫЕ ДЕЙСТВИЯ</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">1</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ЗАПИСИ ДАННЫХ СТОП-КАДРА (FREEZE FRAME DATA)</div>
+<div class="list">•  Был ли записан стоп-кадр?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Запишите данные стоп-кадра в заказ-наряд на выполнение ремонта и переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">2</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА НАЛИЧИЯ ДОПОЛНИТЕЛЬНОЙ СЕРВИСНОЙ ИНФОРМАЦИИ</div>
+<div class="list">•  Проверьте наличие дополнительной сервисной информации по данной проблеме.</div>
+<div class="list">•  Имеется ли в наличии дополнительная сервисная информация по данной проблеме?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Пользуясь дополнительной сервисной информацией, выполните ремонт или диагностирование.</div>
+<div class="list">•  Если неисправность не устранена, то переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">3</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА СОПУТСТВУЮЩИХ НЕПОДТВЕРЖДЁННЫХ КОДОВ НЕИСПРАВНОСТЕЙ ИЛИ СОХРАНЁННЫХ КОДОВ НЕИСПРАВНОСТЕЙ</div>
+<div class="list">•  Выключите зажигание, затем поверните выключатель зажигания в положение ON (двигатель не работает).</div>
+<div class="list">•  При помощи диагностической системы M-MDS проверьте наличие неподтверждённых или сохранённых диагностических кодов.</div>
+<div class="list">•  Записаны ли коды неисправностей P0031 или P0032?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody"> Переходите к соответствующей процедуре поиска и устранения неисправностей по коду неисправности.</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="id0102b4801500.html">ТАБЛИЦА КОДОВ НЕИСПРАВНОСТЕЙ [МКП, LF АКП (FS5A-EL)]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">4</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ОПРЕДЕЛЕНИЕ КОДА НЕИСПРАВНОСТИ, ЗАПУСКАЮЩЕГО ЗАПИСЬ СТОП-КАДРА (FREEZE FRAME DATA)</div>
+<div class="list">•   Имеется ли код P0030 в записанном стоп-кадре (FREEZE FRAME DATA)?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody"> Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody"> Выполните процедуру поиска и устранения неисправностей по кодам неисправностей из стоп-кадра.</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="id0102b4801500.html">ТАБЛИЦА КОДОВ НЕИСПРАВНОСТЕЙ [МКП, LF АКП (FS5A-EL)]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">5</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА КОНТАКТА В РАЗЪЁМЕ ДАТЧИКА СОСТАВА СМЕСИ </div>
+<div class="list">•  Выключите зажигание.</div>
+<div class="list">•  Отсоедините разъём от датчика состава смеси.</div>
+<div class="list">•  Проверьте наличие дефектов в разъёме (повреждённые или смещённые контактные штыри, наличие коррозии).</div>
+<div class="list">•  Имеется ли неисправность<span></span>?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Отремонтируйте или замените контакт и перейдите к этапу 11.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">6</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ЦЕПИ УПРАВЛЕНИЯ ПОДОГРЕВАТЕЛЕМ ДАТЧИКА СОСТАВА СМЕСИ НА ПРЕДМЕТ КОРОТКОГО ЗАМЫКАНИЯ НА "МАССУ"</div>
+<div class="list">•  Отсоедините разъём датчика состава смеси.</div>
+<div class="list">•  Проверьте наличие дефектов в разъёме (повреждённые или смещённые контактные штыри, наличие коррозии).</div>
+<div class="list">•  Существует ли неразрывность цепи?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Устраните короткое замыкание на "массу" и перейдите к этапу 11.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">7</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ПОДОГРЕВАТЕЛЯ ДАТЧИКА СОСТАВА СМЕСИ</div>
+<div class="list">•  Проверьте подогреватель датчика состава смеси.<div> (См. <font class="extxref-label"><a href="id0140a9899800.html">ПРОВЕРКА ДАТЧИКА СОСТАВА СМЕСИ (A/F), ПРОВЕРКА ПОДОГРЕВАЕМОГО КИСЛОРОДНОГО ДАТЧИКА (HO2S) [LF, L3]</a></font>.)</div>
+</div>
+<div class="list">•  Имеется ли неисправность<span></span>?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Замените датчик состава смеси и переходите к этапу 11.</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="id0115c2800200.html">СНЯТИЕ И УСТАНОВКА ВЫПУСКНОЙ СИСТЕМЫ 
+[LF, L3]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">8</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА КАЧЕСТВА СОЕДИНЕНИЯ В РАЗЪЁМЕ БЛОКА РСМ</div>
+<div class="list">•  Выключите зажигание.</div>
+<div class="list">•  Отсоедините разъем от блока РСМ.</div>
+<div class="list">•  Проверьте наличие дефектов в разъёме (повреждённые или смещённые контактные штыри, наличие коррозии).</div>
+<div class="list">•  Найдена ли какая-либо неисправность?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Отремонтируйте или замените контакт и перейдите к этапу 11.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">9</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ЦЕПИ ДАТЧИКА СОСТАВА СМЕСИ НА ОБРЫВ</div>
+<div class="list">•  Отсоедините разъёмы от датчика состава смеси и от блока РСМ.</div>
+<div class="list">•  Проверьте неразрывность цепи между контактами проводного жгута.</div>
+<dl>
+<dd class="list">
+<div class="list">―  Между контактом E датчика состава смеси и контактом 2BG блока PCM</div>
+<div class="list">―  Между контактом D датчика состава смеси и контактом 2AC блока PCM</div>
+</dd>
+</dl>
+<div class="list">•  Существует ли неразрывность цепи?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Устраните обрыв и перейдите к этапу 11.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">10</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ЦЕПИ УПРАВЛЕНИЯ ПОДОГРЕВАТЕЛЕМ ДАТЧИКА СОСТАВА СМЕСИ НА ПРЕДМЕТ КОРОТКОГО ЗАМЫКАНИЯ НА НА ЦЕПЬ ПИТАНИЯ</div>
+<div class="list">•  Отсоедините разъёмы от датчика состава смеси и от блока РСМ.</div>
+<div class="list">•  Измерьте напряжение между контактом Е датчика состава смеси и "массой".</div>
+<div class="list">•  Превышает ли измеренное напряжение <span>1,5 В</span>?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Устраните короткое замыкание на цепь питания и перейдите к этапу 11.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">11</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ЗАВЕРШЕНИЯ ДИАГНОСТИРОВАНИЯ ПО DTC P0030</div>
+<div class="list">•  Проверьте, чтобы все ранее отсоединённые разъёмы были вновь присоединены.</div>
+<div class="list">•  При помощи диагностической системы M-MDS удалите коды неисправностей из памяти блока РСМ.</div>
+<div class="list">•  Выполните самодиагностику в режиме KOEO (зажигание включено, двигатель выключен) или KOER (зажигание включено, двигатель работает).<div> (См. <font class="extxref-label"><a href="id0102b4801200.html">САМОДИАГНОСТИРОВАНИЕ В РЕЖИМЕ KOEO/KOER (Зажигание включено, двигатель выключен/Зажигание включено, двигатель работает) 
+[МКП, LF АКП (FS5A-EL)]</a></font>.)</div>
+</div>
+<div class="list">•  Записывается ли снова код неисправности DTC P0030?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Замените блок РСМ и перейдите к следующему этапу.</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="id0140a9802400.html">СНЯТИЕ И УСТАНОВКА БЛОКА РСМ [LF, L3]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">12</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ПОСЛЕ ЗАВЕРШЕНИЯ РЕМОНТА</div>
+<div class="list">•  Выполните мероприятия в соответствии с требованиями раздела “ПОСЛЕРЕМОНТНЫЕ МЕРОПРИЯТИЯ”.<div> (См. <font class="extxref-label"><a href="id0102b4801100.html">ПОСЛЕРЕМОНТНЫЕ МЕРОПРИЯТИЯ 
+[МКП, LF АКП (FS5A-EL)]</a></font>.)</div>
+</div>
+<div class="list">•  Имеются ли коды неисправностей?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к проверке по соответствующим кодам неисправностей.</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="id0102b4801500.html">ТАБЛИЦА КОДОВ НЕИСПРАВНОСТЕЙ [МКП, LF АКП (FS5A-EL)]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Поиск и устранение неисправностей по кодам неисправностей завершён.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</body>
+</html>

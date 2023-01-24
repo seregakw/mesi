@@ -1,0 +1,319 @@
+<html lang="ru">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../css/mazda-css-ru.css" type="text/css">
+<title>DTC P0707 [FN4A-EL]</title>
+</head>
+<body><a name="id0502a1801000"></a><p class="servinfo-title"><span class="servinfo-head"></span>DTC P0707 [FN4A-EL]</p>
+<hr>
+<p class="servinfo-title-id" align="right">id0502a1801000</p>
+<p clear="all">
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">ДИАГНОСТИЧЕСКИЙ КОД НЕИСПРАВНОСТИ P0707</p>
+</th>
+<th id="" align="left">
+<p class="thead">Низкий уровень входного сигнала в цепи датчика положения селектора (TR)</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center">
+<div class="tbody"><span>УСЛОВИЯ ОБНАРУЖЕНИЯ</span></div>
+</td>
+<td id="" align="left">
+<div class="list">•  Когда все условия приведенные ниже выполнены и прошло <span>не менее 100 секунд</span>.</div>
+<dl>
+<dd class="list">
+<div class="list">―  Частота вращения коленчатого вала <span>не менее 530 об/мин</span></div>
+<div class="list">―  Скорость движения автомобиля <span>не менее 20 км/ч /12 миль/ч}</span></div>
+<div class="list">―  Напряжение на контактах 1AS (ZY)/1X (Z6)/1S (LF) блока РСМ <span>менее 0,5 В</span></div>
+</dd>
+</dl>
+<div class="list-title">Примечание по диагностике: </div>
+<div class="list">•  Это постоянно контролируемый параметр (комплексный контроль компонентов)</div>
+<div class="list">•  Сигнализатор MIL загорается если блок РСМ обнаружит описанное выше состояние неисправности при первом ездовом цикле.</div>
+<div class="list">•  Неподтверждённый код неисправности (PENDING CODE) не записывается.</div>
+<div class="list">•  Имеются данные стоп-кадра (FREEZE FRAME DATA).</div>
+<div class="list">•  Включается предупреждающий сигнализатор неисправности АКП</div>
+<div class="list">•  Код неисправности сохраняется в памяти блока РСМ.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody"><span>ВОЗМОЖНАЯ ПРИЧИНА НЕИСПРАВНОСТИ</span></div>
+</td>
+<td id="" align="left">
+<div class="list">•  Неисправен датчик TR</div>
+<div class="list">•  Короткое замыкание на "массу" в проводном жгуте между контактом С датчика TR и контактом 1AS (ZY)/1X (Z6)/1S (LF) блока РСМ</div>
+<div class="list">•  Короткое замыкание между сигнальной цепью датчика TR и цепью «массы» датчика TR</div>
+<div class="list">•  Неисправность блока РСМ</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" colspan="2"><img src="images/am3zzw00001768.png"></td>
+</tr>
+</tbody>
+</table>
+</p>
+<p clear="all">
+<p class="table-title">Процедура диагностики</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">ЭТАП</p>
+</th>
+<th id="" align="center" colspan="2">
+<p class="thead">ПРОВЕРКА</p>
+</th>
+<th id="" align="center">
+<p class="thead">ПРЕДПРИНИМАЕМЫЕ МЕРЫ</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">1</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ЗАПИСИ ДАННЫХ СТОП-КАДРА (FREEZE FRAME DATA)</div>
+<div class="list">•  Были ли записаны данные СТОП-КАДРА ПАРАМЕТРОВ?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Запишите данные стоп-кадра в заказ-наряд на выполнение ремонта и переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">2</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА НАЛИЧИЯ ДОПОЛНИТЕЛЬНОЙ СЕРВИСНОЙ ИНФОРМАЦИИ</div>
+<div class="list">•  Проверьте наличие дополнительной сервисной информации по данной проблеме.</div>
+<div class="list">•  Имеется ли в наличии дополнительная сервисная информация по данной проблеме?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Пользуясь дополнительной сервисной информацией, выполните ремонт или диагностирование.</div>
+<div class="list">•  Если неисправность не устранена, то переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">3</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРЬТЕ РАЗЪЕМ ДАТЧИКА TR</div>
+<div class="list">•  Поверните выключатель зажигания в положение LOCK (Блокировка).</div>
+<div class="list">•  Отсоедините разъем от датчика TR.</div>
+<div class="list">•  Проверьте качество электрического соединения между контактами В и С в разъеме на датчике TR (повреждение контактов/ их смещение или коррозия)</div>
+<div class="list">•  Исправны ли контакты датчика TR?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Отремонтируйте контакты или замените датчик TR, затем переходите к выполнению этапа 8.</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="id0517a1804000.html">СНЯТИЕ/УСТАНОВКА ДАТЧИКА ПОЛОЖЕНИЯ СЕЛЕКТОРА (ДАТЧИКА TR)[FN4A-EL]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">4</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРЬТЕ ДАТЧИК TR</div>
+<div class="list">•  Поверните выключатель зажигания в положение LOCK (Блокировка).</div>
+<div class="list">•  Отсоедините разъем от датчика TR.</div>
+<div class="list">•  Проверьте сопротивление между контактами В и С датчика TR.</div>
+<div class="list">•  Находится ли сопротивление в норме?<div> (См. <font class="extxref-label"><a href="id0517a1800900.html">ПРОВЕРКА ДАТЧИКА ПОЛОЖЕНИЯ СЕЛЕКТОРА (ДАТЧИКА TR)[FN4A-EL]</a></font>.)</div>
+</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Замените датчик TR, затем переходите к выполнению этапа 8.</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="id0517a1804000.html">СНЯТИЕ/УСТАНОВКА ДАТЧИКА ПОЛОЖЕНИЯ СЕЛЕКТОРА (ДАТЧИКА TR)[FN4A-EL]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">5</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА КАЧЕСТВА ЭЛЕКТРИЧЕСКОГО СОЕДИНЕНИЯ В РАЗЪЁМЕ БЛОКА РСМ</div>
+<div class="list">•  Отсоедините разъем от блока РСМ.</div>
+<div class="list">•  Проверьте качество электрического соединения между контактами 1AS (ZY)/1X (Z6)/1S (LF) и 1AG (ZY)/1AN (Z6)/1AA (LF) (например нет ли повреждения/смещения контактов, их коррозии)</div>
+<div class="list">•  Найдена ли какая-либо неисправность?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Отремонтируйте или замените контакт и перейдите к этапу 8.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">6</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА СИГНАЛЬНОЙ ЦЕПИ ДАТЧИКА TR НА КОРОТКОЕ ЗАМЫКАНИЕ НА "МАССУ" </div>
+<div class="list">•  Проверьте неразрывность цепи между контактом С в разъёме проводного жгута датчика TR и "массой" кузова.</div>
+<div class="list">•  Существует ли неразрывность цепи?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Отремонтируйте или замените провод, затем переходите к выполнению этапа 8.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">7</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ЦЕПИ ДАТЧИКА TR НА КОРОТКОЕ ЗАМЫКАНИЕ</div>
+<div class="list">•  Проверьте неразрывность цепи между контактами В и С в разъёме проводного жгута датчика TR.</div>
+<div class="list">•  Существует ли неразрывность цепи?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Отремонтируйте или замените проводной жгут, затем переходите к выполнению этапа 8.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">8</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">УДОСТОВЕРЬТЕСЬ, ЧТО УСТРАНЕНИЕ НЕИСПРАВНОСТИ С ДИАГНОСТИЧЕСКИМ КОДОМ НЕИСПРАВНОСТИ P0707 ПОЛНОСТЬЮ ЗАВЕРШЕНО</div>
+<div class="list">•  Убедитесь, что все разъемы, которые были отключены в процессе работ по устранению неисправности, подключены обратно.</div>
+<div class="list">•  Удалите из памяти системы информацию о диагностическом коде неисправности при помощи диагностической системы M-MDS.</div>
+<div class="list">•  Выполните поездку на автомобиле продолжительностью <span>не менее 100 секунд</span> при следующих условиях:</div>
+<dl>
+<dd class="list">
+<div class="list">―  Частота вращения коленчатого вала (параметр RPM): <span>не менее 530 об/мин</span></div>
+<div class="list">―  Скорость движения автомобиля (параметр VSS): <span>не менее 20 км/ч /12 миль/ч}</span></div>
+</dd>
+</dl>
+<div class="list">•  Надпись PENDING CODE отображается?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Замените блок РСМ и перейдите к следующему этапу.</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="id0140b1802400.html">СНЯТИЕ И УСТАНОВКА БЛОКА РСМ [ZJ, ZY, Z6]</a></font>.)</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="id0140a9802400.html">СНЯТИЕ И УСТАНОВКА БЛОКА РСМ [LF, L3]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Ничего не обнаружено. Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">9</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ВЫПОЛНИТЕ ПОСЛЕРЕМОНТНЫЕ МЕРОПРИЯТИЯ</div>
+<div class="list">•  Выполните мероприятия в соответствии с требованиями раздела “ПОСЛЕРЕМОНТНЫЕ МЕРОПРИЯТИЯ”.<div> (См. <font class="extxref-label"><a href="id0502a1800400.html">ПОСЛЕРЕМОНТНЫЕ МЕРОПРИЯТИЯ [FN4A-EL]</a></font>.)</div>
+</div>
+<div class="list">•  Имеются ли коды неисправностей?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к проверке по существующим кодам неисправностей.</div>
+<div class="tbody">(См. <font class="extxref-label"><a href="id0502a1800500.html">ТАБЛИЦА ДИАГНОСТИЧЕСКИХ КОДОВ НЕИСПРАВНОСТЕЙ [FN4A-EL]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Процедура поиска и устранения неисправностей завершена.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</body>
+</html>

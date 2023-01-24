@@ -1,0 +1,1351 @@
+<html lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../css/mazda-css-en.css" type="text/css">
+<title>PROCEDURES FOR DETERMINING THE LOCATION OF A MALFUNCTION [MULTIPLEX COMMUNICATION SYSTEM]</title>
+</head>
+<body><a name="id0902e6830500"></a><p class="servinfo-title"><span class="servinfo-head"></span>PROCEDURES FOR DETERMINING THE LOCATION OF A MALFUNCTION [MULTIPLEX COMMUNICATION SYSTEM]</p>
+<hr>
+<p class="servinfo-title-id" align="right">id0902e6830500</p><br clear="all"><a name="id0902e683050001"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>System Wiring Diagram</p>
+<table class="figure-flame-non">
+<tr>
+<td>
+<table class="figure-non-float" cellspacing="0" bordercolor="black">
+<tr>
+<td align="center"><img src="images/am3zzw00004429.png"></td>
+</tr>
+</table>
+<div class="figure-caption">am3zzw00004429</div>
+</td>
+</tr>
+</table><br clear="all"><a name="id0902e683050002"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>PCM (except MZ-CD 1.6 (Y6))</p>
+<p class="list">1.  Inspect the display of DTC U0101, U0121 and/or U0155, using the M-MDS. (See <font class="extxref-label"><a href="id0902e6837000.html">DTC TABLE[MULTIPLEX COMMUNICATION SYSTEM]</a></font>.)</p>
+<p class="list"></p>
+<p class="list">2.  Referring to the following table, determine the malfunctioning part of the CAN system.</p>
+<p class="list"></p>
+<p clear="all">
+<p>
+<div>×: Normal</div>
+<div>—: Communication error</div>
+</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th align="center" rowspan="2">
+<p class="thead">Module</p>
+</th>
+<th align="center" colspan="3">
+<p class="thead">Communication status</p>
+</th>
+<th align="center" rowspan="2">
+<p class="thead">Malfunction location</p>
+</th>
+</tr>
+<tr>
+<th align="center">
+<p class="thead">TCM</p>
+</th>
+<th align="center">
+<p class="thead">DSC HU/CM or ABS HU/CM</p>
+</th>
+<th align="center">
+<p class="thead">Instrument cluster</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="5">
+<div class="tbody">PCM</div>
+</td>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="left">
+<div class="list">•  Wiring harness A</div>
+<div class="list">•  PCM</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="left">
+<div class="list">•  Wiring harness B</div>
+<div class="list">•  TCM</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="left">
+<div class="list">•  Wiring harness E</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="left">
+<div class="list">•  Wiring harness F</div>
+<div class="list">•  DSC HU/CM or ABS HU/CM</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="left">
+<div class="list">•  Wiring harness G</div>
+<div class="list">•  Wiring harness H</div>
+<div class="list">•  Wiring harness K</div>
+<div class="list">•  Instrument cluster</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p><br clear="all"><a name="id0902e683050003"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>PCM (MZ-CD 1.6 (Y6))</p>
+<p class="list">1.  Inspect the display of DTC U0118, U0121 and/or U0155, using the M-MDS. (See <font class="extxref-label"><a href="id0902e6837000.html">DTC TABLE[MULTIPLEX COMMUNICATION SYSTEM]</a></font>.)</p>
+<p class="list"></p>
+<p class="list">2.  Referring to the following table, determine the malfunctioning part of the CAN system.</p>
+<p class="list"></p>
+<p clear="all">
+<p>
+<div>×: Normal</div>
+<div>—: Communication error</div>
+</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th align="center" rowspan="2">
+<p class="thead">Module</p>
+</th>
+<th align="center" colspan="3">
+<p class="thead">Communication status</p>
+</th>
+<th align="center" rowspan="2">
+<p class="thead">Malfunction location</p>
+</th>
+</tr>
+<tr>
+<th align="center">
+<p class="thead">DSC HU/CM or ABS HU/CM</p>
+</th>
+<th align="center">
+<p class="thead">Fuel additive control module</p>
+</th>
+<th align="center">
+<p class="thead">Instrument cluster</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="5">
+<div class="tbody">PCM</div>
+</td>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="left">
+<div class="list">•  Wiring harness A</div>
+<div class="list">•  Wiring harness C</div>
+<div class="list">•  Wiring harness E</div>
+<div class="list">•  PCM</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="left">
+<div class="list">•  Wiring harness G</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="left">
+<div class="list">•  Wiring harness I</div>
+<div class="list">•  Wiring harness K</div>
+<div class="list">•  Instrument cluster</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="left">
+<div class="list">•  Wiring harness F</div>
+<div class="list">•  DSC HU/CM or ABS HU/CM</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="left">
+<div class="list">•  Wiring harness H</div>
+<div class="list">•  Fuel additive control module</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p><br clear="all"><a name="id0902e683050004"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>TCM</p>
+<p class="list">1.  Inspect the display of DTC U0100 using the M-MDS. (See <font class="extxref-label"><a href="id0902e6837000.html">DTC TABLE[MULTIPLEX COMMUNICATION SYSTEM]</a></font>.)</p>
+<p class="list"></p>
+<p class="list">2.  Referring to the following table, determine the malfunctioning part of the CAN system.</p>
+<p class="list"></p>
+<p clear="all">
+<p>
+<div>×: Normal</div>
+<div>—: Communication error</div>
+</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th align="center" rowspan="2">
+<p class="thead">Module</p>
+</th>
+<th align="center">
+<p class="thead">Communication status</p>
+</th>
+<th align="center" rowspan="2">
+<p class="thead">Malfunction location</p>
+</th>
+</tr>
+<tr>
+<th align="center">
+<p class="thead">PCM</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">
+<div class="tbody">TCM</div>
+</td>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="left">
+<div class="list">•  Wiring harness A</div>
+<div class="list">•  Wiring harness B</div>
+<div class="list">•  TCM</div>
+<div class="list">•  PCM</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p><br clear="all"><a name="id0902e683050005"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>EHPAS Control Module</p>
+<p class="list">1.  Inspect the display of DTC U0100 and/or U2023, using the M-MDS. (See <font class="extxref-label"><a href="id0902e6837000.html">DTC TABLE[MULTIPLEX COMMUNICATION SYSTEM]</a></font>.)</p>
+<p class="list"></p>
+<dl>
+<dd>
+<div class="attention2-label">Caution</div>
+</dd>
+<dd>
+<div class="attention2">
+<div class="list">•  DTC U2023 may not be cleared during engine starting even if DTC clearing is done using the M-MDS. When clearing DTC U2023, execute with the ignition switch in the ON position (Engine off).</div>
+</div>
+</dd>
+</dl>
+<dl>
+<dd>
+<div class="attention3-label">Note</div>
+</dd>
+<dd>
+<div class="attention3">
+<div class="list">•  You may want to check which unit is malfunctioning according to Freeze Frame Data. "Electrical" &gt; "IC Service Function" &gt; "Freeze Frame Data".This function is supported on IDS, not PDS.</div>
+</div>
+</dd>
+</dl>
+<p class="list">2.  Referring to the following table, determine the malfunctioning part of the CAN system.</p>
+<p class="list"></p>
+<p clear="all">
+<p>
+<div>×: Normal</div>
+<div>—: Communication error</div>
+</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th align="center" rowspan="2">
+<p class="thead">Module</p>
+</th>
+<th align="center">
+<p class="thead">Communication status</p>
+</th>
+<th align="center" rowspan="2">
+<p class="thead">Malfunction location</p>
+</th>
+</tr>
+<tr>
+<th align="center">
+<p class="thead">PCM</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">
+<div class="tbody">EHPAS control module</div>
+</td>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="left">
+<div class="list">•  Wiring harness A</div>
+<div class="list">•  Wiring harness C</div>
+<div class="list">•  Wiring harness D</div>
+<div class="list">•  EHPAS control module</div>
+<div class="list">•  PCM</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p><br clear="all"><a name="id0902e683050006"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>DSC HU/CM or ABS HU/CM</p>
+<p class="list">1.  Inspect the display of DTC U1900, U2202 (with DSC) and/or U2523, using the M-MDS. (See <font class="extxref-label"><a href="id0902e6837000.html">DTC TABLE[MULTIPLEX COMMUNICATION SYSTEM]</a></font>.)</p>
+<p class="list"></p>
+<p class="list">2.  Referring to the following table, determine the malfunctioning part of the CAN system.</p>
+<p class="list"></p>
+<p clear="all">
+<p>
+<div>×: Normal</div>
+<div>—: Communication error</div>
+</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th align="center" rowspan="2">
+<p class="thead">Module</p>
+</th>
+<th align="center">
+<p class="thead">Communication status</p>
+</th>
+<th align="center" rowspan="2">
+<p class="thead">Malfunction location</p>
+</th>
+</tr>
+<tr>
+<th align="center">
+<p class="thead">PCM</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">
+<div class="tbody">DSC HU/CM or ABS HU/CM</div>
+</td>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="left">
+<div class="list">•  Wiring harness A</div>
+<div class="list">•  Wiring harness C</div>
+<div class="list">•  Wiring harness E</div>
+<div class="list">•  Wiring harness F</div>
+<div class="list">•  DSC HU/CM</div>
+<div class="list">•  ABS HU/CM</div>
+<div class="list">•  PCM</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p><br clear="all"><a name="id0902e683050007"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Fuel additive control module (MZ-CD 1.6 (Y6) High power-Euro 4)</p>
+<p class="list">1.  Inspect the display of DTC U1900 using the M-MDS. (See <font class="extxref-label"><a href="id0902e6837000.html">DTC TABLE[MULTIPLEX COMMUNICATION SYSTEM]</a></font>.)</p>
+<p class="list"></p>
+<p class="list">2.  Referring to the following table, determine the malfunctioning part of the CAN system.</p>
+<p class="list"></p>
+<p clear="all">
+<p>
+<div>×: Normal</div>
+<div>—: Communication error</div>
+</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th align="center" rowspan="2">
+<p class="thead">Module</p>
+</th>
+<th align="center">
+<p class="thead">Communication status</p>
+</th>
+<th align="center" rowspan="2">
+<p class="thead">Malfunction location</p>
+</th>
+</tr>
+<tr>
+<th align="center">
+<p class="thead">PCM</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">
+<div class="tbody">Fuel additive control module</div>
+</td>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="left">
+<div class="list">•  Wiring harness A</div>
+<div class="list">•  Wiring harness C</div>
+<div class="list">•  Wiring harness E</div>
+<div class="list">•  Wiring harness G</div>
+<div class="list">•  Wiring harness H</div>
+<div class="list">•  Fuel additive control module</div>
+<div class="list">•  PCM</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p><br clear="all"><a name="id0902e683050008"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Keyless control module</p>
+<p class="list">1.  Inspect the display of DTC U0100, U0323 and/or U2023, using the M-MDS. (See <font class="extxref-label"><a href="id0902e6837000.html">DTC TABLE[MULTIPLEX COMMUNICATION SYSTEM]</a></font>.)</p>
+<p class="list"></p>
+<dl>
+<dd>
+<div class="attention2-label">Caution</div>
+</dd>
+<dd>
+<div class="attention2">
+<div class="list">•  DTC U2023 may not be cleared during engine starting even if DTC clearing is done using the M-MDS. When clearing DTC U2023, execute with the ignition switch in the ON position (Engine off).</div>
+</div>
+</dd>
+</dl>
+<dl>
+<dd>
+<div class="attention3-label">Note</div>
+</dd>
+<dd>
+<div class="attention3">
+<div class="list">•  You may want to check which unit is malfunctioning according to Freeze Frame Data. "Electrical" &gt; "IC Service Function" &gt; "Freeze Frame Data".This function is supported on IDS, not PDS.</div>
+</div>
+</dd>
+</dl>
+<p class="list">2.  Referring to the following table, determine the malfunctioning part of the CAN system.</p>
+<p class="list"></p>
+<p clear="all">
+<p>
+<div>×: Normal</div>
+<div>—: Communication error</div>
+</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th align="center" rowspan="2">
+<p class="thead">Module</p>
+</th>
+<th align="center" colspan="2">
+<p class="thead">Communication status</p>
+</th>
+<th align="center" rowspan="2">
+<p class="thead">Malfunction location</p>
+</th>
+</tr>
+<tr>
+<th align="center">
+<p class="thead">PCM</p>
+</th>
+<th align="center">
+<p class="thead">Instrument cluster</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="3">
+<div class="tbody">Keyless control module</div>
+</td>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="left">
+<div class="list">•  Wiring harness J</div>
+<div class="list">•  Keyless control module</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="left">
+<div class="list">•  Wiring harness K</div>
+<div class="list">•  Instrument cluster</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="left">
+<div class="list">•  Wiring harness A</div>
+<div class="list">•  Wiring harness C</div>
+<div class="list">•  Wiring harness E</div>
+<div class="list">•  Wiring harness G</div>
+<div class="list">•  Wiring harness I</div>
+<div class="list">•  PCM</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p><br clear="all"><a name="id0902e683050009"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Instrument Cluster</p>
+<p class="list">1.  Inspect the display of DTC U0100, U0101, U0121 U0131 and/or U0214 using the M-MDS. (See <font class="extxref-label"><a href="id0902e6837000.html">DTC TABLE[MULTIPLEX COMMUNICATION SYSTEM]</a></font>.)</p>
+<p class="list"></p>
+<p class="list">2.  Referring to the following table, determine the malfunctioning part of the CAN system.</p>
+<p class="list">
+<p clear="all">
+<p>
+<div>×: Normal</div>
+<div>—: Communication error</div>
+</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th align="center" rowspan="2">
+<p class="thead">Module</p>
+</th>
+<th align="center" colspan="5">
+<p class="thead">Communication status</p>
+</th>
+<th align="center" rowspan="2">
+<p class="thead">Malfunction location</p>
+</th>
+</tr>
+<tr>
+<th align="center">
+<p class="thead">PCM</p>
+</th>
+<th align="center">
+<p class="thead">TCM</p>
+</th>
+<th align="center">
+<p class="thead">EHPAS control module</p>
+</th>
+<th align="center">
+<p class="thead">DSC HU/CM</p>
+<p class="thead"> or </p>
+<p class="thead">ABS HU/CM</p>
+</th>
+<th align="center">
+<p class="thead">Keyless control module</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="9">
+<div class="tbody">Instrument cluster</div>
+</td>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="left">
+<div class="list">•  Wiring harness K</div>
+<div class="list">•  Instrument cluster</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="left">
+<div class="list">•  Wiring harness G</div>
+<div class="list">•  Wiring harness I</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="left">
+<div class="list">•  Wiring harness E</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="left">
+<div class="list">•  Wiring harness C</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="left">
+<div class="list">•  Wiring harness A</div>
+<div class="list">•  PCM</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="left">
+<div class="list">•  Wiring harness B</div>
+<div class="list">•  TCM</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="left">
+<div class="list">•  Wiring harness D</div>
+<div class="list">•  EHPAS control module</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="left">
+<div class="list">•  Wiring harness F</div>
+<div class="list">•  DSC HU/CM or ABS HU/CM</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="left">
+<div class="list">•  Wiring harness J</div>
+<div class="list">•  Keyless control module</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</p>
+<p class="list">3.  Inspect the display of DTC U0140, U0151 and/or U0184, using the M-MDS. (See <font class="extxref-label"><a href="id0902e6837000.html">DTC TABLE[MULTIPLEX COMMUNICATION SYSTEM]</a></font>.)</p>
+<p class="list"></p>
+<p class="list">4.  Referring to the following table, determine the malfunctioning part of the CAN system.</p>
+<p class="list">
+<p clear="all">
+<p>
+<div>×: Normal</div>
+<div>—: Communication error</div>
+</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th align="center" rowspan="2">
+<p class="thead">Module</p>
+</th>
+<th align="center" colspan="3">
+<p class="thead">Communication status</p>
+</th>
+<th align="center" rowspan="2">
+<p class="thead">Malfunction location</p>
+</th>
+</tr>
+<tr>
+<th align="center">
+<p class="thead">PJB</p>
+</th>
+<th align="center">
+<p class="thead">SAS control module</p>
+</th>
+<th align="center">
+<p class="thead">Audio unit (base module)</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="4">
+<div class="tbody">Instrument cluster</div>
+</td>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="left">
+<div class="list">•  Wiring harness L</div>
+<div class="list">•  Instrument cluster</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="left">
+<div class="list">•  Wiring harness Q</div>
+<div class="list">•  PJB</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="left">
+<div class="list">•  Wiring harness N</div>
+<div class="list">•  SAS control module</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="left">
+<div class="list">•  Wiring harness O</div>
+<div class="list">•  Audio unit (base module)</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</p><br clear="all"><a name="id0902e683050010"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Climate Control Unit</p>
+<p class="list">1.  Inspect the display of DTC U0140, U0155 and/or U0184, using the M-MDS. (See <font class="extxref-label"><a href="id0902e6837000.html">DTC TABLE[MULTIPLEX COMMUNICATION SYSTEM]</a></font>.)</p>
+<p class="list"></p>
+<p class="list">2.  Referring to the following table, determine the malfunctioning part of the CAN system.</p>
+<p class="list">
+<p clear="all">
+<p>
+<div>×: Normal</div>
+<div>—: Communication error</div>
+</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th align="center" rowspan="2">
+<p class="thead">Module</p>
+</th>
+<th align="center" colspan="3">
+<p class="thead">Communication status</p>
+</th>
+<th align="center" rowspan="2">
+<p class="thead">Malfunction location</p>
+</th>
+</tr>
+<tr>
+<th align="center">
+<p class="thead">PJB</p>
+</th>
+<th align="center">
+<p class="thead">Instrument cluster</p>
+</th>
+<th align="center">
+<p class="thead">Audio unit (base module)</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="4">
+<div class="tbody">Climate control unit</div>
+</td>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="left">
+<div class="list">•  Wiring harness M</div>
+<div class="list">•  Climate control unit</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="left">
+<div class="list">•  Wiring harness Q</div>
+<div class="list">•  PJB</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="left">
+<div class="list">•  Wiring harness L</div>
+<div class="list">•  Instrument cluster</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="left">
+<div class="list">•  Wiring harness O</div>
+<div class="list">•  Audio unit (base module)</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</p><br clear="all"><a name="id0902e683050011"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>SAS Control Module</p>
+<p class="list">1.  Inspect the display of DTC U1900 using the M-MDS. (See <font class="extxref-label"><a href="id0902e6837000.html">DTC TABLE[MULTIPLEX COMMUNICATION SYSTEM]</a></font>.)</p>
+<p class="list"></p>
+<p class="list">2.  Referring to the following table, determine the malfunctioning part of the CAN system.</p>
+<p class="list">
+<p clear="all">
+<p>
+<div>×: Normal</div>
+<div>—: Communication error</div>
+</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th align="center" rowspan="2">
+<p class="thead">Module</p>
+</th>
+<th align="center">
+<p class="thead">Communication status</p>
+</th>
+<th align="center" rowspan="2">
+<p class="thead">Malfunction location</p>
+</th>
+</tr>
+<tr>
+<th align="center">
+<p class="thead">Instrument cluster</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">
+<div class="tbody">SAS control module</div>
+</td>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="left">
+<div class="list">•  Wiring harness L</div>
+<div class="list">•  Wiring harness N</div>
+<div class="list">•  SAS control module</div>
+<div class="list">•  Instrument cluster</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</p><br clear="all"><a name="id0902e683050012"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Audio unit (base module)</p>
+<p class="list">1.  Inspect the display of DTC 16:Er12 using the self-diagnostic function. (See <font class="extxref-label"><a href="id0902e6837000.html">DTC TABLE[MULTIPLEX COMMUNICATION SYSTEM]</a></font>.)</p>
+<p class="list"></p>
+<p class="list">2.  Referring to the following table, determine the malfunctioning part of the CAN system.</p>
+<p class="list">
+<p clear="all">
+<p>
+<div>×: Normal</div>
+<div>—: Communication error</div>
+</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th align="center" rowspan="2">
+<p class="thead">Module</p>
+</th>
+<th align="center">
+<p class="thead">Communication status</p>
+</th>
+<th align="center" rowspan="2">
+<p class="thead">Malfunction location</p>
+</th>
+</tr>
+<tr>
+<th align="center">
+<p class="thead">Instrument cluster</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">
+<div class="tbody">Audio unit (base module)</div>
+</td>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="left">
+<div class="list">•  Wiring harness L</div>
+<div class="list">•  Wiring harness O</div>
+<div class="list">•  Audio unit (base module)</div>
+<div class="list">•  Instrument cluster</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</p><br clear="all"><a name="id0902e683050013"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Information Display</p>
+<p class="list">1.  Inspect the display of DTC U0164, U0181 and/or U0184, using the input/output check mode. (See <font class="extxref-label"><a href="id0902e6837000.html">DTC TABLE[MULTIPLEX COMMUNICATION SYSTEM]</a></font>.)</p>
+<p class="list"></p>
+<p class="list">2.  Referring to the following table, determine the malfunctioning part of the CAN system.</p>
+<p class="list">
+<p clear="all">
+<p>
+<div>×: Normal</div>
+<div>—: Communication error</div>
+</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th align="center" rowspan="2">
+<p class="thead">Module</p>
+</th>
+<th align="center" colspan="3">
+<p class="thead">Communication status</p>
+</th>
+<th align="center" rowspan="2">
+<p class="thead">Malfunction location</p>
+</th>
+</tr>
+<tr>
+<th align="center">
+<p class="thead">Instrument cluster</p>
+</th>
+<th align="center">
+<p class="thead">Climate control unit</p>
+</th>
+<th align="center">
+<p class="thead">Audio unit (base module)</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="4">
+<div class="tbody">Information display</div>
+</td>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="left">
+<div class="list">•  Wiring harness P</div>
+<div class="list">•  Information display</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="left">
+<div class="list">•  Wiring harness L</div>
+<div class="list">•  Instrument cluster</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="left">
+<div class="list">•  Wiring harness M</div>
+<div class="list">•  Climate control unit</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="center">
+<div class="tbody">×</div>
+</td>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="left">
+<div class="list">•  Wiring harness O</div>
+<div class="list">•  Audio unit (base module)</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</p><br clear="all"><a name="id0902e683050014"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Water heater unit</p>
+<p class="list">1.  Inspect the display of DTC U1900  using the input/output check mode. (See <font class="extxref-label"><a href="id0902e6837000.html">DTC TABLE[MULTIPLEX COMMUNICATION SYSTEM]</a></font>.)</p>
+<p class="list"></p>
+<p class="list">2.  Referring to the following table, determine the malfunctioning part of the CAN system.</p>
+<p class="list">
+<p clear="all">
+<p>
+<div>×: Normal</div>
+<div>—: Communication error</div>
+</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th align="center" rowspan="2">
+<p class="thead">Module</p>
+</th>
+<th align="center">
+<p class="thead">Communication status</p>
+</th>
+<th align="center" rowspan="2">
+<p class="thead">Malfunction location</p>
+</th>
+</tr>
+<tr>
+<th align="center">
+<p class="thead">PJB</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">
+<div class="tbody">Water heater unit</div>
+</td>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="left">
+<div class="list">•  Wiring harness R</div>
+<div class="list">•  Wiring harness S</div>
+<div class="list">•  Water heater unit</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</p><br clear="all"><a name="id0902e683050015"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>PJB</p>
+<p class="list">1.  Inspect the display of DTC U1900 using the M-MDS. (See <font class="extxref-label"><a href="id0902e6837000.html">DTC TABLE[MULTIPLEX COMMUNICATION SYSTEM]</a></font>.)</p>
+<p class="list"></p>
+<p class="list">2.  Referring to the following table, determine the malfunctioning part of the CAN system.</p>
+<p class="list">
+<p clear="all">
+<p>
+<div>×: Normal</div>
+<div>—: Communication error</div>
+</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th align="center" rowspan="2">
+<p class="thead">Module</p>
+</th>
+<th align="center">
+<p class="thead">Communication status</p>
+</th>
+<th align="center" rowspan="2">
+<p class="thead">Malfunction location</p>
+</th>
+</tr>
+<tr>
+<th align="center">
+<p class="thead">Climate control unit</p>
+<p class="thead">Audio unit (base module)</p>
+<p class="thead">Instrument cluster</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">
+<div class="tbody">PJB</div>
+</td>
+<td align="center">
+<div class="tbody">—</div>
+</td>
+<td align="left">
+<div class="list">•  Wiring harness L</div>
+<div class="list">•  Wiring harness M</div>
+<div class="list">•  Wiring harness O</div>
+<div class="list">•  Wiring harness Q</div>
+<div class="list">•  PJB</div>
+<div class="list">•  Climate control unit</div>
+<div class="list">•  Audio unit (base module)</div>
+<div class="list">•  Instrument cluster</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</p><br clear="all"><a name="id0902e683050016"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Repair Procedure</p>
+<p class="list">1.  Inspect the connector of malfunctioning module.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If there is any malfunction, repair or replace the connector.</div>
+</dd>
+</dl>
+</p>
+<p class="list">2.  Inspect the malfunctioning wiring harnesses as follow: </p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If there is any malfunction, repair or replace the wiring harnesses.</div>
+<div class="list">•  If there is no malfunction, replace the malfunctioning module.</div>
+<dl>
+<dd class="list">
+<div class="list">―  Short to GND</div>
+<div class="list">―  Short to power supply</div>
+<div class="list">―  Twisted pair short each other</div>
+<div class="list">―  Open circuit</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+<p class="list">3.  Make sure to reconnect all disconnected connectors.</p>
+<p class="list"></p>
+<p class="list">4.  Clear the CAN system related DTCs using the M-MDS.</p>
+<p class="list"></p>
+<p class="list">5.  Verify if the CAN system related DTCs are displayed using the M-MDS.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If the same following DTCs are present, replace the malfunctioning module.</div>
+<dl>
+<dd class="list">
+<div class="list">―  U0001 (PCM (MZ-CD 1.6 (Y6)))</div>
+<div class="list">―  U0073 (PCM (except MZ-CD 1.6 (Y6), TCM, EHPAS control module, keyless control module, instrument cluster, SAS control module)</div>
+<div class="list">―  U0516 (Climate control unit)</div>
+<div class="list">―  U1900 (PJB)</div>
+<div class="list">―  U2012 (DSC HU/CM or ABS HU/CM)</div>
+<div class="list">―  U2516 (Fuel additive control module, instrument cluster, information display)</div>
+</dd>
+</dl>
+<div class="list">•  If other DTC is present, perform the appropriate DTC inspection. (See <font class="extxref-label"><a href="id0902e6837000.html">DTC TABLE[MULTIPLEX COMMUNICATION SYSTEM]</a></font>.)</div>
+</dd>
+</dl>
+</p>
+</body>
+</html>

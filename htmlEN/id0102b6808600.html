@@ -1,0 +1,338 @@
+<html lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../css/mazda-css-en.css" type="text/css">
+<title>DTC P0506[LF ATX (FN4A-EL), L3 ATX]</title>
+</head>
+<body><a name="id0102b6808600"></a><p class="servinfo-title"><span class="servinfo-head"></span>DTC P0506[LF ATX (FN4A-EL), L3 ATX]</p>
+<hr>
+<p class="servinfo-title-id" align="right">id0102b6808600</p>
+<p clear="all">
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th align="center">
+<p class="thead">DTC P0506</p>
+</th>
+<th align="left">
+<p class="thead">Idle control system RPM lower than expected</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">
+<div class="tbody"><span class="bold">DETECTION CONDITION</span></div>
+</td>
+<td align="left">
+<div class="list">•  Actual idle speed is lower than expected by <span class="bold">100 rpm</span> for <span class="bold">14 s</span>, when brake pedal is depressed (brake switch is on).</div>
+<dl>
+<dd>
+<div class="attention3-label">Note</div>
+</dd>
+<dd>
+<div class="attention3">
+<div class="list">•  If atmospheric pressure is <span class="bold">less than 72.3 kPa {542 mmHg, 21.3 inHg}</span> or intake air temperature is <span class="bold">below -10 °C {14 °F}</span>, the PCM cancels diagnosis of P0506.</div>
+</div>
+</dd>
+</dl>
+<div class="list-title">Diagnostic support note</div>
+<div class="list">•  This is a continuous monitor (CCM).</div>
+<div class="list">•  The MIL illuminates if the PCM detects the above malfunction conditions in two consecutive drive cycles or in one drive cycle while the DTC for the same malfunction has been stored in the PCM.</div>
+<div class="list">•  PENDING CODE is available if the PCM detects the above malfunction condition during the first drive cycle.</div>
+<div class="list">•  FREEZE FRAME DATA is available.</div>
+<div class="list">•  DTC is stored in the PCM memory.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody"><span class="bold">POSSIBLE CAUSE</span></div>
+</td>
+<td align="left">
+<div class="list">•  Electronic throttle control system malfunction</div>
+<div class="list">•  Air cleaner element clogged</div>
+<div class="list">•  Air intake passage clogged</div>
+<div class="list">•  A/C relay control circuit malfunction</div>
+<div class="list">•  Generator malfunction</div>
+<div class="list">•  Purge solenoid valve malfunction</div>
+<div class="list">•  Low engine compression (Over capacity of blow-by gas)</div>
+<div class="list">•  PCM malfunction</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+<p clear="all">
+<p class="table-title">Diagnostic procedure</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th align="center">
+<p class="thead">STEP</p>
+</th>
+<th align="center" colspan="2">
+<p class="thead">INSPECTION</p>
+</th>
+<th align="center">
+<p class="thead">ACTION</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">1</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">VERIFY FREEZE FRAME DATA HAS BEEN RECORDED</div>
+<div class="list">•  Has FREEZE FRAME DATA been recorded?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Record FREEZE FRAME DATA on repair order, then go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">2</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">VERIFY RELATED SERVICE INFORMATION AVAILABILITY</div>
+<div class="list">•  Verify related Service Information availability.</div>
+<div class="list">•  Is any related Service Information available?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Perform repair or diagnosis according to the available Service Information.</div>
+<div class="list">•  If the vehicle is not repaired, go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">3</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">VERIFY RELATED PENDING OR STORED DTCS</div>
+<div class="list">•  Turn the ignition switch off, then to the ON position (Engine off).</div>
+<div class="list">•  Verify PENDING CODE or stored DTCs using M-MDS.</div>
+<div class="list">•  Is other DTC present?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Repair the applicable DTCs.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0102b6801500.html">DTC TABLE[LF ATX (FN4A-EL), L3 ATX]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">4</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">INSPECT A/C MAGNET CLUTCH OPERATION</div>
+<div class="list">•  Turn the fan switch off.</div>
+<div class="list">•  Is the magnet clutch still on?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Refer to “A/C is always on or A/C compressor runs continuously.” of ENGINE SYMPTOM TROUBLESHOOTING, then go to Step 9.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0103b2803000.html">NO.24 A/C IS ALWAYS ON OR A/C COMPRESSOR RUNS CONTINUOUSLY[LF, L3]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">5</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">INSPECT PURGE SOLENOID VALVE MALFUNCTION</div>
+<div class="list">•  Inspect the purge solenoid valve.<div>(See <font class="extxref-label"><a href="id0116c2800900.html">PURGE SOLENOID VALVE INSPECTION[LF, L3]</a></font>.)</div>
+</div>
+<div class="list">•  Is purge solenoid valve normal?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Replace the purge solenoid valve, then go to Step 9.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">6</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">INSPECT AIR CLEANER ELEMENT</div>
+<div class="list">•  Remove the air cleaner element with the engine running.</div>
+<div class="list">•  Is the engine speed increased?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Replace the air cleaner element, then go to Step 9.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">7</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">INSPECT ENGINE COMPRESSION</div>
+<div class="list">•  Inspect the engine compression.<div>(See <font class="extxref-label"><a href="id0110a0800300.html">COMPRESSION INSPECTION[LF, L3]</a></font>.)</div>
+</div>
+<div class="list">•  Is the engine compression normal?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Overhaul the engine, then go to Step 9.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">8</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">INSPECT GENERATOR</div>
+<div class="list">•  Inspect the generator.<div>(See <font class="extxref-label"><a href="id0117c2800300.html">GENERATOR INSPECTION[LF, L3]</a></font>.)</div>
+</div>
+<div class="list">•  Is the generator normal?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Repair or replace the related part, then go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">9</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">VERIFY TROUBLESHOOTING OF DTC P0506 COMPLETED</div>
+<div class="list">•  Make sure to reconnect all disconnected connectors.</div>
+<div class="list">•  Start the engine.</div>
+<div class="list">•  Clear the DTC from the PCM memory using the M-MDS.</div>
+<div class="list">•  Depress the brake pedal for <span class="bold">14 s or more</span>.</div>
+<div class="list">•  Is the PENDING CODE for this DTC present?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Replace the PCM, then go to the next step.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0140a9802400.html">PCM REMOVAL/INSTALLATION[LF, L3]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">10</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">VERIFY AFTER REPAIR PROCEDURE</div>
+<div class="list">•  Perform “AFTER REPAIR PROCEDURE”.<div>(See <font class="extxref-label"><a href="id0102b6801100.html">AFTER REPAIR PROCEDURE[LF ATX (FN4A-EL), L3 ATX]</a></font>.)</div>
+</div>
+<div class="list">•  Is any DTC present?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the applicable DTC inspection.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0102b6801500.html">DTC TABLE[LF ATX (FN4A-EL), L3 ATX]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Troubleshooting completed.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</body>
+</html>

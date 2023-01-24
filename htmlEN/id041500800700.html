@@ -1,0 +1,598 @@
+<html lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../css/mazda-css-en.css" type="text/css">
+<title>DSC SYSTEM INSPECTION</title>
+</head>
+<body><a name="id041500800700"></a><p class="servinfo-title"><span class="servinfo-head"></span>DSC SYSTEM INSPECTION</p>
+<hr>
+<p class="servinfo-title-id" align="right">id041500800700</p><br clear="all"><a name="id04150080070001"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>Preparation</p>
+<p class="list">1.  Verify that the battery is fully charged.</p>
+<p class="list">
+</p>
+<p class="list">2.  Turn the ignition switch to the ON position and verify that the ABS warning light goes out after <span class="bold">approx. 3.0 s</span>.</p>
+<p class="list">
+</p>
+<p class="list">3.  Turn the ignition switch off.</p>
+<p class="list">
+</p>
+<p class="list">4.  Jack up the vehicle and support it evenly on safety stands.</p>
+<p class="list">
+</p>
+<p class="list">5.  Shift to the N position.</p>
+<p class="list">
+</p>
+<p class="list">6.  Verify that all four wheels rotate.</p>
+<p class="list">
+</p>
+<p class="list">7.  Rotate the inspected wheels by hand and verify there is no brake drag.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  If there is any brake drag, perform regular brake inspection.</div>
+<div class="list">•  If there is no brake drag, perform DSC HU/CM operation inspection.</div>
+</dd>
+</dl>
+</p><br clear="all"><a name="id04150080070002"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>ABS Control Inspection</p>
+<p class="list">1.  Perform “Preparation”.</p>
+<p class="list">
+</p>
+<p class="list">2.  Connect the M-MDS to the DLC-2.</p>
+<p class="list">
+<table class="figure-flame">
+<tr>
+<td width="10mm"></td>
+<td>
+<table class="figure-float" cellspacing="0" bordercolor="black">
+<tr>
+<td align="center"><img src="images/am3zzw00001643.png"></td>
+</tr>
+</table>
+<div class="figure-caption">am3zzw00001643</div>
+</td>
+</tr>
+</table>
+</p>
+<p class="list">3.  Set up an active command mode inspection according to the combination of commands below. (See <font class="extxref-label"><a href="id0402b2800200.html">ON-BOARD DIAGNOSIS[DYNAMIC STABILITY CONTROL (DSC)]</a></font>.)</p>
+<p class="list">
+<p clear="all">
+<p class="table-title">Brake pressure retention</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th align="center" rowspan="2">
+<p class="thead">Command name</p>
+</th>
+<th align="center" colspan="4">
+<p class="thead">Inspected wheels</p>
+</th>
+</tr>
+<tr>
+<th align="center">
+<p class="thead">LF</p>
+</th>
+<th align="center">
+<p class="thead">RF</p>
+</th>
+<th align="center">
+<p class="thead">LR</p>
+</th>
+<th align="center">
+<p class="thead">RR</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">
+<div class="tbody">LF_TC_PRV</div>
+</td>
+<td align="center" colspan="4" rowspan="4">
+<div class="tbody">OFF</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">RF_TC_PRV</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">LF_TC_SWV</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">RF_TC_SWV</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">LF_INLET</div>
+</td>
+<td align="center">
+<div class="tbody">ON</div>
+</td>
+<td align="center" rowspan="4">
+<div class="tbody">OFF</div>
+</td>
+<td align="center" rowspan="2">
+<div class="tbody">OFF</div>
+</td>
+<td align="center" rowspan="6">
+<div class="tbody">OFF</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">LF_OUTLET</div>
+</td>
+<td align="center" rowspan="8">
+<div class="tbody">OFF</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">LR_INLET</div>
+</td>
+<td align="center">
+<div class="tbody">ON</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">LR_OUTLET</div>
+</td>
+<td align="center" rowspan="6">
+<div class="tbody">OFF</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">RF_INLET</div>
+</td>
+<td align="center">
+<div class="tbody">ON</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">RF_OUTLET</div>
+</td>
+<td align="center" rowspan="4">
+<div class="tbody">OFF</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">RR_INLET</div>
+</td>
+<td align="center">
+<div class="tbody">ON</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">RR_OUTLET</div>
+</td>
+<td align="center" rowspan="2">
+<div class="tbody">OFF</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">PMP_MOTOR</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+<p clear="all">
+<p class="table-title">Brake pressure reduction</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th align="center" rowspan="2">
+<p class="thead">Command name</p>
+</th>
+<th align="center" colspan="4">
+<p class="thead">Inspected wheels</p>
+</th>
+</tr>
+<tr>
+<th align="center">
+<p class="thead">LF</p>
+</th>
+<th align="center">
+<p class="thead">RF</p>
+</th>
+<th align="center">
+<p class="thead">LR</p>
+</th>
+<th align="center">
+<p class="thead">RR</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">
+<div class="tbody">LF_TC_PRV</div>
+</td>
+<td align="center" colspan="4" rowspan="4">
+<div class="tbody">OFF</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">RF_TC_PRV</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">LF_TC_SWV</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">RF_TC_SWV</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">LF_INLET</div>
+</td>
+<td align="center" rowspan="2">
+<div class="tbody">ON</div>
+</td>
+<td align="center" rowspan="4">
+<div class="tbody">OFF</div>
+</td>
+<td align="center" rowspan="2">
+<div class="tbody">OFF</div>
+</td>
+<td align="center" rowspan="6">
+<div class="tbody">OFF</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">LF_OUTLET</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">LR_INLET</div>
+</td>
+<td align="center" rowspan="6">
+<div class="tbody">OFF</div>
+</td>
+<td align="center" rowspan="2">
+<div class="tbody">ON</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">LR_OUTLET</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">RF_INLET</div>
+</td>
+<td align="center" rowspan="2">
+<div class="tbody">ON</div>
+</td>
+<td align="center" rowspan="4">
+<div class="tbody">OFF</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">RF_OUTLET</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">RR_INLET</div>
+</td>
+<td align="center" rowspan="2">
+<div class="tbody">OFF</div>
+</td>
+<td align="center" rowspan="2">
+<div class="tbody">ON</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">RR_OUTLET</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">PMP_MOTOR</div>
+</td>
+<td align="center" colspan="4">
+<div class="tbody">ON</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+<dl>
+<dd>
+<div class="attention2-label">Caution</div>
+</dd>
+<dd>
+<div class="attention2">
+<div class="list">•  When operating the solenoid valve and pump motor using the active command mode, make sure to keep the operation time within 2 s to prevent damaging the DSC HU/CM.</div>
+</div>
+</dd>
+</dl>
+<dl>
+<dd>
+<div class="attention3-label">Note</div>
+</dd>
+<dd>
+<div class="attention3">
+<div class="list">•  When working with two people, one should press on the brake pedal, the other should attempt to rotate the wheel being inspected.</div>
+</div>
+</dd>
+</dl>
+</p>
+<p class="list">4.  Send the command while depressing on the brake pedal and attempting to rotate the wheel being inspected.</p>
+<p class="list">
+</p>
+<p class="list">5.  When brake pressure is maintained and a DSC HU/CM operation click sound is heard, confirm that the wheel does not rotate. When brake pressure is being reduced and a DSC HU/CM operation click sound is heard, confirm that the wheel rotates.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  Performing the inspection above determines the following:</div>
+<dl>
+<dd class="list">
+<div class="list">―  The DSC HU/CM brake lines are normal.</div>
+<div class="list">―  The DSC HU/CM hydraulic system has no significant malfunction (including DSC HU/CM).</div>
+<div class="list">―  The DSC HU/CM internal electrical parts (solenoid, motor and other parts) are normal.</div>
+<div class="list">―  The DSC unit and DSC HU/CM output system wiring harnesses (solenoid valve, relay system) are normal.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+<dl>
+<dd>
+<div class="list">•  However, the following items cannot be verified.</div>
+<dl>
+<dd class="list">
+<div class="list">―  Intermittent malfunction of the above items</div>
+<div class="list">―  Malfunction of DSC HU/CM input system wiring harnesses and parts</div>
+<div class="list">―  Extremely small leakage in the DSC HU/CM internal hydraulic system</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p><br clear="all"><a name="id04150080070003"></a><p class="servinfosub-title"><span class="servinfosub-head"></span>DSC Control Inspection</p>
+<p class="list">1.  Perform “Preparation”.</p>
+<p class="list">
+</p>
+<p class="list">2.  Connect the M-MDS to the DLC-2.</p>
+<p class="list">
+<table class="figure-flame">
+<tr>
+<td width="10mm"></td>
+<td>
+<table class="figure-float" cellspacing="0" bordercolor="black">
+<tr>
+<td align="center"><img src="images/am3zzw00001643.png"></td>
+</tr>
+</table>
+<div class="figure-caption">am3zzw00001643</div>
+</td>
+</tr>
+</table>
+</p>
+<p class="list">3.  Set up an active command mode inspection according to the combination of commands below. (See <font class="extxref-label"><a href="id0402b2800200.html">ON-BOARD DIAGNOSIS[DYNAMIC STABILITY CONTROL (DSC)]</a></font>.)</p>
+<p class="list">
+<dl>
+<dd>
+<div class="attention2-label">Caution</div>
+</dd>
+<dd>
+<div class="attention2">
+<div class="list">•  When operating the solenoid valve and pump motor using the active command mode, make sure to keep the operation time within 2 s to prevent damaging the DSC HU/CM.</div>
+</div>
+</dd>
+</dl>
+<p clear="all">
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th align="center" rowspan="3">
+<p class="thead">Command name</p>
+</th>
+<th align="center" colspan="4">
+<p class="thead">Inspected wheels</p>
+</th>
+</tr>
+<tr>
+<th align="center" colspan="2">
+<p class="thead">Understeer control disabled</p>
+</th>
+<th align="center" colspan="2">
+<p class="thead">Oversteer control disabled</p>
+</th>
+</tr>
+<tr>
+<th align="center">
+<p class="thead">LF</p>
+</th>
+<th align="center">
+<p class="thead">RF</p>
+</th>
+<th align="center">
+<p class="thead">LR</p>
+</th>
+<th align="center">
+<p class="thead">RR</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">
+<div class="tbody">LF_TC_PRV</div>
+</td>
+<td align="center">
+<div class="tbody">ON</div>
+</td>
+<td align="center" colspan="2">
+<div class="tbody">OFF</div>
+</td>
+<td align="center">
+<div class="tbody">ON</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">RF_TC_PRV</div>
+</td>
+<td align="center">
+<div class="tbody">OFF</div>
+</td>
+<td align="center" colspan="2">
+<div class="tbody">ON</div>
+</td>
+<td align="center">
+<div class="tbody">OFF</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">LF_TC_SWV</div>
+</td>
+<td align="center" colspan="4" rowspan="2">
+<div class="tbody">OFF</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">RF_TC_SWV</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">LF_INLET</div>
+</td>
+<td align="center" rowspan="6">
+<div class="tbody">OFF</div>
+</td>
+<td align="center" rowspan="2">
+<div class="tbody">OFF</div>
+</td>
+<td align="center" rowspan="4">
+<div class="tbody">OFF</div>
+</td>
+<td align="center">
+<div class="tbody">ON</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">LF_OUTLET</div>
+</td>
+<td align="center" rowspan="7">
+<div class="tbody">OFF</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">LR_INLET</div>
+</td>
+<td align="center">
+<div class="tbody">ON</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">LR_OUTLET</div>
+</td>
+<td align="center" rowspan="5">
+<div class="tbody">OFF</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">RF_INLET</div>
+</td>
+<td align="center">
+<div class="tbody">ON</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">RF_OUTLET</div>
+</td>
+<td align="center" rowspan="3">
+<div class="tbody">OFF</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">RR_INLET</div>
+</td>
+<td align="center">
+<div class="tbody">ON</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">RR_OUTLET</div>
+</td>
+<td align="center">
+<div class="tbody">OFF</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">PMP_MOTOR</div>
+</td>
+<td align="center" colspan="4">
+<div class="tbody">ON</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</p>
+<p class="list">4.  Send the command while rotating the wheel being inspected by hand in a forward direction.</p>
+<p class="list">
+</p>
+<p class="list">5.  Confirm that the wheel does not rotate easily while a DSC HU/CM operation click sound is heard.</p>
+<p class="list">
+<dl>
+<dd>
+<div class="list">•  Performing the inspection above determines the following:</div>
+<dl>
+<dd class="list">
+<div class="list">―  The DSC HU/CM brake lines are normal.</div>
+<div class="list">―  The DSC HU/CM hydraulic system has no significant malfunction (including DSC HU/CM).</div>
+<div class="list">―  The DSC HU/CM internal electrical parts (solenoid, motor and other parts) are normal.</div>
+<div class="list">―  The DSC unit and DSC HU/CM output system wiring harnesses (solenoid valve, relay system) are normal.</div>
+</dd>
+</dl>
+</dd>
+</dl>
+<dl>
+<dd>
+<div class="list">•  However, the following items cannot be verified.</div>
+<dl>
+<dd class="list">
+<div class="list">―  Intermittent malfunction of the above items</div>
+<div class="list">―  Malfunction of DSC HU/CM input system wiring harnesses and parts</div>
+<div class="list">―  Extremely small leakage in the DSC HU/CM internal hydraulic system</div>
+</dd>
+</dl>
+</dd>
+</dl>
+</p>
+</body>
+</html>

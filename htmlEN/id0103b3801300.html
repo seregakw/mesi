@@ -1,0 +1,418 @@
+<html lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../css/mazda-css-en.css" type="text/css">
+<title>NO.7 SLOW RETURN TO IDLE[MZ-CD 1.6 (Y6)]</title>
+</head>
+<body><a name="id0103b3801300"></a><p class="servinfo-title"><span class="servinfo-head"></span>NO.7 SLOW RETURN TO IDLE[MZ-CD 1.6 (Y6)]</p>
+<hr>
+<p class="servinfo-title-id" align="right">id0103b3801300</p>
+<p clear="all">
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th align="center">
+<p class="thead"><span class="bold">7</span></p>
+</th>
+<th align="left">
+<p class="thead"><span class="bold">SLOW RETURN TO IDLE</span></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">
+<div class="tbody"><span class="bold">DESCRIPTION</span></div>
+</td>
+<td align="left">
+<div class="list">•  The engine takes more time than normal to return to idle speed.</div>
+<div class="list">•  The engine speed continues at fast idle after warm-up.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody"><span class="bold">POSSIBLE CAUSE</span></div>
+</td>
+<td align="left">
+<div class="list">•  Thermostat is stuck open</div>
+<div class="list">•  Fuel injection timing is incorrect</div>
+<div class="list">•  Erratic signal from CKP sensor</div>
+<div class="list">•  Erratic signal from CMP sensor</div>
+<div class="list">•  ECT sensor or related circuit malfunction</div>
+<div class="list">•  Accelerator pedal position sensor or related circuit malfunction</div>
+<div class="list">•  Idle switch or related circuit malfunction</div>
+<div class="list">•  MAF/IAT sensor or related circuit malfunction</div>
+<div class="list">•  Fuel pressure sensor or related circuit malfunction</div>
+<div class="list">•  Incorrect idle speed</div>
+<div class="list">•  Excessive fuel pressure</div>
+<div class="list">•  Supply pump malfunction</div>
+<div class="list">•  Fuel metering valve malfunction</div>
+<div class="list">•  Fuel pressure limiter malfunction </div>
+<div class="list">•  Fuel injector malfunction (incorrect fuel regulate pressure)</div>
+<div class="list">•  Clutch pedal position switch or related circuit malfunction</div>
+<dl>
+<dd>
+<div class="attention1-label">Warning</div>
+</dd>
+<dd>
+<div class="attention1">
+<div>The following troubleshooting flow chart contains the fuel system diagnosis and repair procedures. Read the following warnings before servicing the fuel system:</div>
+<div class="list">•  Fuel vapor is hazardous. It can easily ignite, causing serious injury and damage. Always keep sparks and flames away from fuel.</div>
+<div class="list">•  Fuel line spills and leakage are dangerous. Fuel can ignite and cause serious injury or death and damage. Fuel can also irritate skin and eyes. To prevent this, always complete “BEFORE REPAIR PROCEDURE” and “AFTER REPAIR PROCEDURE” described in this manual.</div>
+</div>
+</dd>
+</dl>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+<p clear="all">
+<p class="table-title">Diagnostic Procedure</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th align="center">
+<p class="thead"><span class="bold">STEP</span></p>
+</th>
+<th align="center">
+<p class="thead"><span class="bold"></span>INSPECTION</p>
+</th>
+<th align="center">
+<p class="thead"><span class="bold">RESULTS</span></p>
+</th>
+<th align="center">
+<p class="thead"><span class="bold">ACTION</span></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">1</div>
+</td>
+<td align="left" rowspan="2">
+<div class="tbody">Connect the M-MDS to the DLC-2.</div>
+<div class="tbody">Turn the engine switch to the ON position.</div>
+<div class="tbody">Retrieve any DTC.</div>
+<div class="tbody">Are DTCs displayed?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody"><span class="bold">DTC is displayed:</span></div>
+<div class="tbody">Go to appropriate DTC test.</div>
+<div class="tbody"><span class="bold">Communication error message is displayed:</span></div>
+<div class="tbody">Inspect for the following:</div>
+<div class="list">•  Open circuit between PCM control relay and PCM terminal 236 or 231</div>
+<div class="list">•  Open circuit between PCM control relay and PCM terminal 241</div>
+<div class="list">•  PCM control relay stuck open</div>
+<div class="list">•  Open or poor ground circuit (PCM terminal 307, 308 or 332)</div>
+<div class="list">•  Poorly connected vehicle body ground</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody"><span class="bold">No DTC is displayed:</span></div>
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">2</div>
+</td>
+<td align="left" rowspan="2">
+<div class="tbody">Access the ECT PID.</div>
+<div class="tbody">Start and warm-up the engine to normal operating temperature.</div>
+<div class="tbody">Is the ECT PID reading between <span class="bold">82—112 °C {180—233 °F}</span>?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody"><span class="bold">ECT PID is higher than 112 °C {233 °F}:</span></div>
+<div class="tbody">Go to symptom troubleshooting “NO.17 COOLING SYSTEM CONCERNS-OVERHEATING”.</div>
+<div class="tbody"><span class="bold">ECT PID is less than 82 °C {180 °F}:</span></div>
+<div class="tbody">Go to symptom troubleshooting “NO.18 COOLING SYSTEM CONCERNS-RUNS COLD”.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">3</div>
+</td>
+<td align="left" rowspan="2">
+<div class="tbody">Inspect the idle speed.</div>
+<div class="tbody">Is the idle speed correct?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Repair or replace malfunctioning part according to idle speed inspection results.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">4</div>
+</td>
+<td align="left" rowspan="2">
+<div class="tbody">Inspect the cooling fan control system operation.</div>
+<div class="tbody">Does the cooling fan control operate properly?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Repair or replace malfunctioning parts according to the cooling fan control system operation inspection results.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">5</div>
+</td>
+<td align="left" rowspan="2">
+<div class="tbody">Connect the M-MDS to the DLC-2. Access the following PID.</div>
+<div class="list">•  APP</div>
+<div class="tbody">Verify that the PID value when the accelerator pedal is depressed and/or released.</div>
+<div class="tbody">Is the PID value normal?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Inspect and repair or replace the following parts:</div>
+<div class="list">•  Accelerator pedal position sensor</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">6</div>
+</td>
+<td align="left" rowspan="2">
+<div class="tbody">Inspect the clutch pedal position switch.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0140b2801600.html">CLUTCH PEDAL POSITION (CPP) SWITCH INSPECTION[MZ-CD 1.6 (Y6)]</a></font>.)</div>
+<div class="tbody">Is the clutch pedal position switch normal?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Replace the clutch pedal position switch.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">7</div>
+</td>
+<td align="left" rowspan="2">
+<div class="tbody">Visually inspect CKP sensor and the teeth of the pulse wheel.</div>
+<div class="tbody">Are the CKP sensor and the teeth of the pulse wheel normal?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Replace malfunctioning parts.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">8</div>
+</td>
+<td align="left" rowspan="2">
+<div class="tbody">Measure gap between the CKP sensor and the teeth of the pulse wheel.</div>
+<div class="list"><span class="bold">Specification</span><div><span class="bold">1.5—2.5 mm {0.059—0.098 in}</span></div>
+</div>
+<div class="tbody">Is the gap within specification?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Adjust the CKP sensor position.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">9</div>
+</td>
+<td align="left" rowspan="2">
+<div class="tbody">Visually inspect the CMP sensor and the teeth of the pulse wheel.</div>
+<div class="tbody">Are the CMP sensor and the teeth of the pulse wheel normal?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Inspect the following PIDs:</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0140b2802500.html">PCM INSPECTION[MZ-CD 1.6 (Y6)]</a></font>.)</div>
+<div class="list">•  ECT</div>
+<div class="list">•  IAT</div>
+<div class="list">•  MAF</div>
+<div class="list">•  RPM</div>
+<div class="tbody">If the PID value is not as specified, repair or replace malfunctioning parts.</div>
+<div class="tbody">If the PID value is normal, go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Replace malfunctioning parts.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">10</div>
+</td>
+<td align="left" rowspan="2">
+<div class="tbody">Inspect fuel metering valve.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0114c3804200.html">FUEL METERING VALVE INSPECTION[MZ-CD 1.6 (Y6)]</a></font>.)</div>
+<div class="tbody">Is the fuel metering valve normal?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Replace the fuel pump.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0114c3804100.html">FUEL PUMP REMOVAL/INSTALLATION[MZ-CD 1.6 (Y6)]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">11</div>
+</td>
+<td align="left" rowspan="2">
+<div class="tbody">Remove thermostat and inspect the operation.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0112c3801300.html">THERMOSTAT INSPECTION[MZ-CD 1.6 (Y6)]</a></font>.)</div>
+<div class="tbody">Is the thermostat normal?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Replace the thermostat.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0112c3801200.html">THERMOSTAT REMOVAL/INSTALLATION[MZ-CD 1.6 (Y6)]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">12</div>
+</td>
+<td align="left" rowspan="2">
+<div class="tbody">Inspect fuel injector relief pressure.</div>
+<div class="tbody">Is the fuel injector relief pressure normal?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Remove and inspect the supply pump and common rail.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Replace the fuel injector.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">13</div>
+</td>
+<td align="left" colspan="3">
+<div class="tbody">Verify test results.</div>
+<div class="list">•  If normal, return to the diagnostic index to service any additional symptoms. (See <font class="extxref-label"><a href="id0103b3805100.html">SYMPTOM DIAGNOSTIC INDEX[MZ-CD 1.6 (Y6)]</a></font>.)</div>
+<div class="list">•  If the malfunction remains, inspect related Service Information and perform repair or diagnosis.</div>
+<dl>
+<dd class="list">
+<div class="list">―  If the vehicle is repaired, troubleshooting is completed.</div>
+<div class="list">―  If the vehicle is not repaired or additional diagnostic information is not available, replace the PCM. (See <font class="extxref-label"><a href="id0140b2802400.html">PCM REMOVAL/INSTALLATION[MZ-CD 1.6 (Y6)]</a></font>.)</div>
+</dd>
+</dl>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</body>
+</html>

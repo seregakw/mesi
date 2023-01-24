@@ -1,0 +1,250 @@
+<html lang="ru">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../css/mazda-css-ru.css" type="text/css">
+<title>КОДЫ НЕИСПРАВНОСТИ C1446 (ZJ, ZY, Z6, LF, L3, L3 Turbo) [СИСТЕМА ДИНАМИЧЕСКОЙ СТАБИЛИЗАЦИИ (DSC)]</title>
+</head>
+<body><a name="id0402b2810900"></a><p class="servinfo-title"><span class="servinfo-head"></span>КОДЫ НЕИСПРАВНОСТИ C1446 (ZJ, ZY, Z6, LF, L3, L3 Turbo) [СИСТЕМА ДИНАМИЧЕСКОЙ СТАБИЛИЗАЦИИ (DSC)]</p>
+<hr>
+<p class="servinfo-title-id" align="right">id0402b2810900</p>
+<p clear="all">
+<table class="table-flame" border="1">
+<tbody>
+<tr>
+<td id="" align="center">
+<div class="tbody"><span>ДИАГНОСТИЧЕСКИЙ КОД НЕИСПРАВНОСТИ</span></div>
+</td>
+<td id="" align="left" colspan="2">
+<div class="tbody"><span>C1446</span></div>
+</td>
+<td id="" align="left">
+<div class="tbody"><span>Датчик педали тормоза</span></div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" colspan="2">
+<div class="tbody"><span>УСЛОВИЕ ОПРЕДЕЛЕНИЯ</span></div>
+</td>
+<td id="" align="left" colspan="2">
+<div class="list">•  Сигнал включения датчика положения педали тормоза поступает в течение <span>6 мин или более</span> при движении автомобиля со скоростью <span>20 км/ч {12,4 мили,ч} или более</span>.</div>
+<div class="list">•  Сигнал включения датчика педали тормоза не поступает, несмотря на то, что блок DSC HU/CM регистрирует замедление автомобиля.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" colspan="2">
+<div class="tbody"><span>ВОЗМОЖНЫЕ ПРИЧИНЫ НЕИСПРАВНОСТИ</span></div>
+</td>
+<td id="" align="left" colspan="2">
+<div class="list">•  Обрыв или короткое замыкание в проводном жгуте между датчиком педали тормоза и контактом блока PJB</div>
+<div class="list">•  Обрыв или короткое замыкание в проводном жгуте между контактами блока PJB и блока PCM</div>
+<div class="list">•  Неисправность датчика педали тормоза</div>
+<div class="list">•  Плохой контакт в разъемах (контакт гнездовой части)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" colspan="4"><img src="images/am3zzw00001695.png"></td>
+</tr>
+</tbody>
+</table>
+</p>
+<p clear="all">
+<p class="table-title">Процедура диагностики</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th id="" align="center">
+<p class="thead">ЭТАП</p>
+</th>
+<th id="" align="center" colspan="2">
+<p class="thead">ПРОВЕРКА</p>
+</th>
+<th id="" align="center">
+<p class="thead">ПРЕДПРИНИМАЕМЫЕ МЕРЫ</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">1</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА СИГНАЛЬНОЙ ЦЕПИ ДАТЧИКА ПОЛОЖЕНИЯ ПЕДАЛИ ТОРМОЗА НА ОБРЫВ ИЛИ КОРОТКОЕ ЗАМЫКАНИЕ</div>
+<div class="list">•  Поверните выключатель зажигания в положение «ON» (Зажигание включено).</div>
+<div class="list">•  Измерьте напряжение между следующими контактами PCM и "массой" кузова при нажатой и ненажатой педали тормоза:</div>
+<dl>
+<dd class="list">
+<div class="list">―  PCM (ZJ, Z6): 1 V—"масса" кузова</div>
+<div class="list">―  PCM (ZY): 1G—"масса" кузова</div>
+<div class="list">―  PCM (LF (MTX, ATX [FS5A-EL]), L3 (MTX), L3 Turbo)): 1AB—"масса" кузова</div>
+<div class="list">―  PCM (LF (ATX [FN4A- EL]), L3 (ATX)): 1AU—"масса" кузова</div>
+</dd>
+</dl>
+<dl>
+<dd class="list">
+<div class="list"><span>Напряжение</span><div><span>Педаль тормоза нажата: B+</span></div>
+<div><span>Педаль тормоза не нажата: </span><span></span></div>
+<div><span>1 В или меньше</span></div>
+</div>
+</dd>
+</dl>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к этапу 5.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Если сигнал <span>B+</span> в любых условиях, переходите к следующему этапу.</div>
+<div class="tbody">Если сигнал <span>1 В или менее</span> в любых условиях, переходите к этапу 3.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">2</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА СИГНАЛА ДАТЧИКА ПЕДАЛИ ТОРМОЗА НА ПРЕДМЕТ КОРОТКОГО ЗАМЫКАНИЯ НА ЦЕПЬ ПИТАНИЯ</div>
+<div class="list">•  Отсоедините разъем датчика педали тормоза.</div>
+<div class="list">•  Измерьте напряжение между контактом D датчика педали тормоза (проводной жгут со стороны автомобиля) и "массой" кузова.</div>
+<div class="list">•  Напряжение равно <span>1 В или менее</span>?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к этапу 4.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Выполните ремонт или замену проводного жгута между блоком PCM и датчиком педали тормоза, затем переходите к этапу 5</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">3</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА СИГНАЛА ДАТЧИКА ПЕДАЛИ ТОРМОЗА НА ПРЕДМЕТ ОБРЫВА ЦЕПИ</div>
+<div class="list">•  Разъедините разъемы блока PCM.</div>
+<div class="list">•  Отсоедините разъем датчика педали тормоза.</div>
+<div class="list">•  Проверьте электропроводность цепи между следующими контактами разъема блока РСМ (проводной жгут со стороны автомобиля) и контактом D датчика педали тормоза:</div>
+<dl>
+<dd class="list">
+<div class="list">―  PCM (ZJ, Z6): 1V</div>
+<div class="list">―  PCM (ZY): 1G</div>
+<div class="list">―  PCM (LF (MTX, ATX [FS5A-EL]), L3 (MTX), L3 Turbo)): 1AB</div>
+<div class="list">―  PCM (LF (ATX [FN4A- EL]), L3 (ATX)): 1AU</div>
+</dd>
+</dl>
+<div class="list">•  Существует ли неразрывность цепи?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Выполните ремонт или замену проводного жгута между блоком PCM и датчиком педали тормоза, затем переходите к этапу 5</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">4</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">ПРОВЕРКА ДАТЧИКА ПЕДАЛИ ТОРМОЗА</div>
+<div class="list">•  Выполните проверку датчика педали тормоза.<div>(См. <font class="extxref-label"><a href="id041100801985.html">ПРОВЕРКА ДАТЧИКА ПЕДАЛИ ТОРМОЗА [КРОМЕ MZ-CD 1.6 (Y6)]</a></font>.)</div>
+</div>
+<div class="list">•  Датчик педали тормоза исправен?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Замените датчик педали тормоза, затем переходите к следующему этапу.</div>
+<div class="tbody">(См. <font class="extxref-label"><a href="id041100801285.html">СНЯТИЕ/УСТАНОВКА ПЕДАЛИ ТОРМОЗА [КРОМЕ MZ-CD 1.6 (Y6)]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">5</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">УБЕДИТЕСЬ В ОТСУТСТВИИ ТОГО ЖЕ ДИАГНОСТИЧЕСКОГО КОДА НЕИСПРАВНОСТИ</div>
+<div class="list">•  Соедините все разъединенные разъемы.</div>
+<div class="list">•  Удалите из памяти блока диагностические коды неисправности.<div> (См. <font class="extxref-label"><a href="id0402b2800200.html">БОРТОВАЯ ДИАГНОСТИКА [СИСТЕМА ДИНАМИЧЕСКОЙ СТАБИЛИЗАЦИИ (DSC)]</a></font>.)</div>
+</div>
+<div class="list">•  Запустите двигатель и выполните на автомобиле поездку со скоростью <span>20 км/м {12,4 мили/ч} или более</span>.</div>
+<div class="list">•  Присутствует ли тот же диагностический код неисправности?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Повторите процедуру проверки, начиная с этапа 1.</div>
+<div class="tbody">В случае повторного возникновения неисправности замените блок DSC CM, затем переходите к следующему этапу.</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="id041500801000.html">СНЯТИЕ/УСТАНОВКА БЛОКА DSC HU/CM</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к следующему этапу.</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center" rowspan="2">
+<div class="tbody">6</div>
+</td>
+<td id="" align="left" rowspan="2">
+<div class="entry-title">УБЕДИТЕСЬ В ОТСУТСТВИИ ДРУГИХ ДИАГНОСТИЧЕСКИХ КОДОВ НЕИСПРАВНОСТИ</div>
+<div class="list">•  Присутствуют ли другие диагностические коды неисправности?</div>
+</td>
+<td id="" align="center">
+<div class="tbody">Да</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Переходите к проверке по существующим кодам неисправностей.</div>
+<div class="tbody"> (См. <font class="extxref-label"><a href="id0402b2800200.html">БОРТОВАЯ ДИАГНОСТИКА [СИСТЕМА ДИНАМИЧЕСКОЙ СТАБИЛИЗАЦИИ (DSC)]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td id="" align="center">
+<div class="tbody">Нет</div>
+</td>
+<td id="" align="left">
+<div class="tbody">Поиск и устранение неисправностей по коду неисправности завершён.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</body>
+</html>

@@ -1,0 +1,237 @@
+<html lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../css/mazda-css-en.css" type="text/css">
+<title>NO.25 A/C DOES NOT WORK SUFFICIENTLY [MZR-CD (RF Turbo)]</title>
+</head>
+<body><a name="id0103f1822300"></a><p class="servinfo-title"><span class="servinfo-head"></span>NO.25 A/C DOES NOT WORK SUFFICIENTLY [MZR-CD (RF Turbo)]</p>
+<hr>
+<p class="servinfo-title-id" align="right">id0103f1822300</p>
+<p clear="all">
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th align="center">
+<p class="thead">25</p>
+</th>
+<th align="left">
+<p class="thead"><span>A/C DOES NOT WORK SUFFICIENTLY</span></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">
+<div class="tbody"><span>DESCRIPTION</span></div>
+</td>
+<td align="left">
+<div class="list">•  A/C compressor magnetic clutch does not engage when the A/C switch is turned on.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody"><span>POSSIBLE CAUSE</span></div>
+</td>
+<td align="left">
+<div class="list">•  Improper refrigerant charge amount</div>
+<div class="list">•  Open A/C switch magnetic clutch</div>
+<div class="list">•  Open circuit between A/C relay and A/C magnetic clutch</div>
+<div class="list">•  Poor ground of A/C magnetic clutch</div>
+<div class="list">•  Improper A/C magnetic clutch clearance</div>
+<div class="list">•  Refrigerant pressure switch is stuck open</div>
+<div class="list">•  A/C relay is stuck open</div>
+<div class="list">•  Improper A/C cut-off control</div>
+<div class="list">•  Open circuit between A/C switch and PCM through both refrigerant pressure switch and A/C amplifier</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+<p clear="all">
+<p class="table-title">Diagnostic Procedure</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th align="center">
+<p class="thead">STEP</p>
+</th>
+<th align="center">
+<p class="thead">INSPECTION</p>
+</th>
+<th align="center">
+<p class="thead">RESULTS</p>
+</th>
+<th align="center">
+<p class="thead">ACTION</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">1</div>
+</td>
+<td align="left" rowspan="2">
+<div class="tbody">Perform the self-test function using the M-MDS.</div>
+<div class="tbody">Turn the engine switch to the ON position.</div>
+<div class="tbody">Retrieve any DTCs.</div>
+<div class="tbody">Are any DTCs displayed?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody"><span>DTC is displayed:</span></div>
+<div class="tbody">Go to the appropriate DTC test.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0102f1801500.html">DTC TABLE [MZR-CD (RF Turbo)]</a></font>.)</div>
+<div class="tbody"><span>Communication error message is displayed:</span></div>
+<div class="tbody">Inspect the following:</div>
+<div class="list">•  Open circuit between PCM control relay and PCM terminal 119 or 120</div>
+<div class="list">•  Open circuit PCM control relay and PCM terminal 105</div>
+<div class="list">•  PCM control relay stuck open</div>
+<div class="list">•  Open or poor ground circuit (PCM terminal 1, 2, 3, 114 or 117)</div>
+<div class="list">•  Poor connection to vehicle body ground</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody"><span>No DTC is displayed:</span></div>
+<div class="tbody">Go to the appropriate DTC test.</div>
+<div class="tbody">(See <font class="extxref-label"><a href="id0102f1801500.html">DTC TABLE [MZR-CD (RF Turbo)]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">2</div>
+</td>
+<td align="left" rowspan="2">
+<div class="tbody">Disconnect the A/C compressor connector.</div>
+<div class="tbody">Start the engine and turn the A/C switch to the ON position.</div>
+<div class="tbody">Is there correct voltage at the terminal of the A/C compressor magnetic clutch connector?</div>
+<div class="list"><span>Specification</span><div><span>More than 10.5 V</span></div>
+</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Inspect for ground condition of the magnetic clutch on the A/C compressor.</div>
+<div class="tbody">If ground condition is normal, inspect the magnetic clutch coil for an open circuit.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">3</div>
+</td>
+<td align="left" rowspan="2">
+<div class="tbody">Disconnect the refrigerant pressure switch connector.</div>
+<div class="tbody">Connect jumper wire between terminals of refrigerant pressure switch connector.</div>
+<div class="tbody">Turn the engine switch to the ON position.</div>
+<div class="tbody">Turn the A/C switch on and set the blower fan at any speed.</div>
+<div class="tbody">Measure the PCM terminal 32 voltage.</div>
+<div class="tbody">Is the voltage <span>b</span><span>elow 1.0 V</span>?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Inspect refrigerant pressure switch operation.</div>
+<div class="tbody">If switch is normal, go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Inspect the following:</div>
+<div class="list">•  A/C switch is stuck open</div>
+<div class="list">•  Open circuit between refrigerant pressure switch and PCM terminal 32</div>
+<div class="list">•  Open circuit of blower motor fan switch and resistor (if blower motor does not operate)</div>
+<div class="list">•  Evaporator temperature sensor and A/C amplifier</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">4</div>
+</td>
+<td align="left" rowspan="2">
+<div class="tbody">Inspect the A/C cut-off operation.</div>
+<div class="tbody">Does the A/C cut-off work properly?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Repair or replace the malfunctioning part according to the A/C cut-off system inspection results.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">5</div>
+</td>
+<td align="left" rowspan="2">
+<div class="tbody">Remove the jumper wire from the switch connector.</div>
+<div class="tbody">Reconnect the connector to the refrigerant pressure switch.</div>
+<div class="tbody">Start the engine and turn the A/C switch on.</div>
+<div class="tbody">Does the fan operate?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Inspect for a stuck open A/C relay.</div>
+<div class="tbody">Replace if necessary.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Inspect following and repair or replace if necessary:</div>
+<div class="list">•  Refrigerant charging amount</div>
+<div class="list">•  Seized A/C compressor</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">6</div>
+</td>
+<td align="left" colspan="3">
+<div class="tbody">Verify test results.</div>
+<div class="list">•  If normal, return to the diagnostic index to service any additional symptoms.<div>(See <font class="extxref-label"><a href="id0103f1805100.html">SYMPTOM DIAGNOSTIC INDEX [MZR-CD (RF Turbo)]</a></font>.)</div>
+</div>
+<div class="list">•  If the malfunction remains, inspect the related Service Information and perform repair or diagnosis.</div>
+<dl>
+<dd class="list">
+<div class="list">―  If the vehicle is repaired, troubleshooting completed.</div>
+<div class="list">―  If the vehicle is not repaired or additional diagnostic information is not available, reprogram the PCM if later calibration is available. Retest.</div>
+</dd>
+</dl>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</body>
+</html>

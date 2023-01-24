@@ -1,0 +1,217 @@
+<html lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../css/mazda-css-en.css" type="text/css">
+<title>DTC C1279, C1280, C1281, C1282, C2778 [DYNAMIC STABILITY CONTROL (DSC)]</title>
+</head>
+<body><a name="id0402b2804100"></a><p class="servinfo-title"><span class="servinfo-head"></span>DTC C1279, C1280, C1281, C1282, C2778 [DYNAMIC STABILITY CONTROL (DSC)]</p>
+<hr>
+<p class="servinfo-title-id" align="right">id0402b2804100</p>
+<p clear="all">
+<table class="table-flame" border="1">
+<tbody>
+<tr>
+<td align="center">
+<div class="tbody"><span>DTC</span></div>
+</td>
+<td align="left" colspan="2">
+<div class="tbody"><span>C1279, C1280, C1281, C1282, C2778</span></div>
+</td>
+<td align="left">
+<div class="tbody"><span>Combined sensor system</span></div>
+</td>
+</tr>
+<tr>
+<td align="center" colspan="2">
+<div class="tbody"><span>DETECTION CONDITION</span></div>
+</td>
+<td align="left" colspan="2">
+<div class="list">•  C1279, C1280</div>
+<dl>
+<dd class="list">
+<div class="list">―  Out-of-specification signal modulation or yaw rate value is detected from the combined sensor (yaw rate part).</div>
+</dd>
+</dl>
+<div class="list">•  C1281, C1282</div>
+<dl>
+<dd class="list">
+<div class="list">―  Out-of-specification signal modulation or lateral-G value is detected from the combined sensor (lateral-G part).</div>
+</dd>
+</dl>
+<div class="list">•  C2778</div>
+<dl>
+<dd class="list">
+<div class="list">―  An error is detected for the voltage to the combined sensor.</div>
+</dd>
+</dl>
+</td>
+</tr>
+<tr>
+<td align="center" colspan="2">
+<div class="tbody"><span>POSSIBLE CAUSE</span></div>
+</td>
+<td align="left" colspan="2">
+<div class="list">•  Open or short circuit in the wiring harness between DSC HU/CM terminal AB and combined sensor terminal D</div>
+<div class="list">•  Open or short circuit in the wiring harness between DSC HU/CM terminal AH and combined sensor terminal E</div>
+<div class="list">•  Open circuit in the wiring harness between DSC HU/CM terminal T and combined sensor terminal A (CAN2 line)</div>
+<div class="list">•  Open circuit in the wiring harness between DSC HU/CM terminal H and combined sensor terminal B (CAN2 line)</div>
+<div class="list">•  Combined sensor malfunction</div>
+<div class="list">•  Poor connection at connectors (female terminal)</div>
+</td>
+</tr>
+<tr>
+<td align="center" colspan="4"><img src="images/am3zzw00002522.png"></td>
+</tr>
+</tbody>
+</table>
+</p>
+<p clear="all">
+<p class="table-title">Diagnostic procedure</p>
+<table class="table-flame" border="1">
+<thead>
+<tr>
+<th align="center">
+<p class="thead">STEP</p>
+</th>
+<th align="center" colspan="2">
+<p class="thead">INSPECTION</p>
+</th>
+<th align="center">
+<p class="thead">ACTION</p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">1</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">INSPECT COMBINED SENSOR POWER SUPPLY FOR OPEN CIRCUIT</div>
+<div class="list">•  Turn the ignition switch to the ON position.</div>
+<div class="list">•  Measure the voltage between the combined sensor terminal D and body ground.</div>
+<div class="list">•  Is the voltage <span>approx. 12 V</span>?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Repair or replace the wiring harness, then go to Step 4.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">2</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">INSPECT COMBINED SENSOR GROUND FOR OPEN CIRCUIT</div>
+<div class="list">•  Turn the ignition switch off.</div>
+<div class="list">•  Inspect for continuity between the combined sensor terminal E and body ground.</div>
+<div class="list">•  Is there continuity?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Repair or replace the wiring harness, then go to Step 4.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">3</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">INSPECT COMBINED SENSOR</div>
+<div class="list">•  Inspect the combined sensor.<div> (See <font class="extxref-label"><a href="id041500801300.html">COMBINED SENSOR INSPECTION</a></font>.)</div>
+</div>
+<div class="list">•  Is the combined sensor normal?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Replace the combined sensor, then go to the next step.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id041500801200.html">COMBINED SENSOR REMOVAL/INSTALLATION</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">4</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">VERIFY THAT THE SAME DTC IS NOT PRESENT</div>
+<div class="list">•  Clear the DTCs from the memory.<div> (See <font class="extxref-label"><a href="id0402b2800200.html">ON-BOARD DIAGNOSIS [DYNAMIC STABILITY CONTROL (DSC)]</a></font>.)</div>
+</div>
+<div class="list">•  Start the engine and drive the vehicle at <span>10 km/h {6.2 mph} or more</span>.</div>
+<div class="list">•  Are the same DTCs present?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Repeat the inspection from Step 1.</div>
+<div class="tbody">If the malfunction recurs, replace the DSC CM, then go to the next step.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id041500801000.html">DSC HU/CM REMOVAL/INSTALLATION</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the next step.</div>
+</td>
+</tr>
+<tr>
+<td align="center" rowspan="2">
+<div class="tbody">5</div>
+</td>
+<td align="left" rowspan="2">
+<div class="entry-title">VERIFY THAT NO OTHER DTCS ARE PRESENT</div>
+<div class="list">•  Are any other DTCs output?</div>
+</td>
+<td align="center">
+<div class="tbody">Yes</div>
+</td>
+<td align="left">
+<div class="tbody">Go to the applicable DTC inspection.</div>
+<div class="tbody"> (See <font class="extxref-label"><a href="id0402b2800200.html">ON-BOARD DIAGNOSIS [DYNAMIC STABILITY CONTROL (DSC)]</a></font>.)</div>
+</td>
+</tr>
+<tr>
+<td align="center">
+<div class="tbody">No</div>
+</td>
+<td align="left">
+<div class="tbody">DTC troubleshooting completed.</div>
+</td>
+</tr>
+</tbody>
+</table>
+</p>
+</body>
+</html>
